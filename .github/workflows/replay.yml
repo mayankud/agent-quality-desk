@@ -1,0 +1,41 @@
+name: replay
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  replay:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ["3.10", "3.11", "3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Replay the blind run and both regression runs
+        working-directory: pipeline
+        run: |
+          python replay.py
+          python replay.py runs/regression_L8
+          python replay.py runs/regression_L8_flagged
+      - name: Test suites
+        working-directory: pipeline
+        run: |
+          python fixtures7.py
+          python -c "import fixtures_store as f, sys; r = f.run_all(); n = sum(x['pass'] for x in r); print(n, 'of', len(r)); sys.exit(0 if n == len(r) else 1)"
+          python test_harness.py
+          python test_evaluate5.py
+          python test_e2e.py
+      - name: Reproduce the Phase 0 decision (FAIL is the expected, recorded result)
+        working-directory: evaluation
+        run: |
+          set +e
+          python ../pipeline/evaluate5.py ../pipeline/runs/blind_v4/published_scores.json a7b2b1f66b840ee5b0dbab11ed60ac57545455d7974e9e775051dd6a918c31a5 ../data/holdout_v4/holdout_v4_labels.json ../data/stress_v4/stress_v4_manifest.json evidence.json out.json
+          code=$?
+          set -e
+          test "$code" -eq 1
+          python -c "import json; a = json.load(open('out.json')); b = json.load(open('evaluation_blind_v4.json')); assert a['decision'] == b['decision'] == 'FAIL' and a['metric_lines'] == b['metric_lines'], 'evaluation differs'; print('Phase 0 decision reproduced: FAIL')"

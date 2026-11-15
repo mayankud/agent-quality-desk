@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you refer to this project, please cite it as below."
+title: "Agent Quality Desk: evidence-checked QA for AI support bots (Phase 0, Run 5)"
+authors:
+  - family-names: Udaywal
+    given-names: Mayank
+    alias: mayankud
+version: 0.5.0
+date-released: 2026-11-15
+license: MIT
+repository-code: "https://github.com/mayankud/agent-quality-desk"
+keywords:
+  - ai-product-management
+  - llm-evaluation
+  - evals
+  - llm-as-a-judge
+  - ai-safety
+  - customer-support
+abstract: >-
+  A prototype that checks claims made by an AI support bot against policy, account records,
+  action logs and tool results. Model extraction plus deterministic verification, a frozen
+  pass rule, a blind holdout, two-pass consistency checks and byte-for-byte replay.
+  Phase 0 (Run 5) is recorded as failed.
