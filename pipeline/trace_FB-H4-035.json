@@ -1,0 +1,51 @@
+{
+ "case": "FB-H4-035",
+ "steps": [
+  {
+   "step": "1. Flag (blind run P0-R5-ef80449a, scores SHA-256 a7b2b1f66b840ee5)",
+   "check1": "fail",
+   "claim": "The link stays valid for two hours.",
+   "reason": "120 minutes vs 30 minutes",
+   "evidence_id": "password-v2",
+   "verifier_rerun_on_recorded_claim": {
+    "verdict": "fail",
+    "reason": "120 minutes vs 30 minutes",
+    "evidence_id": "password-v2"
+   }
+  },
+  {
+   "step": "2. QA disposition",
+   "released_label_c1": "problem",
+   "disposition": "confirmed"
+  },
+  {
+   "step": "3. Owner",
+   "owner": "AI team (password reset intent)",
+   "reason": "bot stated a link lifetime the policy in force does not allow"
+  },
+  {
+   "step": "4. Fix",
+   "change": "password reset answer grounded on the policy in force (password-v2)",
+   "new_reply": "The link stays valid for 30 minutes. If it has expired, request a fresh one using Forgot password."
+  },
+  {
+   "step": "5. Recheck with the locked verifier",
+   "claim_entered_by_hand": {
+    "message_id": "m03",
+    "part_type": "policy_term",
+    "span": "The link stays valid for 30 minutes.",
+    "fields": {
+     "negated": false,
+     "topic": "link_validity",
+     "value": "30 minutes"
+    }
+   },
+   "result": {
+    "verdict": "pass",
+    "reason": "30 minutes vs 30 minutes",
+    "evidence_id": "password-v2"
+   },
+   "closed": true
+  }
+ ]
+}

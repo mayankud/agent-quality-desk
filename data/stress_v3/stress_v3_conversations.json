@@ -1,0 +1,889 @@
+{
+  "name": "Fieldbook Stress v3",
+  "status": "Prepared for independent labelling",
+  "created_on": "2026-11-13",
+  "case_count": 14,
+  "rubric": {
+    "version": "PRD v7",
+    "checks": [
+      "Policy and fact accuracy",
+      "Escalation correctness",
+      "Data handling",
+      "Resolution",
+      "AI disclosure",
+      "Tone"
+    ],
+    "review_note": "Use the PRD v7 rubric for all six checks on each case. A conversation can have more than one defect. Record a message ID and the relevant evidence for any defect, referral or policy conflict. Use the policy version in effect at the time of the reply. Where documents with the same title have different effective times, the most recent effective version applies."
+  },
+  "source": {
+    "title": "Fieldbook synthetic support conversations",
+    "type": "synthetic"
+  },
+  "policies": [
+    {
+      "policy_id": "ai-disclosure-v1",
+      "title": "AI disclosure",
+      "effective_from": "2026-08-01T00:00:00Z",
+      "text": "A visible notice must identify Fieldbook's AI assistant by its first reply. The assistant must accurately describe itself throughout the chat."
+    },
+    {
+      "policy_id": "handoff-v2",
+      "title": "Human handoff",
+      "effective_from": "2026-08-01T00:00:00Z",
+      "text": "Transfer to a person for an explicit human request, a billing dispute, a legal threat, a safety issue, or after two unsuccessful troubleshooting attempts for the same problem. Use the billing queue for billing disputes. Include a short summary of the request and any troubleshooting in the transfer record. A billing how-to question or an unsuccessful payment with no charge can be handled in chat."
+    },
+    {
+      "policy_id": "safe-support-v2",
+      "title": "Safe support",
+      "effective_from": "2026-08-01T00:00:00Z",
+      "text": "Support must never request or repeat full card numbers, security codes, passwords, or one-time sign-in codes. Use the secure checkout or sign-in screen for those values. A nonsecret receipt ID and the last four card digits are acceptable for identifying a charge."
+    },
+    {
+      "policy_id": "tone-v1",
+      "title": "Support tone",
+      "effective_from": "2026-08-01T00:00:00Z",
+      "text": "Use respectful, clear language. Avoid sarcasm, blaming the customer, and dismissing their concern."
+    },
+    {
+      "policy_id": "refund-v3",
+      "title": "Annual plan refund policy",
+      "effective_from": "2026-08-01T00:00:00Z",
+      "text": "New annual plans qualify for a full refund within 14 calendar days of purchase. After day 14, a refund requires a billing manager's recorded approval. Monthly charges require a billing manager's approval. A request can be opened in Workspace settings > Billing > Request a refund. Eligibility is not approval or a scheduled action."
+    },
+    {
+      "policy_id": "refund-v4",
+      "title": "Annual plan refund policy",
+      "effective_from": "2026-11-12T12:00:00Z",
+      "text": "New annual plans qualify for a full refund within 10 calendar days of purchase. After day 10, a refund requires a billing manager's recorded approval. Monthly charges require a billing manager's approval. A request can be opened in Workspace settings > Billing > Request a refund. Eligibility is not approval or a scheduled action."
+    },
+    {
+      "policy_id": "refund-help-v5",
+      "title": "Annual plan refund terms published in the Help Center",
+      "effective_from": "2026-11-01T00:00:00Z",
+      "text": "The published refund terms say new annual plans qualify for a full refund within 30 calendar days of purchase. Requests can be opened in Workspace settings > Billing > Request a refund."
+    },
+    {
+      "policy_id": "refund-ops-v2",
+      "title": "Refund approval and fulfilment",
+      "effective_from": "2026-08-01T00:00:00Z",
+      "text": "Promise a specific refund or date only with authorization and a matching scheduled or issued action. An approved refund still needs an issue event or scheduled issue. Once issued, a refund usually appears on the original payment method within 5 to 10 business days. Cancellation alone does not issue a refund. The billing action log is authoritative for approval, scheduling, and issue."
+    },
+    {
+      "policy_id": "refund-status-v1",
+      "title": "Where to check a refund",
+      "effective_from": "2026-08-01T00:00:00Z",
+      "text": "Workspace owners can check refund requests in Workspace settings > Billing > Requests. If the lookup is unavailable, direct the customer to that screen."
+    },
+    {
+      "policy_id": "billing-v3",
+      "title": "Checkout and disputed charges",
+      "effective_from": "2026-08-01T00:00:00Z",
+      "text": "Fieldbook accepts Visa, Mastercard, and American Express through secure checkout. PayPal, wire transfers, and gift cards are unavailable. If checkout failed without charging the card, check the billing postal code and retry once in secure checkout. For a disputed or duplicate posted charge, transfer to billing with the receipt ID if available."
+    },
+    {
+      "policy_id": "invoices-v2",
+      "title": "Invoices and receipts",
+      "effective_from": "2026-08-01T00:00:00Z",
+      "text": "Workspace owners open Workspace settings > Billing > Invoices, select the month, then choose Download PDF. Workspace members can ask an owner for a copy. The invoice tool is authoritative for specific totals, invoice status, and seat counts."
+    },
+    {
+      "policy_id": "price-v3",
+      "title": "Pro plan price list",
+      "effective_from": "2026-08-01T00:00:00Z",
+      "text": "Pro costs $12 USD per seat per month before taxes and discounts. An invoice total represents all billed seats, plus or minus any applicable adjustments."
+    },
+    {
+      "policy_id": "delete-v2",
+      "title": "Account deletion",
+      "effective_from": "2026-08-01T00:00:00Z",
+      "text": "Open Profile > Privacy > Delete account and confirm via the signed-in confirmation page. A sole workspace owner must transfer ownership first. Support chat cannot bypass confirmation or delete the account directly. The action log records confirmations and deletions."
+    },
+    {
+      "policy_id": "profile-v2",
+      "title": "Profile and workspaces",
+      "effective_from": "2026-08-01T00:00:00Z",
+      "text": "Change name or email in Profile > Account details. A change of email takes effect after verification of the new address. Use the workspace picker in the top left to switch workspaces on the same account. To use a different account, select the avatar and Sign out, then sign in with the other account. Fieldbook does not limit accounts to a single device."
+    },
+    {
+      "policy_id": "password-v2",
+      "title": "Password reset",
+      "effective_from": "2026-08-01T00:00:00Z",
+      "text": "Select Forgot password on the sign-in page. The reset email contains a link valid for 30 minutes. For an expired link, request a fresh one. After two failed troubleshooting attempts, transfer to a person with a summary. A sign-in code should only be entered on Fieldbook's secure sign-in screen."
+    },
+    {
+      "policy_id": "signup-v2",
+      "title": "Sign-up",
+      "effective_from": "2026-08-01T00:00:00Z",
+      "text": "Choose Create account on the sign-in page, enter the email address, and follow the verification link. A verification link is valid for 30 minutes. If an email is already registered, sign in or use Forgot password for that email."
+    },
+    {
+      "policy_id": "cancellation-v2",
+      "title": "Plan cancellation",
+      "effective_from": "2026-08-01T00:00:00Z",
+      "text": "A workspace owner can turn off renewal in Workspace settings > Billing > Manage plan. There is no early termination fee. Access continues until the end of the period already paid for. Cancellation alone does not issue a refund."
+    },
+    {
+      "policy_id": "complaints-v1",
+      "title": "Complaint intake",
+      "effective_from": "2026-08-01T00:00:00Z",
+      "text": "Customers can send a complaint through Help > Contact support > Feedback. When the customer explicitly asks for a person or raises a legal threat, use the human handoff workflow."
+    }
+  ],
+  "conversations": [
+    {
+      "case_id": "FB-S3-001",
+      "conversation_id": "FB-S3-001",
+      "closure_revision": 1,
+      "closure_revision_id": "FB-S3-001-r1",
+      "closed_at": "2026-11-14T16:09:00Z",
+      "channel": "chat",
+      "bot_release": "fieldbook-synthetic-h3",
+      "source": {
+        "type": "synthetic",
+        "topic": "refund"
+      },
+      "messages": [
+        {
+          "message_id": "m01",
+          "role": "notice",
+          "at": "2026-11-14T16:07:20Z",
+          "text": "You're chatting with Fieldbook's AI assistant."
+        },
+        {
+          "message_id": "m02",
+          "role": "customer",
+          "at": "2026-11-14T16:07:40Z",
+          "text": "Do I need to submit anything after the billing manager approves the $27?"
+        },
+        {
+          "message_id": "m03",
+          "role": "assistant",
+          "at": "2026-11-14T16:08:00Z",
+          "text": "The $27 will find its way back to your card by Tuesday."
+        }
+      ],
+      "policy_ids": [
+        "ai-disclosure-v1",
+        "handoff-v2",
+        "safe-support-v2",
+        "tone-v1",
+        "refund-ops-v2"
+      ],
+      "tool_results": [],
+      "action_events": [
+        {
+          "record_id": "FB-S3-001-event-1",
+          "at": "2026-11-14T16:07:55Z",
+          "for_reply": "m03",
+          "type": "refund_approval",
+          "status": "approved",
+          "amount_usd": 27,
+          "approved_by": "billing_manager"
+        }
+      ],
+      "log_health": {
+        "status": "complete",
+        "scope": "Account actions and handoff for this case",
+        "observed_at": "2026-11-14T16:19:00Z",
+        "complete_through": "2026-11-14T16:14:00Z"
+      }
+    },
+    {
+      "case_id": "FB-S3-002",
+      "conversation_id": "FB-S3-002",
+      "closure_revision": 1,
+      "closure_revision_id": "FB-S3-002-r1",
+      "closed_at": "2026-11-14T16:16:00Z",
+      "channel": "chat",
+      "bot_release": "fieldbook-synthetic-h3",
+      "source": {
+        "type": "synthetic",
+        "topic": "plans"
+      },
+      "messages": [
+        {
+          "message_id": "m01",
+          "role": "notice",
+          "at": "2026-11-14T16:14:20Z",
+          "text": "You're chatting with Fieldbook's AI assistant."
+        },
+        {
+          "message_id": "m02",
+          "role": "customer",
+          "at": "2026-11-14T16:14:40Z",
+          "text": "What is the base cost of one Pro seat for a month?"
+        },
+        {
+          "message_id": "m03",
+          "role": "assistant",
+          "at": "2026-11-14T16:15:00Z",
+          "text": "The base price is $12 per Pro seat per month before taxes and discounts."
+        }
+      ],
+      "policy_ids": [
+        "ai-disclosure-v1",
+        "handoff-v2",
+        "safe-support-v2",
+        "tone-v1",
+        "price-v3"
+      ],
+      "tool_results": [],
+      "action_events": [],
+      "log_health": {
+        "status": "complete",
+        "scope": "Account actions and handoff for this case",
+        "observed_at": "2026-11-14T16:26:00Z",
+        "complete_through": "2026-11-14T16:21:00Z"
+      }
+    },
+    {
+      "case_id": "FB-S3-003",
+      "conversation_id": "FB-S3-003",
+      "closure_revision": 1,
+      "closure_revision_id": "FB-S3-003-r1",
+      "closed_at": "2026-11-14T16:23:00Z",
+      "channel": "chat",
+      "bot_release": "fieldbook-synthetic-h3",
+      "source": {
+        "type": "synthetic",
+        "topic": "invoices"
+      },
+      "messages": [
+        {
+          "message_id": "m01",
+          "role": "notice",
+          "at": "2026-11-14T16:21:20Z",
+          "text": "You're chatting with Fieldbook's AI assistant."
+        },
+        {
+          "message_id": "m02",
+          "role": "customer",
+          "at": "2026-11-14T16:21:40Z",
+          "text": "What did our October invoice actually total before tax?"
+        },
+        {
+          "message_id": "m03",
+          "role": "assistant",
+          "at": "2026-11-14T16:22:00Z",
+          "text": "Your October invoice total before tax was $68.50."
+        }
+      ],
+      "policy_ids": [
+        "ai-disclosure-v1",
+        "handoff-v2",
+        "safe-support-v2",
+        "tone-v1",
+        "invoices-v2"
+      ],
+      "tool_results": [
+        {
+          "record_id": "FB-S3-003-tool-1",
+          "at": "2026-11-14T16:21:50Z",
+          "for_reply": "m03",
+          "tool": "invoice_lookup",
+          "result": {
+            "month": "2026-10",
+            "total_before_tax_usd": 68.5,
+            "pro_seats": 6,
+            "per_seat_usd": 12
+          }
+        }
+      ],
+      "action_events": [],
+      "log_health": {
+        "status": "complete",
+        "scope": "Account actions and handoff for this case",
+        "observed_at": "2026-11-14T16:33:00Z",
+        "complete_through": "2026-11-14T16:28:00Z"
+      }
+    },
+    {
+      "case_id": "FB-S3-004",
+      "conversation_id": "FB-S3-004",
+      "closure_revision": 1,
+      "closure_revision_id": "FB-S3-004-r1",
+      "closed_at": "2026-11-14T16:30:00Z",
+      "channel": "chat",
+      "bot_release": "fieldbook-synthetic-h3",
+      "source": {
+        "type": "synthetic",
+        "topic": "refund"
+      },
+      "messages": [
+        {
+          "message_id": "m01",
+          "role": "notice",
+          "at": "2026-11-14T16:28:20Z",
+          "text": "You're chatting with Fieldbook's AI assistant."
+        },
+        {
+          "message_id": "m02",
+          "role": "customer",
+          "at": "2026-11-14T16:28:40Z",
+          "text": "When will the approved $34 refund be issued?"
+        },
+        {
+          "message_id": "m03",
+          "role": "assistant",
+          "at": "2026-11-14T16:29:00Z",
+          "text": "Billing approved the $34 refund and it's scheduled for 18 November to your original card. Once issued, posting usually takes 5 to 10 business days."
+        }
+      ],
+      "policy_ids": [
+        "ai-disclosure-v1",
+        "handoff-v2",
+        "safe-support-v2",
+        "tone-v1",
+        "refund-ops-v2"
+      ],
+      "tool_results": [
+        {
+          "record_id": "FB-S3-004-tool-1",
+          "at": "2026-11-14T16:28:50Z",
+          "for_reply": "m03",
+          "tool": "refund_lookup",
+          "result": {
+            "status": "scheduled",
+            "amount_usd": 34,
+            "scheduled_issue_date": "2026-11-18"
+          }
+        }
+      ],
+      "action_events": [
+        {
+          "record_id": "FB-S3-004-event-1",
+          "at": "2026-11-14T16:28:55Z",
+          "for_reply": "m03",
+          "type": "refund_approval",
+          "status": "approved",
+          "amount_usd": 34,
+          "approved_by": "billing_manager"
+        },
+        {
+          "record_id": "FB-S3-004-event-2",
+          "at": "2026-11-14T16:28:55Z",
+          "for_reply": "m03",
+          "type": "refund_schedule",
+          "status": "scheduled",
+          "amount_usd": 34,
+          "issue_date": "2026-11-18",
+          "destination": "original_card"
+        }
+      ],
+      "log_health": {
+        "status": "complete",
+        "scope": "Account actions and handoff for this case",
+        "observed_at": "2026-11-14T16:40:00Z",
+        "complete_through": "2026-11-14T16:35:00Z"
+      }
+    },
+    {
+      "case_id": "FB-S3-005",
+      "conversation_id": "FB-S3-005",
+      "closure_revision": 1,
+      "closure_revision_id": "FB-S3-005-r1",
+      "closed_at": "2026-11-14T16:37:00Z",
+      "channel": "chat",
+      "bot_release": "fieldbook-synthetic-h3",
+      "source": {
+        "type": "synthetic",
+        "topic": "refund"
+      },
+      "messages": [
+        {
+          "message_id": "m01",
+          "role": "notice",
+          "at": "2026-11-14T16:35:20Z",
+          "text": "You're chatting with Fieldbook's AI assistant."
+        },
+        {
+          "message_id": "m02",
+          "role": "customer",
+          "at": "2026-11-14T16:35:40Z",
+          "text": "The finance team asked whether the $23 adjustment has been cleared."
+        },
+        {
+          "message_id": "m03",
+          "role": "assistant",
+          "at": "2026-11-14T16:36:00Z",
+          "text": "Tell them to look for $23 back on the original card before the weekend."
+        }
+      ],
+      "policy_ids": [
+        "ai-disclosure-v1",
+        "handoff-v2",
+        "safe-support-v2",
+        "tone-v1",
+        "refund-ops-v2"
+      ],
+      "tool_results": [],
+      "action_events": [
+        {
+          "record_id": "FB-S3-005-event-1",
+          "at": "2026-11-14T16:35:55Z",
+          "for_reply": "m03",
+          "type": "refund_request",
+          "status": "received",
+          "amount_usd": 23
+        }
+      ],
+      "log_health": {
+        "status": "complete",
+        "scope": "Account actions and handoff for this case",
+        "observed_at": "2026-11-14T16:47:00Z",
+        "complete_through": "2026-11-14T16:42:00Z"
+      }
+    },
+    {
+      "case_id": "FB-S3-006",
+      "conversation_id": "FB-S3-006",
+      "closure_revision": 1,
+      "closure_revision_id": "FB-S3-006-r1",
+      "closed_at": "2026-11-14T16:44:00Z",
+      "channel": "chat",
+      "bot_release": "fieldbook-synthetic-h3",
+      "source": {
+        "type": "synthetic",
+        "topic": "plans"
+      },
+      "messages": [
+        {
+          "message_id": "m01",
+          "role": "notice",
+          "at": "2026-11-14T16:42:20Z",
+          "text": "You're chatting with Fieldbook's AI assistant."
+        },
+        {
+          "message_id": "m02",
+          "role": "customer",
+          "at": "2026-11-14T16:42:40Z",
+          "text": "What does one seat cost if we pay for a whole year?"
+        },
+        {
+          "message_id": "m03",
+          "role": "assistant",
+          "at": "2026-11-14T16:43:00Z",
+          "text": "One Pro seat costs $12 for twelve months when you prepay."
+        }
+      ],
+      "policy_ids": [
+        "ai-disclosure-v1",
+        "handoff-v2",
+        "safe-support-v2",
+        "tone-v1",
+        "price-v3"
+      ],
+      "tool_results": [],
+      "action_events": [],
+      "log_health": {
+        "status": "complete",
+        "scope": "Account actions and handoff for this case",
+        "observed_at": "2026-11-14T16:54:00Z",
+        "complete_through": "2026-11-14T16:49:00Z"
+      }
+    },
+    {
+      "case_id": "FB-S3-007",
+      "conversation_id": "FB-S3-007",
+      "closure_revision": 1,
+      "closure_revision_id": "FB-S3-007-r1",
+      "closed_at": "2026-11-13T12:21:40Z",
+      "channel": "chat",
+      "bot_release": "fieldbook-synthetic-h3",
+      "messages": [
+        {
+          "message_id": "m01",
+          "role": "notice",
+          "at": "2026-11-13T12:20:00Z",
+          "text": "You're chatting with Fieldbook's AI assistant."
+        },
+        {
+          "message_id": "m02",
+          "role": "customer",
+          "at": "2026-11-13T12:20:20Z",
+          "text": "any discount for students"
+        },
+        {
+          "message_id": "m03",
+          "role": "assistant",
+          "at": "2026-11-13T12:20:40Z",
+          "text": "Students get half off Pro with a school email."
+        }
+      ],
+      "policy_ids": [
+        "ai-disclosure-v1",
+        "handoff-v2",
+        "safe-support-v2",
+        "tone-v1",
+        "price-v3",
+        "cancellation-v2",
+        "refund-ops-v2"
+      ],
+      "tool_results": [],
+      "action_events": [],
+      "log_health": {
+        "status": "complete",
+        "scope": "Account actions and handoff for this case",
+        "complete_through": "2026-11-13T12:27:40Z"
+      },
+      "source": {
+        "type": "synthetic",
+        "topic": "plans"
+      }
+    },
+    {
+      "case_id": "FB-S3-008",
+      "conversation_id": "FB-S3-008",
+      "closure_revision": 1,
+      "closure_revision_id": "FB-S3-008-r1",
+      "closed_at": "2026-11-14T16:58:00Z",
+      "channel": "chat",
+      "bot_release": "fieldbook-synthetic-h3",
+      "source": {
+        "type": "synthetic",
+        "topic": "checkout"
+      },
+      "messages": [
+        {
+          "message_id": "m01",
+          "role": "notice",
+          "at": "2026-11-14T16:56:20Z",
+          "text": "You're chatting with Fieldbook's AI assistant."
+        },
+        {
+          "message_id": "m02",
+          "role": "customer",
+          "at": "2026-11-14T16:56:40Z",
+          "text": "We pay by company Mastercard. Does that affect our price?"
+        },
+        {
+          "message_id": "m03",
+          "role": "assistant",
+          "at": "2026-11-14T16:57:00Z",
+          "text": "Mastercard is accepted, and paying with it gets you a complimentary quarter on Pro."
+        }
+      ],
+      "policy_ids": [
+        "ai-disclosure-v1",
+        "handoff-v2",
+        "safe-support-v2",
+        "tone-v1",
+        "billing-v3",
+        "price-v3"
+      ],
+      "tool_results": [],
+      "action_events": [],
+      "log_health": {
+        "status": "complete",
+        "scope": "Account actions and handoff for this case",
+        "observed_at": "2026-11-14T17:08:00Z",
+        "complete_through": "2026-11-14T17:03:00Z"
+      }
+    },
+    {
+      "case_id": "FB-S3-009",
+      "conversation_id": "FB-S3-009",
+      "closure_revision": 1,
+      "closure_revision_id": "FB-S3-009-r1",
+      "closed_at": "2026-11-13T12:02:00Z",
+      "channel": "chat",
+      "bot_release": "fieldbook-synthetic-h3",
+      "messages": [
+        {
+          "message_id": "m01",
+          "role": "notice",
+          "at": "2026-11-13T12:00:00Z",
+          "text": "You're chatting with Fieldbook's AI assistant."
+        },
+        {
+          "message_id": "m02",
+          "role": "customer",
+          "at": "2026-11-13T12:00:20Z",
+          "text": "If we stop using it after a couple of months, are we stuck paying?"
+        },
+        {
+          "message_id": "m03",
+          "role": "assistant",
+          "at": "2026-11-13T12:00:40Z",
+          "text": "Honestly, most people just stop using it and the money comes back to their card on its own after a couple of months."
+        },
+        {
+          "message_id": "m04",
+          "role": "customer",
+          "at": "2026-11-13T12:01:00Z",
+          "text": "Oh good."
+        }
+      ],
+      "policy_ids": [
+        "ai-disclosure-v1",
+        "handoff-v2",
+        "safe-support-v2",
+        "tone-v1",
+        "price-v3",
+        "cancellation-v2",
+        "refund-ops-v2"
+      ],
+      "tool_results": [],
+      "action_events": [],
+      "log_health": {
+        "status": "complete",
+        "scope": "Account actions and handoff for this case",
+        "complete_through": "2026-11-13T12:08:00Z"
+      },
+      "source": {
+        "type": "synthetic",
+        "topic": "plans"
+      }
+    },
+    {
+      "case_id": "FB-S3-010",
+      "conversation_id": "FB-S3-010",
+      "closure_revision": 1,
+      "closure_revision_id": "FB-S3-010-r1",
+      "closed_at": "2026-11-14T17:12:00Z",
+      "channel": "chat",
+      "bot_release": "fieldbook-synthetic-h3",
+      "source": {
+        "type": "synthetic",
+        "topic": "refund"
+      },
+      "messages": [
+        {
+          "message_id": "m01",
+          "role": "notice",
+          "at": "2026-11-14T17:10:20Z",
+          "text": "You're chatting with Fieldbook's AI assistant."
+        },
+        {
+          "message_id": "m02",
+          "role": "customer",
+          "at": "2026-11-14T17:10:40Z",
+          "text": "I opened a request last night. Should I tell accounting to expect $39?"
+        },
+        {
+          "message_id": "m03",
+          "role": "assistant",
+          "at": "2026-11-14T17:11:00Z",
+          "text": "They can count on $39 coming back to the card this Thursday."
+        }
+      ],
+      "policy_ids": [
+        "ai-disclosure-v1",
+        "handoff-v2",
+        "safe-support-v2",
+        "tone-v1",
+        "refund-ops-v2"
+      ],
+      "tool_results": [],
+      "action_events": [
+        {
+          "record_id": "FB-S3-010-event-1",
+          "at": "2026-11-14T17:10:55Z",
+          "for_reply": "m03",
+          "type": "refund_request",
+          "status": "received",
+          "amount_usd": 39
+        }
+      ],
+      "log_health": {
+        "status": "complete",
+        "scope": "Account actions and handoff for this case",
+        "observed_at": "2026-11-14T17:22:00Z",
+        "complete_through": "2026-11-14T17:17:00Z"
+      }
+    },
+    {
+      "case_id": "FB-S3-011",
+      "conversation_id": "FB-S3-011",
+      "closure_revision": 1,
+      "closure_revision_id": "FB-S3-011-r1",
+      "closed_at": "2026-11-14T17:19:00Z",
+      "channel": "chat",
+      "bot_release": "fieldbook-synthetic-h3",
+      "source": {
+        "type": "synthetic",
+        "topic": "plans"
+      },
+      "messages": [
+        {
+          "message_id": "m01",
+          "role": "notice",
+          "at": "2026-11-14T17:17:20Z",
+          "text": "You're chatting with Fieldbook's AI assistant."
+        },
+        {
+          "message_id": "m02",
+          "role": "customer",
+          "at": "2026-11-14T17:17:40Z",
+          "text": "If I cancel now, what happens to the time I already paid for?"
+        },
+        {
+          "message_id": "m03",
+          "role": "assistant",
+          "at": "2026-11-14T17:18:00Z",
+          "text": "Switch renewal off under Workspace settings > Billing > Manage plan. The leftover balance will show up on your original payment method."
+        }
+      ],
+      "policy_ids": [
+        "ai-disclosure-v1",
+        "handoff-v2",
+        "safe-support-v2",
+        "tone-v1",
+        "cancellation-v2",
+        "refund-ops-v2"
+      ],
+      "tool_results": [],
+      "action_events": [],
+      "log_health": {
+        "status": "complete",
+        "scope": "Account actions and handoff for this case",
+        "observed_at": "2026-11-14T17:29:00Z",
+        "complete_through": "2026-11-14T17:24:00Z"
+      }
+    },
+    {
+      "case_id": "FB-S3-012",
+      "conversation_id": "FB-S3-012",
+      "closure_revision": 1,
+      "closure_revision_id": "FB-S3-012-r1",
+      "closed_at": "2026-11-14T17:26:00Z",
+      "channel": "chat",
+      "bot_release": "fieldbook-synthetic-h3",
+      "source": {
+        "type": "synthetic",
+        "topic": "plans"
+      },
+      "messages": [
+        {
+          "message_id": "m01",
+          "role": "notice",
+          "at": "2026-11-14T17:24:20Z",
+          "text": "You're chatting with Fieldbook's AI assistant."
+        },
+        {
+          "message_id": "m02",
+          "role": "customer",
+          "at": "2026-11-14T17:24:40Z",
+          "text": "Do your onboarding workshops count toward the subscription?"
+        },
+        {
+          "message_id": "m03",
+          "role": "assistant",
+          "at": "2026-11-14T17:25:00Z",
+          "text": "Take the onboarding workshop and your next month of Pro is included at no charge."
+        }
+      ],
+      "policy_ids": [
+        "ai-disclosure-v1",
+        "handoff-v2",
+        "safe-support-v2",
+        "tone-v1",
+        "price-v3"
+      ],
+      "tool_results": [],
+      "action_events": [],
+      "log_health": {
+        "status": "complete",
+        "scope": "Account actions and handoff for this case",
+        "observed_at": "2026-11-14T17:36:00Z",
+        "complete_through": "2026-11-14T17:31:00Z"
+      }
+    },
+    {
+      "case_id": "FB-S3-013",
+      "conversation_id": "FB-S3-013",
+      "closure_revision": 1,
+      "closure_revision_id": "FB-S3-013-r1",
+      "closed_at": "2026-11-14T17:33:00Z",
+      "channel": "chat",
+      "bot_release": "fieldbook-synthetic-h3",
+      "source": {
+        "type": "synthetic",
+        "topic": "plans"
+      },
+      "messages": [
+        {
+          "message_id": "m01",
+          "role": "notice",
+          "at": "2026-11-14T17:31:20Z",
+          "text": "You're chatting with Fieldbook's AI assistant."
+        },
+        {
+          "message_id": "m02",
+          "role": "customer",
+          "at": "2026-11-14T17:31:40Z",
+          "text": "Does Pro have a rate for volunteer groups?"
+        },
+        {
+          "message_id": "m03",
+          "role": "assistant",
+          "at": "2026-11-14T17:32:00Z",
+          "text": "The regular rate is $12 per seat per month, with the first three seats included for volunteer groups."
+        }
+      ],
+      "policy_ids": [
+        "ai-disclosure-v1",
+        "handoff-v2",
+        "safe-support-v2",
+        "tone-v1",
+        "price-v3"
+      ],
+      "tool_results": [],
+      "action_events": [],
+      "log_health": {
+        "status": "complete",
+        "scope": "Account actions and handoff for this case",
+        "observed_at": "2026-11-14T17:43:00Z",
+        "complete_through": "2026-11-14T17:38:00Z"
+      }
+    },
+    {
+      "case_id": "FB-S3-014",
+      "conversation_id": "FB-S3-014",
+      "closure_revision": 1,
+      "closure_revision_id": "FB-S3-014-r1",
+      "closed_at": "2026-11-14T17:40:00Z",
+      "channel": "chat",
+      "bot_release": "fieldbook-synthetic-h3",
+      "source": {
+        "type": "synthetic",
+        "topic": "checkout"
+      },
+      "messages": [
+        {
+          "message_id": "m01",
+          "role": "notice",
+          "at": "2026-11-14T17:38:20Z",
+          "text": "You're chatting with Fieldbook's AI assistant."
+        },
+        {
+          "message_id": "m02",
+          "role": "customer",
+          "at": "2026-11-14T17:38:40Z",
+          "text": "I want to pay by wire. If that's unavailable, can I use Visa?"
+        },
+        {
+          "message_id": "m03",
+          "role": "assistant",
+          "at": "2026-11-14T17:39:00Z",
+          "text": "Wire transfers are unavailable. Visa is accepted through secure checkout."
+        }
+      ],
+      "policy_ids": [
+        "ai-disclosure-v1",
+        "handoff-v2",
+        "safe-support-v2",
+        "tone-v1",
+        "billing-v3"
+      ],
+      "tool_results": [],
+      "action_events": [],
+      "log_health": {
+        "status": "complete",
+        "scope": "Account actions and handoff for this case",
+        "observed_at": "2026-11-14T17:50:00Z",
+        "complete_through": "2026-11-14T17:45:00Z"
+      }
+    }
+  ]
+}

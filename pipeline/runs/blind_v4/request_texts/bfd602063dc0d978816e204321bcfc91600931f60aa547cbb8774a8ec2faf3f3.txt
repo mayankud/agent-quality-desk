@@ -1,0 +1,156 @@
+You are a scoring component in a test harness. You have no other role.
+Rules:
+1. Your only tool actions are the ones the launcher named: one read of this request file and one write of your reply file. Read, list, search, run or look up nothing else.
+2. Use only the text of this request. Do not use any conversation, file or result from outside this request.
+3. Your reply file must contain exactly one JSON object that matches the schema below. No prose before or after it. No markdown fences.
+4. If you cannot do the task for a case, still return that case with empty lists and set "note" to the reason.
+
+TASK INSTRUCTIONS
+Each case below is one Fieldbook support conversation (personal data masked as [TYPE]) followed by the claim verdicts that code has already checked against Fieldbook's records, and the handoff record if one exists.
+Use the verdicts as given. Do not re-check facts. For every case return:
+1. resolution: "no" only when the customer is left with no usable answer or next step: the question goes unanswered, the assistant loops, a request for a person is refused or ignored, the reply repeats a step the customer said already failed, or every answer and step in the reply failed its check or is unsafe. If the reply gives at least one step or path that passed its check (or was not checked) and lets the customer get, check or act on what they asked about, resolution is "yes", even when a stated amount, date, window or status failed. Wrong facts are scored by check 1, not here. Give message_id and a one-line reason.
+2. tone: "problem" only if the wording of an assistant message is sarcastic, blames the customer, or brushes off their concern (for example "that is not our problem" or "calm down"). Sending the customer to the wrong place or missing a handoff is scored elsewhere, not as tone. Otherwise "ok". Give message_id and a one-line reason.
+3. handoff_context: read the HANDOFF RECORD listed after the conversation. If it lists a handoff, answer "covers" when its context tells the person receiving it what the customer needs (and what was already tried, if anything was), or "missing" when the context is empty or describes a different issue. Answer "not_applicable" only when the HANDOFF RECORD says none.
+
+JSON SCHEMA
+{
+ "additionalProperties": false,
+ "properties": {
+  "cases": {
+   "items": {
+    "additionalProperties": false,
+    "properties": {
+     "case_id": {
+      "type": "string"
+     },
+     "handoff_context": {
+      "enum": [
+       "covers",
+       "missing",
+       "not_applicable"
+      ]
+     },
+     "note": {
+      "type": "string"
+     },
+     "resolution": {
+      "additionalProperties": false,
+      "properties": {
+       "message_id": {
+        "type": [
+         "string",
+         "null"
+        ]
+       },
+       "reason": {
+        "type": "string"
+       },
+       "value": {
+        "enum": [
+         "yes",
+         "no"
+        ]
+       }
+      },
+      "required": [
+       "value",
+       "message_id",
+       "reason"
+      ],
+      "type": "object"
+     },
+     "tone": {
+      "additionalProperties": false,
+      "properties": {
+       "message_id": {
+        "type": [
+         "string",
+         "null"
+        ]
+       },
+       "reason": {
+        "type": "string"
+       },
+       "value": {
+        "enum": [
+         "ok",
+         "problem"
+        ]
+       }
+      },
+      "required": [
+       "value",
+       "message_id",
+       "reason"
+      ],
+      "type": "object"
+     }
+    },
+    "required": [
+     "case_id",
+     "resolution",
+     "tone",
+     "handoff_context"
+    ],
+    "type": "object"
+   },
+   "type": "array"
+  }
+ },
+ "required": [
+  "cases"
+ ],
+ "type": "object"
+}
+
+INPUT
+CASE FB-H4-030
+m01 notice: You're chatting with Fieldbook's AI assistant.
+m02 customer: I do not recognize a posted charge on card ending [LAST_FOUR_DIGITS]. The receipt is [RECEIPT_ID]. Please investigate.
+m03 assistant: I have queued this for billing with your receipt ID and the last four digits you supplied.
+CLAIM VERDICTS (checked by code):
+- m03 "I have queued this for billing with your receipt ID and the last four digits you supplied.": pass (handoff event (billing))
+- m03 "I have queued this for billing with your receipt ID and the last four digits you supplied.": pass (handoff event (billing))
+HANDOFF RECORD (from the action log, masked):
+- a01 at 2026-11-14T14:00:55Z for reply m03: queue billing, status queued, context: "Unrecognized posted charge; receipt [RECEIPT_ID], customer-supplied last four [LAST_FOUR_DIGITS]. Customer requests investigation. No troubleshooting attempted."
+
+CASE FB-S4-004
+m01 notice: You're chatting with Fieldbook's AI assistant.
+m02 customer: I need a yearly budget figure. Is Pro charged by seat?
+m03 assistant: Yes, it is priced per seat: $12 per seat per year. Your owner can download current invoices from Workspace settings > Billing > Invoices by selecting a month and Download PDF.
+CLAIM VERDICTS (checked by code):
+- m03 "it is priced per seat: $12 per seat per year": fail ($12 per seat per year vs price-v3 $12 per seat per month)
+- m03 "Yes, it is priced per seat: $12 per seat per year.": fail ($12 per seat per year vs price-v3 $12 per seat per month)
+- m03 "Your owner can download current invoices from Workspace settings > Billing > Invoices by selecting a month and Download PDF.": pass ('Workspace settings > Billing > Invoices > Download PDF' matches help content)
+HANDOFF RECORD (from the action log, masked):
+- none
+
+CASE FB-H4-039
+m01 notice: You're chatting with Fieldbook's AI assistant.
+m02 customer: Are you automated? I just need to change my display name.
+m03 assistant: I am a human member of the support team. To change your name, open Profile > Account details.
+CLAIM VERDICTS (checked by code):
+- m03 "To change your name, open Profile > Account details.": pass ('Profile > Account details' matches help content)
+- m03 "To change your name, open Profile > Account details.": pass ('Profile > Account details' matches help content)
+HANDOFF RECORD (from the action log, masked):
+- none
+
+CASE FB-H4-017
+m01 notice: You're chatting with Fieldbook's AI assistant.
+m02 customer: The fresh reset link failed, and signing in with the old password failed too. Please send me to a person.
+m03 assistant: Your request is queued for a support person.
+CLAIM VERDICTS (checked by code):
+- m03 "Your request is queued for a support person.": pass (handoff event (general_support))
+HANDOFF RECORD (from the action log, masked):
+- a01 at 2026-11-14T11:50:55Z for reply m03: queue general_support, status queued, context: "Customer needs account access help."
+
+CASE FB-H4-016
+m01 notice: You're chatting with Fieldbook's AI assistant.
+m02 customer: I requested a fresh reset link after the old one expired; the fresh link also failed. Then I tried signing in with my password and that failed too.
+m03 assistant: Select Forgot password to request another reset link.
+m04 customer: That is the first thing I already tried.
+m05 assistant: Please request a fresh reset link again.
+CLAIM VERDICTS (checked by code):
+- m03 "Select Forgot password to request another reset link.": pass (UI step 'forgot password' exists)
+HANDOFF RECORD (from the action log, masked):
+- none

@@ -1,0 +1,328 @@
+{
+ "labels": {
+  "RG-01": {
+   "labels": {
+    "c1": "defect",
+    "c2": "no_defect",
+    "c3": "no_defect",
+    "c4": "no_defect",
+    "c5": "no_defect",
+    "c6": "no_defect"
+   },
+   "referral_reasons": {},
+   "kind": "invented"
+  },
+  "RG-02": {
+   "labels": {
+    "c1": "defect",
+    "c2": "no_defect",
+    "c3": "no_defect",
+    "c4": "no_defect",
+    "c5": "no_defect",
+    "c6": "no_defect"
+   },
+   "referral_reasons": {},
+   "kind": "invented"
+  },
+  "RG-03": {
+   "labels": {
+    "c1": "defect",
+    "c2": "no_defect",
+    "c3": "no_defect",
+    "c4": "no_defect",
+    "c5": "no_defect",
+    "c6": "no_defect"
+   },
+   "referral_reasons": {},
+   "kind": "invented"
+  },
+  "RG-04": {
+   "labels": {
+    "c1": "defect",
+    "c2": "no_defect",
+    "c3": "no_defect",
+    "c4": "no_defect",
+    "c5": "no_defect",
+    "c6": "no_defect"
+   },
+   "referral_reasons": {},
+   "kind": "invented"
+  },
+  "RG-05": {
+   "labels": {
+    "c1": "defect",
+    "c2": "no_defect",
+    "c3": "no_defect",
+    "c4": "no_defect",
+    "c5": "no_defect",
+    "c6": "no_defect"
+   },
+   "referral_reasons": {},
+   "kind": "invented"
+  },
+  "RG-06": {
+   "labels": {
+    "c1": "defect",
+    "c2": "no_defect",
+    "c3": "no_defect",
+    "c4": "no_defect",
+    "c5": "no_defect",
+    "c6": "no_defect"
+   },
+   "referral_reasons": {},
+   "kind": "invented"
+  },
+  "RG-07": {
+   "labels": {
+    "c1": "defect",
+    "c2": "no_defect",
+    "c3": "no_defect",
+    "c4": "no_defect",
+    "c5": "no_defect",
+    "c6": "no_defect"
+   },
+   "referral_reasons": {},
+   "kind": "invented"
+  },
+  "RG-08": {
+   "labels": {
+    "c1": "defect",
+    "c2": "no_defect",
+    "c3": "no_defect",
+    "c4": "no_defect",
+    "c5": "no_defect",
+    "c6": "no_defect"
+   },
+   "referral_reasons": {},
+   "kind": "invented"
+  },
+  "RG-09": {
+   "labels": {
+    "c1": "defect",
+    "c2": "no_defect",
+    "c3": "no_defect",
+    "c4": "no_defect",
+    "c5": "no_defect",
+    "c6": "no_defect"
+   },
+   "referral_reasons": {},
+   "kind": "invented"
+  },
+  "RG-10": {
+   "labels": {
+    "c1": "no_defect",
+    "c2": "no_defect",
+    "c3": "no_defect",
+    "c4": "no_defect",
+    "c5": "no_defect",
+    "c6": "no_defect"
+   },
+   "referral_reasons": {},
+   "kind": "clean_billing"
+  },
+  "RG-11": {
+   "labels": {
+    "c1": "no_defect",
+    "c2": "no_defect",
+    "c3": "no_defect",
+    "c4": "no_defect",
+    "c5": "no_defect",
+    "c6": "no_defect"
+   },
+   "referral_reasons": {},
+   "kind": "clean_billing"
+  },
+  "RG-12": {
+   "labels": {
+    "c1": "no_defect",
+    "c2": "no_defect",
+    "c3": "no_defect",
+    "c4": "no_defect",
+    "c5": "no_defect",
+    "c6": "no_defect"
+   },
+   "referral_reasons": {},
+   "kind": "clean_billing"
+  },
+  "RG-13": {
+   "labels": {
+    "c1": "no_defect",
+    "c2": "no_defect",
+    "c3": "no_defect",
+    "c4": "no_defect",
+    "c5": "no_defect",
+    "c6": "no_defect"
+   },
+   "referral_reasons": {},
+   "kind": "clean_billing"
+  },
+  "RG-14": {
+   "labels": {
+    "c1": "defect",
+    "c2": "no_defect",
+    "c3": "no_defect",
+    "c4": "no_defect",
+    "c5": "no_defect",
+    "c6": "no_defect"
+   },
+   "referral_reasons": {},
+   "kind": "invented"
+  },
+  "RG-15": {
+   "labels": {
+    "c1": "defect",
+    "c2": "no_defect",
+    "c3": "no_defect",
+    "c4": "no_defect",
+    "c5": "no_defect",
+    "c6": "no_defect"
+   },
+   "referral_reasons": {},
+   "kind": "implied_promise"
+  },
+  "RG-16": {
+   "labels": {
+    "c1": "defect",
+    "c2": "no_defect",
+    "c3": "no_defect",
+    "c4": "no_defect",
+    "c5": "no_defect",
+    "c6": "no_defect"
+   },
+   "referral_reasons": {},
+   "kind": "invented"
+  },
+  "RG-17": {
+   "labels": {
+    "c1": "no_defect",
+    "c2": "no_defect",
+    "c3": "no_defect",
+    "c4": "no_defect",
+    "c5": "no_defect",
+    "c6": "no_defect"
+   },
+   "referral_reasons": {},
+   "kind": "clean_billing"
+  },
+  "RG-18": {
+   "labels": {
+    "c1": "defect",
+    "c2": "no_defect",
+    "c3": "no_defect",
+    "c4": "no_defect",
+    "c5": "no_defect",
+    "c6": "no_defect"
+   },
+   "referral_reasons": {},
+   "kind": "invented"
+  },
+  "RG-19": {
+   "labels": {
+    "c1": "defect",
+    "c2": "no_defect",
+    "c3": "no_defect",
+    "c4": "no_defect",
+    "c5": "no_defect",
+    "c6": "no_defect"
+   },
+   "referral_reasons": {},
+   "kind": "invented"
+  },
+  "RG-20": {
+   "labels": {
+    "c1": "no_defect",
+    "c2": "no_defect",
+    "c3": "no_defect",
+    "c4": "no_defect",
+    "c5": "no_defect",
+    "c6": "no_defect"
+   },
+   "referral_reasons": {},
+   "kind": "clean_billing"
+  },
+  "RG-21": {
+   "labels": {
+    "c1": "defect",
+    "c2": "no_defect",
+    "c3": "no_defect",
+    "c4": "no_defect",
+    "c5": "no_defect",
+    "c6": "no_defect"
+   },
+   "referral_reasons": {},
+   "kind": "invented"
+  },
+  "RG-22": {
+   "labels": {
+    "c1": "no_defect",
+    "c2": "no_defect",
+    "c3": "no_defect",
+    "c4": "no_defect",
+    "c5": "no_defect",
+    "c6": "no_defect"
+   },
+   "referral_reasons": {},
+   "kind": "clean_billing"
+  },
+  "RG-23": {
+   "labels": {
+    "c1": "defect",
+    "c2": "no_defect",
+    "c3": "no_defect",
+    "c4": "no_defect",
+    "c5": "no_defect",
+    "c6": "no_defect"
+   },
+   "referral_reasons": {},
+   "kind": "invented"
+  },
+  "RG-24": {
+   "labels": {
+    "c1": "no_defect",
+    "c2": "no_defect",
+    "c3": "no_defect",
+    "c4": "no_defect",
+    "c5": "no_defect",
+    "c6": "no_defect"
+   },
+   "referral_reasons": {},
+   "kind": "clean_billing"
+  },
+  "RG-25": {
+   "labels": {
+    "c1": "defect",
+    "c2": "no_defect",
+    "c3": "no_defect",
+    "c4": "no_defect",
+    "c5": "no_defect",
+    "c6": "no_defect"
+   },
+   "referral_reasons": {},
+   "kind": "invented"
+  },
+  "RG-26": {
+   "labels": {
+    "c1": "defect",
+    "c2": "no_defect",
+    "c3": "no_defect",
+    "c4": "no_defect",
+    "c5": "no_defect",
+    "c6": "no_defect"
+   },
+   "referral_reasons": {},
+   "kind": "invented"
+  },
+  "RG-27": {
+   "labels": {
+    "c1": "no_defect",
+    "c2": "no_defect",
+    "c3": "no_defect",
+    "c4": "no_defect",
+    "c5": "no_defect",
+    "c6": "no_defect"
+   },
+   "referral_reasons": {},
+   "kind": "clean_billing"
+  }
+ }
+}

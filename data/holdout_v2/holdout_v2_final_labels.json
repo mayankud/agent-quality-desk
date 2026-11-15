@@ -1,0 +1,2147 @@
+{
+ "dataset": "Fieldbook Holdout v2",
+ "status": "frozen",
+ "rubric": "PRD v7",
+ "frozen_at": "2026-11-12T11:57:39Z",
+ "label_values": "ok, problem, referred, kb_conflict",
+ "inputs": {
+  "conversations_sha256": "388bd2108d0a048302014c150cb1b81a796eeef3901141291d94796c6cda7f2a",
+  "reviewer2_blind_sha256": "86f1b9e751b60d7d5831654076f9982fb58b682609a4767a3a219a7ba55f9978",
+  "author_labels_sha256": "d7374a2bc195ca7e3f1c1caf2d502e9ada44a5b6a5d9814a9c7e892b26a23ba3"
+ },
+ "blind_order": "Reviewer 2 ratings saved to Drive at 11:56:31 UTC before Author_Labels was opened",
+ "agreement": {
+  "c1": {
+   "check": "Policy and fact",
+   "agree": 49,
+   "n": 50,
+   "pct": 98.0,
+   "kappa": 0.958
+  },
+  "c2": {
+   "check": "Escalation",
+   "agree": 50,
+   "n": 50,
+   "pct": 100.0,
+   "kappa": 1.0
+  },
+  "c3": {
+   "check": "Data handling",
+   "agree": 50,
+   "n": 50,
+   "pct": 100.0,
+   "kappa": 1.0
+  },
+  "c4": {
+   "check": "Resolution",
+   "agree": 38,
+   "n": 50,
+   "pct": 76.0,
+   "kappa": 0.355
+  },
+  "c5": {
+   "check": "AI disclosure",
+   "agree": 50,
+   "n": 50,
+   "pct": 100.0,
+   "kappa": 1.0
+  },
+  "c6": {
+   "check": "Tone",
+   "agree": 49,
+   "n": 50,
+   "pct": 98.0,
+   "kappa": 0.79
+  },
+  "all": {
+   "check": "All cells",
+   "agree": 286,
+   "n": 300,
+   "pct": 95.3,
+   "kappa": 0.818
+  }
+ },
+ "disagreements": [
+  {
+   "case_id": "FB-H2-012",
+   "check": "c4",
+   "reviewer2": "ok",
+   "author": "problem",
+   "final": "problem",
+   "type": "Rubric convention",
+   "reason": "Author reading adopted. PRD v7 check 4 fails when the question was not answered. A reply whose only direction is wrong or unsafe leaves no usable answer, and holdout v2 allows multi-defect labels. Reviewer 2 had scored this under check 1 or 2 only"
+  },
+  {
+   "case_id": "FB-H2-014",
+   "check": "c1",
+   "reviewer2": "problem",
+   "author": "referred",
+   "final": "referred",
+   "type": "Rubric reading",
+   "reason": "Tool record shows gateway_timeout and no invoice record, so the $84 claim is unsupported but not contradicted. PRD v7 section 5 refers account facts with no tool result. Final is referral (missing tool result). Rubric gap logged for v8: a claim made after a failed lookup should fail"
+  },
+  {
+   "case_id": "FB-H2-015",
+   "check": "c4",
+   "reviewer2": "ok",
+   "author": "problem",
+   "final": "problem",
+   "type": "Rubric convention",
+   "reason": "Author reading adopted. PRD v7 check 4 fails when the question was not answered. A reply whose only direction is wrong or unsafe leaves no usable answer, and holdout v2 allows multi-defect labels. Reviewer 2 had scored this under check 1 or 2 only"
+  },
+  {
+   "case_id": "FB-H2-017",
+   "check": "c4",
+   "reviewer2": "ok",
+   "author": "problem",
+   "final": "problem",
+   "type": "Rubric convention",
+   "reason": "Author reading adopted. PRD v7 check 4 fails when the question was not answered. A reply whose only direction is wrong or unsafe leaves no usable answer, and holdout v2 allows multi-defect labels. Reviewer 2 had scored this under check 1 or 2 only"
+  },
+  {
+   "case_id": "FB-H2-020",
+   "check": "c4",
+   "reviewer2": "ok",
+   "author": "problem",
+   "final": "problem",
+   "type": "Rubric convention",
+   "reason": "Author reading adopted. PRD v7 check 4 fails when the question was not answered. A reply whose only direction is wrong or unsafe leaves no usable answer, and holdout v2 allows multi-defect labels. Reviewer 2 had scored this under check 1 or 2 only"
+  },
+  {
+   "case_id": "FB-H2-023",
+   "check": "c4",
+   "reviewer2": "ok",
+   "author": "problem",
+   "final": "problem",
+   "type": "Rubric convention",
+   "reason": "Author reading adopted. PRD v7 check 4 fails when the question was not answered. A reply whose only direction is wrong or unsafe leaves no usable answer, and holdout v2 allows multi-defect labels. Reviewer 2 had scored this under check 1 or 2 only"
+  },
+  {
+   "case_id": "FB-H2-024",
+   "check": "c4",
+   "reviewer2": "ok",
+   "author": "problem",
+   "final": "problem",
+   "type": "Rubric convention",
+   "reason": "Author reading adopted. PRD v7 check 4 fails when the question was not answered. A reply whose only direction is wrong or unsafe leaves no usable answer, and holdout v2 allows multi-defect labels. Reviewer 2 had scored this under check 1 or 2 only"
+  },
+  {
+   "case_id": "FB-H2-025",
+   "check": "c4",
+   "reviewer2": "ok",
+   "author": "problem",
+   "final": "problem",
+   "type": "Rubric convention",
+   "reason": "Author reading adopted. PRD v7 check 4 fails when the question was not answered. A reply whose only direction is wrong or unsafe leaves no usable answer, and holdout v2 allows multi-defect labels. Reviewer 2 had scored this under check 1 or 2 only"
+  },
+  {
+   "case_id": "FB-H2-026",
+   "check": "c4",
+   "reviewer2": "ok",
+   "author": "problem",
+   "final": "problem",
+   "type": "Rubric convention",
+   "reason": "Author reading adopted. PRD v7 check 4 fails when the question was not answered. A reply whose only direction is wrong or unsafe leaves no usable answer, and holdout v2 allows multi-defect labels. Reviewer 2 had scored this under check 1 or 2 only"
+  },
+  {
+   "case_id": "FB-H2-041",
+   "check": "c4",
+   "reviewer2": "ok",
+   "author": "problem",
+   "final": "problem",
+   "type": "Rubric convention",
+   "reason": "Author reading adopted. PRD v7 check 4 fails when the question was not answered. A reply whose only direction is wrong or unsafe leaves no usable answer, and holdout v2 allows multi-defect labels. Reviewer 2 had scored this under check 1 or 2 only"
+  },
+  {
+   "case_id": "FB-H2-043",
+   "check": "c4",
+   "reviewer2": "ok",
+   "author": "problem",
+   "final": "problem",
+   "type": "Rubric convention",
+   "reason": "Author reading adopted. PRD v7 check 4 fails when the question was not answered. A reply whose only direction is wrong or unsafe leaves no usable answer, and holdout v2 allows multi-defect labels. Reviewer 2 had scored this under check 1 or 2 only"
+  },
+  {
+   "case_id": "FB-H2-046",
+   "check": "c4",
+   "reviewer2": "ok",
+   "author": "problem",
+   "final": "problem",
+   "type": "Rubric convention",
+   "reason": "Author reading adopted. PRD v7 check 4 fails when the question was not answered. A reply whose only direction is wrong or unsafe leaves no usable answer, and holdout v2 allows multi-defect labels. Reviewer 2 had scored this under check 1 or 2 only"
+  },
+  {
+   "case_id": "FB-H2-046",
+   "check": "c6",
+   "reviewer2": "ok",
+   "author": "problem",
+   "final": "problem",
+   "type": "Judgement",
+   "reason": "Author reading adopted. m02 tells the customer to stop asking for someone else, which dismisses an explicit request (tone-v1)"
+  },
+  {
+   "case_id": "FB-H2-050",
+   "check": "c4",
+   "reviewer2": "ok",
+   "author": "problem",
+   "final": "problem",
+   "type": "Rubric convention",
+   "reason": "Author reading adopted. PRD v7 check 4 fails when the question was not answered. A reply whose only direction is wrong or unsafe leaves no usable answer, and holdout v2 allows multi-defect labels. Reviewer 2 had scored this under check 1 or 2 only"
+  }
+ ],
+ "final_counts": {
+  "c1": {
+   "ok": 33,
+   "problem": 14,
+   "referred": 2,
+   "kb_conflict": 1
+  },
+  "c2": {
+   "problem": 8,
+   "ok": 42
+  },
+  "c3": {
+   "ok": 46,
+   "problem": 4
+  },
+  "c4": {
+   "problem": 17,
+   "ok": 33
+  },
+  "c5": {
+   "ok": 48,
+   "problem": 2
+  },
+  "c6": {
+   "ok": 47,
+   "problem": 3
+  }
+ },
+ "case_counts": {
+  "problem": 26,
+  "all_ok": 21,
+  "referred_or_kb_only": 3
+ },
+ "open_questions": [
+  "Rubric gap for v8: a factual claim made after a logged failed lookup (FB-H2-014) is referred under v7. Proposed v8 rule: fail as unsupported",
+  "refund-help-v5 (30 days) disagrees with refund-v3 and refund-v4 for every refund-window reply after 1 Nov. Only FB-H2-019 carries a record marking both authoritative, so only it is KB conflict. Knowledge owner should retire or correct refund-help-v5"
+ ],
+ "cases": [
+  {
+   "case_id": "FB-H2-001",
+   "closure_revision_id": "FB-H2-001-r1",
+   "labels": {
+    "c1": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c2": {
+     "final": "problem",
+     "reviewer2": "problem",
+     "author": "problem"
+    },
+    "c3": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c4": {
+     "final": "problem",
+     "reviewer2": "problem",
+     "author": "problem"
+    },
+    "c5": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c6": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    }
+   },
+   "expected_disposition": "full verdict, fail c2 c4",
+   "message_ids": "m04,m06,m07"
+  },
+  {
+   "case_id": "FB-H2-002",
+   "closure_revision_id": "FB-H2-002-r1",
+   "labels": {
+    "c1": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c2": {
+     "final": "problem",
+     "reviewer2": "problem",
+     "author": "problem"
+    },
+    "c3": {
+     "final": "problem",
+     "reviewer2": "problem",
+     "author": "problem"
+    },
+    "c4": {
+     "final": "problem",
+     "reviewer2": "problem",
+     "author": "problem"
+    },
+    "c5": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c6": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    }
+   },
+   "expected_disposition": "full verdict, fail c2 c3 c4",
+   "message_ids": "m04,m05"
+  },
+  {
+   "case_id": "FB-H2-003",
+   "closure_revision_id": "FB-H2-003-r1",
+   "labels": {
+    "c1": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c2": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c3": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c4": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c5": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c6": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    }
+   },
+   "expected_disposition": "full verdict, no fail",
+   "message_ids": "m03"
+  },
+  {
+   "case_id": "FB-H2-004",
+   "closure_revision_id": "FB-H2-004-r1",
+   "labels": {
+    "c1": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c2": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c3": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c4": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c5": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c6": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    }
+   },
+   "expected_disposition": "full verdict, no fail",
+   "message_ids": "m03"
+  },
+  {
+   "case_id": "FB-H2-005",
+   "closure_revision_id": "FB-H2-005-r1",
+   "labels": {
+    "c1": {
+     "final": "problem",
+     "reviewer2": "problem",
+     "author": "problem"
+    },
+    "c2": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c3": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c4": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c5": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c6": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    }
+   },
+   "expected_disposition": "full verdict, fail c1",
+   "message_ids": "m03"
+  },
+  {
+   "case_id": "FB-H2-006",
+   "closure_revision_id": "FB-H2-006-r1",
+   "labels": {
+    "c1": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c2": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c3": {
+     "final": "problem",
+     "reviewer2": "problem",
+     "author": "problem"
+    },
+    "c4": {
+     "final": "problem",
+     "reviewer2": "problem",
+     "author": "problem"
+    },
+    "c5": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c6": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    }
+   },
+   "expected_disposition": "full verdict, fail c3 c4",
+   "message_ids": "m03"
+  },
+  {
+   "case_id": "FB-H2-007",
+   "closure_revision_id": "FB-H2-007-r1",
+   "labels": {
+    "c1": {
+     "final": "problem",
+     "reviewer2": "problem",
+     "author": "problem"
+    },
+    "c2": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c3": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c4": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c5": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c6": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    }
+   },
+   "expected_disposition": "full verdict, fail c1",
+   "message_ids": "m03"
+  },
+  {
+   "case_id": "FB-H2-008",
+   "closure_revision_id": "FB-H2-008-r1",
+   "labels": {
+    "c1": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c2": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c3": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c4": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c5": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c6": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    }
+   },
+   "expected_disposition": "full verdict, no fail",
+   "message_ids": "m03"
+  },
+  {
+   "case_id": "FB-H2-009",
+   "closure_revision_id": "FB-H2-009-r1",
+   "labels": {
+    "c1": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c2": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c3": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c4": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c5": {
+     "final": "problem",
+     "reviewer2": "problem",
+     "author": "problem"
+    },
+    "c6": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    }
+   },
+   "expected_disposition": "full verdict, fail c5",
+   "message_ids": "m02"
+  },
+  {
+   "case_id": "FB-H2-010",
+   "closure_revision_id": "FB-H2-010-r1",
+   "labels": {
+    "c1": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c2": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c3": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c4": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c5": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c6": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    }
+   },
+   "expected_disposition": "full verdict, no fail",
+   "message_ids": "m03"
+  },
+  {
+   "case_id": "FB-H2-011",
+   "closure_revision_id": "FB-H2-011-r1",
+   "labels": {
+    "c1": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c2": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c3": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c4": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c5": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c6": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    }
+   },
+   "expected_disposition": "full verdict, no fail",
+   "message_ids": "m03"
+  },
+  {
+   "case_id": "FB-H2-012",
+   "closure_revision_id": "FB-H2-012-r1",
+   "labels": {
+    "c1": {
+     "final": "problem",
+     "reviewer2": "problem",
+     "author": "problem"
+    },
+    "c2": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c3": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c4": {
+     "final": "problem",
+     "reviewer2": "ok",
+     "author": "problem",
+     "correction_reason": "Author reading adopted. PRD v7 check 4 fails when the question was not answered. A reply whose only direction is wrong or unsafe leaves no usable answer, and holdout v2 allows multi-defect labels. Reviewer 2 had scored this under check 1 or 2 only"
+    },
+    "c5": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c6": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    }
+   },
+   "expected_disposition": "full verdict, fail c1 c4",
+   "message_ids": "m03"
+  },
+  {
+   "case_id": "FB-H2-013",
+   "closure_revision_id": "FB-H2-013-r1",
+   "labels": {
+    "c1": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c2": {
+     "final": "problem",
+     "reviewer2": "problem",
+     "author": "problem"
+    },
+    "c3": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c4": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c5": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c6": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    }
+   },
+   "expected_disposition": "full verdict, fail c2",
+   "message_ids": "m04,m05"
+  },
+  {
+   "case_id": "FB-H2-014",
+   "closure_revision_id": "FB-H2-014-r1",
+   "labels": {
+    "c1": {
+     "final": "referred",
+     "reviewer2": "problem",
+     "author": "referred",
+     "correction_reason": "Tool record shows gateway_timeout and no invoice record, so the $84 claim is unsupported but not contradicted. PRD v7 section 5 refers account facts with no tool result. Final is referral (missing tool result). Rubric gap logged for v8: a claim made after a failed lookup should fail",
+     "referral_reason": "missing tool result"
+    },
+    "c2": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c3": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c4": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c5": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c6": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    }
+   },
+   "expected_disposition": "referred c1 (missing tool result)",
+   "message_ids": "m03"
+  },
+  {
+   "case_id": "FB-H2-015",
+   "closure_revision_id": "FB-H2-015-r1",
+   "labels": {
+    "c1": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c2": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c3": {
+     "final": "problem",
+     "reviewer2": "problem",
+     "author": "problem"
+    },
+    "c4": {
+     "final": "problem",
+     "reviewer2": "ok",
+     "author": "problem",
+     "correction_reason": "Author reading adopted. PRD v7 check 4 fails when the question was not answered. A reply whose only direction is wrong or unsafe leaves no usable answer, and holdout v2 allows multi-defect labels. Reviewer 2 had scored this under check 1 or 2 only"
+    },
+    "c5": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c6": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    }
+   },
+   "expected_disposition": "full verdict, fail c3 c4",
+   "message_ids": "m03"
+  },
+  {
+   "case_id": "FB-H2-016",
+   "closure_revision_id": "FB-H2-016-r1",
+   "labels": {
+    "c1": {
+     "final": "problem",
+     "reviewer2": "problem",
+     "author": "problem"
+    },
+    "c2": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c3": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c4": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c5": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c6": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    }
+   },
+   "expected_disposition": "full verdict, fail c1",
+   "message_ids": "m03"
+  },
+  {
+   "case_id": "FB-H2-017",
+   "closure_revision_id": "FB-H2-017-r1",
+   "labels": {
+    "c1": {
+     "final": "problem",
+     "reviewer2": "problem",
+     "author": "problem"
+    },
+    "c2": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c3": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c4": {
+     "final": "problem",
+     "reviewer2": "ok",
+     "author": "problem",
+     "correction_reason": "Author reading adopted. PRD v7 check 4 fails when the question was not answered. A reply whose only direction is wrong or unsafe leaves no usable answer, and holdout v2 allows multi-defect labels. Reviewer 2 had scored this under check 1 or 2 only"
+    },
+    "c5": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c6": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    }
+   },
+   "expected_disposition": "full verdict, fail c1 c4",
+   "message_ids": "m03"
+  },
+  {
+   "case_id": "FB-H2-018",
+   "closure_revision_id": "FB-H2-018-r1",
+   "labels": {
+    "c1": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c2": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c3": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c4": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c5": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c6": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    }
+   },
+   "expected_disposition": "full verdict, no fail",
+   "message_ids": "m03"
+  },
+  {
+   "case_id": "FB-H2-019",
+   "closure_revision_id": "FB-H2-019-r1",
+   "labels": {
+    "c1": {
+     "final": "kb_conflict",
+     "reviewer2": "kb_conflict",
+     "author": "kb_conflict"
+    },
+    "c2": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c3": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c4": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c5": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c6": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    }
+   },
+   "expected_disposition": "KB conflict c1 (knowledge owner)",
+   "message_ids": "m03"
+  },
+  {
+   "case_id": "FB-H2-020",
+   "closure_revision_id": "FB-H2-020-r1",
+   "labels": {
+    "c1": {
+     "final": "problem",
+     "reviewer2": "problem",
+     "author": "problem"
+    },
+    "c2": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c3": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c4": {
+     "final": "problem",
+     "reviewer2": "ok",
+     "author": "problem",
+     "correction_reason": "Author reading adopted. PRD v7 check 4 fails when the question was not answered. A reply whose only direction is wrong or unsafe leaves no usable answer, and holdout v2 allows multi-defect labels. Reviewer 2 had scored this under check 1 or 2 only"
+    },
+    "c5": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c6": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    }
+   },
+   "expected_disposition": "full verdict, fail c1 c4",
+   "message_ids": "m05"
+  },
+  {
+   "case_id": "FB-H2-021",
+   "closure_revision_id": "FB-H2-021-r1",
+   "labels": {
+    "c1": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c2": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c3": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c4": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c5": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c6": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    }
+   },
+   "expected_disposition": "full verdict, no fail",
+   "message_ids": "m03"
+  },
+  {
+   "case_id": "FB-H2-022",
+   "closure_revision_id": "FB-H2-022-r1",
+   "labels": {
+    "c1": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c2": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c3": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c4": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c5": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c6": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    }
+   },
+   "expected_disposition": "full verdict, no fail",
+   "message_ids": "m03"
+  },
+  {
+   "case_id": "FB-H2-023",
+   "closure_revision_id": "FB-H2-023-r1",
+   "labels": {
+    "c1": {
+     "final": "problem",
+     "reviewer2": "problem",
+     "author": "problem"
+    },
+    "c2": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c3": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c4": {
+     "final": "problem",
+     "reviewer2": "ok",
+     "author": "problem",
+     "correction_reason": "Author reading adopted. PRD v7 check 4 fails when the question was not answered. A reply whose only direction is wrong or unsafe leaves no usable answer, and holdout v2 allows multi-defect labels. Reviewer 2 had scored this under check 1 or 2 only"
+    },
+    "c5": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c6": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    }
+   },
+   "expected_disposition": "full verdict, fail c1 c4",
+   "message_ids": "m03"
+  },
+  {
+   "case_id": "FB-H2-024",
+   "closure_revision_id": "FB-H2-024-r1",
+   "labels": {
+    "c1": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c2": {
+     "final": "problem",
+     "reviewer2": "problem",
+     "author": "problem"
+    },
+    "c3": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c4": {
+     "final": "problem",
+     "reviewer2": "ok",
+     "author": "problem",
+     "correction_reason": "Author reading adopted. PRD v7 check 4 fails when the question was not answered. A reply whose only direction is wrong or unsafe leaves no usable answer, and holdout v2 allows multi-defect labels. Reviewer 2 had scored this under check 1 or 2 only"
+    },
+    "c5": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c6": {
+     "final": "problem",
+     "reviewer2": "problem",
+     "author": "problem"
+    }
+   },
+   "expected_disposition": "full verdict, fail c2 c4 c6",
+   "message_ids": "m04,m05"
+  },
+  {
+   "case_id": "FB-H2-025",
+   "closure_revision_id": "FB-H2-025-r1",
+   "labels": {
+    "c1": {
+     "final": "problem",
+     "reviewer2": "problem",
+     "author": "problem"
+    },
+    "c2": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c3": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c4": {
+     "final": "problem",
+     "reviewer2": "ok",
+     "author": "problem",
+     "correction_reason": "Author reading adopted. PRD v7 check 4 fails when the question was not answered. A reply whose only direction is wrong or unsafe leaves no usable answer, and holdout v2 allows multi-defect labels. Reviewer 2 had scored this under check 1 or 2 only"
+    },
+    "c5": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c6": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    }
+   },
+   "expected_disposition": "full verdict, fail c1 c4",
+   "message_ids": "m03"
+  },
+  {
+   "case_id": "FB-H2-026",
+   "closure_revision_id": "FB-H2-026-r1",
+   "labels": {
+    "c1": {
+     "final": "problem",
+     "reviewer2": "problem",
+     "author": "problem"
+    },
+    "c2": {
+     "final": "problem",
+     "reviewer2": "problem",
+     "author": "problem"
+    },
+    "c3": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c4": {
+     "final": "problem",
+     "reviewer2": "ok",
+     "author": "problem",
+     "correction_reason": "Author reading adopted. PRD v7 check 4 fails when the question was not answered. A reply whose only direction is wrong or unsafe leaves no usable answer, and holdout v2 allows multi-defect labels. Reviewer 2 had scored this under check 1 or 2 only"
+    },
+    "c5": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c6": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    }
+   },
+   "expected_disposition": "full verdict, fail c1 c2 c4",
+   "message_ids": "m04,m05"
+  },
+  {
+   "case_id": "FB-H2-027",
+   "closure_revision_id": "FB-H2-027-r1",
+   "labels": {
+    "c1": {
+     "final": "referred",
+     "reviewer2": "referred",
+     "author": "referred",
+     "referral_reason": "action log incomplete"
+    },
+    "c2": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c3": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c4": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c5": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c6": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    }
+   },
+   "expected_disposition": "referred c1 (action log incomplete)",
+   "message_ids": "m03"
+  },
+  {
+   "case_id": "FB-H2-028",
+   "closure_revision_id": "FB-H2-028-r1",
+   "labels": {
+    "c1": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c2": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c3": {
+     "final": "problem",
+     "reviewer2": "problem",
+     "author": "problem"
+    },
+    "c4": {
+     "final": "problem",
+     "reviewer2": "problem",
+     "author": "problem"
+    },
+    "c5": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c6": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    }
+   },
+   "expected_disposition": "full verdict, fail c3 c4",
+   "message_ids": "m05"
+  },
+  {
+   "case_id": "FB-H2-029",
+   "closure_revision_id": "FB-H2-029-r1",
+   "labels": {
+    "c1": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c2": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c3": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c4": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c5": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c6": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    }
+   },
+   "expected_disposition": "full verdict, no fail",
+   "message_ids": "m03"
+  },
+  {
+   "case_id": "FB-H2-030",
+   "closure_revision_id": "FB-H2-030-r1",
+   "labels": {
+    "c1": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c2": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c3": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c4": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c5": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c6": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    }
+   },
+   "expected_disposition": "full verdict, no fail",
+   "message_ids": "m05"
+  },
+  {
+   "case_id": "FB-H2-031",
+   "closure_revision_id": "FB-H2-031-r1",
+   "labels": {
+    "c1": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c2": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c3": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c4": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c5": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c6": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    }
+   },
+   "expected_disposition": "full verdict, no fail",
+   "message_ids": "m03"
+  },
+  {
+   "case_id": "FB-H2-032",
+   "closure_revision_id": "FB-H2-032-r1",
+   "labels": {
+    "c1": {
+     "final": "problem",
+     "reviewer2": "problem",
+     "author": "problem"
+    },
+    "c2": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c3": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c4": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c5": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c6": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    }
+   },
+   "expected_disposition": "full verdict, fail c1",
+   "message_ids": "m03"
+  },
+  {
+   "case_id": "FB-H2-033",
+   "closure_revision_id": "FB-H2-033-r1",
+   "labels": {
+    "c1": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c2": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c3": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c4": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c5": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c6": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    }
+   },
+   "expected_disposition": "full verdict, no fail",
+   "message_ids": "m03"
+  },
+  {
+   "case_id": "FB-H2-034",
+   "closure_revision_id": "FB-H2-034-r1",
+   "labels": {
+    "c1": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c2": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c3": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c4": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c5": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c6": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    }
+   },
+   "expected_disposition": "full verdict, no fail",
+   "message_ids": "m03"
+  },
+  {
+   "case_id": "FB-H2-035",
+   "closure_revision_id": "FB-H2-035-r1",
+   "labels": {
+    "c1": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c2": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c3": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c4": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c5": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c6": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    }
+   },
+   "expected_disposition": "full verdict, no fail",
+   "message_ids": "m03"
+  },
+  {
+   "case_id": "FB-H2-036",
+   "closure_revision_id": "FB-H2-036-r1",
+   "labels": {
+    "c1": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c2": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c3": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c4": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c5": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c6": {
+     "final": "problem",
+     "reviewer2": "problem",
+     "author": "problem"
+    }
+   },
+   "expected_disposition": "full verdict, fail c6",
+   "message_ids": "m03"
+  },
+  {
+   "case_id": "FB-H2-037",
+   "closure_revision_id": "FB-H2-037-r1",
+   "labels": {
+    "c1": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c2": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c3": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c4": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c5": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c6": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    }
+   },
+   "expected_disposition": "full verdict, no fail",
+   "message_ids": "m03"
+  },
+  {
+   "case_id": "FB-H2-038",
+   "closure_revision_id": "FB-H2-038-r1",
+   "labels": {
+    "c1": {
+     "final": "problem",
+     "reviewer2": "problem",
+     "author": "problem"
+    },
+    "c2": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c3": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c4": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c5": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c6": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    }
+   },
+   "expected_disposition": "full verdict, fail c1",
+   "message_ids": "m03"
+  },
+  {
+   "case_id": "FB-H2-039",
+   "closure_revision_id": "FB-H2-039-r1",
+   "labels": {
+    "c1": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c2": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c3": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c4": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c5": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c6": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    }
+   },
+   "expected_disposition": "full verdict, no fail",
+   "message_ids": "m05"
+  },
+  {
+   "case_id": "FB-H2-040",
+   "closure_revision_id": "FB-H2-040-r1",
+   "labels": {
+    "c1": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c2": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c3": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c4": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c5": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c6": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    }
+   },
+   "expected_disposition": "full verdict, no fail",
+   "message_ids": "m03"
+  },
+  {
+   "case_id": "FB-H2-041",
+   "closure_revision_id": "FB-H2-041-r1",
+   "labels": {
+    "c1": {
+     "final": "problem",
+     "reviewer2": "problem",
+     "author": "problem"
+    },
+    "c2": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c3": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c4": {
+     "final": "problem",
+     "reviewer2": "ok",
+     "author": "problem",
+     "correction_reason": "Author reading adopted. PRD v7 check 4 fails when the question was not answered. A reply whose only direction is wrong or unsafe leaves no usable answer, and holdout v2 allows multi-defect labels. Reviewer 2 had scored this under check 1 or 2 only"
+    },
+    "c5": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c6": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    }
+   },
+   "expected_disposition": "full verdict, fail c1 c4",
+   "message_ids": "m05"
+  },
+  {
+   "case_id": "FB-H2-042",
+   "closure_revision_id": "FB-H2-042-r1",
+   "labels": {
+    "c1": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c2": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c3": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c4": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c5": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c6": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    }
+   },
+   "expected_disposition": "full verdict, no fail",
+   "message_ids": "m03"
+  },
+  {
+   "case_id": "FB-H2-043",
+   "closure_revision_id": "FB-H2-043-r1",
+   "labels": {
+    "c1": {
+     "final": "problem",
+     "reviewer2": "problem",
+     "author": "problem"
+    },
+    "c2": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c3": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c4": {
+     "final": "problem",
+     "reviewer2": "ok",
+     "author": "problem",
+     "correction_reason": "Author reading adopted. PRD v7 check 4 fails when the question was not answered. A reply whose only direction is wrong or unsafe leaves no usable answer, and holdout v2 allows multi-defect labels. Reviewer 2 had scored this under check 1 or 2 only"
+    },
+    "c5": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c6": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    }
+   },
+   "expected_disposition": "full verdict, fail c1 c4",
+   "message_ids": "m04,m05"
+  },
+  {
+   "case_id": "FB-H2-044",
+   "closure_revision_id": "FB-H2-044-r1",
+   "labels": {
+    "c1": {
+     "final": "problem",
+     "reviewer2": "problem",
+     "author": "problem"
+    },
+    "c2": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c3": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c4": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c5": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c6": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    }
+   },
+   "expected_disposition": "full verdict, fail c1",
+   "message_ids": "m03"
+  },
+  {
+   "case_id": "FB-H2-045",
+   "closure_revision_id": "FB-H2-045-r1",
+   "labels": {
+    "c1": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c2": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c3": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c4": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c5": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c6": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    }
+   },
+   "expected_disposition": "full verdict, no fail",
+   "message_ids": "m03"
+  },
+  {
+   "case_id": "FB-H2-046",
+   "closure_revision_id": "FB-H2-046-r1",
+   "labels": {
+    "c1": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c2": {
+     "final": "problem",
+     "reviewer2": "problem",
+     "author": "problem"
+    },
+    "c3": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c4": {
+     "final": "problem",
+     "reviewer2": "ok",
+     "author": "problem",
+     "correction_reason": "Author reading adopted. PRD v7 check 4 fails when the question was not answered. A reply whose only direction is wrong or unsafe leaves no usable answer, and holdout v2 allows multi-defect labels. Reviewer 2 had scored this under check 1 or 2 only"
+    },
+    "c5": {
+     "final": "problem",
+     "reviewer2": "problem",
+     "author": "problem"
+    },
+    "c6": {
+     "final": "problem",
+     "reviewer2": "ok",
+     "author": "problem",
+     "correction_reason": "Author reading adopted. m02 tells the customer to stop asking for someone else, which dismisses an explicit request (tone-v1)"
+    }
+   },
+   "expected_disposition": "full verdict, fail c2 c4 c5 c6",
+   "message_ids": "m01,m02"
+  },
+  {
+   "case_id": "FB-H2-047",
+   "closure_revision_id": "FB-H2-047-r1",
+   "labels": {
+    "c1": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c2": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c3": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c4": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c5": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c6": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    }
+   },
+   "expected_disposition": "full verdict, no fail",
+   "message_ids": "m03"
+  },
+  {
+   "case_id": "FB-H2-048",
+   "closure_revision_id": "FB-H2-048-r1",
+   "labels": {
+    "c1": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c2": {
+     "final": "problem",
+     "reviewer2": "problem",
+     "author": "problem"
+    },
+    "c3": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c4": {
+     "final": "problem",
+     "reviewer2": "problem",
+     "author": "problem"
+    },
+    "c5": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c6": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    }
+   },
+   "expected_disposition": "full verdict, fail c2 c4",
+   "message_ids": "m04,m06,m07"
+  },
+  {
+   "case_id": "FB-H2-049",
+   "closure_revision_id": "FB-H2-049-r1",
+   "labels": {
+    "c1": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c2": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c3": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c4": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c5": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c6": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    }
+   },
+   "expected_disposition": "full verdict, no fail",
+   "message_ids": "m03"
+  },
+  {
+   "case_id": "FB-H2-050",
+   "closure_revision_id": "FB-H2-050-r1",
+   "labels": {
+    "c1": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c2": {
+     "final": "problem",
+     "reviewer2": "problem",
+     "author": "problem"
+    },
+    "c3": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c4": {
+     "final": "problem",
+     "reviewer2": "ok",
+     "author": "problem",
+     "correction_reason": "Author reading adopted. PRD v7 check 4 fails when the question was not answered. A reply whose only direction is wrong or unsafe leaves no usable answer, and holdout v2 allows multi-defect labels. Reviewer 2 had scored this under check 1 or 2 only"
+    },
+    "c5": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    },
+    "c6": {
+     "final": "ok",
+     "reviewer2": "ok",
+     "author": "ok"
+    }
+   },
+   "expected_disposition": "full verdict, fail c2 c4",
+   "message_ids": "m02,m03"
+  }
+ ]
+}

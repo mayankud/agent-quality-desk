@@ -1,0 +1,262 @@
+{
+ "note": "Structured facts compiled by hand from the Fieldbook policy texts shipped with holdout v2 (policies list). Source text is authoritative, this file is the machine-readable index. v4: expiry added to sensitive terms per PRD v7 A13, profile topic keywords narrowed.",
+ "refund_policy": [
+  {
+   "version": "refund-v3",
+   "effective": "2026-08-01T00:00:00+00:00",
+   "annual_full_refund_days": 14
+  },
+  {
+   "version": "refund-v4",
+   "effective": "2026-11-12T12:00:00+00:00",
+   "annual_full_refund_days": 10
+  }
+ ],
+ "refund_help": [
+  {
+   "version": "refund-help-v5",
+   "effective": "2026-11-01T00:00:00+00:00",
+   "annual_full_refund_days": 30
+  }
+ ],
+ "refund_posting_business_days": [
+  5,
+  10
+ ],
+ "monthly_needs_billing_manager_approval": true,
+ "price_pro_per_seat_usd": {
+  "version": "price-v3",
+  "value": 12
+ },
+ "payment_methods": {
+  "version": "billing-v3",
+  "allowed": [
+   "visa",
+   "mastercard",
+   "american express"
+  ],
+  "not_allowed": [
+   "paypal",
+   "wire",
+   "gift card"
+  ]
+ },
+ "link_validity_minutes": {
+  "password": {
+   "version": "password-v2",
+   "value": 30
+  },
+  "verification": {
+   "version": "signup-v2",
+   "value": 30
+  }
+ },
+ "early_termination_fee": {
+  "version": "cancellation-v2",
+  "value": 0
+ },
+ "device_limit": {
+  "version": "profile-v2",
+  "value": null
+ },
+ "paths": [
+  {
+   "path": "Workspace settings > Billing > Request a refund",
+   "topics": [
+    "refund"
+   ],
+   "version": "refund-v4"
+  },
+  {
+   "path": "Workspace settings > Billing > Requests",
+   "topics": [
+    "refund_status",
+    "refund"
+   ],
+   "version": "refund-status-v1"
+  },
+  {
+   "path": "Workspace settings > Billing > Invoices",
+   "topics": [
+    "invoice"
+   ],
+   "version": "invoices-v2"
+  },
+  {
+   "path": "Workspace settings > Billing > Manage plan",
+   "topics": [
+    "cancel"
+   ],
+   "version": "cancellation-v2"
+  },
+  {
+   "path": "Profile > Account details",
+   "topics": [
+    "profile"
+   ],
+   "version": "profile-v2"
+  },
+  {
+   "path": "Profile > Privacy > Delete account",
+   "topics": [
+    "delete"
+   ],
+   "version": "delete-v2"
+  },
+  {
+   "path": "Help > Contact support > Feedback",
+   "topics": [
+    "complaint"
+   ],
+   "version": "complaints-v1"
+  }
+ ],
+ "ui_labels": {
+  "request a refund": [
+   "refund"
+  ],
+  "requests": [
+   "refund_status"
+  ],
+  "invoices": [
+   "invoice"
+  ],
+  "download pdf": [
+   "invoice"
+  ],
+  "manage plan": [
+   "cancel"
+  ],
+  "account details": [
+   "profile"
+  ],
+  "delete account": [
+   "delete"
+  ],
+  "feedback": [
+   "complaint"
+  ],
+  "forgot password": [
+   "password",
+   "signup"
+  ],
+  "create account": [
+   "signup"
+  ],
+  "sign out": [
+   "account_switch"
+  ],
+  "sign in": [
+   "signup",
+   "account_switch"
+  ],
+  "secure checkout": [
+   "payment"
+  ],
+  "workspace picker": [
+   "account_switch"
+  ],
+  "picker": [
+   "account_switch"
+  ]
+ },
+ "topics": {
+  "refund_status": [
+   "status of my refund",
+   "refund status",
+   "my refund",
+   "money back",
+   "refund go",
+   "refund request"
+  ],
+  "refund": [
+   "refund",
+   "money back",
+   "money-back",
+   "get my money"
+  ],
+  "invoice": [
+   "invoice",
+   "bill"
+  ],
+  "price": [
+   "price",
+   "cost",
+   "per user",
+   "per seat"
+  ],
+  "payment": [
+   "pay",
+   "payment",
+   "checkout",
+   "card",
+   "charge"
+  ],
+  "password": [
+   "password",
+   "log in",
+   "sign in",
+   "reset the pass"
+  ],
+  "signup": [
+   "sign-up",
+   "sign up",
+   "registration",
+   "create an account",
+   "register"
+  ],
+  "profile": [
+   "personal info",
+   "email",
+   "name",
+   "account details",
+   "personal details",
+   "information on my account",
+   "my details"
+  ],
+  "account_switch": [
+   "switch",
+   "another account",
+   "different account",
+   "another login"
+  ],
+  "delete": [
+   "delete",
+   "close my account"
+  ],
+  "cancel": [
+   "cancel",
+   "cancellation",
+   "termination",
+   "renewal"
+  ],
+  "complaint": [
+   "complaint",
+   "feedback"
+  ],
+  "human": [
+   "human",
+   "person",
+   "agent"
+  ]
+ },
+ "sensitive_terms": [
+  "card number",
+  "security code",
+  "cvv",
+  "password",
+  "sign-in code",
+  "one-time code",
+  "verification code",
+  "digits",
+  "expiry",
+  "expiration",
+  "exp date",
+  "cvc"
+ ],
+ "sensitive_ok": [
+  "last four",
+  "last 4",
+  "receipt id"
+ ]
+}

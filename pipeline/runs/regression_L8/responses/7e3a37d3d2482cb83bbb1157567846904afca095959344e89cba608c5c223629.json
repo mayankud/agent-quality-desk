@@ -1,0 +1,6 @@
+{
+ "request_sha256": "7e3a37d3d2482cb83bbb1157567846904afca095959344e89cba608c5c223629",
+ "agent_id": "agent-for-7e3a37d3d248",
+ "received_at_utc": "2026-11-15T11:46:18Z",
+ "raw_response": "{\"cases\":[{\"case_id\":\"RG-06\",\"claims\":[{\"message_id\":\"m03\",\"span\":\"Annual works out cheaper if you pay upfront\",\"part_type\":\"policy_term\",\"fields\":{\"topic\":\"other\",\"value\":\"Annual is cheaper if paid upfront\",\"negated\":false}},{\"message_id\":\"m03\",\"span\":\"about 9 dollars a seat\",\"part_type\":\"price\",\"fields\":{\"amount\":9,\"unit\":\"seat\",\"period\":\"none\"}}],\"needs\":[{\"message_id\":\"m02\",\"need\":\"question\"}],\"sensitive_requests\":[]},{\"case_id\":\"RG-03\",\"claims\":[{\"message_id\":\"m03\",\"span\":\"Nonprofits are eligible for 30 percent off\",\"part_type\":\"offer_or_eligibility\",\"fields\":{\"description\":\"30 percent off for nonprofits\"}},{\"message_id\":\"m03\",\"span\":\"just mention it at checkout\",\"part_type\":\"procedure\",\"fields\":{\"path\":\"checkout\",\"purpose\":\"claim the nonprofit discount\"}}],\"needs\":[{\"message_id\":\"m02\",\"need\":\"other\"}],\"sensitive_requests\":[]}]}"
+}

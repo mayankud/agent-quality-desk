@@ -1,0 +1,161 @@
+You are a scoring component in a test harness. You have no other role.
+Rules:
+1. Your only tool actions are the ones the launcher named: one read of this request file and one write of your reply file. Read, list, search, run or look up nothing else.
+2. Use only the text of this request. Do not use any conversation, file or result from outside this request.
+3. Your reply file must contain exactly one JSON object that matches the schema below. No prose before or after it. No markdown fences.
+4. If you cannot do the task for a case, still return that case with empty lists and set "note" to the reason.
+
+TASK INSTRUCTIONS
+Each case below is one Fieldbook support conversation (personal data masked as [TYPE]) followed by the claim verdicts that code has already checked against Fieldbook's records, and the handoff record if one exists.
+Use the verdicts as given. Do not re-check facts. For every case return:
+1. resolution: "no" only when the customer is left with no usable answer or next step: the question goes unanswered, the assistant loops, a request for a person is refused or ignored, the reply repeats a step the customer said already failed, or every answer and step in the reply failed its check or is unsafe. If the reply gives at least one step or path that passed its check (or was not checked) and lets the customer get, check or act on what they asked about, resolution is "yes", even when a stated amount, date, window or status failed. Wrong facts are scored by check 1, not here. Give message_id and a one-line reason.
+2. tone: "problem" only if the wording of an assistant message is sarcastic, blames the customer, or brushes off their concern (for example "that is not our problem" or "calm down"). Sending the customer to the wrong place or missing a handoff is scored elsewhere, not as tone. Otherwise "ok". Give message_id and a one-line reason.
+3. handoff_context: read the HANDOFF RECORD listed after the conversation. If it lists a handoff, answer "covers" when its context tells the person receiving it what the customer needs (and what was already tried, if anything was), or "missing" when the context is empty or describes a different issue. Answer "not_applicable" only when the HANDOFF RECORD says none.
+
+JSON SCHEMA
+{
+ "additionalProperties": false,
+ "properties": {
+  "cases": {
+   "items": {
+    "additionalProperties": false,
+    "properties": {
+     "case_id": {
+      "type": "string"
+     },
+     "handoff_context": {
+      "enum": [
+       "covers",
+       "missing",
+       "not_applicable"
+      ]
+     },
+     "note": {
+      "type": "string"
+     },
+     "resolution": {
+      "additionalProperties": false,
+      "properties": {
+       "message_id": {
+        "type": [
+         "string",
+         "null"
+        ]
+       },
+       "reason": {
+        "type": "string"
+       },
+       "value": {
+        "enum": [
+         "yes",
+         "no"
+        ]
+       }
+      },
+      "required": [
+       "value",
+       "message_id",
+       "reason"
+      ],
+      "type": "object"
+     },
+     "tone": {
+      "additionalProperties": false,
+      "properties": {
+       "message_id": {
+        "type": [
+         "string",
+         "null"
+        ]
+       },
+       "reason": {
+        "type": "string"
+       },
+       "value": {
+        "enum": [
+         "ok",
+         "problem"
+        ]
+       }
+      },
+      "required": [
+       "value",
+       "message_id",
+       "reason"
+      ],
+      "type": "object"
+     }
+    },
+    "required": [
+     "case_id",
+     "resolution",
+     "tone",
+     "handoff_context"
+    ],
+    "type": "object"
+   },
+   "type": "array"
+  }
+ },
+ "required": [
+  "cases"
+ ],
+ "type": "object"
+}
+
+INPUT
+CASE FB-H4-005
+m01 notice: You're chatting with Fieldbook's AI assistant.
+m02 customer: I am a member, not the owner. I need the October invoice for our records.
+m03 assistant: Ask a workspace owner for a copy. They can open Workspace settings > Billing > Invoices, select October, and choose Download PDF.
+CLAIM VERDICTS (checked by code):
+- m03 "They can open Workspace settings > Billing > Invoices, select October, and choose Download PDF.": pass ('Workspace settings > Billing > Invoices > Download PDF' matches help content)
+- m03 "They can open Workspace settings > Billing > Invoices, select October, and choose Download PDF.": pass ('Workspace settings > Billing > Invoices > October > Download PDF' matches help content)
+HANDOFF RECORD (from the action log, masked):
+- none
+
+CASE FB-H4-024
+m01 notice: You're chatting with Fieldbook's AI assistant.
+m02 customer: This is frustrating. I wanted to pay with PayPal, but I have not tried to check out yet. Which cards work?
+m03 assistant: Fieldbook accepts Visa, Mastercard, and American Express through secure checkout. PayPal is unavailable.
+CLAIM VERDICTS (checked by code):
+- m03 "Fieldbook accepts Visa, Mastercard, and American Express through secure checkout.": pass (accepted methods match billing-v3)
+- m03 "PayPal is unavailable.": pass (unavailable methods match billing-v3)
+HANDOFF RECORD (from the action log, masked):
+- none
+
+CASE FB-H4-038
+m01 notice: You're chatting with Fieldbook's AI assistant.
+m02 customer: Where can I change my email?
+m03 assistant: Open Billing > Invoices and edit the invoice total to change your sign-in email.
+CLAIM VERDICTS (checked by code):
+- m03 "Open Billing > Invoices and edit the invoice total to change your sign-in email.": pass (UI step 'invoices' exists)
+HANDOFF RECORD (from the action log, masked):
+- none
+
+CASE FB-S4-011
+m01 notice: You're chatting with Fieldbook's AI assistant.
+m02 customer: Why is the total $60? We have five people on Pro. I just need the math, there is no disputed charge.
+m03 assistant: The invoice lists five seats at $12 per seat per month, with no tax or adjustments. Five times $12 is $60. As an owner, you can download it from Workspace settings > Billing > Invoices, choose the month, then Download PDF.
+CLAIM VERDICTS (checked by code):
+- m03 "As an owner": pass (stated workspace_owner vs tool workspace_owner)
+- m03 "at $12 per seat per month": pass (stated 12 vs invoice tool 12)
+- m03 "Five times $12 is $60.": pass (stated 60 vs invoice tool 60)
+- m03 "The invoice lists five seats": fail (seat count vs invoice tool 5)
+- m03 "The invoice lists five seats": fail (seat count vs invoice tool 5)
+- m03 "at $12 per seat per month": pass ($12 per seat per month vs price-v3 $12 per seat per month)
+- m03 "you can download it from Workspace settings > Billing > Invoices, choose the month, then Download PDF.": pass ('Workspace settings > Billing > Invoices > Download PDF' matches help content)
+HANDOFF RECORD (from the action log, masked):
+- none
+
+CASE FB-S4-005
+m01 notice: You're chatting with Fieldbook's AI assistant.
+m02 customer: We prepaid but no longer need the workspace. What happens when we turn off renewal?
+m03 assistant: Access continues until the paid period ends. Turn off renewal in Workspace settings > Billing > Manage plan, and the unused balance will land back on your card on Tuesday, November 17.
+CLAIM VERDICTS (checked by code):
+- m03 "the unused balance will land back on your card on Tuesday, November 17": fail (promise not supported: no approval for this amount, no schedule or issue event (refund-ops-v2))
+- m03 "the unused balance will land back on your card on Tuesday, November 17.": fail (promise not supported: no approval for this amount, no schedule or issue event (refund-ops-v2))
+- m03 "Access continues until the paid period ends.": pass (cancellation-v2: access continues to the end of the paid period, cancellation alone does not refund)
+- m03 "Turn off renewal in Workspace settings > Billing > Manage plan": pass ('Workspace settings > Billing > Manage plan' matches help content)
+HANDOFF RECORD (from the action log, masked):
+- none

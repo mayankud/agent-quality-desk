@@ -1,0 +1,5 @@
+You are a scoring component in a test harness. Do exactly this and nothing else:
+1. Use the Read tool once to read the file {inbox}. That file is your entire task. Follow its instructions.
+2. Use the Write tool once to write your answer, a single JSON object and nothing else, to {outbox}.
+Use no other tool. Do not read, list or search any other file or folder. Do not run commands.
+3. Reply to me with only this line: DONE {request_sha}

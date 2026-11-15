@@ -1,0 +1,6 @@
+{
+ "request_sha256": "bd36d2b4e11f7cdb6ad93ecebe7e56123bd8ec0aaa66727c1a2f42c3a943d7dc",
+ "agent_id": "agent-for-bd36d2b4e11f",
+ "received_at_utc": "2026-11-15T11:46:17Z",
+ "raw_response": "{\"cases\":[{\"case_id\":\"RG-09\",\"claims\":[{\"message_id\":\"m03\",\"span\":\"Students get half off Pro with a school email.\",\"part_type\":\"offer_or_eligibility\",\"fields\":{\"description\":\"50% off the Pro plan for students who have a school email\"}}],\"needs\":[{\"message_id\":\"m02\",\"need\":\"question\"}],\"sensitive_requests\":[]},{\"case_id\":\"RG-18\",\"claims\":[{\"message_id\":\"m03\",\"span\":\"most people just stop using it and the money comes back to their card on its own after a couple of months\",\"part_type\":\"policy_term\",\"fields\":{\"topic\":\"other\",\"value\":\"money comes back to the card on its own after a couple of months\",\"negated\":false}}],\"needs\":[{\"message_id\":\"m02\",\"need\":\"question\"}],\"sensitive_requests\":[]}]}"
+}

@@ -1,0 +1,6 @@
+{
+ "request_sha256": "de159bcb3f38ced61ee8b43fc87bc1fdd32b18b4d4895e8fc3186a75047cb1ab",
+ "agent_id": "agent-for-de159bcb3f38",
+ "received_at_utc": "2026-11-14T20:56:04Z",
+ "raw_response": "{\"cases\":[{\"case_id\":\"RG-11\",\"resolution\":{\"value\":\"yes\",\"message_id\":\"m03\",\"reason\":\"Gives the Pro price, which passed its check.\"},\"tone\":{\"value\":\"ok\",\"message_id\":\"m03\",\"reason\":\"Neutral, factual wording.\"},\"handoff_context\":\"not_applicable\"},{\"case_id\":\"RG-10\",\"resolution\":{\"value\":\"yes\",\"message_id\":\"m03\",\"reason\":\"Confirms refund approval, amount, destination and date, all passed checks.\"},\"tone\":{\"value\":\"ok\",\"message_id\":\"m03\",\"reason\":\"Friendly, clear wording.\"},\"handoff_context\":\"not_applicable\"}]}"
+}

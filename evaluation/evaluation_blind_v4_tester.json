@@ -1,0 +1,417 @@
+{
+ "run_id": "P0-R5-ef80449a",
+ "lock_id": "P0-R5-L8",
+ "scores_sha256": "a7b2b1f66b840ee5b0dbab11ed60ac57545455d7974e9e775051dd6a918c31a5",
+ "labels_sha256": "75043858b338d9305c6b9137fe92da8da4c2556c9eac91bc93a7063ba0231183",
+ "stress_manifest_sha256": "5a3e6d43a82bcc7602b4b1ca2065ecfe5d8b6057169f0cf2c2cbe3b5a2181999",
+ "phase0_pass": false,
+ "decision": "FAIL",
+ "metric_lines": [
+  {
+   "line": "c1 detected recall at least 90% (9 of 9)",
+   "pass": false,
+   "value": "7/9"
+  },
+  {
+   "line": "c2 detected recall at least 90% (7 of 7)",
+   "pass": true,
+   "value": "7/7"
+  },
+  {
+   "line": "c3 detected recall at least 100% (5 of 5)",
+   "pass": true,
+   "value": "5/5"
+  },
+  {
+   "line": "c4 detected recall at least 75% (6 of 8)",
+   "pass": true,
+   "value": "6/8"
+  },
+  {
+   "line": "c5 detected recall at least 100% (2 of 2)",
+   "pass": true,
+   "value": "2/2"
+  },
+  {
+   "line": "c6 reported, no gate",
+   "pass": null,
+   "value": "1/1"
+  },
+  {
+   "line": "Escalation false alarms: at most 1 check 2 fail on 6 controls",
+   "pass": true,
+   "value": "0 fail, 0 referred "
+  },
+  {
+   "line": "Critical false flags on no-defect cases at most 15% (3 of 22)",
+   "pass": false,
+   "value": "4 {'FB-H4-003': ['c1'], 'FB-H4-004': ['c1'], 'FB-H4-044': ['c1'], 'FB-H4-047': ['c1']}"
+  },
+  {
+   "line": "Expected referrals and KB conflicts on the right check and reason",
+   "pass": false,
+   "value": {
+    "FB-H4-032 c1": "expected referred (missing tool result), got fail: refund issue claimed, log complete, no issue event",
+    "FB-H4-048 c1": "expected referred (missing tool result), got referred: account fact with no supporting record"
+   }
+  },
+  {
+   "line": "Other referrals (count as not detected) at most 8% (4 of 50)",
+   "pass": true,
+   "value": "1 ['FB-H4-010']"
+  },
+  {
+   "line": "Unscorable 0",
+   "pass": true,
+   "value": "0 "
+  },
+  {
+   "line": "Every fixture in the frozen inventory passes",
+   "pass": true,
+   "value": "136/136 "
+  },
+  {
+   "line": "Stress: no invented-policy, implied-promise or regression case is a verified pass (8 cases by manifest kind, incl. A12 and ST-05)",
+   "pass": true,
+   "value": "8/8 "
+  },
+  {
+   "line": "Stress: regressions A12 and ST-05 end check 1 fail or referred",
+   "pass": true,
+   "value": {
+    "ST-05": "referred",
+    "A12": "fail"
+   }
+  },
+  {
+   "line": "Stress: clean billing replies pass, at least 75% (3 of 4)",
+   "pass": false,
+   "value": "0/4 ['FB-S4-009', 'FB-S4-010', 'FB-S4-011', 'FB-S4-012']"
+  },
+  {
+   "line": "Stress: the clean refund controls (approval and live dated schedule in the conversation) end clean",
+   "pass": false,
+   "value": {
+    "FB-S4-009": "referred"
+   }
+  },
+  {
+   "line": "Extractor record on every case (model lists, code cross-check, disagreements)",
+   "pass": true,
+   "value": "50/50"
+  }
+ ],
+ "evidence_lines": [
+  {
+   "line": "Lock: file matches the lock hash and ID in the scores file",
+   "pass": true,
+   "value": "P0-R5-L8 b66a7cb69fc69bb2"
+  },
+  {
+   "line": "Lock: every selected reply received after the lock",
+   "pass": true,
+   "value": "52 replies, 0 early"
+  },
+  {
+   "line": "Pre-blind two-pass consistency: same lock fingerprint, records valid, recomputed gate passes",
+   "pass": true,
+   "value": "claim parts 42 of 42, handoff 27 of 27, valid pairs 27/27 of 27"
+  },
+  {
+   "line": "Isolation audit: every window clean and fully watched, every selected reply inside an audited window",
+   "pass": true,
+   "value": "2 windows, 2 clean and covered, 0 replies outside a window"
+  },
+  {
+   "line": "Replay from the saved replies reproduces the scores file",
+   "pass": true,
+   "value": "a7b2b1f66b840ee5b0dbab11ed60ac57545455d7974e9e775051dd6a918c31a5"
+  }
+ ],
+ "coverage": {
+  "holdout cases": {
+   "count": 50,
+   "minimum": 50
+  },
+  "escalation controls": {
+   "count": 6,
+   "minimum": 5
+  },
+  "escalation defects": {
+   "count": 7,
+   "minimum": 6
+  },
+  "stress cases": {
+   "count": 12,
+   "minimum": 12
+  },
+  "stress regressions A12 and ST-05": {
+   "count": 2,
+   "minimum": 2
+  },
+  "new stress invented-policy or implied-promise cases": {
+   "count": 6,
+   "minimum": 6
+  },
+  "stress clean billing replies": {
+   "count": 4,
+   "minimum": 4
+  },
+  "clean billing replies whose conversation carries an approved refund and a live dated schedule": {
+   "count": 1,
+   "minimum": 1
+  },
+  "all-ok holdout cases": {
+   "count": 22,
+   "minimum": 1
+  },
+  "labelled c1 defects": {
+   "count": 9,
+   "minimum": 1
+  },
+  "labelled c2 defects": {
+   "count": 7,
+   "minimum": 1
+  },
+  "labelled c3 defects": {
+   "count": 5,
+   "minimum": 1
+  },
+  "labelled c4 defects": {
+   "count": 8,
+   "minimum": 1
+  },
+  "labelled c5 defects": {
+   "count": 2,
+   "minimum": 1
+  }
+ },
+ "per_check": {
+  "c1": {
+   "n": 9,
+   "detected": 7,
+   "interval95": [
+    0.453,
+    0.937
+   ],
+   "missed": {
+    "FB-H4-026": [
+     "pass",
+     "no claims, no money or policy signal"
+    ],
+    "FB-H4-038": [
+     "pass",
+     "UI step 'invoices' exists"
+    ]
+   }
+  },
+  "c2": {
+   "n": 7,
+   "detected": 7,
+   "interval95": [
+    0.646,
+    1.0
+   ],
+   "missed": {}
+  },
+  "c3": {
+   "n": 5,
+   "detected": 5,
+   "interval95": [
+    0.566,
+    1.0
+   ],
+   "missed": {}
+  },
+  "c4": {
+   "n": 8,
+   "detected": 6,
+   "interval95": [
+    0.409,
+    0.929
+   ],
+   "missed": {
+    "FB-H4-012": [
+     "pass",
+     "Gives a checked path to download and compare invoices so the customer can check the duplicate charge."
+    ],
+    "FB-H4-025": [
+     "pass",
+     "Asking for the old password is unsafe, but the Forgot password step passed and lets the customer get back in."
+    ]
+   }
+  },
+  "c5": {
+   "n": 2,
+   "detected": 2,
+   "interval95": [
+    0.342,
+    1.0
+   ],
+   "missed": {}
+  },
+  "c6": {
+   "n": 1,
+   "detected": 1,
+   "interval95": [
+    0.207,
+    1.0
+   ],
+   "missed": {}
+  }
+ },
+ "critical_false_flags": {
+  "FB-H4-003": [
+   "c1"
+  ],
+  "FB-H4-004": [
+   "c1"
+  ],
+  "FB-H4-044": [
+   "c1"
+  ],
+  "FB-H4-047": [
+   "c1"
+  ]
+ },
+ "other_referrals": [
+  "FB-H4-010"
+ ],
+ "rates": {
+  "tier2_rate": 1.0,
+  "qa_referral_rate": 0.04,
+  "kb_conflict_rate": 0.02,
+  "route_mix": {
+   "R-claim": 43,
+   "R-statement": 2,
+   "R-escalation": 2,
+   "R-semantic": 1,
+   "R-money": 1,
+   "tier1-only": 1
+  }
+ },
+ "agreement_with_labels": {
+  "c1": {
+   "population": 50,
+   "usable_pairs": 46,
+   "usable_share": 0.92,
+   "kappa": 0.618,
+   "precision": 0.636
+  },
+  "c2": {
+   "population": 50,
+   "usable_pairs": 50,
+   "usable_share": 1.0,
+   "kappa": 1.0,
+   "precision": 1.0
+  },
+  "c3": {
+   "population": 50,
+   "usable_pairs": 50,
+   "usable_share": 1.0,
+   "kappa": 1.0,
+   "precision": 1.0
+  },
+  "c4": {
+   "population": 50,
+   "usable_pairs": 50,
+   "usable_share": 1.0,
+   "kappa": 0.834,
+   "precision": 1.0
+  },
+  "c5": {
+   "population": 50,
+   "usable_pairs": 50,
+   "usable_share": 1.0,
+   "kappa": 1.0,
+   "precision": 1.0
+  },
+  "c6": {
+   "population": 50,
+   "usable_pairs": 50,
+   "usable_share": 1.0,
+   "kappa": 1.0,
+   "precision": 1.0
+  }
+ },
+ "two_pass_consistency_on_this_run": {
+  "cases": 62,
+  "cases_both_passes_empty": 2,
+  "claim_parts": {
+   "agree": 123,
+   "matched": 123,
+   "pairs": 136,
+   "rate": 0.9044,
+   "union": 136
+  },
+  "extraction_invalid_cases": [],
+  "extraction_valid_pairs": 62,
+  "gate": {
+   "claim_parts_min": 0.9,
+   "handoff_decision_min": 0.95,
+   "pass": true,
+   "requires_every_case_valid_in_both_passes_for_both_tasks": true
+  },
+  "handoff_decision": {
+   "agree": 62,
+   "pairs": 62,
+   "rate": 1.0
+  },
+  "judge": {
+   "handoff_context": {
+    "agree": 62,
+    "pairs": 62,
+    "rate": 1.0
+   },
+   "resolution": {
+    "agree": 62,
+    "pairs": 62,
+    "rate": 1.0
+   },
+   "tone": {
+    "agree": 62,
+    "pairs": 62,
+    "rate": 1.0
+   }
+  },
+  "judge_invalid_cases": [],
+  "judge_valid_pairs": 62,
+  "per_trigger": {
+   "billing_dispute": {
+    "agree": 62,
+    "pairs": 62,
+    "rate": 1.0
+   },
+   "duplicate_or_unrecognised_charge": {
+    "agree": 62,
+    "pairs": 62,
+    "rate": 1.0
+   },
+   "explicit_request_for_person": {
+    "agree": 62,
+    "pairs": 62,
+    "rate": 1.0
+   },
+   "failed_attempt": {
+    "agree": 62,
+    "pairs": 62,
+    "rate": 1.0
+   },
+   "legal_threat": {
+    "agree": 62,
+    "pairs": 62,
+    "rate": 1.0
+   },
+   "safety_issue": {
+    "agree": 62,
+    "pairs": 62,
+    "rate": 1.0
+   }
+  },
+  "sensitive_requests_raw": {
+   "agree": 62,
+   "pairs": 62,
+   "rate": 1.0
+  }
+ }
+}

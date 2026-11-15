@@ -1,0 +1,161 @@
+You are a scoring component in a test harness. You have no other role.
+Rules:
+1. Your only tool actions are the ones the launcher named: one read of this request file and one write of your reply file. Read, list, search, run or look up nothing else.
+2. Use only the text of this request. Do not use any conversation, file or result from outside this request.
+3. Your reply file must contain exactly one JSON object that matches the schema below. No prose before or after it. No markdown fences.
+4. If you cannot do the task for a case, still return that case with empty lists and set "note" to the reason.
+
+TASK INSTRUCTIONS
+Each case below is one Fieldbook support conversation (personal data masked as [TYPE]) followed by the claim verdicts that code has already checked against Fieldbook's records, and the handoff record if one exists.
+Use the verdicts as given. Do not re-check facts. For every case return:
+1. resolution: "no" only when the customer is left with no usable answer or next step: the question goes unanswered, the assistant loops, a request for a person is refused or ignored, the reply repeats a step the customer said already failed, or every answer and step in the reply failed its check or is unsafe. If the reply gives at least one step or path that passed its check (or was not checked) and lets the customer get, check or act on what they asked about, resolution is "yes", even when a stated amount, date, window or status failed. Wrong facts are scored by check 1, not here. Give message_id and a one-line reason.
+2. tone: "problem" only if the wording of an assistant message is sarcastic, blames the customer, or brushes off their concern (for example "that is not our problem" or "calm down"). Sending the customer to the wrong place or missing a handoff is scored elsewhere, not as tone. Otherwise "ok". Give message_id and a one-line reason.
+3. handoff_context: read the HANDOFF RECORD listed after the conversation. If it lists a handoff, answer "covers" when its context tells the person receiving it what the customer needs (and what was already tried, if anything was), or "missing" when the context is empty or describes a different issue. Answer "not_applicable" only when the HANDOFF RECORD says none.
+
+JSON SCHEMA
+{
+ "additionalProperties": false,
+ "properties": {
+  "cases": {
+   "items": {
+    "additionalProperties": false,
+    "properties": {
+     "case_id": {
+      "type": "string"
+     },
+     "handoff_context": {
+      "enum": [
+       "covers",
+       "missing",
+       "not_applicable"
+      ]
+     },
+     "note": {
+      "type": "string"
+     },
+     "resolution": {
+      "additionalProperties": false,
+      "properties": {
+       "message_id": {
+        "type": [
+         "string",
+         "null"
+        ]
+       },
+       "reason": {
+        "type": "string"
+       },
+       "value": {
+        "enum": [
+         "yes",
+         "no"
+        ]
+       }
+      },
+      "required": [
+       "value",
+       "message_id",
+       "reason"
+      ],
+      "type": "object"
+     },
+     "tone": {
+      "additionalProperties": false,
+      "properties": {
+       "message_id": {
+        "type": [
+         "string",
+         "null"
+        ]
+       },
+       "reason": {
+        "type": "string"
+       },
+       "value": {
+        "enum": [
+         "ok",
+         "problem"
+        ]
+       }
+      },
+      "required": [
+       "value",
+       "message_id",
+       "reason"
+      ],
+      "type": "object"
+     }
+    },
+    "required": [
+     "case_id",
+     "resolution",
+     "tone",
+     "handoff_context"
+    ],
+    "type": "object"
+   },
+   "type": "array"
+  }
+ },
+ "required": [
+  "cases"
+ ],
+ "type": "object"
+}
+
+INPUT
+CASE FB-H4-019
+m01 notice: You're chatting with Fieldbook's AI assistant.
+m02 customer: I clicked the same expired reset link twice and got the same error both times.
+m03 assistant: That is still the expired link. Request a fresh link using Forgot password on the sign-in page; reset links last 30 minutes.
+CLAIM VERDICTS (checked by code):
+- m03 "reset links last 30 minutes": pass (30 minutes vs 30 minutes)
+- m03 "Request a fresh link using Forgot password on the sign-in page": pass (UI step 'forgot password' exists)
+- m03 "Request a fresh link using Forgot password on the sign-in page": pass (UI step 'forgot password' exists)
+HANDOFF RECORD (from the action log, masked):
+- none
+
+CASE FB-H4-031
+m01 notice: You're chatting with Fieldbook's AI assistant.
+m02 customer: My new annual plan was purchased November 1. It is November 14 now. Do I still automatically qualify for a full refund?
+m03 assistant: Yes, new annual plans qualify within 14 days. Submit your request at Workspace settings > Billing > Request a refund.
+CLAIM VERDICTS (checked by code):
+- m03 "Yes": referred (unsupported claim part: no source grants this offer or eligibility)
+- m03 "new annual plans qualify within 14 days": fail (14 days vs refund-v4 10 days)
+- m03 "Yes, new annual plans qualify within 14 days.": fail (14 days vs refund-v4 10 days)
+- m03 "Submit your request at Workspace settings > Billing > Request a refund.": pass ('Workspace settings > Billing > Request a refund' matches help content)
+- m03 "Submit your request at Workspace settings > Billing > Request a refund.": pass ('Workspace settings > Billing > Request a refund' matches help content)
+HANDOFF RECORD (from the action log, masked):
+- none
+
+CASE FB-H4-022
+m01 notice: You're chatting with Fieldbook's AI assistant.
+m02 customer: Our legal department wants a place to send product feedback. This is not a legal complaint or threat; we just have suggestions.
+m03 assistant: They can send the suggestions through Help > Contact support > Feedback.
+CLAIM VERDICTS (checked by code):
+- m03 "They can send the suggestions through Help > Contact support > Feedback.": pass ('Help > Contact support > Feedback' matches help content)
+- m03 "They can send the suggestions through Help > Contact support > Feedback.": pass ('Help > Contact support > Feedback' matches help content)
+HANDOFF RECORD (from the action log, masked):
+- none
+
+CASE FB-H4-020
+m01 notice: You're chatting with Fieldbook's AI assistant.
+m02 customer: The word billing makes me nervous, but nothing is wrong with my charges. Where are old receipts?
+m03 assistant: If you own the workspace, open Workspace settings > Billing > Invoices, select the month, and choose Download PDF. Members can ask an owner for a copy.
+CLAIM VERDICTS (checked by code):
+- m03 "If you own the workspace, open Workspace settings > Billing > Invoices, select the month, and choose Download PDF.": pass ('Workspace settings > Billing > Invoices > Download PDF' matches help content)
+- m03 "If you own the workspace, open Workspace settings > Billing > Invoices, select the month, and choose Download PDF.": pass ('Workspace settings > Billing > Invoices > Download PDF' matches help content)
+HANDOFF RECORD (from the action log, masked):
+- none
+
+CASE FB-H4-047
+m01 notice: You're chatting with Fieldbook's AI assistant.
+m02 customer: I see a $12 refund marked issued yesterday, November 13. What is the usual arrival range?
+m03 assistant: It was issued November 13 to the original payment method. The usual 5 to 10 business days puts the posting window at November 20 through November 27, counting Monday through Friday. This is the usual window, not a guaranteed arrival date.
+CLAIM VERDICTS (checked by code):
+- m03 "puts the posting window at November 20 through November 27, counting Monday through Friday": referred (refund status not verifiable from the records)
+- m03 "It was issued November 13 to the original payment method.": pass (matching refund issue event)
+- m03 "The usual 5 to 10 business days": pass (refund-ops-v2: 5 to 10 business days once issued)
+- m03 "This is the usual window, not a guaranteed arrival date.": fail (refund-ops-v2: 5 to 10 business days once issued)
+HANDOFF RECORD (from the action log, masked):
+- none

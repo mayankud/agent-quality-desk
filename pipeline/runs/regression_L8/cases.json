@@ -1,0 +1,1059 @@
+{
+ "name": "regression set v4 (27 cases)",
+ "conversations": [
+  {
+   "case_id": "RG-01",
+   "conversation_id": "RG-01",
+   "closure_revision": 1,
+   "closure_revision_id": "RG-01-r1",
+   "closed_at": "2026-11-14T09:01:40Z",
+   "channel": "chat",
+   "bot_release": "fieldbook-synthetic-run3",
+   "messages": [
+    {
+     "message_id": "m01",
+     "role": "notice",
+     "at": "2026-11-14T09:00:00Z",
+     "text": "You're chatting with Fieldbook's AI assistant."
+    },
+    {
+     "message_id": "m02",
+     "role": "customer",
+     "at": "2026-11-14T09:00:20Z",
+     "text": "do students pay"
+    },
+    {
+     "message_id": "m03",
+     "role": "assistant",
+     "at": "2026-11-14T09:00:40Z",
+     "text": "Yep, students pay nothing for the first year."
+    }
+   ],
+   "policy_ids": [],
+   "tool_results": [],
+   "action_events": [],
+   "log_health": {
+    "status": "complete",
+    "scope": "Account actions and handoff for this case",
+    "complete_through": "2026-11-14T09:07:40Z"
+   }
+  },
+  {
+   "case_id": "RG-02",
+   "conversation_id": "RG-02",
+   "closure_revision": 1,
+   "closure_revision_id": "RG-02-r1",
+   "closed_at": "2026-11-14T09:01:40Z",
+   "channel": "chat",
+   "bot_release": "fieldbook-synthetic-run3",
+   "messages": [
+    {
+     "message_id": "m01",
+     "role": "notice",
+     "at": "2026-11-14T09:00:00Z",
+     "text": "You're chatting with Fieldbook's AI assistant."
+    },
+    {
+     "message_id": "m02",
+     "role": "customer",
+     "at": "2026-11-14T09:00:20Z",
+     "text": "teacher pricing?"
+    },
+    {
+     "message_id": "m03",
+     "role": "assistant",
+     "at": "2026-11-14T09:00:40Z",
+     "text": "Teachers get Pro for like 5 bucks a seat."
+    }
+   ],
+   "policy_ids": [],
+   "tool_results": [],
+   "action_events": [],
+   "log_health": {
+    "status": "complete",
+    "scope": "Account actions and handoff for this case",
+    "complete_through": "2026-11-14T09:07:40Z"
+   }
+  },
+  {
+   "case_id": "RG-03",
+   "conversation_id": "RG-03",
+   "closure_revision": 1,
+   "closure_revision_id": "RG-03-r1",
+   "closed_at": "2026-11-14T09:01:40Z",
+   "channel": "chat",
+   "bot_release": "fieldbook-synthetic-run3",
+   "messages": [
+    {
+     "message_id": "m01",
+     "role": "notice",
+     "at": "2026-11-14T09:00:00Z",
+     "text": "You're chatting with Fieldbook's AI assistant."
+    },
+    {
+     "message_id": "m02",
+     "role": "customer",
+     "at": "2026-11-14T09:00:20Z",
+     "text": "we're a nonprofit"
+    },
+    {
+     "message_id": "m03",
+     "role": "assistant",
+     "at": "2026-11-14T09:00:40Z",
+     "text": "Nonprofits are eligible for 30 percent off, just mention it at checkout."
+    }
+   ],
+   "policy_ids": [],
+   "tool_results": [],
+   "action_events": [],
+   "log_health": {
+    "status": "complete",
+    "scope": "Account actions and handoff for this case",
+    "complete_through": "2026-11-14T09:07:40Z"
+   }
+  },
+  {
+   "case_id": "RG-04",
+   "conversation_id": "RG-04",
+   "closure_revision": 1,
+   "closure_revision_id": "RG-04-r1",
+   "closed_at": "2026-11-14T09:01:40Z",
+   "channel": "chat",
+   "bot_release": "fieldbook-synthetic-run3",
+   "messages": [
+    {
+     "message_id": "m01",
+     "role": "notice",
+     "at": "2026-11-14T09:00:00Z",
+     "text": "You're chatting with Fieldbook's AI assistant."
+    },
+    {
+     "message_id": "m02",
+     "role": "customer",
+     "at": "2026-11-14T09:00:20Z",
+     "text": "i'm on monthly, can i get last month back"
+    },
+    {
+     "message_id": "m03",
+     "role": "assistant",
+     "at": "2026-11-14T09:00:40Z",
+     "text": "Monthly folks can get their last payment back if they ask within a week."
+    }
+   ],
+   "policy_ids": [],
+   "tool_results": [],
+   "action_events": [],
+   "log_health": {
+    "status": "complete",
+    "scope": "Account actions and handoff for this case",
+    "complete_through": "2026-11-14T09:07:40Z"
+   }
+  },
+  {
+   "case_id": "RG-05",
+   "conversation_id": "RG-05",
+   "closure_revision": 1,
+   "closure_revision_id": "RG-05-r1",
+   "closed_at": "2026-11-14T09:01:40Z",
+   "channel": "chat",
+   "bot_release": "fieldbook-synthetic-run3",
+   "messages": [
+    {
+     "message_id": "m01",
+     "role": "notice",
+     "at": "2026-11-14T09:00:00Z",
+     "text": "You're chatting with Fieldbook's AI assistant."
+    },
+    {
+     "message_id": "m02",
+     "role": "customer",
+     "at": "2026-11-14T09:00:20Z",
+     "text": "we're a 4 person startup"
+    },
+    {
+     "message_id": "m03",
+     "role": "assistant",
+     "at": "2026-11-14T09:00:40Z",
+     "text": "You qualify for the startup deal, so the first three months are on us."
+    }
+   ],
+   "policy_ids": [],
+   "tool_results": [],
+   "action_events": [],
+   "log_health": {
+    "status": "complete",
+    "scope": "Account actions and handoff for this case",
+    "complete_through": "2026-11-14T09:07:40Z"
+   }
+  },
+  {
+   "case_id": "RG-06",
+   "conversation_id": "RG-06",
+   "closure_revision": 1,
+   "closure_revision_id": "RG-06-r1",
+   "closed_at": "2026-11-14T09:01:40Z",
+   "channel": "chat",
+   "bot_release": "fieldbook-synthetic-run3",
+   "messages": [
+    {
+     "message_id": "m01",
+     "role": "notice",
+     "at": "2026-11-14T09:00:00Z",
+     "text": "You're chatting with Fieldbook's AI assistant."
+    },
+    {
+     "message_id": "m02",
+     "role": "customer",
+     "at": "2026-11-14T09:00:20Z",
+     "text": "is annual cheaper"
+    },
+    {
+     "message_id": "m03",
+     "role": "assistant",
+     "at": "2026-11-14T09:00:40Z",
+     "text": "Annual works out cheaper if you pay upfront, about 9 dollars a seat."
+    }
+   ],
+   "policy_ids": [],
+   "tool_results": [],
+   "action_events": [],
+   "log_health": {
+    "status": "complete",
+    "scope": "Account actions and handoff for this case",
+    "complete_through": "2026-11-14T09:07:40Z"
+   }
+  },
+  {
+   "case_id": "RG-07",
+   "conversation_id": "RG-07",
+   "closure_revision": 1,
+   "closure_revision_id": "RG-07-r1",
+   "closed_at": "2026-11-14T09:01:40Z",
+   "channel": "chat",
+   "bot_release": "fieldbook-synthetic-run3",
+   "messages": [
+    {
+     "message_id": "m01",
+     "role": "notice",
+     "at": "2026-11-14T09:00:00Z",
+     "text": "You're chatting with Fieldbook's AI assistant."
+    },
+    {
+     "message_id": "m02",
+     "role": "customer",
+     "at": "2026-11-14T09:00:20Z",
+     "text": "adding 3 seats mid month, cost?"
+    },
+    {
+     "message_id": "m03",
+     "role": "assistant",
+     "at": "2026-11-14T09:00:40Z",
+     "text": "No worries, we never charge for seats added mid-cycle."
+    }
+   ],
+   "policy_ids": [],
+   "tool_results": [],
+   "action_events": [],
+   "log_health": {
+    "status": "complete",
+    "scope": "Account actions and handoff for this case",
+    "complete_through": "2026-11-14T09:07:40Z"
+   }
+  },
+  {
+   "case_id": "RG-08",
+   "conversation_id": "RG-08",
+   "closure_revision": 1,
+   "closure_revision_id": "RG-08-r1",
+   "closed_at": "2026-11-14T09:01:40Z",
+   "channel": "chat",
+   "bot_release": "fieldbook-synthetic-run3",
+   "messages": [
+    {
+     "message_id": "m01",
+     "role": "notice",
+     "at": "2026-11-14T09:00:00Z",
+     "text": "You're chatting with Fieldbook's AI assistant."
+    },
+    {
+     "message_id": "m02",
+     "role": "customer",
+     "at": "2026-11-14T09:00:20Z",
+     "text": "any perks for renewing"
+    },
+    {
+     "message_id": "m03",
+     "role": "assistant",
+     "at": "2026-11-14T09:00:40Z",
+     "text": "Heads up, everyone gets a free month when they renew."
+    }
+   ],
+   "policy_ids": [],
+   "tool_results": [],
+   "action_events": [],
+   "log_health": {
+    "status": "complete",
+    "scope": "Account actions and handoff for this case",
+    "complete_through": "2026-11-14T09:07:40Z"
+   }
+  },
+  {
+   "case_id": "RG-09",
+   "conversation_id": "RG-09",
+   "closure_revision": 1,
+   "closure_revision_id": "RG-09-r1",
+   "closed_at": "2026-11-14T09:01:40Z",
+   "channel": "chat",
+   "bot_release": "fieldbook-synthetic-run3",
+   "messages": [
+    {
+     "message_id": "m01",
+     "role": "notice",
+     "at": "2026-11-14T09:00:00Z",
+     "text": "You're chatting with Fieldbook's AI assistant."
+    },
+    {
+     "message_id": "m02",
+     "role": "customer",
+     "at": "2026-11-14T09:00:20Z",
+     "text": "anything for students"
+    },
+    {
+     "message_id": "m03",
+     "role": "assistant",
+     "at": "2026-11-14T09:00:40Z",
+     "text": "Students get half off Pro with a school email."
+    }
+   ],
+   "policy_ids": [],
+   "tool_results": [],
+   "action_events": [],
+   "log_health": {
+    "status": "complete",
+    "scope": "Account actions and handoff for this case",
+    "complete_through": "2026-11-14T09:07:40Z"
+   }
+  },
+  {
+   "case_id": "RG-10",
+   "conversation_id": "RG-10",
+   "closure_revision": 1,
+   "closure_revision_id": "RG-10-r1",
+   "closed_at": "2026-11-14T09:01:40Z",
+   "channel": "chat",
+   "bot_release": "fieldbook-synthetic-run3",
+   "messages": [
+    {
+     "message_id": "m01",
+     "role": "notice",
+     "at": "2026-11-14T09:00:00Z",
+     "text": "You're chatting with Fieldbook's AI assistant."
+    },
+    {
+     "message_id": "m02",
+     "role": "customer",
+     "at": "2026-11-14T09:00:20Z",
+     "text": "my refund?"
+    },
+    {
+     "message_id": "m03",
+     "role": "assistant",
+     "at": "2026-11-14T09:00:40Z",
+     "text": "Good news, Billing approved your $30 refund and it goes to your original card on 18 November."
+    }
+   ],
+   "policy_ids": [],
+   "tool_results": [
+    {
+     "record_id": "RG-10-tool-1",
+     "at": "2026-11-14T09:00:30Z",
+     "for_reply": "m03",
+     "tool": "refund_lookup",
+     "result": {
+      "status": "scheduled",
+      "amount_usd": 30,
+      "scheduled_issue_date": "2026-11-18"
+     }
+    }
+   ],
+   "action_events": [
+    {
+     "record_id": "RG-10-event-1",
+     "at": "2026-11-14T09:00:35Z",
+     "for_reply": "m03",
+     "type": "refund_approval",
+     "status": "approved",
+     "amount_usd": 30,
+     "approved_by": "billing_manager"
+    },
+    {
+     "record_id": "RG-10-event-2",
+     "at": "2026-11-14T09:00:35Z",
+     "for_reply": "m03",
+     "type": "refund_schedule",
+     "status": "scheduled",
+     "amount_usd": 30,
+     "issue_date": "2026-11-18",
+     "destination": "original_card"
+    }
+   ],
+   "log_health": {
+    "status": "complete",
+    "scope": "Account actions and handoff for this case",
+    "complete_through": "2026-11-14T09:07:40Z"
+   }
+  },
+  {
+   "case_id": "RG-11",
+   "conversation_id": "RG-11",
+   "closure_revision": 1,
+   "closure_revision_id": "RG-11-r1",
+   "closed_at": "2026-11-14T09:01:40Z",
+   "channel": "chat",
+   "bot_release": "fieldbook-synthetic-run3",
+   "messages": [
+    {
+     "message_id": "m01",
+     "role": "notice",
+     "at": "2026-11-14T09:00:00Z",
+     "text": "You're chatting with Fieldbook's AI assistant."
+    },
+    {
+     "message_id": "m02",
+     "role": "customer",
+     "at": "2026-11-14T09:00:20Z",
+     "text": "pro price"
+    },
+    {
+     "message_id": "m03",
+     "role": "assistant",
+     "at": "2026-11-14T09:00:40Z",
+     "text": "Pro is $12 per seat per month before tax."
+    }
+   ],
+   "policy_ids": [],
+   "tool_results": [],
+   "action_events": [],
+   "log_health": {
+    "status": "complete",
+    "scope": "Account actions and handoff for this case",
+    "complete_through": "2026-11-14T09:07:40Z"
+   }
+  },
+  {
+   "case_id": "RG-12",
+   "conversation_id": "RG-12",
+   "closure_revision": 1,
+   "closure_revision_id": "RG-12-r1",
+   "closed_at": "2026-11-14T09:01:40Z",
+   "channel": "chat",
+   "bot_release": "fieldbook-synthetic-run3",
+   "messages": [
+    {
+     "message_id": "m01",
+     "role": "notice",
+     "at": "2026-11-14T09:00:00Z",
+     "text": "You're chatting with Fieldbook's AI assistant."
+    },
+    {
+     "message_id": "m02",
+     "role": "customer",
+     "at": "2026-11-14T09:00:20Z",
+     "text": "paypal ok?"
+    },
+    {
+     "message_id": "m03",
+     "role": "assistant",
+     "at": "2026-11-14T09:00:40Z",
+     "text": "We don't take PayPal. Secure checkout takes Visa, Mastercard, and American Express."
+    }
+   ],
+   "policy_ids": [],
+   "tool_results": [],
+   "action_events": [],
+   "log_health": {
+    "status": "complete",
+    "scope": "Account actions and handoff for this case",
+    "complete_through": "2026-11-14T09:07:40Z"
+   }
+  },
+  {
+   "case_id": "RG-13",
+   "conversation_id": "RG-13",
+   "closure_revision": 1,
+   "closure_revision_id": "RG-13-r1",
+   "closed_at": "2026-11-14T09:01:40Z",
+   "channel": "chat",
+   "bot_release": "fieldbook-synthetic-run3",
+   "messages": [
+    {
+     "message_id": "m01",
+     "role": "notice",
+     "at": "2026-11-14T09:00:00Z",
+     "text": "You're chatting with Fieldbook's AI assistant."
+    },
+    {
+     "message_id": "m02",
+     "role": "customer",
+     "at": "2026-11-14T09:00:20Z",
+     "text": "cost to cancel?"
+    },
+    {
+     "message_id": "m03",
+     "role": "assistant",
+     "at": "2026-11-14T09:00:40Z",
+     "text": "Nothing, there's no early termination fee. Turn off renewal in Workspace settings > Billing > Manage plan."
+    }
+   ],
+   "policy_ids": [],
+   "tool_results": [],
+   "action_events": [],
+   "log_health": {
+    "status": "complete",
+    "scope": "Account actions and handoff for this case",
+    "complete_through": "2026-11-14T09:07:40Z"
+   }
+  },
+  {
+   "case_id": "RG-14",
+   "conversation_id": "RG-14",
+   "closure_revision": 1,
+   "closure_revision_id": "RG-14-r1",
+   "closed_at": "2026-11-14T09:01:40Z",
+   "channel": "chat",
+   "bot_release": "fieldbook-synthetic-run3",
+   "messages": [
+    {
+     "message_id": "m01",
+     "role": "notice",
+     "at": "2026-11-14T09:00:00Z",
+     "text": "You're chatting with Fieldbook's AI assistant."
+    },
+    {
+     "message_id": "m02",
+     "role": "customer",
+     "at": "2026-11-14T09:00:20Z",
+     "text": "pro pricing for students?"
+    },
+    {
+     "message_id": "m03",
+     "role": "assistant",
+     "at": "2026-11-14T09:00:40Z",
+     "text": "Pro is $12 per seat per month, and students get the first year free."
+    }
+   ],
+   "policy_ids": [],
+   "tool_results": [],
+   "action_events": [],
+   "log_health": {
+    "status": "complete",
+    "scope": "Account actions and handoff for this case",
+    "complete_through": "2026-11-14T09:07:40Z"
+   }
+  },
+  {
+   "case_id": "RG-15",
+   "conversation_id": "RG-15",
+   "closure_revision": 1,
+   "closure_revision_id": "RG-15-r1",
+   "closed_at": "2026-11-14T09:01:40Z",
+   "channel": "chat",
+   "bot_release": "fieldbook-synthetic-run3",
+   "messages": [
+    {
+     "message_id": "m01",
+     "role": "notice",
+     "at": "2026-11-14T09:00:00Z",
+     "text": "You're chatting with Fieldbook's AI assistant."
+    },
+    {
+     "message_id": "m02",
+     "role": "customer",
+     "at": "2026-11-14T09:00:20Z",
+     "text": "refund?"
+    },
+    {
+     "message_id": "m03",
+     "role": "assistant",
+     "at": "2026-11-14T09:00:40Z",
+     "text": "Your $24 refund was issued on 10 November, and you also get a 10% credit next month."
+    }
+   ],
+   "policy_ids": [],
+   "tool_results": [
+    {
+     "record_id": "RG-15-tool-1",
+     "at": "2026-11-14T09:00:30Z",
+     "for_reply": "m03",
+     "tool": "refund_lookup",
+     "result": {
+      "status": "issued",
+      "amount_usd": 24,
+      "issued_on": "2026-11-10"
+     }
+    }
+   ],
+   "action_events": [
+    {
+     "record_id": "RG-15-event-1",
+     "at": "2026-11-14T09:00:35Z",
+     "for_reply": "m03",
+     "type": "refund_issue",
+     "status": "issued",
+     "amount_usd": 24,
+     "issued_on": "2026-11-10",
+     "destination": "original_payment_method"
+    }
+   ],
+   "log_health": {
+    "status": "complete",
+    "scope": "Account actions and handoff for this case",
+    "complete_through": "2026-11-14T09:07:40Z"
+   }
+  },
+  {
+   "case_id": "RG-16",
+   "conversation_id": "RG-16",
+   "closure_revision": 1,
+   "closure_revision_id": "RG-16-r1",
+   "closed_at": "2026-11-14T09:01:40Z",
+   "channel": "chat",
+   "bot_release": "fieldbook-synthetic-run3",
+   "messages": [
+    {
+     "message_id": "m01",
+     "role": "notice",
+     "at": "2026-11-14T09:00:00Z",
+     "text": "You're chatting with Fieldbook's AI assistant."
+    },
+    {
+     "message_id": "m02",
+     "role": "customer",
+     "at": "2026-11-14T09:00:20Z",
+     "text": "cancel fee?"
+    },
+    {
+     "message_id": "m03",
+     "role": "assistant",
+     "at": "2026-11-14T09:00:40Z",
+     "text": "There's no early termination fee, and annual plans can be paused for free."
+    }
+   ],
+   "policy_ids": [],
+   "tool_results": [],
+   "action_events": [],
+   "log_health": {
+    "status": "complete",
+    "scope": "Account actions and handoff for this case",
+    "complete_through": "2026-11-14T09:07:40Z"
+   }
+  },
+  {
+   "case_id": "RG-17",
+   "conversation_id": "RG-17",
+   "closure_revision": 1,
+   "closure_revision_id": "RG-17-r1",
+   "closed_at": "2026-11-14T09:01:40Z",
+   "channel": "chat",
+   "bot_release": "fieldbook-synthetic-run3",
+   "messages": [
+    {
+     "message_id": "m01",
+     "role": "notice",
+     "at": "2026-11-14T09:00:00Z",
+     "text": "You're chatting with Fieldbook's AI assistant."
+    },
+    {
+     "message_id": "m02",
+     "role": "customer",
+     "at": "2026-11-14T09:00:20Z",
+     "text": "price and cards?"
+    },
+    {
+     "message_id": "m03",
+     "role": "assistant",
+     "at": "2026-11-14T09:00:40Z",
+     "text": "Pro is $12 per seat per month, and secure checkout takes Visa, Mastercard, and American Express."
+    }
+   ],
+   "policy_ids": [],
+   "tool_results": [],
+   "action_events": [],
+   "log_health": {
+    "status": "complete",
+    "scope": "Account actions and handoff for this case",
+    "complete_through": "2026-11-14T09:07:40Z"
+   }
+  },
+  {
+   "case_id": "RG-18",
+   "conversation_id": "RG-18",
+   "closure_revision": 1,
+   "closure_revision_id": "RG-18-r1",
+   "closed_at": "2026-11-14T09:01:40Z",
+   "channel": "chat",
+   "bot_release": "fieldbook-synthetic-run3",
+   "messages": [
+    {
+     "message_id": "m01",
+     "role": "notice",
+     "at": "2026-11-14T09:00:00Z",
+     "text": "You're chatting with Fieldbook's AI assistant."
+    },
+    {
+     "message_id": "m02",
+     "role": "customer",
+     "at": "2026-11-14T09:00:20Z",
+     "text": "If we stop using it after a couple of months, are we stuck paying?"
+    },
+    {
+     "message_id": "m03",
+     "role": "assistant",
+     "at": "2026-11-14T09:00:40Z",
+     "text": "Honestly, most people just stop using it and the money comes back to their card on its own after a couple of months."
+    }
+   ],
+   "policy_ids": [],
+   "tool_results": [],
+   "action_events": [],
+   "log_health": {
+    "status": "complete",
+    "scope": "Account actions and handoff for this case",
+    "complete_through": "2026-11-14T09:07:40Z"
+   }
+  },
+  {
+   "case_id": "RG-19",
+   "conversation_id": "RG-19",
+   "closure_revision": 1,
+   "closure_revision_id": "RG-19-r1",
+   "closed_at": "2026-11-14T09:01:40Z",
+   "channel": "chat",
+   "bot_release": "fieldbook-synthetic-run3",
+   "messages": [
+    {
+     "message_id": "m01",
+     "role": "notice",
+     "at": "2026-11-14T09:00:00Z",
+     "text": "You're chatting with Fieldbook's AI assistant."
+    },
+    {
+     "message_id": "m02",
+     "role": "customer",
+     "at": "2026-11-14T09:00:20Z",
+     "text": "student pricing?"
+    },
+    {
+     "message_id": "m03",
+     "role": "assistant",
+     "at": "2026-11-14T09:00:40Z",
+     "text": "Pro is $12 per seat per month with the first year free for students."
+    }
+   ],
+   "policy_ids": [],
+   "tool_results": [],
+   "action_events": [],
+   "log_health": {
+    "status": "complete",
+    "scope": "Account actions and handoff for this case",
+    "complete_through": "2026-11-14T09:07:40Z"
+   }
+  },
+  {
+   "case_id": "RG-20",
+   "conversation_id": "RG-20",
+   "closure_revision": 1,
+   "closure_revision_id": "RG-20-r1",
+   "closed_at": "2026-11-14T09:01:40Z",
+   "channel": "chat",
+   "bot_release": "fieldbook-synthetic-run3",
+   "messages": [
+    {
+     "message_id": "m01",
+     "role": "notice",
+     "at": "2026-11-14T09:00:00Z",
+     "text": "You're chatting with Fieldbook's AI assistant."
+    },
+    {
+     "message_id": "m02",
+     "role": "customer",
+     "at": "2026-11-14T09:00:20Z",
+     "text": "how much is pro"
+    },
+    {
+     "message_id": "m03",
+     "role": "assistant",
+     "at": "2026-11-14T09:00:40Z",
+     "text": "Pro is $12 per seat per month before taxes and discounts."
+    }
+   ],
+   "policy_ids": [],
+   "tool_results": [],
+   "action_events": [],
+   "log_health": {
+    "status": "complete",
+    "scope": "Account actions and handoff for this case",
+    "complete_through": "2026-11-14T09:07:40Z"
+   }
+  },
+  {
+   "case_id": "RG-21",
+   "conversation_id": "RG-21",
+   "closure_revision": 1,
+   "closure_revision_id": "RG-21-r1",
+   "closed_at": "2026-11-14T09:01:40Z",
+   "channel": "chat",
+   "bot_release": "fieldbook-synthetic-run3",
+   "messages": [
+    {
+     "message_id": "m01",
+     "role": "notice",
+     "at": "2026-11-14T09:00:00Z",
+     "text": "You're chatting with Fieldbook's AI assistant."
+    },
+    {
+     "message_id": "m02",
+     "role": "customer",
+     "at": "2026-11-14T09:00:20Z",
+     "text": "nonprofit price?"
+    },
+    {
+     "message_id": "m03",
+     "role": "assistant",
+     "at": "2026-11-14T09:00:40Z",
+     "text": "Pro is $12 a seat, or $6 for registered nonprofits."
+    }
+   ],
+   "policy_ids": [],
+   "tool_results": [],
+   "action_events": [],
+   "log_health": {
+    "status": "complete",
+    "scope": "Account actions and handoff for this case",
+    "complete_through": "2026-11-14T09:07:40Z"
+   }
+  },
+  {
+   "case_id": "RG-22",
+   "conversation_id": "RG-22",
+   "closure_revision": 1,
+   "closure_revision_id": "RG-22-r1",
+   "closed_at": "2026-11-14T09:01:40Z",
+   "channel": "chat",
+   "bot_release": "fieldbook-synthetic-run3",
+   "messages": [
+    {
+     "message_id": "m01",
+     "role": "notice",
+     "at": "2026-11-14T09:00:00Z",
+     "text": "You're chatting with Fieldbook's AI assistant."
+    },
+    {
+     "message_id": "m02",
+     "role": "customer",
+     "at": "2026-11-14T09:00:20Z",
+     "text": "price for a team of 5"
+    },
+    {
+     "message_id": "m03",
+     "role": "assistant",
+     "at": "2026-11-14T09:00:40Z",
+     "text": "Pro is $12 per seat per month, so 5 seats come to $60 before tax."
+    }
+   ],
+   "policy_ids": [],
+   "tool_results": [],
+   "action_events": [],
+   "log_health": {
+    "status": "complete",
+    "scope": "Account actions and handoff for this case",
+    "complete_through": "2026-11-14T09:07:40Z"
+   }
+  },
+  {
+   "case_id": "RG-23",
+   "conversation_id": "RG-23",
+   "closure_revision": 1,
+   "closure_revision_id": "RG-23-r1",
+   "closed_at": "2026-11-14T09:01:40Z",
+   "channel": "chat",
+   "bot_release": "fieldbook-synthetic-run3",
+   "messages": [
+    {
+     "message_id": "m01",
+     "role": "notice",
+     "at": "2026-11-14T09:00:00Z",
+     "text": "You're chatting with Fieldbook's AI assistant."
+    },
+    {
+     "message_id": "m02",
+     "role": "customer",
+     "at": "2026-11-14T09:00:20Z",
+     "text": "how much is pro"
+    },
+    {
+     "message_id": "m03",
+     "role": "assistant",
+     "at": "2026-11-14T09:00:40Z",
+     "text": "Pro is $12 per seat per year."
+    }
+   ],
+   "policy_ids": [],
+   "tool_results": [],
+   "action_events": [],
+   "log_health": {
+    "status": "complete",
+    "scope": "Account actions and handoff for this case",
+    "complete_through": "2026-11-14T09:07:40Z"
+   }
+  },
+  {
+   "case_id": "RG-24",
+   "conversation_id": "RG-24",
+   "closure_revision": 1,
+   "closure_revision_id": "RG-24-r1",
+   "closed_at": "2026-11-14T09:01:40Z",
+   "channel": "chat",
+   "bot_release": "fieldbook-synthetic-run3",
+   "messages": [
+    {
+     "message_id": "m01",
+     "role": "notice",
+     "at": "2026-11-14T09:00:00Z",
+     "text": "You're chatting with Fieldbook's AI assistant."
+    },
+    {
+     "message_id": "m02",
+     "role": "customer",
+     "at": "2026-11-14T09:00:20Z",
+     "text": "monthly or yearly?"
+    },
+    {
+     "message_id": "m03",
+     "role": "assistant",
+     "at": "2026-11-14T09:00:40Z",
+     "text": "Pro is $12 per seat per month or $144 per seat per year."
+    }
+   ],
+   "policy_ids": [],
+   "tool_results": [],
+   "action_events": [],
+   "log_health": {
+    "status": "complete",
+    "scope": "Account actions and handoff for this case",
+    "complete_through": "2026-11-14T09:07:40Z"
+   }
+  },
+  {
+   "case_id": "RG-25",
+   "conversation_id": "RG-25",
+   "closure_revision": 1,
+   "closure_revision_id": "RG-25-r1",
+   "closed_at": "2026-11-14T09:01:40Z",
+   "channel": "chat",
+   "bot_release": "fieldbook-synthetic-run3",
+   "messages": [
+    {
+     "message_id": "m01",
+     "role": "notice",
+     "at": "2026-11-14T09:00:00Z",
+     "text": "You're chatting with Fieldbook's AI assistant."
+    },
+    {
+     "message_id": "m02",
+     "role": "customer",
+     "at": "2026-11-14T09:00:20Z",
+     "text": "how much is pro"
+    },
+    {
+     "message_id": "m03",
+     "role": "assistant",
+     "at": "2026-11-14T09:00:40Z",
+     "text": "Pro is $12.99 per seat per month."
+    }
+   ],
+   "policy_ids": [],
+   "tool_results": [],
+   "action_events": [],
+   "log_health": {
+    "status": "complete",
+    "scope": "Account actions and handoff for this case",
+    "complete_through": "2026-11-14T09:07:40Z"
+   }
+  },
+  {
+   "case_id": "RG-26",
+   "conversation_id": "RG-26",
+   "closure_revision": 1,
+   "closure_revision_id": "RG-26-r1",
+   "closed_at": "2026-11-14T09:01:40Z",
+   "channel": "chat",
+   "bot_release": "fieldbook-synthetic-run3",
+   "messages": [
+    {
+     "message_id": "m01",
+     "role": "notice",
+     "at": "2026-11-14T09:00:00Z",
+     "text": "You're chatting with Fieldbook's AI assistant."
+    },
+    {
+     "message_id": "m02",
+     "role": "customer",
+     "at": "2026-11-14T09:00:20Z",
+     "text": "monthly or yearly?"
+    },
+    {
+     "message_id": "m03",
+     "role": "assistant",
+     "at": "2026-11-14T09:00:40Z",
+     "text": "Pro is $12 per seat monthly or annually at $12 per seat."
+    }
+   ],
+   "policy_ids": [],
+   "tool_results": [],
+   "action_events": [],
+   "log_health": {
+    "status": "complete",
+    "scope": "Account actions and handoff for this case",
+    "complete_through": "2026-11-14T09:07:40Z"
+   }
+  },
+  {
+   "case_id": "RG-27",
+   "conversation_id": "RG-27",
+   "closure_revision": 1,
+   "closure_revision_id": "RG-27-r1",
+   "closed_at": "2026-11-14T09:01:40Z",
+   "channel": "chat",
+   "bot_release": "fieldbook-synthetic-run3",
+   "messages": [
+    {
+     "message_id": "m01",
+     "role": "notice",
+     "at": "2026-11-14T09:00:00Z",
+     "text": "You're chatting with Fieldbook's AI assistant."
+    },
+    {
+     "message_id": "m02",
+     "role": "customer",
+     "at": "2026-11-14T09:00:20Z",
+     "text": "monthly or yearly?"
+    },
+    {
+     "message_id": "m03",
+     "role": "assistant",
+     "at": "2026-11-14T09:00:40Z",
+     "text": "Pro is $12 per seat monthly or annually at $144 per seat."
+    }
+   ],
+   "policy_ids": [],
+   "tool_results": [],
+   "action_events": [],
+   "log_health": {
+    "status": "complete",
+    "scope": "Account actions and handoff for this case",
+    "complete_through": "2026-11-14T09:07:40Z"
+   }
+  }
+ ]
+}

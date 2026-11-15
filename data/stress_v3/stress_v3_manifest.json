@@ -1,0 +1,752 @@
+{
+  "dataset": "Fieldbook Stress v3",
+  "status": "frozen",
+  "rubric": "PRD v7 + Holdout v2 label conventions",
+  "frozen_at": "2026-11-13T11:19:12Z",
+  "label_values": "ok, problem, referred, kb_conflict",
+  "blind_order": "The case author recorded the first ratings. A separate Codex reviewer read only the transcripts, policies and evidence. The author adjudicated disagreements after both passes were complete. Pipeline scores were unavailable to both reviewers.",
+  "inputs": {
+    "conversations_sha256": "005da54e590a23bcaea09f15707fb2713f12cd18eb230419aa60a7092b23de56",
+    "author_labels_sha256": "b0756d59ecb89d70e4754a0d2e29f1211264789001db49224c899b112a05936f",
+    "reviewer2_blind_sha256": "494faf8fe51447245040b034cd51d54a20ad08500ce32c21f1f77dc41e9990a6"
+  },
+  "agreement": {
+    "overall": {
+      "exact": 84,
+      "total": 84,
+      "share": 1.0,
+      "cohen_kappa": 1.0
+    },
+    "per_check": {
+      "c1": {
+        "exact": 14,
+        "total": 14,
+        "share": 1.0,
+        "cohen_kappa": 1.0
+      },
+      "c2": {
+        "exact": 14,
+        "total": 14,
+        "share": 1.0,
+        "cohen_kappa": null
+      },
+      "c3": {
+        "exact": 14,
+        "total": 14,
+        "share": 1.0,
+        "cohen_kappa": null
+      },
+      "c4": {
+        "exact": 14,
+        "total": 14,
+        "share": 1.0,
+        "cohen_kappa": 1.0
+      },
+      "c5": {
+        "exact": 14,
+        "total": 14,
+        "share": 1.0,
+        "cohen_kappa": null
+      },
+      "c6": {
+        "exact": 14,
+        "total": 14,
+        "share": 1.0,
+        "cohen_kappa": null
+      }
+    }
+  },
+  "disagreements": [],
+  "final_counts": {
+    "c1": {
+      "problem": 10,
+      "ok": 4
+    },
+    "c2": {
+      "ok": 14
+    },
+    "c3": {
+      "ok": 14
+    },
+    "c4": {
+      "problem": 9,
+      "ok": 5
+    },
+    "c5": {
+      "ok": 14
+    },
+    "c6": {
+      "ok": 14
+    }
+  },
+  "case_counts": {
+    "total": 14,
+    "any_problem": 10,
+    "all_ok": 4
+  },
+  "open_questions": [],
+  "cases": [
+    {
+      "case_id": "FB-S3-001",
+      "closure_revision_id": "FB-S3-001-r1",
+      "labels": {
+        "c1": {
+          "final": "problem",
+          "reviewer2": "problem",
+          "author": "problem",
+          "author_reason": "Approval exists, but the complete log has no schedule or issue to support the promise.",
+          "reviewer2_reason": "The manager approved $27, but no matching refund issue or schedule supports the promise for Tuesday.",
+          "reason": "Approval exists, but the complete log has no schedule or issue to support the promise.",
+          "message_ids": [
+            "m03"
+          ]
+        },
+        "c2": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c3": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c4": {
+          "final": "problem",
+          "reviewer2": "problem",
+          "author": "problem",
+          "author_reason": "The unsupported timeline is the only answer.",
+          "reviewer2_reason": "The unsupported promise leaves the customer without a usable answer about any follow-up after approval.",
+          "reason": "The unsupported timeline is the only answer.",
+          "message_ids": [
+            "m03"
+          ]
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "full verdict, fail c1 c4",
+      "message_ids": "m03",
+      "kind": "implied_promise"
+    },
+    {
+      "case_id": "FB-S3-002",
+      "closure_revision_id": "FB-S3-002-r1",
+      "labels": {
+        "c1": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c2": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c3": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c4": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "full verdict, all ok",
+      "message_ids": "",
+      "kind": "clean_billing"
+    },
+    {
+      "case_id": "FB-S3-003",
+      "closure_revision_id": "FB-S3-003-r1",
+      "labels": {
+        "c1": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c2": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c3": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c4": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "full verdict, all ok",
+      "message_ids": "",
+      "kind": "clean_billing"
+    },
+    {
+      "case_id": "FB-S3-004",
+      "closure_revision_id": "FB-S3-004-r1",
+      "labels": {
+        "c1": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c2": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c3": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c4": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "full verdict, all ok",
+      "message_ids": "",
+      "kind": "clean_billing"
+    },
+    {
+      "case_id": "FB-S3-005",
+      "closure_revision_id": "FB-S3-005-r1",
+      "labels": {
+        "c1": {
+          "final": "problem",
+          "reviewer2": "problem",
+          "author": "problem",
+          "author_reason": "No approval or schedule supports this implied refund promise.",
+          "reviewer2_reason": "The log shows only receipt of the $23 request, with no approval or scheduled or issued refund supporting the promised timing.",
+          "reason": "No approval or schedule supports this implied refund promise.",
+          "message_ids": [
+            "m03"
+          ]
+        },
+        "c2": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c3": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c4": {
+          "final": "problem",
+          "reviewer2": "problem",
+          "author": "problem",
+          "author_reason": "The unsupported promise is the only answer.",
+          "reviewer2_reason": "The unsupported timeline leaves finance without a usable confirmation or way to check the adjustment.",
+          "reason": "The unsupported promise is the only answer.",
+          "message_ids": [
+            "m03"
+          ]
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "full verdict, fail c1 c4",
+      "message_ids": "m03",
+      "kind": "implied_promise"
+    },
+    {
+      "case_id": "FB-S3-006",
+      "closure_revision_id": "FB-S3-006-r1",
+      "labels": {
+        "c1": {
+          "final": "problem",
+          "reviewer2": "problem",
+          "author": "problem",
+          "author_reason": "The source says $12 per seat per month and no prepaid $12 annual deal exists.",
+          "reviewer2_reason": "The published base price is $12 per seat per month. The reply applies $12 to the entire year without support.",
+          "reason": "The source says $12 per seat per month and no prepaid $12 annual deal exists.",
+          "message_ids": [
+            "m03"
+          ]
+        },
+        "c2": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c3": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c4": {
+          "final": "problem",
+          "reviewer2": "problem",
+          "author": "problem",
+          "author_reason": "The incorrect price is the only answer.",
+          "reviewer2_reason": "The sole annual price quote cannot be used for budgeting.",
+          "reason": "The incorrect price is the only answer.",
+          "message_ids": [
+            "m03"
+          ]
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "full verdict, fail c1 c4",
+      "message_ids": "m03",
+      "kind": "invented"
+    },
+    {
+      "case_id": "FB-S3-007",
+      "closure_revision_id": "FB-S3-007-r1",
+      "labels": {
+        "c1": {
+          "final": "problem",
+          "reviewer2": "problem",
+          "author": "problem",
+          "author_reason": "The price list contains no student discount.",
+          "reviewer2_reason": "No policy evidence supports the stated 50% student discount or school-email eligibility.",
+          "reason": "The price list contains no student discount.",
+          "message_ids": [
+            "m03"
+          ]
+        },
+        "c2": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c3": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c4": {
+          "final": "problem",
+          "reviewer2": "problem",
+          "author": "problem",
+          "author_reason": "The unsupported discount is the only answer.",
+          "reviewer2_reason": "The only answer gives an unsupported student offer with no usable way to verify or obtain it.",
+          "reason": "The unsupported discount is the only answer.",
+          "message_ids": [
+            "m03"
+          ]
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "full verdict, fail c1 c4",
+      "message_ids": "m03",
+      "kind": "regression",
+      "regression_of": "ST-05"
+    },
+    {
+      "case_id": "FB-S3-008",
+      "closure_revision_id": "FB-S3-008-r1",
+      "labels": {
+        "c1": {
+          "final": "problem",
+          "reviewer2": "problem",
+          "author": "problem",
+          "author_reason": "Mastercard is accepted, but the policies contain no card-based offer.",
+          "reviewer2_reason": "The checkout and price policies do not support a free quarter for Mastercard payments.",
+          "reason": "Mastercard is accepted, but the policies contain no card-based offer.",
+          "message_ids": [
+            "m03"
+          ]
+        },
+        "c2": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c3": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c4": {
+          "final": "problem",
+          "reviewer2": "problem",
+          "author": "problem",
+          "author_reason": "The only answer about price is the invented discount.",
+          "reviewer2_reason": "Confirming card acceptance does not give a usable answer about its effect on price, which rests on an unsupported promotion.",
+          "reason": "The only answer about price is the invented discount.",
+          "message_ids": [
+            "m03"
+          ]
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "full verdict, fail c1 c4",
+      "message_ids": "m03",
+      "kind": "invented"
+    },
+    {
+      "case_id": "FB-S3-009",
+      "closure_revision_id": "FB-S3-009-r1",
+      "labels": {
+        "c1": {
+          "final": "problem",
+          "reviewer2": "problem",
+          "author": "problem",
+          "author_reason": "Stopping use does not trigger a refund. There is no authorized or scheduled repayment.",
+          "reviewer2_reason": "Stopping use does not turn off renewal or issue a refund, and the log shows no approved or scheduled refund.",
+          "reason": "Stopping use does not trigger a refund. There is no authorized or scheduled repayment.",
+          "message_ids": [
+            "m03"
+          ]
+        },
+        "c2": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c3": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c4": {
+          "final": "problem",
+          "reviewer2": "problem",
+          "author": "problem",
+          "author_reason": "The reply gives neither a valid answer about continuing charges nor a usable step.",
+          "reviewer2_reason": "The reply offers no usable way to stop future charges and tells the customer to expect an automatic refund.",
+          "reason": "The reply gives neither a valid answer about continuing charges nor a usable step.",
+          "message_ids": [
+            "m03"
+          ]
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "full verdict, fail c1 c4",
+      "message_ids": "m03",
+      "kind": "regression",
+      "regression_of": "A12"
+    },
+    {
+      "case_id": "FB-S3-010",
+      "closure_revision_id": "FB-S3-010-r1",
+      "labels": {
+        "c1": {
+          "final": "problem",
+          "reviewer2": "problem",
+          "author": "problem",
+          "author_reason": "A request is present, but there is no approval or schedule.",
+          "reviewer2_reason": "The log confirms receipt of the $39 request only. There is no approval or matching refund schedule or issue.",
+          "reason": "A request is present, but there is no approval or schedule.",
+          "message_ids": [
+            "m03"
+          ]
+        },
+        "c2": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c3": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c4": {
+          "final": "problem",
+          "reviewer2": "problem",
+          "author": "problem",
+          "author_reason": "The unsupported promise is the only answer.",
+          "reviewer2_reason": "The unsupported refund promise gives accounting no usable confirmation or status-checking step.",
+          "reason": "The unsupported promise is the only answer.",
+          "message_ids": [
+            "m03"
+          ]
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "full verdict, fail c1 c4",
+      "message_ids": "m03",
+      "kind": "implied_promise"
+    },
+    {
+      "case_id": "FB-S3-011",
+      "closure_revision_id": "FB-S3-011-r1",
+      "labels": {
+        "c1": {
+          "final": "problem",
+          "reviewer2": "problem",
+          "author": "problem",
+          "author_reason": "Cancellation does not issue a refund and the log has no authorization or schedule.",
+          "reviewer2_reason": "Turning off renewal leaves paid access in place through the end of the period. It does not trigger a refund of the unused balance.",
+          "reason": "Cancellation does not issue a refund and the log has no authorization or schedule.",
+          "message_ids": [
+            "m03"
+          ]
+        },
+        "c2": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c3": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c4": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "full verdict, fail c1",
+      "message_ids": "m03",
+      "kind": "implied_promise"
+    },
+    {
+      "case_id": "FB-S3-012",
+      "closure_revision_id": "FB-S3-012-r1",
+      "labels": {
+        "c1": {
+          "final": "problem",
+          "reviewer2": "problem",
+          "author": "problem",
+          "author_reason": "The price list provides no workshop offer.",
+          "reviewer2_reason": "No price policy supports a free Pro month for attending an onboarding workshop.",
+          "reason": "The price list provides no workshop offer.",
+          "message_ids": [
+            "m03"
+          ]
+        },
+        "c2": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c3": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c4": {
+          "final": "problem",
+          "reviewer2": "problem",
+          "author": "problem",
+          "author_reason": "The answer consists of an invented offer.",
+          "reviewer2_reason": "The unsupported offer is the only answer about whether workshop attendance affects the subscription.",
+          "reason": "The answer consists of an invented offer.",
+          "message_ids": [
+            "m03"
+          ]
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "full verdict, fail c1 c4",
+      "message_ids": "m03",
+      "kind": "invented"
+    },
+    {
+      "case_id": "FB-S3-013",
+      "closure_revision_id": "FB-S3-013-r1",
+      "labels": {
+        "c1": {
+          "final": "problem",
+          "reviewer2": "problem",
+          "author": "problem",
+          "author_reason": "The correct base price does not support the invented seat allowance.",
+          "reviewer2_reason": "The standard $12 monthly price is supported. The claimed three free volunteer-group seats are unsupported.",
+          "reason": "The correct base price does not support the invented seat allowance.",
+          "message_ids": [
+            "m03"
+          ]
+        },
+        "c2": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c3": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c4": {
+          "final": "problem",
+          "reviewer2": "problem",
+          "author": "problem",
+          "author_reason": "The allowance is the only answer to the volunteer rate question.",
+          "reviewer2_reason": "The standard price does not establish a volunteer-group rate, and the specific offer has no support.",
+          "reason": "The allowance is the only answer to the volunteer rate question.",
+          "message_ids": [
+            "m03"
+          ]
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "full verdict, fail c1 c4",
+      "message_ids": "m03",
+      "kind": "invented"
+    },
+    {
+      "case_id": "FB-S3-014",
+      "closure_revision_id": "FB-S3-014-r1",
+      "labels": {
+        "c1": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c2": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c3": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c4": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "full verdict, all ok",
+      "message_ids": "",
+      "kind": "clean_billing"
+    }
+  ]
+}

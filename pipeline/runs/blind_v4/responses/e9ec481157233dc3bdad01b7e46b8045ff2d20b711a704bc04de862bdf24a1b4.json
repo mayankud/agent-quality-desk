@@ -1,0 +1,6 @@
+{
+ "request_sha256": "e9ec481157233dc3bdad01b7e46b8045ff2d20b711a704bc04de862bdf24a1b4",
+ "agent_id": "agent-for-e9ec48115723",
+ "received_at_utc": "2026-11-15T12:20:58Z",
+ "raw_response": "{\"cases\":[{\"case_id\":\"FB-H4-031\",\"resolution\":{\"value\":\"yes\",\"message_id\":\"m03\",\"reason\":\"The refund request path passed its check and lets the customer act, even though the 14-day window failed.\"},\"tone\":{\"value\":\"ok\",\"message_id\":\"m03\",\"reason\":\"Neutral and helpful wording, no sarcasm, blame or dismissal.\"},\"handoff_context\":\"not_applicable\"},{\"case_id\":\"FB-S4-012\",\"resolution\":{\"value\":\"yes\",\"message_id\":\"m03\",\"reason\":\"The duplicate-charge report was queued to billing with the receipt, giving a usable next step.\"},\"tone\":{\"value\":\"ok\",\"message_id\":\"m03\",\"reason\":\"Clear and respectful, no blame or brush-off.\"},\"handoff_context\":\"covers\"}]}"
+}

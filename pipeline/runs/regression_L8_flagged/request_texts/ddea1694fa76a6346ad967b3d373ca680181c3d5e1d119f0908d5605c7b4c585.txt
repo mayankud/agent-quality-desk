@@ -1,0 +1,156 @@
+You are a scoring component in a test harness. You have no other role.
+Rules:
+1. Your only tool actions are the ones the launcher named: one read of this request file and one write of your reply file. Read, list, search, run or look up nothing else.
+2. Use only the text of this request. Do not use any conversation, file or result from outside this request.
+3. Your reply file must contain exactly one JSON object that matches the schema below. No prose before or after it. No markdown fences.
+4. If you cannot do the task for a case, still return that case with empty lists and set "note" to the reason.
+
+TASK INSTRUCTIONS
+Each case below is one Fieldbook support conversation (personal data masked as [TYPE]) followed by the claim verdicts that code has already checked against Fieldbook's records, and the handoff record if one exists.
+Use the verdicts as given. Do not re-check facts. For every case return:
+1. resolution: "no" only when the customer is left with no usable answer or next step: the question goes unanswered, the assistant loops, a request for a person is refused or ignored, the reply repeats a step the customer said already failed, or every answer and step in the reply failed its check or is unsafe. If the reply gives at least one step or path that passed its check (or was not checked) and lets the customer get, check or act on what they asked about, resolution is "yes", even when a stated amount, date, window or status failed. Wrong facts are scored by check 1, not here. Give message_id and a one-line reason.
+2. tone: "problem" only if the wording of an assistant message is sarcastic, blames the customer, or brushes off their concern (for example "that is not our problem" or "calm down"). Sending the customer to the wrong place or missing a handoff is scored elsewhere, not as tone. Otherwise "ok". Give message_id and a one-line reason.
+3. handoff_context: read the HANDOFF RECORD listed after the conversation. If it lists a handoff, answer "covers" when its context tells the person receiving it what the customer needs (and what was already tried, if anything was), or "missing" when the context is empty or describes a different issue. Answer "not_applicable" only when the HANDOFF RECORD says none.
+
+JSON SCHEMA
+{
+ "additionalProperties": false,
+ "properties": {
+  "cases": {
+   "items": {
+    "additionalProperties": false,
+    "properties": {
+     "case_id": {
+      "type": "string"
+     },
+     "handoff_context": {
+      "enum": [
+       "covers",
+       "missing",
+       "not_applicable"
+      ]
+     },
+     "note": {
+      "type": "string"
+     },
+     "resolution": {
+      "additionalProperties": false,
+      "properties": {
+       "message_id": {
+        "type": [
+         "string",
+         "null"
+        ]
+       },
+       "reason": {
+        "type": "string"
+       },
+       "value": {
+        "enum": [
+         "yes",
+         "no"
+        ]
+       }
+      },
+      "required": [
+       "value",
+       "message_id",
+       "reason"
+      ],
+      "type": "object"
+     },
+     "tone": {
+      "additionalProperties": false,
+      "properties": {
+       "message_id": {
+        "type": [
+         "string",
+         "null"
+        ]
+       },
+       "reason": {
+        "type": "string"
+       },
+       "value": {
+        "enum": [
+         "ok",
+         "problem"
+        ]
+       }
+      },
+      "required": [
+       "value",
+       "message_id",
+       "reason"
+      ],
+      "type": "object"
+     }
+    },
+    "required": [
+     "case_id",
+     "resolution",
+     "tone",
+     "handoff_context"
+    ],
+    "type": "object"
+   },
+   "type": "array"
+  }
+ },
+ "required": [
+  "cases"
+ ],
+ "type": "object"
+}
+
+INPUT
+CASE RG-14
+m01 notice: You're chatting with Fieldbook's AI assistant.
+m02 customer: pro pricing for students?
+m03 assistant: Pro is $12 per seat per month, and students get the first year free.
+CLAIM VERDICTS (checked by code):
+- m03 "students get the first year free": referred (unsupported claim part: no source grants this offer or eligibility)
+- m03 "students get the first year free": referred (unsupported claim part: no source grants this offer or eligibility)
+- m03 "Pro is $12 per seat per month": pass ($12 per seat per month vs price-v3 $12 per seat per month)
+HANDOFF RECORD (from the action log, masked):
+- none
+
+CASE RG-04
+m01 notice: You're chatting with Fieldbook's AI assistant.
+m02 customer: i'm on monthly, can i get last month back
+m03 assistant: Monthly folks can get their last payment back if they ask within a week.
+CLAIM VERDICTS (checked by code):
+- m03 "Monthly folks can get their last payment back if they ask within a week.": fail (monthly charges need a billing manager's approval (refund-v4))
+HANDOFF RECORD (from the action log, masked):
+- none
+
+CASE RG-26
+m01 notice: You're chatting with Fieldbook's AI assistant.
+m02 customer: monthly or yearly?
+m03 assistant: Pro is $12 per seat monthly or annually at $12 per seat.
+CLAIM VERDICTS (checked by code):
+- m03 "annually at $12 per seat": fail ($12 per seat per year vs price-v3 $12 per seat per month)
+- m03 "Pro is $12 per seat monthly": pass ($12 per seat per month vs price-v3 $12 per seat per month)
+HANDOFF RECORD (from the action log, masked):
+- none
+
+CASE RG-01
+m01 notice: You're chatting with Fieldbook's AI assistant.
+m02 customer: do students pay
+m03 assistant: Yep, students pay nothing for the first year.
+CLAIM VERDICTS (checked by code):
+- m03 "students pay nothing for the first year": referred (unsupported claim part: no source grants this offer or eligibility)
+- m03 "Yep, students pay nothing for the first year.": referred (unsupported claim part: no source grants this offer or eligibility)
+HANDOFF RECORD (from the action log, masked):
+- none
+
+CASE RG-21
+m01 notice: You're chatting with Fieldbook's AI assistant.
+m02 customer: nonprofit price?
+m03 assistant: Pro is $12 a seat, or $6 for registered nonprofits.
+CLAIM VERDICTS (checked by code):
+- m03 "$6 for registered nonprofits": fail ($6 per seat per month (no period stated) vs price-v3 $12 per seat per month)
+- m03 "or $6 for registered nonprofits": fail ($6 per seat per month (no period stated) vs price-v3 $12 per seat per month)
+- m03 "Pro is $12 a seat": pass ($12 per seat per month (no period stated) vs price-v3 $12 per seat per month)
+HANDOFF RECORD (from the action log, masked):
+- none

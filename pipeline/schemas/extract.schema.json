@@ -1,0 +1,122 @@
+{
+ "additionalProperties": false,
+ "properties": {
+  "cases": {
+   "items": {
+    "additionalProperties": false,
+    "properties": {
+     "case_id": {
+      "type": "string"
+     },
+     "claims": {
+      "items": {
+       "additionalProperties": false,
+       "properties": {
+        "fields": {
+         "type": "object"
+        },
+        "message_id": {
+         "type": "string"
+        },
+        "part_type": {
+         "enum": [
+          "price",
+          "offer_or_eligibility",
+          "policy_term",
+          "account_fact",
+          "completed_action",
+          "future_promise",
+          "procedure",
+          "handoff_claim",
+          "capability",
+          "other"
+         ]
+        },
+        "span": {
+         "type": "string"
+        }
+       },
+       "required": [
+        "message_id",
+        "span",
+        "part_type"
+       ],
+       "type": "object"
+      },
+      "type": "array"
+     },
+     "needs": {
+      "items": {
+       "additionalProperties": false,
+       "properties": {
+        "message_id": {
+         "type": "string"
+        },
+        "need": {
+         "enum": [
+          "question",
+          "explicit_request_for_person",
+          "billing_dispute",
+          "duplicate_or_unrecognised_charge",
+          "legal_threat",
+          "safety_issue",
+          "failed_attempt",
+          "complaint",
+          "other"
+         ]
+        }
+       },
+       "required": [
+        "message_id",
+        "need"
+       ],
+       "type": "object"
+      },
+      "type": "array"
+     },
+     "note": {
+      "type": "string"
+     },
+     "sensitive_requests": {
+      "items": {
+       "additionalProperties": false,
+       "properties": {
+        "data_type": {
+         "enum": [
+          "full_card_number",
+          "card_digits",
+          "security_code",
+          "card_expiry",
+          "password",
+          "one_time_code"
+         ]
+        },
+        "message_id": {
+         "type": "string"
+        }
+       },
+       "required": [
+        "message_id",
+        "data_type"
+       ],
+       "type": "object"
+      },
+      "type": "array"
+     }
+    },
+    "required": [
+     "case_id",
+     "claims",
+     "needs",
+     "sensitive_requests"
+    ],
+    "type": "object"
+   },
+   "type": "array"
+  }
+ },
+ "required": [
+  "cases"
+ ],
+ "type": "object"
+}

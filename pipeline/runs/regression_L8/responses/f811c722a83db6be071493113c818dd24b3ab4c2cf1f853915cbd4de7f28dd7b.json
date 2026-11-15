@@ -1,0 +1,6 @@
+{
+ "request_sha256": "f811c722a83db6be071493113c818dd24b3ab4c2cf1f853915cbd4de7f28dd7b",
+ "agent_id": "agent-for-f811c722a83d",
+ "received_at_utc": "2026-11-15T11:47:23Z",
+ "raw_response": "{\"cases\":[{\"case_id\":\"RG-11\",\"resolution\":{\"value\":\"yes\",\"message_id\":\"m03\",\"reason\":\"Directly answers the Pro price question with a verified figure.\"},\"tone\":{\"value\":\"ok\",\"message_id\":\"m03\",\"reason\":\"Neutral, factual wording.\"},\"handoff_context\":\"not_applicable\"},{\"case_id\":\"RG-10\",\"resolution\":{\"value\":\"yes\",\"message_id\":\"m03\",\"reason\":\"Confirms refund approval, amount, destination and date, all verified.\"},\"tone\":{\"value\":\"ok\",\"message_id\":\"m03\",\"reason\":\"Positive, helpful wording.\"},\"handoff_context\":\"not_applicable\"}]}"
+}

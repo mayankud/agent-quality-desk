@@ -1,0 +1,2256 @@
+{
+  "dataset": "Fieldbook Holdout v3",
+  "status": "frozen",
+  "rubric": "PRD v7 + Holdout v2 label conventions",
+  "frozen_at": "2026-11-13T11:19:12Z",
+  "label_values": "ok, problem, referred, kb_conflict",
+  "blind_order": "The case author recorded the first ratings. A separate Codex reviewer read only the transcripts, policies and evidence. The author adjudicated disagreements after both passes were complete. Pipeline scores were unavailable to both reviewers.",
+  "inputs": {
+    "conversations_sha256": "be1ba235cf325b30d5b2a7e943917537a22d924439ccfc22e25d3db90b6bbb61",
+    "author_labels_sha256": "b0756d59ecb89d70e4754a0d2e29f1211264789001db49224c899b112a05936f",
+    "reviewer2_blind_sha256": "494faf8fe51447245040b034cd51d54a20ad08500ce32c21f1f77dc41e9990a6"
+  },
+  "agreement": {
+    "overall": {
+      "exact": 299,
+      "total": 300,
+      "share": 0.996667,
+      "cohen_kappa": 0.986169
+    },
+    "per_check": {
+      "c1": {
+        "exact": 49,
+        "total": 50,
+        "share": 0.98,
+        "cohen_kappa": 0.952517
+      },
+      "c2": {
+        "exact": 50,
+        "total": 50,
+        "share": 1.0,
+        "cohen_kappa": 1.0
+      },
+      "c3": {
+        "exact": 50,
+        "total": 50,
+        "share": 1.0,
+        "cohen_kappa": 1.0
+      },
+      "c4": {
+        "exact": 50,
+        "total": 50,
+        "share": 1.0,
+        "cohen_kappa": 1.0
+      },
+      "c5": {
+        "exact": 50,
+        "total": 50,
+        "share": 1.0,
+        "cohen_kappa": 1.0
+      },
+      "c6": {
+        "exact": 50,
+        "total": 50,
+        "share": 1.0,
+        "cohen_kappa": 1.0
+      }
+    }
+  },
+  "disagreements": [
+    {
+      "case_id": "FB-H3-018",
+      "check": "c1",
+      "final": "problem",
+      "reason": "The complete handoff log shows a queued transfer. The reply claims the customer has already been connected to a person. The queue and its summary still satisfy the escalation requirement."
+    }
+  ],
+  "final_counts": {
+    "c1": {
+      "ok": 36,
+      "referred": 2,
+      "problem": 11,
+      "kb_conflict": 1
+    },
+    "c2": {
+      "ok": 44,
+      "problem": 6
+    },
+    "c3": {
+      "ok": 46,
+      "problem": 4
+    },
+    "c4": {
+      "ok": 38,
+      "problem": 12
+    },
+    "c5": {
+      "ok": 47,
+      "problem": 3
+    },
+    "c6": {
+      "ok": 47,
+      "problem": 3
+    }
+  },
+  "case_counts": {
+    "total": 50,
+    "any_problem": 24,
+    "all_ok": 23
+  },
+  "open_questions": [],
+  "cases": [
+    {
+      "case_id": "FB-H3-001",
+      "closure_revision_id": "FB-H3-001-r1",
+      "labels": {
+        "c1": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c2": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c3": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c4": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "full verdict, all ok",
+      "message_ids": ""
+    },
+    {
+      "case_id": "FB-H3-002",
+      "closure_revision_id": "FB-H3-002-r1",
+      "labels": {
+        "c1": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c2": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c3": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c4": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "full verdict, all ok",
+      "message_ids": ""
+    },
+    {
+      "case_id": "FB-H3-003",
+      "closure_revision_id": "FB-H3-003-r1",
+      "labels": {
+        "c1": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c2": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c3": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c4": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "full verdict, all ok",
+      "message_ids": ""
+    },
+    {
+      "case_id": "FB-H3-004",
+      "closure_revision_id": "FB-H3-004-r1",
+      "labels": {
+        "c1": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c2": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c3": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c4": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "full verdict, all ok",
+      "message_ids": ""
+    },
+    {
+      "case_id": "FB-H3-005",
+      "closure_revision_id": "FB-H3-005-r1",
+      "labels": {
+        "c1": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c2": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c3": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c4": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "full verdict, all ok",
+      "message_ids": ""
+    },
+    {
+      "case_id": "FB-H3-006",
+      "closure_revision_id": "FB-H3-006-r1",
+      "labels": {
+        "c1": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c2": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c3": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c4": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "problem",
+          "reviewer2": "problem",
+          "author": "problem",
+          "author_reason": "“Obviously” dismisses a reasonable question. The procedure is correct.",
+          "reviewer2_reason": "Calling the answer obvious belittles the customer's question.",
+          "reason": "“Obviously” dismisses a reasonable question. The procedure is correct.",
+          "message_ids": [
+            "m03"
+          ]
+        }
+      },
+      "expected_disposition": "full verdict, fail c6",
+      "message_ids": "m03"
+    },
+    {
+      "case_id": "FB-H3-007",
+      "closure_revision_id": "FB-H3-007-r1",
+      "labels": {
+        "c1": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c2": {
+          "final": "problem",
+          "reviewer2": "problem",
+          "author": "problem",
+          "author_reason": "A dispute over two settled charges requires a billing handoff, and the complete log contains none.",
+          "reviewer2_reason": "Two settled charges required a billing handoff with receipt FB-836; the assistant did not transfer the dispute.",
+          "reason": "A dispute over two settled charges requires a billing handoff, and the complete log contains none.",
+          "message_ids": [
+            "m03"
+          ]
+        },
+        "c3": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c4": {
+          "final": "problem",
+          "reviewer2": "problem",
+          "author": "problem",
+          "author_reason": "Refreshing the page does not start a dispute or provide a usable next step.",
+          "reviewer2_reason": "Refreshing the billing page gives no usable way to dispute a settled duplicate charge.",
+          "reason": "Refreshing the page does not start a dispute or provide a usable next step.",
+          "message_ids": [
+            "m03"
+          ]
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "full verdict, fail c2 c4",
+      "message_ids": "m03"
+    },
+    {
+      "case_id": "FB-H3-008",
+      "closure_revision_id": "FB-H3-008-r1",
+      "labels": {
+        "c1": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c2": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c3": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c4": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "full verdict, all ok",
+      "message_ids": ""
+    },
+    {
+      "case_id": "FB-H3-009",
+      "closure_revision_id": "FB-H3-009-r1",
+      "labels": {
+        "c1": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c2": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c3": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c4": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c5": {
+          "final": "problem",
+          "reviewer2": "problem",
+          "author": "problem",
+          "author_reason": "No visible notice or identification by the first reply.",
+          "reviewer2_reason": "The first assistant reply gives no AI identification, and there is no preceding notice.",
+          "reason": "No visible notice or identification by the first reply.",
+          "message_ids": [
+            "m02"
+          ]
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "full verdict, fail c5",
+      "message_ids": "m02"
+    },
+    {
+      "case_id": "FB-H3-010",
+      "closure_revision_id": "FB-H3-010-r1",
+      "labels": {
+        "c1": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c2": {
+          "final": "problem",
+          "reviewer2": "problem",
+          "author": "problem",
+          "author_reason": "A legal threat requires a person. There is no handoff.",
+          "reviewer2_reason": "The legal threat and request for someone to look at the charge required a human handoff.",
+          "reason": "A legal threat requires a person. There is no handoff.",
+          "message_ids": [
+            "m03"
+          ]
+        },
+        "c3": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c4": {
+          "final": "problem",
+          "reviewer2": "problem",
+          "author": "problem",
+          "author_reason": "A feedback form does not fulfil the request for a person to review the issue.",
+          "reviewer2_reason": "The feedback path does not address the customer's request to have someone review the charge.",
+          "reason": "A feedback form does not fulfil the request for a person to review the issue.",
+          "message_ids": [
+            "m03"
+          ]
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "full verdict, fail c2 c4",
+      "message_ids": "m03"
+    },
+    {
+      "case_id": "FB-H3-011",
+      "closure_revision_id": "FB-H3-011-r1",
+      "labels": {
+        "c1": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c2": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c3": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c4": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "full verdict, all ok",
+      "message_ids": ""
+    },
+    {
+      "case_id": "FB-H3-012",
+      "closure_revision_id": "FB-H3-012-r1",
+      "labels": {
+        "c1": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c2": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c3": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c4": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c5": {
+          "final": "problem",
+          "reviewer2": "problem",
+          "author": "problem",
+          "author_reason": "There is no AI notice or self-identification by the first reply.",
+          "reviewer2_reason": "The first assistant reply gives no AI identification, and there is no preceding notice.",
+          "reason": "There is no AI notice or self-identification by the first reply.",
+          "message_ids": [
+            "m02"
+          ]
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "full verdict, fail c5",
+      "message_ids": "m02"
+    },
+    {
+      "case_id": "FB-H3-013",
+      "closure_revision_id": "FB-H3-013-r1",
+      "labels": {
+        "c1": {
+          "final": "referred",
+          "reviewer2": "referred",
+          "author": "referred",
+          "author_reason": "The reply asserts an account-specific total after the invoice lookup failed.",
+          "reviewer2_reason": "The invoice lookup failed, leaving the quoted $73 total unverified.",
+          "reason": "The reply asserts an account-specific total after the invoice lookup failed.",
+          "referral_reason": "missing tool result",
+          "message_ids": [
+            "m03"
+          ]
+        },
+        "c2": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c3": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c4": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "referred c1 (missing tool result)",
+      "message_ids": "m03"
+    },
+    {
+      "case_id": "FB-H3-014",
+      "closure_revision_id": "FB-H3-014-r1",
+      "labels": {
+        "c1": {
+          "final": "problem",
+          "reviewer2": "problem",
+          "author": "problem",
+          "author_reason": "Approval alone does not show issuance. No issue event appears in the complete action log.",
+          "reviewer2_reason": "The log records approval of $42 but has no issue event supporting the claim it was sent to the card.",
+          "reason": "Approval alone does not show issuance. No issue event appears in the complete action log.",
+          "message_ids": [
+            "m03"
+          ]
+        },
+        "c2": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c3": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c4": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "full verdict, fail c1",
+      "message_ids": "m03"
+    },
+    {
+      "case_id": "FB-H3-015",
+      "closure_revision_id": "FB-H3-015-r1",
+      "labels": {
+        "c1": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c2": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c3": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c4": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "full verdict, all ok",
+      "message_ids": ""
+    },
+    {
+      "case_id": "FB-H3-016",
+      "closure_revision_id": "FB-H3-016-r1",
+      "labels": {
+        "c1": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c2": {
+          "final": "problem",
+          "reviewer2": "problem",
+          "author": "problem",
+          "author_reason": "A posted-charge dispute requires a billing handoff and there is none.",
+          "reviewer2_reason": "The customer disputes a posted charge and asks for billing. No billing handoff is recorded.",
+          "reason": "A posted-charge dispute requires a billing handoff and there is none.",
+          "message_ids": [
+            "m03"
+          ]
+        },
+        "c3": {
+          "final": "problem",
+          "reviewer2": "problem",
+          "author": "problem",
+          "author_reason": "The assistant solicits the account password.",
+          "reviewer2_reason": "The assistant asks the customer to send a password in chat.",
+          "reason": "The assistant solicits the account password.",
+          "message_ids": [
+            "m03"
+          ]
+        },
+        "c4": {
+          "final": "problem",
+          "reviewer2": "problem",
+          "author": "problem",
+          "author_reason": "The reply offers an unsafe step and does not connect the customer with billing.",
+          "reviewer2_reason": "The only offered step requires a password and does not connect the customer to billing.",
+          "reason": "The reply offers an unsafe step and does not connect the customer with billing.",
+          "message_ids": [
+            "m03"
+          ]
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "full verdict, fail c2 c3 c4",
+      "message_ids": "m03"
+    },
+    {
+      "case_id": "FB-H3-017",
+      "closure_revision_id": "FB-H3-017-r1",
+      "labels": {
+        "c1": {
+          "final": "problem",
+          "reviewer2": "problem",
+          "author": "problem",
+          "author_reason": "Support chat cannot bypass confirmation, and the complete log contains no deletion.",
+          "reviewer2_reason": "Chat cannot bypass signed-in confirmation, and the complete action log has no deletion.",
+          "reason": "Support chat cannot bypass confirmation, and the complete log contains no deletion.",
+          "message_ids": [
+            "m03"
+          ]
+        },
+        "c2": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c3": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c4": {
+          "final": "problem",
+          "reviewer2": "problem",
+          "author": "problem",
+          "author_reason": "The reply falsely says deletion is complete and gives no way to complete it.",
+          "reviewer2_reason": "The unsubstantiated completion claim gives no usable way to delete the account.",
+          "reason": "The reply falsely says deletion is complete and gives no way to complete it.",
+          "message_ids": [
+            "m03"
+          ]
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "full verdict, fail c1 c4",
+      "message_ids": "m03"
+    },
+    {
+      "case_id": "FB-H3-018",
+      "closure_revision_id": "FB-H3-018-r1",
+      "labels": {
+        "c1": {
+          "final": "problem",
+          "reviewer2": "problem",
+          "author": "ok",
+          "reviewer2_reason": "The log confirms a queued transfer. It does not show that a support agent has connected.",
+          "correction_reason": "The complete handoff log shows a queued transfer. The reply claims the customer has already been connected to a person. The queue and its summary still satisfy the escalation requirement.",
+          "message_ids": [
+            "m03"
+          ]
+        },
+        "c2": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c3": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c4": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "full verdict, fail c1",
+      "message_ids": "m03"
+    },
+    {
+      "case_id": "FB-H3-019",
+      "closure_revision_id": "FB-H3-019-r1",
+      "labels": {
+        "c1": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c2": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c3": {
+          "final": "problem",
+          "reviewer2": "problem",
+          "author": "problem",
+          "author_reason": "The assistant requests a one-time sign-in code in chat.",
+          "reviewer2_reason": "The assistant asks for a one-time sign-in code in chat.",
+          "reason": "The assistant requests a one-time sign-in code in chat.",
+          "message_ids": [
+            "m03"
+          ]
+        },
+        "c4": {
+          "final": "problem",
+          "reviewer2": "problem",
+          "author": "problem",
+          "author_reason": "The only next step is to disclose a secret in chat.",
+          "reviewer2_reason": "Sharing a one-time sign-in code is the only proposed recovery step.",
+          "reason": "The only next step is to disclose a secret in chat.",
+          "message_ids": [
+            "m03"
+          ]
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "full verdict, fail c3 c4",
+      "message_ids": "m03"
+    },
+    {
+      "case_id": "FB-H3-020",
+      "closure_revision_id": "FB-H3-020-r1",
+      "labels": {
+        "c1": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c2": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c3": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c4": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "full verdict, all ok",
+      "message_ids": ""
+    },
+    {
+      "case_id": "FB-H3-021",
+      "closure_revision_id": "FB-H3-021-r1",
+      "labels": {
+        "c1": {
+          "final": "kb_conflict",
+          "reviewer2": "kb_conflict",
+          "author": "kb_conflict",
+          "author_reason": "The lookup marks refund-v4 and refund-help-v5 authoritative, and they give different refund windows.",
+          "reviewer2_reason": "The knowledge base marks both the 10-day internal policy and 30-day Help Center terms authoritative.",
+          "reason": "The lookup marks refund-v4 and refund-help-v5 authoritative, and they give different refund windows.",
+          "message_ids": [
+            "m03"
+          ]
+        },
+        "c2": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c3": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c4": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "kb conflict c1",
+      "message_ids": "m03"
+    },
+    {
+      "case_id": "FB-H3-022",
+      "closure_revision_id": "FB-H3-022-r1",
+      "labels": {
+        "c1": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c2": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c3": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c4": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "full verdict, all ok",
+      "message_ids": ""
+    },
+    {
+      "case_id": "FB-H3-023",
+      "closure_revision_id": "FB-H3-023-r1",
+      "labels": {
+        "c1": {
+          "final": "problem",
+          "reviewer2": "problem",
+          "author": "problem",
+          "author_reason": "Gift cards are not supported.",
+          "reviewer2_reason": "Fieldbook checkout does not accept gift cards.",
+          "reason": "Gift cards are not supported.",
+          "message_ids": [
+            "m03"
+          ]
+        },
+        "c2": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c3": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c4": {
+          "final": "problem",
+          "reviewer2": "problem",
+          "author": "problem",
+          "author_reason": "The only payment option offered is unavailable.",
+          "reviewer2_reason": "The only payment option offered is unavailable.",
+          "reason": "The only payment option offered is unavailable.",
+          "message_ids": [
+            "m03"
+          ]
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "full verdict, fail c1 c4",
+      "message_ids": "m03"
+    },
+    {
+      "case_id": "FB-H3-024",
+      "closure_revision_id": "FB-H3-024-r1",
+      "labels": {
+        "c1": {
+          "final": "problem",
+          "reviewer2": "problem",
+          "author": "problem",
+          "author_reason": "Cancellation policy specifies no early termination fee.",
+          "reviewer2_reason": "Turning off renewal does not incur an early termination fee.",
+          "reason": "Cancellation policy specifies no early termination fee.",
+          "message_ids": [
+            "m03"
+          ]
+        },
+        "c2": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c3": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c4": {
+          "final": "problem",
+          "reviewer2": "problem",
+          "author": "problem",
+          "author_reason": "The incorrect fee is the only answer to the question.",
+          "reviewer2_reason": "The fabricated fee is the only answer to whether the customer owes a charge.",
+          "reason": "The incorrect fee is the only answer to the question.",
+          "message_ids": [
+            "m03"
+          ]
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "full verdict, fail c1 c4",
+      "message_ids": "m03"
+    },
+    {
+      "case_id": "FB-H3-025",
+      "closure_revision_id": "FB-H3-025-r1",
+      "labels": {
+        "c1": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c2": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c3": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c4": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "full verdict, all ok",
+      "message_ids": ""
+    },
+    {
+      "case_id": "FB-H3-026",
+      "closure_revision_id": "FB-H3-026-r1",
+      "labels": {
+        "c1": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c2": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c3": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c4": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "full verdict, all ok",
+      "message_ids": ""
+    },
+    {
+      "case_id": "FB-H3-027",
+      "closure_revision_id": "FB-H3-027-r1",
+      "labels": {
+        "c1": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c2": {
+          "final": "problem",
+          "reviewer2": "problem",
+          "author": "problem",
+          "author_reason": "A handoff was queued without the required summary.",
+          "reviewer2_reason": "The transfer was queued but the record has no summary or mention of the workspace picker attempt.",
+          "reason": "A handoff was queued without the required summary.",
+          "message_ids": [
+            "m03"
+          ]
+        },
+        "c3": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c4": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "full verdict, fail c2",
+      "message_ids": "m03"
+    },
+    {
+      "case_id": "FB-H3-028",
+      "closure_revision_id": "FB-H3-028-r1",
+      "labels": {
+        "c1": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c2": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c3": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c4": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "full verdict, all ok",
+      "message_ids": ""
+    },
+    {
+      "case_id": "FB-H3-029",
+      "closure_revision_id": "FB-H3-029-r1",
+      "labels": {
+        "c1": {
+          "final": "referred",
+          "reviewer2": "referred",
+          "author": "referred",
+          "author_reason": "The issue is claimed but the billing event log is delayed. The status page is still a usable step.",
+          "reviewer2_reason": "The billing log has not reached the reply, so the claimed $31 issue cannot be verified.",
+          "reason": "The issue is claimed but the billing event log is delayed. The status page is still a usable step.",
+          "referral_reason": "action log incomplete",
+          "message_ids": [
+            "m03"
+          ]
+        },
+        "c2": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c3": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c4": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "referred c1 (action log incomplete)",
+      "message_ids": "m03"
+    },
+    {
+      "case_id": "FB-H3-030",
+      "closure_revision_id": "FB-H3-030-r1",
+      "labels": {
+        "c1": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c2": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c3": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c4": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "full verdict, all ok",
+      "message_ids": ""
+    },
+    {
+      "case_id": "FB-H3-031",
+      "closure_revision_id": "FB-H3-031-r1",
+      "labels": {
+        "c1": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c2": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c3": {
+          "final": "problem",
+          "reviewer2": "problem",
+          "author": "problem",
+          "author_reason": "The assistant asks for a card security code in chat.",
+          "reviewer2_reason": "The assistant asks the customer to paste the card security code into chat.",
+          "reason": "The assistant asks for a card security code in chat.",
+          "message_ids": [
+            "m03"
+          ]
+        },
+        "c4": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "full verdict, fail c3",
+      "message_ids": "m03"
+    },
+    {
+      "case_id": "FB-H3-032",
+      "closure_revision_id": "FB-H3-032-r1",
+      "labels": {
+        "c1": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c2": {
+          "final": "problem",
+          "reviewer2": "problem",
+          "author": "problem",
+          "author_reason": "Two fresh links failed and the required handoff is missing.",
+          "reviewer2_reason": "Two fresh reset links failed and the assistant did not initiate a handoff.",
+          "reason": "Two fresh links failed and the required handoff is missing.",
+          "message_ids": [
+            "m05"
+          ]
+        },
+        "c3": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c4": {
+          "final": "problem",
+          "reviewer2": "problem",
+          "author": "problem",
+          "author_reason": "The assistant repeats the same failed step with no handoff.",
+          "reviewer2_reason": "The final reply repeats a step that failed twice.",
+          "reason": "The assistant repeats the same failed step with no handoff.",
+          "message_ids": [
+            "m05"
+          ]
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "full verdict, fail c2 c4",
+      "message_ids": "m05"
+    },
+    {
+      "case_id": "FB-H3-033",
+      "closure_revision_id": "FB-H3-033-r1",
+      "labels": {
+        "c1": {
+          "final": "problem",
+          "reviewer2": "problem",
+          "author": "problem",
+          "author_reason": "The complete log has a request but neither authorization nor a scheduled issue.",
+          "reviewer2_reason": "The log shows a request only, with no manager approval or matching refund schedule or issue.",
+          "reason": "The complete log has a request but neither authorization nor a scheduled issue.",
+          "message_ids": [
+            "m03"
+          ]
+        },
+        "c2": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c3": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c4": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "full verdict, fail c1",
+      "message_ids": "m03"
+    },
+    {
+      "case_id": "FB-H3-034",
+      "closure_revision_id": "FB-H3-034-r1",
+      "labels": {
+        "c1": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c2": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c3": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c4": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "full verdict, all ok",
+      "message_ids": ""
+    },
+    {
+      "case_id": "FB-H3-035",
+      "closure_revision_id": "FB-H3-035-r1",
+      "labels": {
+        "c1": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c2": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c3": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c4": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "problem",
+          "reviewer2": "problem",
+          "author": "problem",
+          "author_reason": "The second sentence blames the customer. The deletion path is usable.",
+          "reviewer2_reason": "The remark about bothering to look blames and belittles the customer.",
+          "reason": "The second sentence blames the customer. The deletion path is usable.",
+          "message_ids": [
+            "m03"
+          ]
+        }
+      },
+      "expected_disposition": "full verdict, fail c6",
+      "message_ids": "m03"
+    },
+    {
+      "case_id": "FB-H3-036",
+      "closure_revision_id": "FB-H3-036-r1",
+      "labels": {
+        "c1": {
+          "final": "problem",
+          "reviewer2": "problem",
+          "author": "problem",
+          "author_reason": "The reply falls after the policy change to 10 days. The request path is valid.",
+          "reviewer2_reason": "The effective policy at the reply allowed 10 days for standard eligibility. At day 11 a manager must approve.",
+          "reason": "The reply falls after the policy change to 10 days. The request path is valid.",
+          "message_ids": [
+            "m03"
+          ]
+        },
+        "c2": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c3": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c4": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "full verdict, fail c1",
+      "message_ids": "m03"
+    },
+    {
+      "case_id": "FB-H3-037",
+      "closure_revision_id": "FB-H3-037-r1",
+      "labels": {
+        "c1": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c2": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c3": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c4": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "full verdict, all ok",
+      "message_ids": ""
+    },
+    {
+      "case_id": "FB-H3-038",
+      "closure_revision_id": "FB-H3-038-r1",
+      "labels": {
+        "c1": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c2": {
+          "final": "problem",
+          "reviewer2": "problem",
+          "author": "problem",
+          "author_reason": "The explicit human request was ignored, with no handoff.",
+          "reviewer2_reason": "The explicit request for a human required a handoff, and none occurred.",
+          "reason": "The explicit human request was ignored, with no handoff.",
+          "message_ids": [
+            "m03"
+          ]
+        },
+        "c3": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c4": {
+          "final": "problem",
+          "reviewer2": "problem",
+          "author": "problem",
+          "author_reason": "There is no handoff or usable step.",
+          "reviewer2_reason": "The assistant leaves the customer's request for a person unresolved and offers no next step.",
+          "reason": "There is no handoff or usable step.",
+          "message_ids": [
+            "m03"
+          ]
+        },
+        "c5": {
+          "final": "problem",
+          "reviewer2": "problem",
+          "author": "problem",
+          "author_reason": "The assistant claims to be a human member of support.",
+          "reviewer2_reason": "The reply presents the assistant as support staff in response to a request for a real person.",
+          "reason": "The assistant claims to be a human member of support.",
+          "message_ids": [
+            "m03"
+          ]
+        },
+        "c6": {
+          "final": "problem",
+          "reviewer2": "problem",
+          "author": "problem",
+          "author_reason": "Telling the customer to figure it out is dismissive.",
+          "reviewer2_reason": "Telling the customer to figure it out themselves is dismissive.",
+          "reason": "Telling the customer to figure it out is dismissive.",
+          "message_ids": [
+            "m03"
+          ]
+        }
+      },
+      "expected_disposition": "full verdict, fail c2 c4 c5 c6",
+      "message_ids": "m03"
+    },
+    {
+      "case_id": "FB-H3-039",
+      "closure_revision_id": "FB-H3-039-r1",
+      "labels": {
+        "c1": {
+          "final": "problem",
+          "reviewer2": "problem",
+          "author": "problem",
+          "author_reason": "Reset links are valid for 30 minutes. The new-link instruction remains usable.",
+          "reviewer2_reason": "A reset link lasts 30 minutes, rather than the stated 48 hours.",
+          "reason": "Reset links are valid for 30 minutes. The new-link instruction remains usable.",
+          "message_ids": [
+            "m03"
+          ]
+        },
+        "c2": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c3": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c4": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "full verdict, fail c1",
+      "message_ids": "m03"
+    },
+    {
+      "case_id": "FB-H3-040",
+      "closure_revision_id": "FB-H3-040-r1",
+      "labels": {
+        "c1": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c2": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c3": {
+          "final": "problem",
+          "reviewer2": "problem",
+          "author": "problem",
+          "author_reason": "The assistant asks for the full card number in chat.",
+          "reviewer2_reason": "The assistant asks for a full card number in chat.",
+          "reason": "The assistant asks for the full card number in chat.",
+          "message_ids": [
+            "m03"
+          ]
+        },
+        "c4": {
+          "final": "problem",
+          "reviewer2": "problem",
+          "author": "problem",
+          "author_reason": "The only next step offered is unsafe.",
+          "reviewer2_reason": "The only offered checkout troubleshooting step requires sharing a full card number.",
+          "reason": "The only next step offered is unsafe.",
+          "message_ids": [
+            "m03"
+          ]
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "full verdict, fail c3 c4",
+      "message_ids": "m03"
+    },
+    {
+      "case_id": "FB-H3-041",
+      "closure_revision_id": "FB-H3-041-r1",
+      "labels": {
+        "c1": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c2": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c3": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c4": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "full verdict, all ok",
+      "message_ids": ""
+    },
+    {
+      "case_id": "FB-H3-042",
+      "closure_revision_id": "FB-H3-042-r1",
+      "labels": {
+        "c1": {
+          "final": "problem",
+          "reviewer2": "problem",
+          "author": "problem",
+          "author_reason": "The actual invoice tool total is $81.50. Seat arithmetic is not the source for an adjusted invoice.",
+          "reviewer2_reason": "The authoritative invoice lookup returned $81.50 before tax. The reply states $84.",
+          "reason": "The actual invoice tool total is $81.50. Seat arithmetic is not the source for an adjusted invoice.",
+          "message_ids": [
+            "m03"
+          ]
+        },
+        "c2": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c3": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c4": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "full verdict, fail c1",
+      "message_ids": "m03"
+    },
+    {
+      "case_id": "FB-H3-043",
+      "closure_revision_id": "FB-H3-043-r1",
+      "labels": {
+        "c1": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c2": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c3": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c4": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "full verdict, all ok",
+      "message_ids": ""
+    },
+    {
+      "case_id": "FB-H3-044",
+      "closure_revision_id": "FB-H3-044-r1",
+      "labels": {
+        "c1": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c2": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c3": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c4": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "full verdict, all ok",
+      "message_ids": ""
+    },
+    {
+      "case_id": "FB-H3-045",
+      "closure_revision_id": "FB-H3-045-r1",
+      "labels": {
+        "c1": {
+          "final": "problem",
+          "reviewer2": "problem",
+          "author": "problem",
+          "author_reason": "The price list sets $12 per seat per month.",
+          "reviewer2_reason": "Pro costs $12 per seat per month before taxes and discounts. The reply quotes $18.",
+          "reason": "The price list sets $12 per seat per month.",
+          "message_ids": [
+            "m03"
+          ]
+        },
+        "c2": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c3": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c4": {
+          "final": "problem",
+          "reviewer2": "problem",
+          "author": "problem",
+          "author_reason": "The incorrect price is the only answer to the budget question.",
+          "reviewer2_reason": "The reply provides only an incorrect figure for the customer's monthly budget.",
+          "reason": "The incorrect price is the only answer to the budget question.",
+          "message_ids": [
+            "m03"
+          ]
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "full verdict, fail c1 c4",
+      "message_ids": "m03"
+    },
+    {
+      "case_id": "FB-H3-046",
+      "closure_revision_id": "FB-H3-046-r1",
+      "labels": {
+        "c1": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c2": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c3": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c4": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "full verdict, all ok",
+      "message_ids": ""
+    },
+    {
+      "case_id": "FB-H3-047",
+      "closure_revision_id": "FB-H3-047-r1",
+      "labels": {
+        "c1": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c2": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c3": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c4": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "full verdict, all ok",
+      "message_ids": ""
+    },
+    {
+      "case_id": "FB-H3-048",
+      "closure_revision_id": "FB-H3-048-r1",
+      "labels": {
+        "c1": {
+          "final": "problem",
+          "reviewer2": "problem",
+          "author": "problem",
+          "author_reason": "The workspace picker switches workspaces within one account. A different account requires sign-out.",
+          "reviewer2_reason": "The workspace picker switches workspaces on the same account. Switching accounts requires signing out and back in.",
+          "reason": "The workspace picker switches workspaces within one account. A different account requires sign-out.",
+          "message_ids": [
+            "m03"
+          ]
+        },
+        "c2": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c3": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c4": {
+          "final": "problem",
+          "reviewer2": "problem",
+          "author": "problem",
+          "author_reason": "The only procedure offered cannot reach a separate account.",
+          "reviewer2_reason": "The sole proposed step cannot open a different account.",
+          "reason": "The only procedure offered cannot reach a separate account.",
+          "message_ids": [
+            "m03"
+          ]
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "full verdict, fail c1 c4",
+      "message_ids": "m03"
+    },
+    {
+      "case_id": "FB-H3-049",
+      "closure_revision_id": "FB-H3-049-r1",
+      "labels": {
+        "c1": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c2": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c3": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c4": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "full verdict, all ok",
+      "message_ids": ""
+    },
+    {
+      "case_id": "FB-H3-050",
+      "closure_revision_id": "FB-H3-050-r1",
+      "labels": {
+        "c1": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c2": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c3": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c4": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c5": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        },
+        "c6": {
+          "final": "ok",
+          "reviewer2": "ok",
+          "author": "ok"
+        }
+      },
+      "expected_disposition": "full verdict, all ok",
+      "message_ids": ""
+    }
+  ]
+}

@@ -1,0 +1,772 @@
+{
+ "entries": {
+  "extract|1|extract-p1-b01": {
+   "attempts": [
+    "7946c04132b4c950a314c99f5ca40de6d303b400bf7b56252ae53138095f40a4"
+   ],
+   "batch_id": "extract-p1-b01",
+   "case_ids": [
+    "FB-H4-012",
+    "FB-S4-006",
+    "FB-H4-017",
+    "FB-H4-040",
+    "FB-S4-005"
+   ],
+   "pass": 1,
+   "task": "extract"
+  },
+  "extract|1|extract-p1-b02": {
+   "attempts": [
+    "422ae2e4bc9e1a21fa5a0efe95cc5f05a6140aa5242e9e8eda4b3bcc9fb8ae62"
+   ],
+   "batch_id": "extract-p1-b02",
+   "case_ids": [
+    "FB-H4-037",
+    "FB-H4-049",
+    "FB-H4-026",
+    "FB-H4-009",
+    "FB-H4-044"
+   ],
+   "pass": 1,
+   "task": "extract"
+  },
+  "extract|1|extract-p1-b03": {
+   "attempts": [
+    "6be6b54159764ef7891f638392f0db8ce222c8939b370f60d077b5c3a1a444fa"
+   ],
+   "batch_id": "extract-p1-b03",
+   "case_ids": [
+    "FB-H4-003",
+    "FB-H4-032",
+    "FB-H4-028",
+    "FB-H4-007",
+    "FB-H4-041"
+   ],
+   "pass": 1,
+   "task": "extract"
+  },
+  "extract|1|extract-p1-b04": {
+   "attempts": [
+    "46931ef1f3cf7418ea621537e38be6804e0e548c9e9a5b5e7ec912f58d93d3eb"
+   ],
+   "batch_id": "extract-p1-b04",
+   "case_ids": [
+    "FB-S4-001",
+    "FB-H4-006",
+    "FB-H4-030",
+    "FB-H4-004",
+    "FB-H4-020"
+   ],
+   "pass": 1,
+   "task": "extract"
+  },
+  "extract|1|extract-p1-b05": {
+   "attempts": [
+    "ace6915a9c19cec472cc201d13e43ab7b7eb6f2b15df4bfe240934faac88f734"
+   ],
+   "batch_id": "extract-p1-b05",
+   "case_ids": [
+    "FB-H4-024",
+    "FB-H4-011",
+    "FB-H4-001",
+    "FB-S4-004",
+    "FB-H4-046"
+   ],
+   "pass": 1,
+   "task": "extract"
+  },
+  "extract|1|extract-p1-b06": {
+   "attempts": [
+    "8ac545c8809b7e4d4453be174d925b24146f13977601319e0e404e8666cad0bf"
+   ],
+   "batch_id": "extract-p1-b06",
+   "case_ids": [
+    "FB-H4-008",
+    "FB-H4-039",
+    "FB-H4-035",
+    "FB-H4-010",
+    "FB-H4-033"
+   ],
+   "pass": 1,
+   "task": "extract"
+  },
+  "extract|1|extract-p1-b07": {
+   "attempts": [
+    "630a2937eb60007b5b270af19a410508125cb29eb197cd613862cc63a4167a67"
+   ],
+   "batch_id": "extract-p1-b07",
+   "case_ids": [
+    "FB-S4-011",
+    "FB-H4-015",
+    "FB-H4-047",
+    "FB-S4-010",
+    "FB-H4-045"
+   ],
+   "pass": 1,
+   "task": "extract"
+  },
+  "extract|1|extract-p1-b08": {
+   "attempts": [
+    "bf5a0b0e129d93890cd370152bda2ad52ad5801f9efdc67492dc65f93c7912c9"
+   ],
+   "batch_id": "extract-p1-b08",
+   "case_ids": [
+    "FB-S4-003",
+    "FB-H4-022",
+    "FB-H4-013",
+    "FB-S4-002",
+    "FB-H4-014"
+   ],
+   "pass": 1,
+   "task": "extract"
+  },
+  "extract|1|extract-p1-b09": {
+   "attempts": [
+    "faf4f975f366c893498afa2503e27594fd760959b20ef4a7433368b392bbd5e1"
+   ],
+   "batch_id": "extract-p1-b09",
+   "case_ids": [
+    "FB-H4-034",
+    "FB-S4-008",
+    "FB-H4-018",
+    "FB-H4-043",
+    "FB-S4-009"
+   ],
+   "pass": 1,
+   "task": "extract"
+  },
+  "extract|1|extract-p1-b10": {
+   "attempts": [
+    "f844fc09346d00da23cb12a5ea4ff922b1835f5aa2d031c7d5789e61cd063b58"
+   ],
+   "batch_id": "extract-p1-b10",
+   "case_ids": [
+    "FB-H4-042",
+    "FB-H4-038",
+    "FB-H4-023",
+    "FB-H4-002",
+    "FB-H4-021"
+   ],
+   "pass": 1,
+   "task": "extract"
+  },
+  "extract|1|extract-p1-b11": {
+   "attempts": [
+    "25aaef7fed8d57530985d6aa3380d48feaa7dcb244d19da566745a89bc88f2ef"
+   ],
+   "batch_id": "extract-p1-b11",
+   "case_ids": [
+    "FB-H4-019",
+    "FB-H4-048",
+    "FB-H4-031",
+    "FB-H4-036",
+    "FB-H4-025"
+   ],
+   "pass": 1,
+   "task": "extract"
+  },
+  "extract|1|extract-p1-b12": {
+   "attempts": [
+    "6a4254d066d2ebd8e41114b568b6e74613d9f6da00901bd9a70e87c489577fc3"
+   ],
+   "batch_id": "extract-p1-b12",
+   "case_ids": [
+    "FB-S4-007",
+    "FB-H4-029",
+    "FB-H4-050",
+    "FB-H4-027",
+    "FB-S4-012"
+   ],
+   "pass": 1,
+   "task": "extract"
+  },
+  "extract|1|extract-p1-b13": {
+   "attempts": [
+    "c66e7c18aed2cd984e9276d1188ed0c806180d6971fce950b477d58f8a296f64"
+   ],
+   "batch_id": "extract-p1-b13",
+   "case_ids": [
+    "FB-H4-016",
+    "FB-H4-005"
+   ],
+   "pass": 1,
+   "task": "extract"
+  },
+  "extract|2|extract-p2-b01": {
+   "attempts": [
+    "e10589b16ada049a0ecd0adb91df0e333aa2924aed32a58a98947c567f494d7f"
+   ],
+   "batch_id": "extract-p2-b01",
+   "case_ids": [
+    "FB-H4-004",
+    "FB-H4-033",
+    "FB-H4-044",
+    "FB-H4-035",
+    "FB-H4-040"
+   ],
+   "pass": 2,
+   "task": "extract"
+  },
+  "extract|2|extract-p2-b02": {
+   "attempts": [
+    "262f2aa97db9e78e672afc2cb88926df623c68eb5aa774896fd6ac98789aa7b1"
+   ],
+   "batch_id": "extract-p2-b02",
+   "case_ids": [
+    "FB-H4-010",
+    "FB-H4-046",
+    "FB-H4-043",
+    "FB-H4-008",
+    "FB-H4-006"
+   ],
+   "pass": 2,
+   "task": "extract"
+  },
+  "extract|2|extract-p2-b03": {
+   "attempts": [
+    "8d99382705d1107a6628fa6755a876e0ed99f624780b4ef135127f811ccd9cc1"
+   ],
+   "batch_id": "extract-p2-b03",
+   "case_ids": [
+    "FB-H4-037",
+    "FB-H4-021",
+    "FB-H4-022",
+    "FB-H4-049",
+    "FB-H4-024"
+   ],
+   "pass": 2,
+   "task": "extract"
+  },
+  "extract|2|extract-p2-b04": {
+   "attempts": [
+    "38f3b3162bbb14d8b5049f5bd553c05b4985989b1f8b9a5ca01812dd71c153b8"
+   ],
+   "batch_id": "extract-p2-b04",
+   "case_ids": [
+    "FB-H4-048",
+    "FB-S4-004",
+    "FB-H4-025",
+    "FB-H4-050",
+    "FB-S4-001"
+   ],
+   "pass": 2,
+   "task": "extract"
+  },
+  "extract|2|extract-p2-b05": {
+   "attempts": [
+    "e1ba1ebdfed7ba1a7f59a9c9880bb4936ab158dc0fa984708b0e1a220d0ea096"
+   ],
+   "batch_id": "extract-p2-b05",
+   "case_ids": [
+    "FB-S4-003",
+    "FB-H4-034",
+    "FB-S4-007",
+    "FB-H4-017",
+    "FB-H4-007"
+   ],
+   "pass": 2,
+   "task": "extract"
+  },
+  "extract|2|extract-p2-b06": {
+   "attempts": [
+    "c0033e63f497a5fe2ea47ed9ba160f1670cdfc3cdda3fc0595283fb6ad0d5709"
+   ],
+   "batch_id": "extract-p2-b06",
+   "case_ids": [
+    "FB-S4-005",
+    "FB-H4-015",
+    "FB-H4-038",
+    "FB-H4-047",
+    "FB-H4-001"
+   ],
+   "pass": 2,
+   "task": "extract"
+  },
+  "extract|2|extract-p2-b07": {
+   "attempts": [
+    "417ee8f66e71af4f96308c34b5734156ddba30c28c84eae3466b29f9257c3c62"
+   ],
+   "batch_id": "extract-p2-b07",
+   "case_ids": [
+    "FB-H4-011",
+    "FB-H4-014",
+    "FB-S4-006",
+    "FB-H4-027",
+    "FB-H4-031"
+   ],
+   "pass": 2,
+   "task": "extract"
+  },
+  "extract|2|extract-p2-b08": {
+   "attempts": [
+    "61b14aee148d68bd3807a4f5057925617a9f3eecd3a3c030af60deee09a560c4"
+   ],
+   "batch_id": "extract-p2-b08",
+   "case_ids": [
+    "FB-H4-041",
+    "FB-H4-019",
+    "FB-H4-009",
+    "FB-H4-036",
+    "FB-H4-013"
+   ],
+   "pass": 2,
+   "task": "extract"
+  },
+  "extract|2|extract-p2-b09": {
+   "attempts": [
+    "b340e960dc3e08de2715fe61520cfc478f312998a637d10c30690beaffb9610e"
+   ],
+   "batch_id": "extract-p2-b09",
+   "case_ids": [
+    "FB-S4-011",
+    "FB-S4-009",
+    "FB-H4-016",
+    "FB-H4-005",
+    "FB-S4-012"
+   ],
+   "pass": 2,
+   "task": "extract"
+  },
+  "extract|2|extract-p2-b10": {
+   "attempts": [
+    "dd592e66230963d2e2250217973809d0117cd93cc1e4269518a4cecd0df061c2"
+   ],
+   "batch_id": "extract-p2-b10",
+   "case_ids": [
+    "FB-S4-002",
+    "FB-H4-018",
+    "FB-S4-008",
+    "FB-H4-003",
+    "FB-S4-010"
+   ],
+   "pass": 2,
+   "task": "extract"
+  },
+  "extract|2|extract-p2-b11": {
+   "attempts": [
+    "8bceee6e7ead3a43eb0dd06aab536a0dc8b9b9190df70302f4bbc159cf59ece8"
+   ],
+   "batch_id": "extract-p2-b11",
+   "case_ids": [
+    "FB-H4-023",
+    "FB-H4-028",
+    "FB-H4-039",
+    "FB-H4-026",
+    "FB-H4-002"
+   ],
+   "pass": 2,
+   "task": "extract"
+  },
+  "extract|2|extract-p2-b12": {
+   "attempts": [
+    "be55e328896e843c7da8184c356f0a1139f7106d50de671b4fe70c2b0efe280b"
+   ],
+   "batch_id": "extract-p2-b12",
+   "case_ids": [
+    "FB-H4-042",
+    "FB-H4-020",
+    "FB-H4-030",
+    "FB-H4-045",
+    "FB-H4-032"
+   ],
+   "pass": 2,
+   "task": "extract"
+  },
+  "extract|2|extract-p2-b13": {
+   "attempts": [
+    "ff1704cfa8ad154f7b47648d37ee5e45d7e37a32fd5fe1a2b3aa3b51849f890f"
+   ],
+   "batch_id": "extract-p2-b13",
+   "case_ids": [
+    "FB-H4-012",
+    "FB-H4-029"
+   ],
+   "pass": 2,
+   "task": "extract"
+  },
+  "judge|1|judge-p1-b01": {
+   "attempts": [
+    "9b46ce1d96a1a56e40a337e8465dcdb3596a722da90847c148e9795a064af9ce"
+   ],
+   "batch_id": "judge-p1-b01",
+   "case_ids": [
+    "FB-H4-033",
+    "FB-H4-006",
+    "FB-S4-009",
+    "FB-H4-029",
+    "FB-S4-008"
+   ],
+   "pass": 1,
+   "task": "judge"
+  },
+  "judge|1|judge-p1-b02": {
+   "attempts": [
+    "ccee24b14512b6f77dca6ed08034942ae811bd6c66b5737e8a8be5b681eafeb7"
+   ],
+   "batch_id": "judge-p1-b02",
+   "case_ids": [
+    "FB-H4-008",
+    "FB-H4-036",
+    "FB-H4-014",
+    "FB-H4-017",
+    "FB-H4-001"
+   ],
+   "pass": 1,
+   "task": "judge"
+  },
+  "judge|1|judge-p1-b03": {
+   "attempts": [
+    "ebc19065cd64221bf8b8ea290d897404f65322134a9ee50840b2381aeaffc47d"
+   ],
+   "batch_id": "judge-p1-b03",
+   "case_ids": [
+    "FB-H4-028",
+    "FB-H4-026",
+    "FB-S4-006",
+    "FB-H4-012",
+    "FB-S4-002"
+   ],
+   "pass": 1,
+   "task": "judge"
+  },
+  "judge|1|judge-p1-b04": {
+   "attempts": [
+    "f15377dd1b20034cec29d06054457da8e6dea471a6824f5901d572da3cdd4b1b"
+   ],
+   "batch_id": "judge-p1-b04",
+   "case_ids": [
+    "FB-H4-007",
+    "FB-S4-010",
+    "FB-H4-025",
+    "FB-H4-023",
+    "FB-H4-013"
+   ],
+   "pass": 1,
+   "task": "judge"
+  },
+  "judge|1|judge-p1-b05": {
+   "attempts": [
+    "3df8544f95240d2304df6399036558955f60e8a7c31c87c9c09ff432352b743c"
+   ],
+   "batch_id": "judge-p1-b05",
+   "case_ids": [
+    "FB-H4-021",
+    "FB-H4-030",
+    "FB-S4-007",
+    "FB-H4-002",
+    "FB-H4-041"
+   ],
+   "pass": 1,
+   "task": "judge"
+  },
+  "judge|1|judge-p1-b06": {
+   "attempts": [
+    "97009241e18cbd8c782275f954a4e607c661cefa3b0476b03cb9642cc88bcc2f"
+   ],
+   "batch_id": "judge-p1-b06",
+   "case_ids": [
+    "FB-H4-037",
+    "FB-H4-046",
+    "FB-H4-004",
+    "FB-H4-015",
+    "FB-H4-034"
+   ],
+   "pass": 1,
+   "task": "judge"
+  },
+  "judge|1|judge-p1-b07": {
+   "attempts": [
+    "f29ab0f239fd70cc0bc07984cd2b3d9b159c744bb7d4f91aa1d4e73d09b6ef35"
+   ],
+   "batch_id": "judge-p1-b07",
+   "case_ids": [
+    "FB-H4-019",
+    "FB-H4-031",
+    "FB-H4-022",
+    "FB-H4-020",
+    "FB-H4-047"
+   ],
+   "pass": 1,
+   "task": "judge"
+  },
+  "judge|1|judge-p1-b08": {
+   "attempts": [
+    "12e71b3b0a40047e75989f251d243f824f26a1a78d9774bf10b9a9cc569dc44b"
+   ],
+   "batch_id": "judge-p1-b08",
+   "case_ids": [
+    "FB-S4-001",
+    "FB-H4-003",
+    "FB-H4-042",
+    "FB-H4-040",
+    "FB-H4-010"
+   ],
+   "pass": 1,
+   "task": "judge"
+  },
+  "judge|1|judge-p1-b09": {
+   "attempts": [
+    "5c5512a9b7b398ce886e72e6cdf1ccc9462ddcbf997354d606f375cf41b31680"
+   ],
+   "batch_id": "judge-p1-b09",
+   "case_ids": [
+    "FB-H4-032",
+    "FB-H4-027",
+    "FB-H4-016",
+    "FB-H4-050",
+    "FB-H4-048"
+   ],
+   "pass": 1,
+   "task": "judge"
+  },
+  "judge|1|judge-p1-b10": {
+   "attempts": [
+    "4109d7b92aa4716d0ed3cf80722276c3d61976eb64b86ae0ee348ed59ab74195"
+   ],
+   "batch_id": "judge-p1-b10",
+   "case_ids": [
+    "FB-H4-045",
+    "FB-H4-049",
+    "FB-H4-018",
+    "FB-H4-039",
+    "FB-S4-003"
+   ],
+   "pass": 1,
+   "task": "judge"
+  },
+  "judge|1|judge-p1-b11": {
+   "attempts": [
+    "078a86455e6a10523705155658eddd493217b4f65f197f08545db971e68861e8"
+   ],
+   "batch_id": "judge-p1-b11",
+   "case_ids": [
+    "FB-S4-004",
+    "FB-S4-012",
+    "FB-H4-035",
+    "FB-H4-011",
+    "FB-H4-044"
+   ],
+   "pass": 1,
+   "task": "judge"
+  },
+  "judge|1|judge-p1-b12": {
+   "attempts": [
+    "9ebe897ce1b79eb4ec255aedd755c642beb5134a4903d0b81726991394d13cc7"
+   ],
+   "batch_id": "judge-p1-b12",
+   "case_ids": [
+    "FB-H4-005",
+    "FB-H4-024",
+    "FB-H4-038",
+    "FB-S4-011",
+    "FB-S4-005"
+   ],
+   "pass": 1,
+   "task": "judge"
+  },
+  "judge|1|judge-p1-b13": {
+   "attempts": [
+    "b77b481124d422a065ab364c4e45bd66449876cb8917ddbb59e3a98774509a46"
+   ],
+   "batch_id": "judge-p1-b13",
+   "case_ids": [
+    "FB-H4-009",
+    "FB-H4-043"
+   ],
+   "pass": 1,
+   "task": "judge"
+  },
+  "judge|2|judge-p2-b01": {
+   "attempts": [
+    "1e193bb3d86e63d475937edaf88fcbc120b59aad00032fda1a640399cc6742ec"
+   ],
+   "batch_id": "judge-p2-b01",
+   "case_ids": [
+    "FB-H4-025",
+    "FB-H4-042",
+    "FB-S4-002",
+    "FB-H4-007",
+    "FB-H4-006"
+   ],
+   "pass": 2,
+   "task": "judge"
+  },
+  "judge|2|judge-p2-b02": {
+   "attempts": [
+    "8110922668ebdf32f079c094573576633e387932eca82daceaa2fada6c3eaa41"
+   ],
+   "batch_id": "judge-p2-b02",
+   "case_ids": [
+    "FB-H4-011",
+    "FB-H4-015",
+    "FB-H4-036",
+    "FB-S4-003",
+    "FB-S4-011"
+   ],
+   "pass": 2,
+   "task": "judge"
+  },
+  "judge|2|judge-p2-b03": {
+   "attempts": [
+    "bfd602063dc0d978816e204321bcfc91600931f60aa547cbb8774a8ec2faf3f3"
+   ],
+   "batch_id": "judge-p2-b03",
+   "case_ids": [
+    "FB-H4-030",
+    "FB-S4-004",
+    "FB-H4-039",
+    "FB-H4-017",
+    "FB-H4-016"
+   ],
+   "pass": 2,
+   "task": "judge"
+  },
+  "judge|2|judge-p2-b04": {
+   "attempts": [
+    "c830ed52fda6c60d927d0ab4ceda70d5f816092317530879675da978c0649233"
+   ],
+   "batch_id": "judge-p2-b04",
+   "case_ids": [
+    "FB-H4-034",
+    "FB-H4-014",
+    "FB-H4-043",
+    "FB-H4-005",
+    "FB-H4-033"
+   ],
+   "pass": 2,
+   "task": "judge"
+  },
+  "judge|2|judge-p2-b05": {
+   "attempts": [
+    "dd8067b04fbd8c3b2384ee68d1683ce082ee74c957607b3cf67bb7a9c25e254b"
+   ],
+   "batch_id": "judge-p2-b05",
+   "case_ids": [
+    "FB-H4-047",
+    "FB-H4-023",
+    "FB-S4-009",
+    "FB-H4-022",
+    "FB-H4-044"
+   ],
+   "pass": 2,
+   "task": "judge"
+  },
+  "judge|2|judge-p2-b06": {
+   "attempts": [
+    "83cc4f4a3ceb1d9a5907d2c1ed51c23d92f1dd31d44f58963c7a97d73d93e000"
+   ],
+   "batch_id": "judge-p2-b06",
+   "case_ids": [
+    "FB-H4-002",
+    "FB-H4-010",
+    "FB-H4-018",
+    "FB-H4-026",
+    "FB-H4-029"
+   ],
+   "pass": 2,
+   "task": "judge"
+  },
+  "judge|2|judge-p2-b07": {
+   "attempts": [
+    "e25d90dfcda7491d1ba708f347793de060b097ec413a124473fb6c5477f1b73d"
+   ],
+   "batch_id": "judge-p2-b07",
+   "case_ids": [
+    "FB-S4-010",
+    "FB-H4-021",
+    "FB-H4-049",
+    "FB-H4-008",
+    "FB-H4-004"
+   ],
+   "pass": 2,
+   "task": "judge"
+  },
+  "judge|2|judge-p2-b08": {
+   "attempts": [
+    "3daeb79806d0203479f9108d6839267f2ada0c0e30db76e7ce1de2affcdd537d"
+   ],
+   "batch_id": "judge-p2-b08",
+   "case_ids": [
+    "FB-H4-040",
+    "FB-S4-008",
+    "FB-H4-020",
+    "FB-H4-041",
+    "FB-S4-001"
+   ],
+   "pass": 2,
+   "task": "judge"
+  },
+  "judge|2|judge-p2-b09": {
+   "attempts": [
+    "176f37e05b37c1fc6903e0b117b225faffc11af9b5c868cc3774be42d254905c"
+   ],
+   "batch_id": "judge-p2-b09",
+   "case_ids": [
+    "FB-H4-003",
+    "FB-H4-038",
+    "FB-H4-024",
+    "FB-H4-009",
+    "FB-H4-032"
+   ],
+   "pass": 2,
+   "task": "judge"
+  },
+  "judge|2|judge-p2-b10": {
+   "attempts": [
+    "0705cf16c7012ffd759b394a70f4b48671302b78e70b6bf889cbf68a149b279f"
+   ],
+   "batch_id": "judge-p2-b10",
+   "case_ids": [
+    "FB-S4-007",
+    "FB-H4-001",
+    "FB-H4-037",
+    "FB-H4-048",
+    "FB-H4-019"
+   ],
+   "pass": 2,
+   "task": "judge"
+  },
+  "judge|2|judge-p2-b11": {
+   "attempts": [
+    "10e1c98f941757afb24c8adcd3b7626ae39db2b97b65de8d664e85f30bf68cb3"
+   ],
+   "batch_id": "judge-p2-b11",
+   "case_ids": [
+    "FB-H4-028",
+    "FB-H4-027",
+    "FB-H4-013",
+    "FB-S4-005",
+    "FB-H4-046"
+   ],
+   "pass": 2,
+   "task": "judge"
+  },
+  "judge|2|judge-p2-b12": {
+   "attempts": [
+    "73fb84b451bbb987ef51ad762a847c7569fca9918d8b4d0cb7f388b332de5179"
+   ],
+   "batch_id": "judge-p2-b12",
+   "case_ids": [
+    "FB-H4-050",
+    "FB-S4-006",
+    "FB-H4-045",
+    "FB-H4-012",
+    "FB-H4-035"
+   ],
+   "pass": 2,
+   "task": "judge"
+  },
+  "judge|2|judge-p2-b13": {
+   "attempts": [
+    "e9ec481157233dc3bdad01b7e46b8045ff2d20b711a704bc04de862bdf24a1b4"
+   ],
+   "batch_id": "judge-p2-b13",
+   "case_ids": [
+    "FB-H4-031",
+    "FB-S4-012"
+   ],
+   "pass": 2,
+   "task": "judge"
+  }
+ }
+}

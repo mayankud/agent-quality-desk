@@ -1,0 +1,38 @@
+{
+ "window": [
+  "2026-11-14T20:55:22.276388Z",
+  "2026-11-14T20:56:21.255772Z"
+ ],
+ "events_in_window": 48,
+ "outside_allowed": 0,
+ "examples": [],
+ "watcher_max_silence_s": 5.0,
+ "watcher_covered_window": true,
+ "allowed_prefixes": [
+  "/tmp/aqd_inbox/97fe4915c1b62ee7244aaa48aa4d5549172c4b538806800162ab7651869ea883.txt",
+  "/tmp/aqd_outbox/97fe4915c1b62ee7244aaa48aa4d5549172c4b538806800162ab7651869ea883.json",
+  "/tmp/aqd_inbox/ddea1694fa76a6346ad967b3d373ca680181c3d5e1d119f0908d5605c7b4c585.txt",
+  "/tmp/aqd_outbox/ddea1694fa76a6346ad967b3d373ca680181c3d5e1d119f0908d5605c7b4c585.json",
+  "/tmp/aqd_inbox/92cc8ec23932617d31b33717c0849f52d6f027c47a5667d3d1b052a8b28e7ec9.txt",
+  "/tmp/aqd_outbox/92cc8ec23932617d31b33717c0849f52d6f027c47a5667d3d1b052a8b28e7ec9.json",
+  "/tmp/aqd_inbox/1b8bc0560176c266c4ddc65b6800f09c3084786cbe79d9094baafa97a1dc59cc.txt",
+  "/tmp/aqd_outbox/1b8bc0560176c266c4ddc65b6800f09c3084786cbe79d9094baafa97a1dc59cc.json",
+  "/tmp/aqd_inbox/ec3eaec57eafa51e1eae16e3e4b00a3e8d3fe1ced390e872d81037509474fca4.txt",
+  "/tmp/aqd_outbox/ec3eaec57eafa51e1eae16e3e4b00a3e8d3fe1ced390e872d81037509474fca4.json",
+  "/tmp/aqd_inbox/dfe5a46d27eaceb6f036a98f9e0a28e62e17b9b4e0c7081889352bdc17b64335.txt",
+  "/tmp/aqd_outbox/dfe5a46d27eaceb6f036a98f9e0a28e62e17b9b4e0c7081889352bdc17b64335.json",
+  "/tmp/aqd_inbox/0b1a51463f78341a91514ced577b9250ebe543599d17734fe17d6382063d6951.txt",
+  "/tmp/aqd_outbox/0b1a51463f78341a91514ced577b9250ebe543599d17734fe17d6382063d6951.json",
+  "/tmp/aqd_inbox/4752e5282d674abe76df8fadacb66565a0dc9b80b2aa40290f70165b4ecac9bb.txt",
+  "/tmp/aqd_outbox/4752e5282d674abe76df8fadacb66565a0dc9b80b2aa40290f70165b4ecac9bb.json",
+  "/tmp/aqd_inbox/1c4d6425536bc21a1d0276ecc54ae1a782a5700ec9a154c884441f531f9f9770.txt",
+  "/tmp/aqd_outbox/1c4d6425536bc21a1d0276ecc54ae1a782a5700ec9a154c884441f531f9f9770.json",
+  "/tmp/aqd_inbox/2db7fd812c02701d2eb3ee1a0fcfc1028a9aa0989e61c9e7db930547079d32ee.txt",
+  "/tmp/aqd_outbox/2db7fd812c02701d2eb3ee1a0fcfc1028a9aa0989e61c9e7db930547079d32ee.json",
+  "/tmp/aqd_inbox/d64a2b900dcd8c5fe9ba4e17a968aef9c329ee699c80ec557528f05ec0d3ad7d.txt",
+  "/tmp/aqd_outbox/d64a2b900dcd8c5fe9ba4e17a968aef9c329ee699c80ec557528f05ec0d3ad7d.json",
+  "/tmp/aqd_inbox/de159bcb3f38ced61ee8b43fc87bc1fdd32b18b4d4895e8fc3186a75047cb1ab.txt",
+  "/tmp/aqd_outbox/de159bcb3f38ced61ee8b43fc87bc1fdd32b18b4d4895e8fc3186a75047cb1ab.json"
+ ],
+ "verdict": "clean"
+}

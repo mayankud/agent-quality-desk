@@ -1,0 +1,56 @@
+{
+ "P0-R5-L1": {
+  "date": "2026-11-13",
+  "result": "fail",
+  "claim_parts": "44 of 49 = 0.898",
+  "handoff": "27 of 27"
+ },
+ "P0-R5-L2": {
+  "date": "2026-11-13",
+  "result": "fail",
+  "claim_parts": "40 of 50 = 0.80",
+  "judge": "not run"
+ },
+ "P0-R5-L3": {
+  "date": "2026-11-13",
+  "result": "pass, verified by the tester, superseded by the revision 6 findings",
+  "claim_parts": "44 of 47",
+  "handoff": "27 of 27"
+ },
+ "P0-R5-L4": {
+  "date": "2026-11-14",
+  "result": "aborted",
+  "reason": "destination check rejected the credit promise in RG-15 in both passes, fixed, no reply used"
+ },
+ "P0-R5-L5": {
+  "date": "2026-11-14",
+  "result": "fail",
+  "claim_parts": "40 of 48 = 0.833",
+  "judge": "not run",
+  "reason": "same spans typed differently, prompt type definitions overlapped, fixed"
+ },
+ "P0-R5-L6": {
+  "date": "2026-11-14",
+  "result": "pass, superseded",
+  "claim_parts": "43 of 43",
+  "handoff": "27 of 27",
+  "reason": "tester L3 probe found a stress result scored from a different conversation still counted as the refund control"
+ },
+ "P0-R5-L7": {
+  "date": "2026-11-14",
+  "lock_sha256": "28f64fb3cbc9df4768c1146e74c141ccd6be05949a688a1c3dd177390443fa2c",
+  "result": "fail",
+  "claim_parts": "39 of 45 = 0.867",
+  "judge": "not run",
+  "note": "same prompts as L6, adds the conversation binding fix. Extraction replies and audit in L7_run",
+  "evidence_note": "Shared archive left out the request files, the rubric was edited after the lock and the supplied log did not cover the audit window. Kept as a diagnostic record, not full evidence, as the tester noted."
+ },
+ "P0-R5-L8": {
+  "date": "2026-11-14",
+  "lock_sha256": "b66a7cb69fc69bb2f4f1024c48e1f991a48abfbff466ef353900b53503b83a43",
+  "result": "pass, run once",
+  "claim_parts": "42 of 42",
+  "handoff": "27 of 27",
+  "scores_sha256": "167edc0bd672f7623fd7173e8dcfa397bd58fb18572ccf976559de1cffe8958e"
+ }
+}

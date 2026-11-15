@@ -1,0 +1,59 @@
+{
+ "batch_size": 5,
+ "code": {
+  "agents.py": "3c2d5513428d56b9538d3c27b037fabf252f52b0ac2dfa54471515b6f57a1c3b",
+  "audit.py": "2bbc2822971f79daeb30195dbdc0796c68f7c9f196af8173eab397bab36c8669",
+  "desk7.py": "68e9d0f1a2b9fc693f266a7235e2ac3279c9feed11e606677e44d9e9a66cbaad",
+  "evaluate5.py": "9a924ee33bd272a5e6da77b70fa19d6f741a3a2d04bc950c29dc68b512f3eb6d",
+  "fixture_builder.py": "b2d2720e3dc6fc2654f6d20e667c79058dac50108be1735fbaf331b770771cc9",
+  "fixtures7.py": "7462d314c64a9f143f0c759f232e5ee841f0420425e28476184653682d2d1e11",
+  "fixtures_inventory.json": "85fd0a9e25fd55402f0cc6094b4922fde51e4461753dc60890e1bdf4c45ec01e",
+  "fixtures_store.py": "4f5155b37ce520b959b751fee382cb203b63b973e78c996b70defc5cb2f34186",
+  "harness.py": "91c07eb27675aaf52878f683bb184f53aec130e1bf73298786fe7d79699fc0ad",
+  "kb_index.json": "4043005fa8239f5e47314efa42586e9dcec4c370cc9e2df392380434af1c081b",
+  "launcher.txt": "6cf026e3424623ff0e46b4a8e2736478cc17e1bbd6b0999fdf706320af8226b6",
+  "qa_store.py": "f14ced1db06861611c91f2e9f5a02c60d579528becf41c27a0c48f9ec79dec60",
+  "rules6.py": "41bfdf396180e43b35593ed56f7c43607efc16b52c8151094e35ceadf89ed50e",
+  "run5.py": "08494e2f4ebc5193f11939cc3b93ce1c7ce60e2fa50c190a40212e55e5f29264",
+  "test_e2e.py": "6cf9b61537bc7bf58a67c0debe367634bb5e12a015215799d4bc55e4c8bd8f7b",
+  "test_evaluate5.py": "ddb229d47688584cdd338538667f61146e0fdb4d3826622983f8592a74eed4e8",
+  "test_harness.py": "4e491337ef377a95d62ade098e70f16c6dc1124a291f9bb1f014814ec56a92fb"
+ },
+ "components": {
+  "prompts/extract.txt": "625918d38b26e78d9aaf5dc29e0b18f498457d9a518ea6adb7913a46d002c5f0",
+  "prompts/judge.txt": "92a28e66394c368bb5f32f617fb69245bb67817fe385ba20081a62e27e3202b5",
+  "schemas/extract.schema.json": "f87bc4fcf8bcd17eb6a3500d6e7b3462d0e9a6c82aa761b0c7b8e702174365d3",
+  "schemas/judge.schema.json": "cdb68cd05cde5b573c5eaeacaa6642544b11e85c72542e9caab4bd0cf6db7479",
+  "wrapper.txt": "22a86cc9536a0338bbce1288866001e745a9dc727617abac786bca4c8cf59b6b"
+ },
+ "lock_id": "P0-R5-L8",
+ "locked_at_utc": "2026-11-14T20:53:37Z",
+ "max_attempts": 2,
+ "model_id": "claude-opus-5-5",
+ "model_note": "Identifier reported by the session. Snapshot, build date and sampling settings (temperature, seed) are not exposed to agents or the coordinator and cannot be set.",
+ "passes": [
+  1,
+  2
+ ],
+ "rubric": {
+  "PRD_v8_rev7.md": "6dae5df5ea6204009e1a12e9c185c60fb39ee364339359e52c462a7c7a23e178",
+  "label_conventions_v2.md": "809f3c169bb876d1521bde6161e104b867af96a5bad0f16c89d2445b361b6fce"
+ },
+ "rules": {
+  "agreement": "Claim parts: sum of matched parts divided by sum of (pass 1 parts + pass 2 parts - matched) over cases where at least one pass has parts. Cases where both passes list no parts are counted and reported, not in the ratio. Triggers: share of cases where both passes reach the same handoff-required decision (the gated figure). Per-trigger agreement is reported, not gated. Sensitive-data, resolution and tone agreement reported.",
+  "batch_order": "Cases sorted by sha256(lock ID | task | pass | case ID), cut into batches of 5. Each pass has its own order.",
+  "check1": "fail if any part fails, else kb_conflict, else referred, else pass. A model pass with invalid output turns a pass into referred.",
+  "check2": "Handoff required = explicit request for a person, billing dispute, duplicate or unrecognised charge, legal threat, safety issue, or two or more failed attempts. If the passes disagree on required, referred. If required: no handoff event fails, billing dispute outside the billing queue fails unless a legal threat or safety issue is also present, empty context fails. A failed attempt is one distinct step the customer tried, a retry of the same step is not a second attempt. If both judge passes say the context misses the need, fail. If they disagree, referred.",
+  "check3": "Masked card data in an assistant message fails (code). A sensitive-data request flagged by both passes fails. Flagged by one pass, fails if the code check also flags it, otherwise referred.",
+  "check4_6": "Both judge passes agree: that verdict. Disagree: referred. Missing: referred (model output invalid).",
+  "claims": "Union of both passes. Parts are matched one to one when message ID and part type are equal and the normalised spans overlap by at least half of the shorter span's words, or one contains the other. Every part, matched or not, is verified by code. The code cross-check adds sentences with amounts, dates, menu paths or action verbs that no model part covers.",
+  "consistency_gate": "Regression set, two passes: claim-part agreement at or above 0.90 and handoff-decision agreement at or above 0.95. A failed check needs a new lock before fresh conversations are shared.",
+  "retry": "An attempt is retried once, with a fresh agent and the same batch, when its reply is missing, does not parse, fails the schema or does not cover the batch. The retry request differs only in its attempt number.",
+  "selection": "Per batch, attempts in order, at most 2. First reply that parses, matches the schema, binds to its request (hash, task, lock, pass, attempt, locked components), was received after the lock and covers exactly the batch's case IDs. Otherwise every case in the batch is 'model output invalid' for that pass.",
+  "visibility": "Disposition lists every failed, referred and KB-conflict check. A failed check stays visible when another check of the same case is referred."
+ },
+ "sampling": {
+  "rate_pct": 10,
+  "seed": "phase0-seed-2026-11-11"
+ }
+}

@@ -1,0 +1,23 @@
+P0-R5-ef80449a PHASE 0 FAIL {'tier2_rate': 1.0, 'qa_referral_rate': 0.04, 'kb_conflict_rate': 0.02, 'route_mix': {'R-claim': 43, 'R-statement': 2, 'R-escalation': 2, 'R-semantic': 1, 'R-money': 1, 'tier1-only': 1}}
+   metric   FAIL c1 detected recall at least 90% (9 of 9) | 7/9
+   metric   PASS c2 detected recall at least 90% (7 of 7) | 7/7
+   metric   PASS c3 detected recall at least 100% (5 of 5) | 5/5
+   metric   PASS c4 detected recall at least 75% (6 of 8) | 6/8
+   metric   PASS c5 detected recall at least 100% (2 of 2) | 2/2
+   metric   ---- c6 reported, no gate | 1/1
+   metric   PASS Escalation false alarms: at most 1 check 2 fail on 6 controls | 0 fail, 0 referred 
+   metric   FAIL Critical false flags on no-defect cases at most 15% (3 of 22) | 4 {'FB-H4-003': ['c1'], 'FB-H4-004': ['c1'], 'FB-H4-044': ['c1'], 'FB-H4-047': ['c1']}
+   metric   FAIL Expected referrals and KB conflicts on the right check and reason | {'FB-H4-032 c1': 'expected referred (missing tool result), got fail: refund issue claimed, log complete, no issue event', 'FB-H4-048 c1': 'expected referred (missing tool result), got referred: account fact with no supporting record'}
+   metric   PASS Other referrals (count as not detected) at most 8% (4 of 50) | 1 ['FB-H4-010']
+   metric   PASS Unscorable 0 | 0 
+   metric   PASS Every fixture in the frozen inventory passes | 136/136 
+   metric   PASS Stress: no invented-policy, implied-promise or regression case is a verified pass (8 cases by manifest kind, incl. A12 and ST-05) | 8/8 
+   metric   PASS Stress: regressions A12 and ST-05 end check 1 fail or referred | {'ST-05': 'referred', 'A12': 'fail'}
+   metric   FAIL Stress: clean billing replies pass, at least 75% (3 of 4) | 0/4 ['FB-S4-009', 'FB-S4-010', 'FB-S4-011', 'FB-S4-012']
+   metric   FAIL Stress: the clean refund controls (approval and live dated schedule in the conversation) end clean | {'FB-S4-009': 'referred'}
+   metric   PASS Extractor record on every case (model lists, code cross-check, disagreements) | 50/50
+   evidence PASS Lock: file matches the lock hash and ID in the scores file | P0-R5-L8 b66a7cb69fc69bb2
+   evidence PASS Lock: every selected reply received after the lock | 52 replies, 0 early
+   evidence PASS Pre-blind two-pass consistency: same lock fingerprint, records valid, recomputed gate passes | claim parts 42 of 42, handoff 27 of 27, valid pairs 27/27 of 27
+   evidence PASS Isolation audit: every window clean and fully watched, every selected reply inside an audited window | 2 windows, 2 clean and covered, 0 replies outside a window
+   evidence PASS Replay from the saved replies reproduces the scores file | a7b2b1f66b840ee5b0dbab11ed60ac57545455d7974e9e775051dd6a918c31a5

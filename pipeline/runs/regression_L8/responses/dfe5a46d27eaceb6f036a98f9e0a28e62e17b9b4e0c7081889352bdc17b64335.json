@@ -1,0 +1,6 @@
+{
+ "request_sha256": "dfe5a46d27eaceb6f036a98f9e0a28e62e17b9b4e0c7081889352bdc17b64335",
+ "agent_id": "agent-for-dfe5a46d27ea",
+ "received_at_utc": "2026-11-14T20:56:05Z",
+ "raw_response": "{\"cases\":[{\"case_id\":\"RG-15\",\"resolution\":{\"value\":\"yes\",\"message_id\":\"m03\",\"reason\":\"Refund issue date passed its check and answers the customer's refund question, the unsupported credit claim is scored elsewhere.\"},\"tone\":{\"value\":\"ok\",\"message_id\":\"m03\",\"reason\":\"Neutral, informative wording with no sarcasm, blame or dismissal.\"},\"handoff_context\":\"not_applicable\"},{\"case_id\":\"RG-13\",\"resolution\":{\"value\":\"yes\",\"message_id\":\"m03\",\"reason\":\"States there is no termination fee and gives the verified path to turn off renewal.\"},\"tone\":{\"value\":\"ok\",\"message_id\":\"m03\",\"reason\":\"Direct and helpful wording with no problematic tone.\"},\"handoff_context\":\"not_applicable\"}]}"
+}

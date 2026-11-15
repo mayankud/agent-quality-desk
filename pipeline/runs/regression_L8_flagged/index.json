@@ -1,0 +1,352 @@
+{
+ "entries": {
+  "extract|1|extract-p1-b01": {
+   "attempts": [
+    "355b50954f1cad8963e23996281ced142967816af4ed0e12b6242dcf1f425e0d"
+   ],
+   "batch_id": "extract-p1-b01",
+   "case_ids": [
+    "RG-12",
+    "RG-03",
+    "RG-13",
+    "RG-20",
+    "RG-05"
+   ],
+   "pass": 1,
+   "task": "extract"
+  },
+  "extract|1|extract-p1-b02": {
+   "attempts": [
+    "5d8fb0ea9f205b6fce3eddb2209f106eccd5fc999a3b6b82a02cbffda4e6caea"
+   ],
+   "batch_id": "extract-p1-b02",
+   "case_ids": [
+    "RG-19",
+    "RG-11",
+    "RG-15",
+    "RG-10",
+    "RG-14"
+   ],
+   "pass": 1,
+   "task": "extract"
+  },
+  "extract|1|extract-p1-b03": {
+   "attempts": [
+    "4e1e7e7af51862b28a749e507f6dd1fb55e9cd5eaf14f30b80ffb56b73ec45fb"
+   ],
+   "batch_id": "extract-p1-b03",
+   "case_ids": [
+    "RG-21",
+    "RG-02",
+    "RG-25",
+    "RG-16",
+    "RG-04"
+   ],
+   "pass": 1,
+   "task": "extract"
+  },
+  "extract|1|extract-p1-b04": {
+   "attempts": [
+    "8b5a447d075f955bd34ec30d1682b3d72952b9f082f1814521bd4c1f9f3c1cb8"
+   ],
+   "batch_id": "extract-p1-b04",
+   "case_ids": [
+    "RG-06",
+    "RG-17",
+    "RG-27",
+    "RG-01",
+    "RG-07"
+   ],
+   "pass": 1,
+   "task": "extract"
+  },
+  "extract|1|extract-p1-b05": {
+   "attempts": [
+    "df21392aec53d8385c8483bd60c231b079b2fa3275d82a3245bf23aa6bb4a0eb"
+   ],
+   "batch_id": "extract-p1-b05",
+   "case_ids": [
+    "RG-26",
+    "RG-08",
+    "RG-22",
+    "RG-24",
+    "RG-23"
+   ],
+   "pass": 1,
+   "task": "extract"
+  },
+  "extract|1|extract-p1-b06": {
+   "attempts": [
+    "bd36d2b4e11f7cdb6ad93ecebe7e56123bd8ec0aaa66727c1a2f42c3a943d7dc"
+   ],
+   "batch_id": "extract-p1-b06",
+   "case_ids": [
+    "RG-09",
+    "RG-18"
+   ],
+   "pass": 1,
+   "task": "extract"
+  },
+  "extract|2|extract-p2-b01": {
+   "attempts": [
+    "8910160445168d645a317d703d3ac7857e97ce8dddec94e6b2fed4ed6116f105"
+   ],
+   "batch_id": "extract-p2-b01",
+   "case_ids": [
+    "RG-14",
+    "RG-19",
+    "RG-15",
+    "RG-21",
+    "RG-26"
+   ],
+   "pass": 2,
+   "task": "extract"
+  },
+  "extract|2|extract-p2-b02": {
+   "attempts": [
+    "d0788dbb550d00594536a4fd18fd52180ea046c067ac528f45098d57058fd869"
+   ],
+   "batch_id": "extract-p2-b02",
+   "case_ids": [
+    "RG-16",
+    "RG-08",
+    "RG-18",
+    "RG-23",
+    "RG-05"
+   ],
+   "pass": 2,
+   "task": "extract"
+  },
+  "extract|2|extract-p2-b03": {
+   "attempts": [
+    "240ad145d16647920fd71a54ef0cd88dcb99f6e891d3d47a1c5d25246618ac93"
+   ],
+   "batch_id": "extract-p2-b03",
+   "case_ids": [
+    "RG-10",
+    "RG-11",
+    "RG-09",
+    "RG-01",
+    "RG-24"
+   ],
+   "pass": 2,
+   "task": "extract"
+  },
+  "extract|2|extract-p2-b04": {
+   "attempts": [
+    "83db0381292db9d67c401d00cbd2eddf173804c6341584c10c92d4c62f1f47b5"
+   ],
+   "batch_id": "extract-p2-b04",
+   "case_ids": [
+    "RG-04",
+    "RG-20",
+    "RG-02",
+    "RG-27",
+    "RG-22"
+   ],
+   "pass": 2,
+   "task": "extract"
+  },
+  "extract|2|extract-p2-b05": {
+   "attempts": [
+    "f5b61e061741f587b690b2fab25782d6f29ce67c8bad07bb6e4e1c72b732a319"
+   ],
+   "batch_id": "extract-p2-b05",
+   "case_ids": [
+    "RG-12",
+    "RG-13",
+    "RG-07",
+    "RG-25",
+    "RG-17"
+   ],
+   "pass": 2,
+   "task": "extract"
+  },
+  "extract|2|extract-p2-b06": {
+   "attempts": [
+    "7e3a37d3d2482cb83bbb1157567846904afca095959344e89cba608c5c223629"
+   ],
+   "batch_id": "extract-p2-b06",
+   "case_ids": [
+    "RG-06",
+    "RG-03"
+   ],
+   "pass": 2,
+   "task": "extract"
+  },
+  "judge|1|judge-p1-b01": {
+   "attempts": [
+    "97fe4915c1b62ee7244aaa48aa4d5549172c4b538806800162ab7651869ea883"
+   ],
+   "batch_id": "judge-p1-b01",
+   "case_ids": [
+    "RG-18",
+    "RG-19",
+    "RG-08",
+    "RG-16",
+    "RG-27"
+   ],
+   "pass": 1,
+   "task": "judge"
+  },
+  "judge|1|judge-p1-b02": {
+   "attempts": [
+    "ddea1694fa76a6346ad967b3d373ca680181c3d5e1d119f0908d5605c7b4c585"
+   ],
+   "batch_id": "judge-p1-b02",
+   "case_ids": [
+    "RG-14",
+    "RG-04",
+    "RG-26",
+    "RG-01",
+    "RG-21"
+   ],
+   "pass": 1,
+   "task": "judge"
+  },
+  "judge|1|judge-p1-b03": {
+   "attempts": [
+    "92cc8ec23932617d31b33717c0849f52d6f027c47a5667d3d1b052a8b28e7ec9"
+   ],
+   "batch_id": "judge-p1-b03",
+   "case_ids": [
+    "RG-22",
+    "RG-25",
+    "RG-02",
+    "RG-17",
+    "RG-23"
+   ],
+   "pass": 1,
+   "task": "judge"
+  },
+  "judge|1|judge-p1-b04": {
+   "attempts": [
+    "1b8bc0560176c266c4ddc65b6800f09c3084786cbe79d9094baafa97a1dc59cc"
+   ],
+   "batch_id": "judge-p1-b04",
+   "case_ids": [
+    "RG-07",
+    "RG-24",
+    "RG-12",
+    "RG-05",
+    "RG-06"
+   ],
+   "pass": 1,
+   "task": "judge"
+  },
+  "judge|1|judge-p1-b05": {
+   "attempts": [
+    "ec3eaec57eafa51e1eae16e3e4b00a3e8d3fe1ced390e872d81037509474fca4"
+   ],
+   "batch_id": "judge-p1-b05",
+   "case_ids": [
+    "RG-10",
+    "RG-09",
+    "RG-11",
+    "RG-03",
+    "RG-20"
+   ],
+   "pass": 1,
+   "task": "judge"
+  },
+  "judge|1|judge-p1-b06": {
+   "attempts": [
+    "dfe5a46d27eaceb6f036a98f9e0a28e62e17b9b4e0c7081889352bdc17b64335"
+   ],
+   "batch_id": "judge-p1-b06",
+   "case_ids": [
+    "RG-15",
+    "RG-13"
+   ],
+   "pass": 1,
+   "task": "judge"
+  },
+  "judge|2|judge-p2-b01": {
+   "attempts": [
+    "0b1a51463f78341a91514ced577b9250ebe543599d17734fe17d6382063d6951"
+   ],
+   "batch_id": "judge-p2-b01",
+   "case_ids": [
+    "RG-20",
+    "RG-06",
+    "RG-12",
+    "RG-14",
+    "RG-02"
+   ],
+   "pass": 2,
+   "task": "judge"
+  },
+  "judge|2|judge-p2-b02": {
+   "attempts": [
+    "4752e5282d674abe76df8fadacb66565a0dc9b80b2aa40290f70165b4ecac9bb"
+   ],
+   "batch_id": "judge-p2-b02",
+   "case_ids": [
+    "RG-24",
+    "RG-05",
+    "RG-07",
+    "RG-08",
+    "RG-03"
+   ],
+   "pass": 2,
+   "task": "judge"
+  },
+  "judge|2|judge-p2-b03": {
+   "attempts": [
+    "1c4d6425536bc21a1d0276ecc54ae1a782a5700ec9a154c884441f531f9f9770"
+   ],
+   "batch_id": "judge-p2-b03",
+   "case_ids": [
+    "RG-13",
+    "RG-09",
+    "RG-15",
+    "RG-22",
+    "RG-04"
+   ],
+   "pass": 2,
+   "task": "judge"
+  },
+  "judge|2|judge-p2-b04": {
+   "attempts": [
+    "2db7fd812c02701d2eb3ee1a0fcfc1028a9aa0989e61c9e7db930547079d32ee"
+   ],
+   "batch_id": "judge-p2-b04",
+   "case_ids": [
+    "RG-25",
+    "RG-21",
+    "RG-16",
+    "RG-26",
+    "RG-18"
+   ],
+   "pass": 2,
+   "task": "judge"
+  },
+  "judge|2|judge-p2-b05": {
+   "attempts": [
+    "d64a2b900dcd8c5fe9ba4e17a968aef9c329ee699c80ec557528f05ec0d3ad7d"
+   ],
+   "batch_id": "judge-p2-b05",
+   "case_ids": [
+    "RG-23",
+    "RG-27",
+    "RG-17",
+    "RG-19",
+    "RG-01"
+   ],
+   "pass": 2,
+   "task": "judge"
+  },
+  "judge|2|judge-p2-b06": {
+   "attempts": [
+    "de159bcb3f38ced61ee8b43fc87bc1fdd32b18b4d4895e8fc3186a75047cb1ab"
+   ],
+   "batch_id": "judge-p2-b06",
+   "case_ids": [
+    "RG-11",
+    "RG-10"
+   ],
+   "pass": 2,
+   "task": "judge"
+  }
+ }
+}

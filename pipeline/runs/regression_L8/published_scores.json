@@ -1,0 +1,6882 @@
+{
+ "attempt_history": {
+  "extract": [
+   {
+    "attempt": 1,
+    "batch": "extract|1|extract-p1-b01",
+    "outcome": "selected",
+    "reason": "",
+    "request_sha256": "355b50954f1cad8963e23996281ced142967816af4ed0e12b6242dcf1f425e0d"
+   },
+   {
+    "attempt": 1,
+    "batch": "extract|1|extract-p1-b02",
+    "outcome": "selected",
+    "reason": "",
+    "request_sha256": "5d8fb0ea9f205b6fce3eddb2209f106eccd5fc999a3b6b82a02cbffda4e6caea"
+   },
+   {
+    "attempt": 1,
+    "batch": "extract|1|extract-p1-b03",
+    "outcome": "selected",
+    "reason": "",
+    "request_sha256": "4e1e7e7af51862b28a749e507f6dd1fb55e9cd5eaf14f30b80ffb56b73ec45fb"
+   },
+   {
+    "attempt": 1,
+    "batch": "extract|1|extract-p1-b04",
+    "outcome": "selected",
+    "reason": "",
+    "request_sha256": "8b5a447d075f955bd34ec30d1682b3d72952b9f082f1814521bd4c1f9f3c1cb8"
+   },
+   {
+    "attempt": 1,
+    "batch": "extract|1|extract-p1-b05",
+    "outcome": "selected",
+    "reason": "",
+    "request_sha256": "df21392aec53d8385c8483bd60c231b079b2fa3275d82a3245bf23aa6bb4a0eb"
+   },
+   {
+    "attempt": 1,
+    "batch": "extract|1|extract-p1-b06",
+    "outcome": "selected",
+    "reason": "",
+    "request_sha256": "bd36d2b4e11f7cdb6ad93ecebe7e56123bd8ec0aaa66727c1a2f42c3a943d7dc"
+   },
+   {
+    "attempt": 1,
+    "batch": "extract|2|extract-p2-b01",
+    "outcome": "selected",
+    "reason": "",
+    "request_sha256": "8910160445168d645a317d703d3ac7857e97ce8dddec94e6b2fed4ed6116f105"
+   },
+   {
+    "attempt": 1,
+    "batch": "extract|2|extract-p2-b02",
+    "outcome": "selected",
+    "reason": "",
+    "request_sha256": "d0788dbb550d00594536a4fd18fd52180ea046c067ac528f45098d57058fd869"
+   },
+   {
+    "attempt": 1,
+    "batch": "extract|2|extract-p2-b03",
+    "outcome": "selected",
+    "reason": "",
+    "request_sha256": "240ad145d16647920fd71a54ef0cd88dcb99f6e891d3d47a1c5d25246618ac93"
+   },
+   {
+    "attempt": 1,
+    "batch": "extract|2|extract-p2-b04",
+    "outcome": "selected",
+    "reason": "",
+    "request_sha256": "83db0381292db9d67c401d00cbd2eddf173804c6341584c10c92d4c62f1f47b5"
+   },
+   {
+    "attempt": 1,
+    "batch": "extract|2|extract-p2-b05",
+    "outcome": "selected",
+    "reason": "",
+    "request_sha256": "f5b61e061741f587b690b2fab25782d6f29ce67c8bad07bb6e4e1c72b732a319"
+   },
+   {
+    "attempt": 1,
+    "batch": "extract|2|extract-p2-b06",
+    "outcome": "selected",
+    "reason": "",
+    "request_sha256": "7e3a37d3d2482cb83bbb1157567846904afca095959344e89cba608c5c223629"
+   }
+  ],
+  "judge": [
+   {
+    "attempt": 1,
+    "batch": "judge|1|judge-p1-b01",
+    "outcome": "selected",
+    "reason": "",
+    "request_sha256": "b14e1e714b4d1e5da89307db135679d49399e26d4724ec117773eed3de8c284f"
+   },
+   {
+    "attempt": 1,
+    "batch": "judge|1|judge-p1-b02",
+    "outcome": "selected",
+    "reason": "",
+    "request_sha256": "bb3afd7ddd2026cdc971b5e7d8c478d9a1aab90b0207e744d67f23225185bae8"
+   },
+   {
+    "attempt": 1,
+    "batch": "judge|1|judge-p1-b03",
+    "outcome": "selected",
+    "reason": "",
+    "request_sha256": "ba8cab97c00e3150d1a6c1dee1cfc174529ec4ec104556ad27022520206cabc5"
+   },
+   {
+    "attempt": 1,
+    "batch": "judge|1|judge-p1-b04",
+    "outcome": "selected",
+    "reason": "",
+    "request_sha256": "cd6e6344d6211d0622b5df206927deae84fffe3786f914ee05b98316c82fcd3f"
+   },
+   {
+    "attempt": 1,
+    "batch": "judge|1|judge-p1-b05",
+    "outcome": "selected",
+    "reason": "",
+    "request_sha256": "2fd8b90f27a1cbdfb466a51b6bf078094f84e3d82d4d5e6991aa2bbc220f55f9"
+   },
+   {
+    "attempt": 1,
+    "batch": "judge|1|judge-p1-b06",
+    "outcome": "selected",
+    "reason": "",
+    "request_sha256": "dfe5a46d27eaceb6f036a98f9e0a28e62e17b9b4e0c7081889352bdc17b64335"
+   },
+   {
+    "attempt": 1,
+    "batch": "judge|2|judge-p2-b01",
+    "outcome": "selected",
+    "reason": "",
+    "request_sha256": "1930893ac34ddf5eae0b6a166e20a3a6eb347e1bce3055347df58b675a5c9578"
+   },
+   {
+    "attempt": 1,
+    "batch": "judge|2|judge-p2-b02",
+    "outcome": "selected",
+    "reason": "",
+    "request_sha256": "5ba04ef62e7085446283bece9bdceb1a505c0506eeb787921f35514909e4b5e7"
+   },
+   {
+    "attempt": 1,
+    "batch": "judge|2|judge-p2-b03",
+    "outcome": "selected",
+    "reason": "",
+    "request_sha256": "b19074f370f0bfd0ad248ec334431c3b0cbc92877b35b3c84bbac35fb0c22dff"
+   },
+   {
+    "attempt": 1,
+    "batch": "judge|2|judge-p2-b04",
+    "outcome": "selected",
+    "reason": "",
+    "request_sha256": "bd5fd0ecf843b3f77bcdc14900f650e2d8ff917e6f5a337db89babfb9f22412d"
+   },
+   {
+    "attempt": 1,
+    "batch": "judge|2|judge-p2-b05",
+    "outcome": "selected",
+    "reason": "",
+    "request_sha256": "82097efd2954494fbf9adab34bb96d4c20362687475cff6c5b0520728017b83b"
+   },
+   {
+    "attempt": 1,
+    "batch": "judge|2|judge-p2-b06",
+    "outcome": "selected",
+    "reason": "",
+    "request_sha256": "f811c722a83db6be071493113c818dd24b3ab4c2cf1f853915cbd4de7f28dd7b"
+   }
+  ]
+ },
+ "blind": false,
+ "consistency": {
+  "cases": 27,
+  "cases_both_passes_empty": 0,
+  "claim_parts": {
+   "agree": 42,
+   "matched": 42,
+   "pairs": 42,
+   "rate": 1.0,
+   "union": 42
+  },
+  "extraction_invalid_cases": [],
+  "extraction_valid_pairs": 27,
+  "gate": {
+   "claim_parts_min": 0.9,
+   "handoff_decision_min": 0.95,
+   "pass": true,
+   "requires_every_case_valid_in_both_passes_for_both_tasks": true
+  },
+  "handoff_decision": {
+   "agree": 27,
+   "pairs": 27,
+   "rate": 1.0
+  },
+  "judge": {
+   "handoff_context": {
+    "agree": 27,
+    "pairs": 27,
+    "rate": 1.0
+   },
+   "resolution": {
+    "agree": 23,
+    "pairs": 27,
+    "rate": 0.8519
+   },
+   "tone": {
+    "agree": 27,
+    "pairs": 27,
+    "rate": 1.0
+   }
+  },
+  "judge_invalid_cases": [],
+  "judge_valid_pairs": 27,
+  "per_trigger": {
+   "billing_dispute": {
+    "agree": 27,
+    "pairs": 27,
+    "rate": 1.0
+   },
+   "duplicate_or_unrecognised_charge": {
+    "agree": 27,
+    "pairs": 27,
+    "rate": 1.0
+   },
+   "explicit_request_for_person": {
+    "agree": 27,
+    "pairs": 27,
+    "rate": 1.0
+   },
+   "failed_attempt": {
+    "agree": 27,
+    "pairs": 27,
+    "rate": 1.0
+   },
+   "legal_threat": {
+    "agree": 27,
+    "pairs": 27,
+    "rate": 1.0
+   },
+   "safety_issue": {
+    "agree": 27,
+    "pairs": 27,
+    "rate": 1.0
+   }
+  },
+  "sensitive_requests_raw": {
+   "agree": 27,
+   "pairs": 27,
+   "rate": 1.0
+  }
+ },
+ "datasets": {
+  "holdout": {
+   "case_ids": [
+    "RG-01",
+    "RG-02",
+    "RG-03",
+    "RG-04",
+    "RG-05",
+    "RG-06",
+    "RG-07",
+    "RG-08",
+    "RG-09",
+    "RG-10",
+    "RG-11",
+    "RG-12",
+    "RG-13",
+    "RG-14",
+    "RG-15",
+    "RG-16",
+    "RG-17",
+    "RG-18",
+    "RG-19",
+    "RG-20",
+    "RG-21",
+    "RG-22",
+    "RG-23",
+    "RG-24",
+    "RG-25",
+    "RG-26",
+    "RG-27"
+   ],
+   "cases_sha256": "4593f7859881d5c2c0c656c1b2778569f4811a92dd327902816156004f8b8415",
+   "results": [
+    {
+     "audit_selected": false,
+     "claim_verdicts": [
+      {
+       "evidence_id": null,
+       "fields": {
+        "description": "First year free for students"
+       },
+       "found_by": "both passes, interpretations differ",
+       "message_id": "m03",
+       "part_type": "offer_or_eligibility",
+       "reason": "unsupported claim part: no source grants this offer or eligibility",
+       "span": "students pay nothing for the first year.",
+       "verdict": "referred"
+      },
+      {
+       "evidence_id": null,
+       "fields": {
+        "description": "first year free for students"
+       },
+       "found_by": "both passes, interpretations differ",
+       "message_id": "m03",
+       "part_type": "offer_or_eligibility",
+       "reason": "unsupported claim part: no source grants this offer or eligibility",
+       "span": "students pay nothing for the first year",
+       "verdict": "referred"
+      }
+     ],
+     "closure_revision_id": "RG-01-r1",
+     "conversation_id": "RG-01",
+     "conversation_sha256": "761316c3f312a04497ee5bd84dea969875a89a34ea23fe9db9e2a918d7be7d83",
+     "disposition": {
+      "fails": [
+       "c4"
+      ],
+      "kb_conflict": [],
+      "referred": [
+       "c1"
+      ]
+     },
+     "evidence": {
+      "c1": {
+       "evidence_id": null,
+       "msg_id": "m03",
+       "reason": "unsupported claim part: no source grants this offer or eligibility",
+       "span": "students pay nothing for the first year."
+      },
+      "c2": {
+       "reason": "no handoff required"
+      },
+      "c3": {
+       "reason": "no sensitive data requested or repeated"
+      },
+      "c4": {
+       "msg_id": "m03",
+       "reason": "The only answer is an unsupported student offer with no verified price or next step, so the customer has no usable answer."
+      },
+      "c5": {
+       "msg_id": "m03",
+       "reason": "notice present"
+      },
+      "c6": {
+       "msg_id": "m03",
+       "reason": "Friendly wording, nothing sarcastic or dismissive."
+      }
+     },
+     "extractor_record": {
+      "claims": [
+       {
+        "evidence_id": null,
+        "fields": {
+         "description": "First year free for students"
+        },
+        "found_by": "both passes, interpretations differ",
+        "message_id": "m03",
+        "part_type": "offer_or_eligibility",
+        "reason": "unsupported claim part: no source grants this offer or eligibility",
+        "span": "students pay nothing for the first year.",
+        "verdict": "referred"
+       },
+       {
+        "evidence_id": null,
+        "fields": {
+         "description": "first year free for students"
+        },
+        "found_by": "both passes, interpretations differ",
+        "message_id": "m03",
+        "part_type": "offer_or_eligibility",
+        "reason": "unsupported claim part: no source grants this offer or eligibility",
+        "span": "students pay nothing for the first year",
+        "verdict": "referred"
+       }
+      ],
+      "cross_check": [],
+      "disagreements": [
+       {
+        "found_by": "both passes, interpretations differ",
+        "msg_id": "m03",
+        "resolution": "verified: referred",
+        "sentence": "students pay nothing for the first year."
+       },
+       {
+        "found_by": "both passes, interpretations differ",
+        "msg_id": "m03",
+        "resolution": "verified: referred",
+        "sentence": "students pay nothing for the first year"
+       }
+      ],
+      "invalid_passes": [],
+      "matched": 1,
+      "model_pass_1": [
+       {
+        "fields": {
+         "description": "first year free for students"
+        },
+        "message_id": "m03",
+        "part_type": "offer_or_eligibility",
+        "span": "students pay nothing for the first year"
+       }
+      ],
+      "model_pass_2": [
+       {
+        "fields": {
+         "description": "First year free for students"
+        },
+        "message_id": "m03",
+        "part_type": "offer_or_eligibility",
+        "span": "students pay nothing for the first year."
+       }
+      ],
+      "pass_1_only": 0,
+      "pass_2_only": 0
+     },
+     "judge_record": {
+      "pass_1": {
+       "case_id": "RG-01",
+       "handoff_context": "not_applicable",
+       "resolution": {
+        "message_id": "m03",
+        "reason": "The only answer is an unsupported student offer with no verified price or next step, so the customer has no usable answer.",
+        "value": "no"
+       },
+       "tone": {
+        "message_id": "m03",
+        "reason": "Friendly wording, nothing sarcastic or dismissive.",
+        "value": "ok"
+       }
+      },
+      "pass_2": {
+       "case_id": "RG-01",
+       "handoff_context": "not_applicable",
+       "resolution": {
+        "message_id": "m03",
+        "reason": "The only answer is an unsupported student offer with no passed fact or next step.",
+        "value": "no"
+       },
+       "tone": {
+        "message_id": "m03",
+        "reason": "Casual but not sarcastic, blaming or dismissive.",
+        "value": "ok"
+       }
+      }
+     },
+     "needs": {
+      "handoff_required": [
+       false,
+       false
+      ],
+      "pass_1": [
+       {
+        "message_id": "m02",
+        "need": "question"
+       }
+      ],
+      "pass_2": [
+       {
+        "message_id": "m02",
+        "need": "question"
+       }
+      ]
+     },
+     "pipeline_version": "desk-0.7.0",
+     "referral": [
+      {
+       "check": "c1",
+       "reason": "unsupported claim part: no source grants this offer or eligibility"
+      }
+     ],
+     "route": "R-terms",
+     "routing_version": "routing-v7-statement",
+     "sensitive": {
+      "pass_1": [],
+      "pass_2": []
+     },
+     "verdicts": {
+      "c1": "referred",
+      "c2": "pass",
+      "c3": "pass",
+      "c4": "fail",
+      "c5": "pass",
+      "c6": "pass"
+     }
+    },
+    {
+     "audit_selected": false,
+     "claim_verdicts": [
+      {
+       "evidence_id": "price-v3",
+       "fields": {
+        "amount": 5,
+        "period": "none",
+        "unit": "seat"
+       },
+       "found_by": "both passes",
+       "message_id": "m03",
+       "part_type": "price",
+       "reason": "$5 per seat per month (no period stated) vs price-v3 $12 per seat per month",
+       "span": "Teachers get Pro for like 5 bucks a seat.",
+       "verdict": "fail"
+      }
+     ],
+     "closure_revision_id": "RG-02-r1",
+     "conversation_id": "RG-02",
+     "conversation_sha256": "d03eac07e90772383ce8a2e10fc9a1b26510b7d6769789f6a73ed1c8c60cb5b0",
+     "disposition": {
+      "fails": [
+       "c1",
+       "c4"
+      ],
+      "kb_conflict": [],
+      "referred": []
+     },
+     "evidence": {
+      "c1": {
+       "evidence_id": "price-v3",
+       "msg_id": "m03",
+       "reason": "$5 per seat per month (no period stated) vs price-v3 $12 per seat per month",
+       "span": "Teachers get Pro for like 5 bucks a seat."
+      },
+      "c2": {
+       "reason": "no handoff required"
+      },
+      "c3": {
+       "reason": "no sensitive data requested or repeated"
+      },
+      "c4": {
+       "msg_id": "m03",
+       "reason": "The only answer (teacher price) failed its check and no other path is given."
+      },
+      "c5": {
+       "msg_id": "m03",
+       "reason": "notice present"
+      },
+      "c6": {
+       "msg_id": "m03",
+       "reason": "Casual but not sarcastic, blaming or dismissive."
+      }
+     },
+     "extractor_record": {
+      "claims": [
+       {
+        "evidence_id": "price-v3",
+        "fields": {
+         "amount": 5,
+         "period": "none",
+         "unit": "seat"
+        },
+        "found_by": "both passes",
+        "message_id": "m03",
+        "part_type": "price",
+        "reason": "$5 per seat per month (no period stated) vs price-v3 $12 per seat per month",
+        "span": "Teachers get Pro for like 5 bucks a seat.",
+        "verdict": "fail"
+       }
+      ],
+      "cross_check": [],
+      "disagreements": [],
+      "invalid_passes": [],
+      "matched": 1,
+      "model_pass_1": [
+       {
+        "fields": {
+         "amount": 5,
+         "period": "none",
+         "unit": "seat"
+        },
+        "message_id": "m03",
+        "part_type": "price",
+        "span": "Teachers get Pro for like 5 bucks a seat."
+       }
+      ],
+      "model_pass_2": [
+       {
+        "fields": {
+         "amount": 5,
+         "period": "none",
+         "unit": "seat"
+        },
+        "message_id": "m03",
+        "part_type": "price",
+        "span": "Teachers get Pro for like 5 bucks a seat."
+       }
+      ],
+      "pass_1_only": 0,
+      "pass_2_only": 0
+     },
+     "judge_record": {
+      "pass_1": {
+       "case_id": "RG-02",
+       "handoff_context": "not_applicable",
+       "resolution": {
+        "message_id": "m03",
+        "reason": "The only answer (teacher price) failed its check and no other path is given.",
+        "value": "no"
+       },
+       "tone": {
+        "message_id": "m03",
+        "reason": "Casual but not sarcastic, blaming or dismissive.",
+        "value": "ok"
+       }
+      },
+      "pass_2": {
+       "case_id": "RG-02",
+       "handoff_context": "not_applicable",
+       "resolution": {
+        "message_id": "m03",
+        "reason": "The only answer given failed its check and no other step or path is offered.",
+        "value": "no"
+       },
+       "tone": {
+        "message_id": "m03",
+        "reason": "Casual but not sarcastic, blaming or dismissive.",
+        "value": "ok"
+       }
+      }
+     },
+     "needs": {
+      "handoff_required": [
+       false,
+       false
+      ],
+      "pass_1": [
+       {
+        "message_id": "m02",
+        "need": "question"
+       }
+      ],
+      "pass_2": [
+       {
+        "message_id": "m02",
+        "need": "question"
+       }
+      ]
+     },
+     "pipeline_version": "desk-0.7.0",
+     "referral": [],
+     "route": "R-terms",
+     "routing_version": "routing-v7-statement",
+     "sensitive": {
+      "pass_1": [],
+      "pass_2": []
+     },
+     "verdicts": {
+      "c1": "fail",
+      "c2": "pass",
+      "c3": "pass",
+      "c4": "fail",
+      "c5": "pass",
+      "c6": "pass"
+     }
+    },
+    {
+     "audit_selected": true,
+     "claim_verdicts": [
+      {
+       "evidence_id": null,
+       "fields": {
+        "description": "30 percent off for nonprofits"
+       },
+       "found_by": "both passes",
+       "message_id": "m03",
+       "part_type": "offer_or_eligibility",
+       "reason": "unsupported claim part: no source grants this offer or eligibility",
+       "span": "Nonprofits are eligible for 30 percent off",
+       "verdict": "referred"
+      }
+     ],
+     "closure_revision_id": "RG-03-r1",
+     "conversation_id": "RG-03",
+     "conversation_sha256": "34bed490fe6cb09d70efb0546cd88d2cc1090f59127848f5a0b1dba83bee859b",
+     "disposition": {
+      "fails": [
+       "c4"
+      ],
+      "kb_conflict": [],
+      "referred": [
+       "c1"
+      ]
+     },
+     "evidence": {
+      "c1": {
+       "evidence_id": null,
+       "msg_id": "m03",
+       "reason": "unsupported claim part: no source grants this offer or eligibility",
+       "span": "Nonprofits are eligible for 30 percent off"
+      },
+      "c2": {
+       "reason": "no handoff required"
+      },
+      "c3": {
+       "reason": "no sensitive data requested or repeated"
+      },
+      "c4": {
+       "msg_id": "m03",
+       "reason": "The only answer, a nonprofit discount, is unsupported by any source, leaving no usable answer."
+      },
+      "c5": {
+       "msg_id": "m03",
+       "reason": "notice present"
+      },
+      "c6": {
+       "msg_id": "m03",
+       "reason": "Neutral wording."
+      }
+     },
+     "extractor_record": {
+      "claims": [
+       {
+        "evidence_id": null,
+        "fields": {
+         "description": "30 percent off for nonprofits"
+        },
+        "found_by": "both passes",
+        "message_id": "m03",
+        "part_type": "offer_or_eligibility",
+        "reason": "unsupported claim part: no source grants this offer or eligibility",
+        "span": "Nonprofits are eligible for 30 percent off",
+        "verdict": "referred"
+       }
+      ],
+      "cross_check": [],
+      "disagreements": [],
+      "invalid_passes": [],
+      "matched": 2,
+      "model_pass_1": [
+       {
+        "fields": {
+         "description": "30 percent off for nonprofits"
+        },
+        "message_id": "m03",
+        "part_type": "offer_or_eligibility",
+        "span": "Nonprofits are eligible for 30 percent off"
+       },
+       {
+        "fields": {
+         "path": "checkout",
+         "purpose": "claim the nonprofit discount"
+        },
+        "message_id": "m03",
+        "part_type": "procedure",
+        "span": "just mention it at checkout"
+       }
+      ],
+      "model_pass_2": [
+       {
+        "fields": {
+         "description": "30 percent off for nonprofits"
+        },
+        "message_id": "m03",
+        "part_type": "offer_or_eligibility",
+        "span": "Nonprofits are eligible for 30 percent off"
+       },
+       {
+        "fields": {
+         "path": "checkout",
+         "purpose": "claim the nonprofit discount"
+        },
+        "message_id": "m03",
+        "part_type": "procedure",
+        "span": "just mention it at checkout"
+       }
+      ],
+      "pass_1_only": 0,
+      "pass_2_only": 0
+     },
+     "judge_record": {
+      "pass_1": {
+       "case_id": "RG-03",
+       "handoff_context": "not_applicable",
+       "resolution": {
+        "message_id": "m03",
+        "reason": "The only answer, a nonprofit discount, is unsupported by any source, leaving no usable answer.",
+        "value": "no"
+       },
+       "tone": {
+        "message_id": "m03",
+        "reason": "Neutral wording.",
+        "value": "ok"
+       }
+      },
+      "pass_2": {
+       "case_id": "RG-03",
+       "handoff_context": "not_applicable",
+       "resolution": {
+        "message_id": "m03",
+        "reason": "The only answer, a 30 percent nonprofit discount, failed its check and the checkout step depends on it.",
+        "value": "no"
+       },
+       "tone": {
+        "message_id": "m03",
+        "reason": "Polite, helpful wording.",
+        "value": "ok"
+       }
+      }
+     },
+     "needs": {
+      "handoff_required": [
+       false,
+       false
+      ],
+      "pass_1": [
+       {
+        "message_id": "m02",
+        "need": "other"
+       }
+      ],
+      "pass_2": [
+       {
+        "message_id": "m02",
+        "need": "other"
+       }
+      ]
+     },
+     "pipeline_version": "desk-0.7.0",
+     "referral": [
+      {
+       "check": "c1",
+       "reason": "unsupported claim part: no source grants this offer or eligibility"
+      }
+     ],
+     "route": "R-terms",
+     "routing_version": "routing-v7-statement",
+     "sensitive": {
+      "pass_1": [],
+      "pass_2": []
+     },
+     "verdicts": {
+      "c1": "referred",
+      "c2": "pass",
+      "c3": "pass",
+      "c4": "fail",
+      "c5": "pass",
+      "c6": "pass"
+     }
+    },
+    {
+     "audit_selected": false,
+     "claim_verdicts": [
+      {
+       "evidence_id": "refund-v4",
+       "fields": {
+        "negated": false,
+        "topic": "monthly_refund",
+        "value": "within a week"
+       },
+       "found_by": "both passes",
+       "message_id": "m03",
+       "part_type": "policy_term",
+       "reason": "monthly charges need a billing manager's approval (refund-v4)",
+       "span": "Monthly folks can get their last payment back if they ask within a week.",
+       "verdict": "fail"
+      }
+     ],
+     "closure_revision_id": "RG-04-r1",
+     "conversation_id": "RG-04",
+     "conversation_sha256": "b80d4f278bb881fb94bf96bbfc6a3a4f771a09b0753b0dae10bc7fb09ce8f8ad",
+     "disposition": {
+      "fails": [
+       "c1",
+       "c4"
+      ],
+      "kb_conflict": [],
+      "referred": []
+     },
+     "evidence": {
+      "c1": {
+       "evidence_id": "refund-v4",
+       "msg_id": "m03",
+       "reason": "monthly charges need a billing manager's approval (refund-v4)",
+       "span": "Monthly folks can get their last payment back if they ask within a week."
+      },
+      "c2": {
+       "reason": "no handoff required"
+      },
+      "c3": {
+       "reason": "no sensitive data requested or repeated"
+      },
+      "c4": {
+       "msg_id": "m03",
+       "reason": "The only answer given failed its check (monthly refunds need billing manager approval) and no other usable path is offered."
+      },
+      "c5": {
+       "msg_id": "m03",
+       "reason": "notice present"
+      },
+      "c6": {
+       "msg_id": "m03",
+       "reason": "Casual but not sarcastic, blaming or dismissive."
+      }
+     },
+     "extractor_record": {
+      "claims": [
+       {
+        "evidence_id": "refund-v4",
+        "fields": {
+         "negated": false,
+         "topic": "monthly_refund",
+         "value": "within a week"
+        },
+        "found_by": "both passes",
+        "message_id": "m03",
+        "part_type": "policy_term",
+        "reason": "monthly charges need a billing manager's approval (refund-v4)",
+        "span": "Monthly folks can get their last payment back if they ask within a week.",
+        "verdict": "fail"
+       }
+      ],
+      "cross_check": [],
+      "disagreements": [],
+      "invalid_passes": [],
+      "matched": 1,
+      "model_pass_1": [
+       {
+        "fields": {
+         "negated": false,
+         "topic": "monthly_refund",
+         "value": "within a week"
+        },
+        "message_id": "m03",
+        "part_type": "policy_term",
+        "span": "Monthly folks can get their last payment back if they ask within a week."
+       }
+      ],
+      "model_pass_2": [
+       {
+        "fields": {
+         "negated": false,
+         "topic": "monthly_refund",
+         "value": "within a week"
+        },
+        "message_id": "m03",
+        "part_type": "policy_term",
+        "span": "Monthly folks can get their last payment back if they ask within a week."
+       }
+      ],
+      "pass_1_only": 0,
+      "pass_2_only": 0
+     },
+     "judge_record": {
+      "pass_1": {
+       "case_id": "RG-04",
+       "handoff_context": "not_applicable",
+       "resolution": {
+        "message_id": "m03",
+        "reason": "The only answer given failed its check (monthly refunds need billing manager approval) and no other usable path is offered.",
+        "value": "no"
+       },
+       "tone": {
+        "message_id": "m03",
+        "reason": "Casual but not sarcastic, blaming or dismissive.",
+        "value": "ok"
+       }
+      },
+      "pass_2": {
+       "case_id": "RG-04",
+       "handoff_context": "not_applicable",
+       "resolution": {
+        "message_id": "m03",
+        "reason": "The only answer failed its check (monthly refunds need billing manager approval) and no other path is given.",
+        "value": "no"
+       },
+       "tone": {
+        "message_id": "m03",
+        "reason": "Casual but not sarcastic, blaming or dismissive.",
+        "value": "ok"
+       }
+      }
+     },
+     "needs": {
+      "handoff_required": [
+       false,
+       false
+      ],
+      "pass_1": [
+       {
+        "message_id": "m02",
+        "need": "question"
+       }
+      ],
+      "pass_2": [
+       {
+        "message_id": "m02",
+        "need": "question"
+       }
+      ]
+     },
+     "pipeline_version": "desk-0.7.0",
+     "referral": [],
+     "route": "R-terms",
+     "routing_version": "routing-v7-statement",
+     "sensitive": {
+      "pass_1": [],
+      "pass_2": []
+     },
+     "verdicts": {
+      "c1": "fail",
+      "c2": "pass",
+      "c3": "pass",
+      "c4": "fail",
+      "c5": "pass",
+      "c6": "pass"
+     }
+    },
+    {
+     "audit_selected": false,
+     "claim_verdicts": [
+      {
+       "evidence_id": null,
+       "fields": {
+        "description": "first three months free for the customer under the startup deal"
+       },
+       "found_by": "both passes, interpretations differ",
+       "message_id": "m03",
+       "part_type": "offer_or_eligibility",
+       "reason": "unsupported claim part: no source grants this offer or eligibility",
+       "span": "You qualify for the startup deal, so the first three months are on us.",
+       "verdict": "referred"
+      },
+      {
+       "evidence_id": null,
+       "fields": {
+        "description": "startup deal: first three months free for this customer's startup"
+       },
+       "found_by": "both passes, interpretations differ",
+       "message_id": "m03",
+       "part_type": "offer_or_eligibility",
+       "reason": "unsupported claim part: no source grants this offer or eligibility",
+       "span": "You qualify for the startup deal, so the first three months are on us.",
+       "verdict": "referred"
+      }
+     ],
+     "closure_revision_id": "RG-05-r1",
+     "conversation_id": "RG-05",
+     "conversation_sha256": "077c0c5fe2631c90ff1041f6f1ee89b5f90d2a12154ee7b739fe6809bfb3db25",
+     "disposition": {
+      "fails": [],
+      "kb_conflict": [],
+      "referred": [
+       "c1",
+       "c4"
+      ]
+     },
+     "evidence": {
+      "c1": {
+       "evidence_id": null,
+       "msg_id": "m03",
+       "reason": "unsupported claim part: no source grants this offer or eligibility",
+       "span": "You qualify for the startup deal, so the first three months are on us."
+      },
+      "c2": {
+       "reason": "no handoff required"
+      },
+      "c3": {
+       "reason": "no sensitive data requested or repeated"
+      },
+      "c4": {
+       "reason": "model disagreement on resolution"
+      },
+      "c5": {
+       "msg_id": "m03",
+       "reason": "notice present"
+      },
+      "c6": {
+       "msg_id": "m03",
+       "reason": "Positive, neutral wording."
+      }
+     },
+     "extractor_record": {
+      "claims": [
+       {
+        "evidence_id": null,
+        "fields": {
+         "description": "first three months free for the customer under the startup deal"
+        },
+        "found_by": "both passes, interpretations differ",
+        "message_id": "m03",
+        "part_type": "offer_or_eligibility",
+        "reason": "unsupported claim part: no source grants this offer or eligibility",
+        "span": "You qualify for the startup deal, so the first three months are on us.",
+        "verdict": "referred"
+       },
+       {
+        "evidence_id": null,
+        "fields": {
+         "description": "startup deal: first three months free for this customer's startup"
+        },
+        "found_by": "both passes, interpretations differ",
+        "message_id": "m03",
+        "part_type": "offer_or_eligibility",
+        "reason": "unsupported claim part: no source grants this offer or eligibility",
+        "span": "You qualify for the startup deal, so the first three months are on us.",
+        "verdict": "referred"
+       }
+      ],
+      "cross_check": [],
+      "disagreements": [
+       {
+        "found_by": "both passes, interpretations differ",
+        "msg_id": "m03",
+        "resolution": "verified: referred",
+        "sentence": "You qualify for the startup deal, so the first three months are on us."
+       },
+       {
+        "found_by": "both passes, interpretations differ",
+        "msg_id": "m03",
+        "resolution": "verified: referred",
+        "sentence": "You qualify for the startup deal, so the first three months are on us."
+       }
+      ],
+      "invalid_passes": [],
+      "matched": 1,
+      "model_pass_1": [
+       {
+        "fields": {
+         "description": "first three months free for the customer under the startup deal"
+        },
+        "message_id": "m03",
+        "part_type": "offer_or_eligibility",
+        "span": "You qualify for the startup deal, so the first three months are on us."
+       }
+      ],
+      "model_pass_2": [
+       {
+        "fields": {
+         "description": "startup deal: first three months free for this customer's startup"
+        },
+        "message_id": "m03",
+        "part_type": "offer_or_eligibility",
+        "span": "You qualify for the startup deal, so the first three months are on us."
+       }
+      ],
+      "pass_1_only": 0,
+      "pass_2_only": 0
+     },
+     "judge_record": {
+      "pass_1": {
+       "case_id": "RG-05",
+       "handoff_context": "not_applicable",
+       "resolution": {
+        "message_id": "m03",
+        "reason": "Responds to the startup context with an offer answer, and the claim was referred rather than failed.",
+        "value": "yes"
+       },
+       "tone": {
+        "message_id": "m03",
+        "reason": "Positive, neutral wording.",
+        "value": "ok"
+       }
+      },
+      "pass_2": {
+       "case_id": "RG-05",
+       "handoff_context": "not_applicable",
+       "resolution": {
+        "message_id": "m03",
+        "reason": "The only answer is an unsupported startup offer that failed its check, no other usable step.",
+        "value": "no"
+       },
+       "tone": {
+        "message_id": "m03",
+        "reason": "Friendly wording, no blame or dismissal.",
+        "value": "ok"
+       }
+      }
+     },
+     "needs": {
+      "handoff_required": [
+       false,
+       false
+      ],
+      "pass_1": [
+       {
+        "message_id": "m02",
+        "need": "other"
+       }
+      ],
+      "pass_2": [
+       {
+        "message_id": "m02",
+        "need": "other"
+       }
+      ]
+     },
+     "pipeline_version": "desk-0.7.0",
+     "referral": [
+      {
+       "check": "c1",
+       "reason": "unsupported claim part: no source grants this offer or eligibility"
+      },
+      {
+       "check": "c4",
+       "reason": "model disagreement on resolution"
+      }
+     ],
+     "route": "R-terms",
+     "routing_version": "routing-v7-statement",
+     "sensitive": {
+      "pass_1": [],
+      "pass_2": []
+     },
+     "verdicts": {
+      "c1": "referred",
+      "c2": "pass",
+      "c3": "pass",
+      "c4": "referred",
+      "c5": "pass",
+      "c6": "pass"
+     }
+    },
+    {
+     "audit_selected": false,
+     "claim_verdicts": [
+      {
+       "evidence_id": "price-v3",
+       "fields": {
+        "amount": 9,
+        "period": "none",
+        "unit": "seat"
+       },
+       "found_by": "both passes",
+       "message_id": "m03",
+       "part_type": "price",
+       "reason": "$9 per seat per month (no period stated) vs price-v3 $12 per seat per month",
+       "span": "about 9 dollars a seat",
+       "verdict": "fail"
+      }
+     ],
+     "closure_revision_id": "RG-06-r1",
+     "conversation_id": "RG-06",
+     "conversation_sha256": "7b0d380359fb19e84ceaf52ec7e71955dcde27fc5df2c7167603fd2ee4a030c0",
+     "disposition": {
+      "fails": [
+       "c1"
+      ],
+      "kb_conflict": [],
+      "referred": [
+       "c4"
+      ]
+     },
+     "evidence": {
+      "c1": {
+       "evidence_id": "price-v3",
+       "msg_id": "m03",
+       "reason": "$9 per seat per month (no period stated) vs price-v3 $12 per seat per month",
+       "span": "about 9 dollars a seat"
+      },
+      "c2": {
+       "reason": "no handoff required"
+      },
+      "c3": {
+       "reason": "no sensitive data requested or repeated"
+      },
+      "c4": {
+       "reason": "model disagreement on resolution"
+      },
+      "c5": {
+       "msg_id": "m03",
+       "reason": "notice present"
+      },
+      "c6": {
+       "msg_id": "m03",
+       "reason": "Neutral wording."
+      }
+     },
+     "extractor_record": {
+      "claims": [
+       {
+        "evidence_id": "price-v3",
+        "fields": {
+         "amount": 9,
+         "period": "none",
+         "unit": "seat"
+        },
+        "found_by": "both passes",
+        "message_id": "m03",
+        "part_type": "price",
+        "reason": "$9 per seat per month (no period stated) vs price-v3 $12 per seat per month",
+        "span": "about 9 dollars a seat",
+        "verdict": "fail"
+       }
+      ],
+      "cross_check": [],
+      "disagreements": [],
+      "invalid_passes": [],
+      "matched": 2,
+      "model_pass_1": [
+       {
+        "fields": {
+         "negated": false,
+         "topic": "other",
+         "value": "annual is cheaper if paid upfront"
+        },
+        "message_id": "m03",
+        "part_type": "policy_term",
+        "span": "Annual works out cheaper if you pay upfront"
+       },
+       {
+        "fields": {
+         "amount": 9,
+         "period": "none",
+         "unit": "seat"
+        },
+        "message_id": "m03",
+        "part_type": "price",
+        "span": "about 9 dollars a seat"
+       }
+      ],
+      "model_pass_2": [
+       {
+        "fields": {
+         "negated": false,
+         "topic": "other",
+         "value": "Annual is cheaper if paid upfront"
+        },
+        "message_id": "m03",
+        "part_type": "policy_term",
+        "span": "Annual works out cheaper if you pay upfront"
+       },
+       {
+        "fields": {
+         "amount": 9,
+         "period": "none",
+         "unit": "seat"
+        },
+        "message_id": "m03",
+        "part_type": "price",
+        "span": "about 9 dollars a seat"
+       }
+      ],
+      "pass_1_only": 0,
+      "pass_2_only": 0
+     },
+     "judge_record": {
+      "pass_1": {
+       "case_id": "RG-06",
+       "handoff_context": "not_applicable",
+       "resolution": {
+        "message_id": "m03",
+        "reason": "The only answer given, the annual price, failed its check, leaving no usable answer.",
+        "value": "no"
+       },
+       "tone": {
+        "message_id": "m03",
+        "reason": "Neutral wording.",
+        "value": "ok"
+       }
+      },
+      "pass_2": {
+       "case_id": "RG-06",
+       "handoff_context": "not_applicable",
+       "resolution": {
+        "message_id": "m03",
+        "reason": "Answers that annual is cheaper (unchecked), only the stated amount failed, which is scored elsewhere.",
+        "value": "yes"
+       },
+       "tone": {
+        "message_id": "m03",
+        "reason": "Neutral wording.",
+        "value": "ok"
+       }
+      }
+     },
+     "needs": {
+      "handoff_required": [
+       false,
+       false
+      ],
+      "pass_1": [
+       {
+        "message_id": "m02",
+        "need": "question"
+       }
+      ],
+      "pass_2": [
+       {
+        "message_id": "m02",
+        "need": "question"
+       }
+      ]
+     },
+     "pipeline_version": "desk-0.7.0",
+     "referral": [
+      {
+       "check": "c4",
+       "reason": "model disagreement on resolution"
+      }
+     ],
+     "route": "R-terms",
+     "routing_version": "routing-v7-statement",
+     "sensitive": {
+      "pass_1": [],
+      "pass_2": []
+     },
+     "verdicts": {
+      "c1": "fail",
+      "c2": "pass",
+      "c3": "pass",
+      "c4": "referred",
+      "c5": "pass",
+      "c6": "pass"
+     }
+    },
+    {
+     "audit_selected": false,
+     "claim_verdicts": [
+      {
+       "evidence_id": null,
+       "fields": {
+        "negated": true,
+        "topic": "other",
+        "value": "no charge for seats added mid-cycle"
+       },
+       "found_by": "both passes",
+       "message_id": "m03",
+       "part_type": "policy_term",
+       "reason": "no authoritative source for this policy statement",
+       "span": "we never charge for seats added mid-cycle",
+       "verdict": "referred"
+      }
+     ],
+     "closure_revision_id": "RG-07-r1",
+     "conversation_id": "RG-07",
+     "conversation_sha256": "64a2eec894c8d50dd1439ad8be84f0e7a1f6b298a8b66211a60158c4cc621f5b",
+     "disposition": {
+      "fails": [],
+      "kb_conflict": [],
+      "referred": [
+       "c1",
+       "c4"
+      ]
+     },
+     "evidence": {
+      "c1": {
+       "evidence_id": null,
+       "msg_id": "m03",
+       "reason": "no authoritative source for this policy statement",
+       "span": "we never charge for seats added mid-cycle"
+      },
+      "c2": {
+       "reason": "no handoff required"
+      },
+      "c3": {
+       "reason": "no sensitive data requested or repeated"
+      },
+      "c4": {
+       "reason": "model disagreement on resolution"
+      },
+      "c5": {
+       "msg_id": "m03",
+       "reason": "notice present"
+      },
+      "c6": {
+       "msg_id": "m03",
+       "reason": "Friendly, neutral wording."
+      }
+     },
+     "extractor_record": {
+      "claims": [
+       {
+        "evidence_id": null,
+        "fields": {
+         "negated": true,
+         "topic": "other",
+         "value": "no charge for seats added mid-cycle"
+        },
+        "found_by": "both passes",
+        "message_id": "m03",
+        "part_type": "policy_term",
+        "reason": "no authoritative source for this policy statement",
+        "span": "we never charge for seats added mid-cycle",
+        "verdict": "referred"
+       }
+      ],
+      "cross_check": [],
+      "disagreements": [],
+      "invalid_passes": [],
+      "matched": 1,
+      "model_pass_1": [
+       {
+        "fields": {
+         "negated": true,
+         "topic": "other",
+         "value": "no charge for seats added mid-cycle"
+        },
+        "message_id": "m03",
+        "part_type": "policy_term",
+        "span": "we never charge for seats added mid-cycle"
+       }
+      ],
+      "model_pass_2": [
+       {
+        "fields": {
+         "negated": true,
+         "topic": "other",
+         "value": "no charge for seats added mid-cycle"
+        },
+        "message_id": "m03",
+        "part_type": "policy_term",
+        "span": "we never charge for seats added mid-cycle."
+       }
+      ],
+      "pass_1_only": 0,
+      "pass_2_only": 0
+     },
+     "judge_record": {
+      "pass_1": {
+       "case_id": "RG-07",
+       "handoff_context": "not_applicable",
+       "resolution": {
+        "message_id": "m03",
+        "reason": "Directly answers the mid-month seat cost question, and the claim was referred rather than failed.",
+        "value": "yes"
+       },
+       "tone": {
+        "message_id": "m03",
+        "reason": "Friendly, neutral wording.",
+        "value": "ok"
+       }
+      },
+      "pass_2": {
+       "case_id": "RG-07",
+       "handoff_context": "not_applicable",
+       "resolution": {
+        "message_id": "m03",
+        "reason": "The only answer, a no-charge policy, failed its check and no other path to the cost is given.",
+        "value": "no"
+       },
+       "tone": {
+        "message_id": "m03",
+        "reason": "Reassuring wording, not dismissive.",
+        "value": "ok"
+       }
+      }
+     },
+     "needs": {
+      "handoff_required": [
+       false,
+       false
+      ],
+      "pass_1": [
+       {
+        "message_id": "m02",
+        "need": "question"
+       }
+      ],
+      "pass_2": [
+       {
+        "message_id": "m02",
+        "need": "question"
+       }
+      ]
+     },
+     "pipeline_version": "desk-0.7.0",
+     "referral": [
+      {
+       "check": "c1",
+       "reason": "no authoritative source for this policy statement"
+      },
+      {
+       "check": "c4",
+       "reason": "model disagreement on resolution"
+      }
+     ],
+     "route": "R-terms",
+     "routing_version": "routing-v7-statement",
+     "sensitive": {
+      "pass_1": [],
+      "pass_2": []
+     },
+     "verdicts": {
+      "c1": "referred",
+      "c2": "pass",
+      "c3": "pass",
+      "c4": "referred",
+      "c5": "pass",
+      "c6": "pass"
+     }
+    },
+    {
+     "audit_selected": false,
+     "claim_verdicts": [
+      {
+       "evidence_id": null,
+       "fields": {
+        "description": "a free month for everyone who renews"
+       },
+       "found_by": "both passes, interpretations differ",
+       "message_id": "m03",
+       "part_type": "offer_or_eligibility",
+       "reason": "unsupported claim part: no source grants this offer or eligibility",
+       "span": "everyone gets a free month when they renew",
+       "verdict": "referred"
+      },
+      {
+       "evidence_id": null,
+       "fields": {
+        "description": "free month for everyone who renews"
+       },
+       "found_by": "both passes, interpretations differ",
+       "message_id": "m03",
+       "part_type": "offer_or_eligibility",
+       "reason": "unsupported claim part: no source grants this offer or eligibility",
+       "span": "everyone gets a free month when they renew",
+       "verdict": "referred"
+      }
+     ],
+     "closure_revision_id": "RG-08-r1",
+     "conversation_id": "RG-08",
+     "conversation_sha256": "82f166abc175be2b064573b779dca115d6ef1bfa7765f113eb98ef342fe9b215",
+     "disposition": {
+      "fails": [
+       "c4"
+      ],
+      "kb_conflict": [],
+      "referred": [
+       "c1"
+      ]
+     },
+     "evidence": {
+      "c1": {
+       "evidence_id": null,
+       "msg_id": "m03",
+       "reason": "unsupported claim part: no source grants this offer or eligibility",
+       "span": "everyone gets a free month when they renew"
+      },
+      "c2": {
+       "reason": "no handoff required"
+      },
+      "c3": {
+       "reason": "no sensitive data requested or repeated"
+      },
+      "c4": {
+       "msg_id": "m03",
+       "reason": "The only answer is an unsupported free-month renewal perk with no verified info or next step."
+      },
+      "c5": {
+       "msg_id": "m03",
+       "reason": "notice present"
+      },
+      "c6": {
+       "msg_id": "m03",
+       "reason": "Friendly, neutral wording."
+      }
+     },
+     "extractor_record": {
+      "claims": [
+       {
+        "evidence_id": null,
+        "fields": {
+         "description": "a free month for everyone who renews"
+        },
+        "found_by": "both passes, interpretations differ",
+        "message_id": "m03",
+        "part_type": "offer_or_eligibility",
+        "reason": "unsupported claim part: no source grants this offer or eligibility",
+        "span": "everyone gets a free month when they renew",
+        "verdict": "referred"
+       },
+       {
+        "evidence_id": null,
+        "fields": {
+         "description": "free month for everyone who renews"
+        },
+        "found_by": "both passes, interpretations differ",
+        "message_id": "m03",
+        "part_type": "offer_or_eligibility",
+        "reason": "unsupported claim part: no source grants this offer or eligibility",
+        "span": "everyone gets a free month when they renew",
+        "verdict": "referred"
+       }
+      ],
+      "cross_check": [],
+      "disagreements": [
+       {
+        "found_by": "both passes, interpretations differ",
+        "msg_id": "m03",
+        "resolution": "verified: referred",
+        "sentence": "everyone gets a free month when they renew"
+       },
+       {
+        "found_by": "both passes, interpretations differ",
+        "msg_id": "m03",
+        "resolution": "verified: referred",
+        "sentence": "everyone gets a free month when they renew"
+       }
+      ],
+      "invalid_passes": [],
+      "matched": 1,
+      "model_pass_1": [
+       {
+        "fields": {
+         "description": "a free month for everyone who renews"
+        },
+        "message_id": "m03",
+        "part_type": "offer_or_eligibility",
+        "span": "everyone gets a free month when they renew"
+       }
+      ],
+      "model_pass_2": [
+       {
+        "fields": {
+         "description": "free month for everyone who renews"
+        },
+        "message_id": "m03",
+        "part_type": "offer_or_eligibility",
+        "span": "everyone gets a free month when they renew"
+       }
+      ],
+      "pass_1_only": 0,
+      "pass_2_only": 0
+     },
+     "judge_record": {
+      "pass_1": {
+       "case_id": "RG-08",
+       "handoff_context": "not_applicable",
+       "resolution": {
+        "message_id": "m03",
+        "reason": "The only answer is an unsupported free-month renewal perk with no verified info or next step.",
+        "value": "no"
+       },
+       "tone": {
+        "message_id": "m03",
+        "reason": "Friendly, neutral wording.",
+        "value": "ok"
+       }
+      },
+      "pass_2": {
+       "case_id": "RG-08",
+       "handoff_context": "not_applicable",
+       "resolution": {
+        "message_id": "m03",
+        "reason": "The only answer, a free renewal month, failed its check and no other step is given.",
+        "value": "no"
+       },
+       "tone": {
+        "message_id": "m03",
+        "reason": "Neutral, friendly wording.",
+        "value": "ok"
+       }
+      }
+     },
+     "needs": {
+      "handoff_required": [
+       false,
+       false
+      ],
+      "pass_1": [
+       {
+        "message_id": "m02",
+        "need": "question"
+       }
+      ],
+      "pass_2": [
+       {
+        "message_id": "m02",
+        "need": "question"
+       }
+      ]
+     },
+     "pipeline_version": "desk-0.7.0",
+     "referral": [
+      {
+       "check": "c1",
+       "reason": "unsupported claim part: no source grants this offer or eligibility"
+      }
+     ],
+     "route": "R-terms",
+     "routing_version": "routing-v7-statement",
+     "sensitive": {
+      "pass_1": [],
+      "pass_2": []
+     },
+     "verdicts": {
+      "c1": "referred",
+      "c2": "pass",
+      "c3": "pass",
+      "c4": "fail",
+      "c5": "pass",
+      "c6": "pass"
+     }
+    },
+    {
+     "audit_selected": false,
+     "claim_verdicts": [
+      {
+       "evidence_id": null,
+       "fields": {
+        "description": "50% off Pro for students with a school email"
+       },
+       "found_by": "both passes, interpretations differ",
+       "message_id": "m03",
+       "part_type": "offer_or_eligibility",
+       "reason": "unsupported claim part: no source grants this offer or eligibility",
+       "span": "Students get half off Pro with a school email.",
+       "verdict": "referred"
+      },
+      {
+       "evidence_id": null,
+       "fields": {
+        "description": "50% off the Pro plan for students who have a school email"
+       },
+       "found_by": "both passes, interpretations differ",
+       "message_id": "m03",
+       "part_type": "offer_or_eligibility",
+       "reason": "unsupported claim part: no source grants this offer or eligibility",
+       "span": "Students get half off Pro with a school email.",
+       "verdict": "referred"
+      }
+     ],
+     "closure_revision_id": "RG-09-r1",
+     "conversation_id": "RG-09",
+     "conversation_sha256": "086d35ec2ffa9611d07366085fb6e9c40f0dd464fc007702ea4360ccce7df9df",
+     "disposition": {
+      "fails": [
+       "c4"
+      ],
+      "kb_conflict": [],
+      "referred": [
+       "c1"
+      ]
+     },
+     "evidence": {
+      "c1": {
+       "evidence_id": null,
+       "msg_id": "m03",
+       "reason": "unsupported claim part: no source grants this offer or eligibility",
+       "span": "Students get half off Pro with a school email."
+      },
+      "c2": {
+       "reason": "no handoff required"
+      },
+      "c3": {
+       "reason": "no sensitive data requested or repeated"
+      },
+      "c4": {
+       "msg_id": "m03",
+       "reason": "The only answer, a student discount, is unsupported by any source, leaving no usable answer."
+      },
+      "c5": {
+       "msg_id": "m03",
+       "reason": "notice present"
+      },
+      "c6": {
+       "msg_id": "m03",
+       "reason": "Neutral wording."
+      }
+     },
+     "extractor_record": {
+      "claims": [
+       {
+        "evidence_id": null,
+        "fields": {
+         "description": "50% off Pro for students with a school email"
+        },
+        "found_by": "both passes, interpretations differ",
+        "message_id": "m03",
+        "part_type": "offer_or_eligibility",
+        "reason": "unsupported claim part: no source grants this offer or eligibility",
+        "span": "Students get half off Pro with a school email.",
+        "verdict": "referred"
+       },
+       {
+        "evidence_id": null,
+        "fields": {
+         "description": "50% off the Pro plan for students who have a school email"
+        },
+        "found_by": "both passes, interpretations differ",
+        "message_id": "m03",
+        "part_type": "offer_or_eligibility",
+        "reason": "unsupported claim part: no source grants this offer or eligibility",
+        "span": "Students get half off Pro with a school email.",
+        "verdict": "referred"
+       }
+      ],
+      "cross_check": [],
+      "disagreements": [
+       {
+        "found_by": "both passes, interpretations differ",
+        "msg_id": "m03",
+        "resolution": "verified: referred",
+        "sentence": "Students get half off Pro with a school email."
+       },
+       {
+        "found_by": "both passes, interpretations differ",
+        "msg_id": "m03",
+        "resolution": "verified: referred",
+        "sentence": "Students get half off Pro with a school email."
+       }
+      ],
+      "invalid_passes": [],
+      "matched": 1,
+      "model_pass_1": [
+       {
+        "fields": {
+         "description": "50% off the Pro plan for students who have a school email"
+        },
+        "message_id": "m03",
+        "part_type": "offer_or_eligibility",
+        "span": "Students get half off Pro with a school email."
+       }
+      ],
+      "model_pass_2": [
+       {
+        "fields": {
+         "description": "50% off Pro for students with a school email"
+        },
+        "message_id": "m03",
+        "part_type": "offer_or_eligibility",
+        "span": "Students get half off Pro with a school email."
+       }
+      ],
+      "pass_1_only": 0,
+      "pass_2_only": 0
+     },
+     "judge_record": {
+      "pass_1": {
+       "case_id": "RG-09",
+       "handoff_context": "not_applicable",
+       "resolution": {
+        "message_id": "m03",
+        "reason": "The only answer, a student discount, is unsupported by any source, leaving no usable answer.",
+        "value": "no"
+       },
+       "tone": {
+        "message_id": "m03",
+        "reason": "Neutral wording.",
+        "value": "ok"
+       }
+      },
+      "pass_2": {
+       "case_id": "RG-09",
+       "handoff_context": "not_applicable",
+       "resolution": {
+        "message_id": "m03",
+        "reason": "The only answer is an unsupported student offer with no source, so the customer has no usable answer or next step.",
+        "value": "no"
+       },
+       "tone": {
+        "message_id": "m03",
+        "reason": "Neutral wording, no blame or dismissal.",
+        "value": "ok"
+       }
+      }
+     },
+     "needs": {
+      "handoff_required": [
+       false,
+       false
+      ],
+      "pass_1": [
+       {
+        "message_id": "m02",
+        "need": "question"
+       }
+      ],
+      "pass_2": [
+       {
+        "message_id": "m02",
+        "need": "question"
+       }
+      ]
+     },
+     "pipeline_version": "desk-0.7.0",
+     "referral": [
+      {
+       "check": "c1",
+       "reason": "unsupported claim part: no source grants this offer or eligibility"
+      }
+     ],
+     "route": "R-terms",
+     "routing_version": "routing-v7-statement",
+     "sensitive": {
+      "pass_1": [],
+      "pass_2": []
+     },
+     "verdicts": {
+      "c1": "referred",
+      "c2": "pass",
+      "c3": "pass",
+      "c4": "fail",
+      "c5": "pass",
+      "c6": "pass"
+     }
+    },
+    {
+     "audit_selected": false,
+     "claim_verdicts": [
+      {
+       "evidence_id": "RG-10-event-1",
+       "fields": {
+        "action": "refund_approved",
+        "amount": 30
+       },
+       "found_by": "both passes",
+       "message_id": "m03",
+       "part_type": "completed_action",
+       "reason": "approval event",
+       "span": "Billing approved your $30 refund",
+       "verdict": "pass"
+      },
+      {
+       "evidence_id": "RG-10-event-2",
+       "fields": {
+        "action": "money_returned",
+        "amount": 30,
+        "destination": "original_card",
+        "when": "on 18 November"
+       },
+       "found_by": "both passes",
+       "message_id": "m03",
+       "part_type": "future_promise",
+       "reason": "approved, and a live linked schedule or issue confirms every stated detail (amount, destination)",
+       "span": "it goes to your original card on 18 November",
+       "verdict": "pass"
+      }
+     ],
+     "closure_revision_id": "RG-10-r1",
+     "conversation_id": "RG-10",
+     "conversation_sha256": "072d78078d9af0278930aa82b40d5cb0b2777a075edeb42759d7ed8880c91a88",
+     "disposition": {
+      "fails": [],
+      "kb_conflict": [],
+      "referred": []
+     },
+     "evidence": {
+      "c1": {
+       "evidence_id": "RG-10-event-1",
+       "msg_id": "m03",
+       "reason": "approval event",
+       "span": "Billing approved your $30 refund"
+      },
+      "c2": {
+       "reason": "no handoff required"
+      },
+      "c3": {
+       "reason": "no sensitive data requested or repeated"
+      },
+      "c4": {
+       "msg_id": "m03",
+       "reason": "Refund status, amount and date given and all claims passed."
+      },
+      "c5": {
+       "msg_id": "m03",
+       "reason": "notice present"
+      },
+      "c6": {
+       "msg_id": "m03",
+       "reason": "Neutral, helpful wording."
+      }
+     },
+     "extractor_record": {
+      "claims": [
+       {
+        "evidence_id": "RG-10-event-1",
+        "fields": {
+         "action": "refund_approved",
+         "amount": 30
+        },
+        "found_by": "both passes",
+        "message_id": "m03",
+        "part_type": "completed_action",
+        "reason": "approval event",
+        "span": "Billing approved your $30 refund",
+        "verdict": "pass"
+       },
+       {
+        "evidence_id": "RG-10-event-2",
+        "fields": {
+         "action": "money_returned",
+         "amount": 30,
+         "destination": "original_card",
+         "when": "on 18 November"
+        },
+        "found_by": "both passes",
+        "message_id": "m03",
+        "part_type": "future_promise",
+        "reason": "approved, and a live linked schedule or issue confirms every stated detail (amount, destination)",
+        "span": "it goes to your original card on 18 November",
+        "verdict": "pass"
+       }
+      ],
+      "cross_check": [
+       {
+        "covered_by_model": true,
+        "msg_id": "m03",
+        "sentence": "Good news, Billing approved your $30 refund and it goes to your original card on 18 November."
+       }
+      ],
+      "disagreements": [],
+      "invalid_passes": [],
+      "matched": 2,
+      "model_pass_1": [
+       {
+        "fields": {
+         "action": "refund_approved",
+         "amount": 30
+        },
+        "message_id": "m03",
+        "part_type": "completed_action",
+        "span": "Billing approved your $30 refund"
+       },
+       {
+        "fields": {
+         "action": "money_returned",
+         "amount": 30,
+         "destination": "original_card",
+         "when": "on 18 November"
+        },
+        "message_id": "m03",
+        "part_type": "future_promise",
+        "span": "it goes to your original card on 18 November"
+       }
+      ],
+      "model_pass_2": [
+       {
+        "fields": {
+         "action": "refund_approved",
+         "amount": 30
+        },
+        "message_id": "m03",
+        "part_type": "completed_action",
+        "span": "Billing approved your $30 refund"
+       },
+       {
+        "fields": {
+         "action": "money_returned",
+         "amount": 30,
+         "destination": "original_card",
+         "when": "on 18 November"
+        },
+        "message_id": "m03",
+        "part_type": "future_promise",
+        "span": "it goes to your original card on 18 November"
+       }
+      ],
+      "pass_1_only": 0,
+      "pass_2_only": 0
+     },
+     "judge_record": {
+      "pass_1": {
+       "case_id": "RG-10",
+       "handoff_context": "not_applicable",
+       "resolution": {
+        "message_id": "m03",
+        "reason": "Refund status, amount and date given and all claims passed.",
+        "value": "yes"
+       },
+       "tone": {
+        "message_id": "m03",
+        "reason": "Neutral, helpful wording.",
+        "value": "ok"
+       }
+      },
+      "pass_2": {
+       "case_id": "RG-10",
+       "handoff_context": "not_applicable",
+       "resolution": {
+        "message_id": "m03",
+        "reason": "Confirms refund approval, amount, destination and date, all verified.",
+        "value": "yes"
+       },
+       "tone": {
+        "message_id": "m03",
+        "reason": "Positive, helpful wording.",
+        "value": "ok"
+       }
+      }
+     },
+     "needs": {
+      "handoff_required": [
+       false,
+       false
+      ],
+      "pass_1": [
+       {
+        "message_id": "m02",
+        "need": "question"
+       }
+      ],
+      "pass_2": [
+       {
+        "message_id": "m02",
+        "need": "question"
+       }
+      ]
+     },
+     "pipeline_version": "desk-0.7.0",
+     "referral": [],
+     "route": "R-claim",
+     "routing_version": "routing-v7-statement",
+     "sensitive": {
+      "pass_1": [],
+      "pass_2": []
+     },
+     "verdicts": {
+      "c1": "pass",
+      "c2": "pass",
+      "c3": "pass",
+      "c4": "pass",
+      "c5": "pass",
+      "c6": "pass"
+     }
+    },
+    {
+     "audit_selected": false,
+     "claim_verdicts": [
+      {
+       "evidence_id": "price-v3",
+       "fields": {
+        "amount": 12,
+        "period": "month",
+        "unit": "seat"
+       },
+       "found_by": "both passes",
+       "message_id": "m03",
+       "part_type": "price",
+       "reason": "$12 per seat per month vs price-v3 $12 per seat per month",
+       "span": "Pro is $12 per seat per month before tax.",
+       "verdict": "pass"
+      }
+     ],
+     "closure_revision_id": "RG-11-r1",
+     "conversation_id": "RG-11",
+     "conversation_sha256": "936cd4ef05083c531c69a53de3d53041f3e02e92ab278247ecef3b5009a4b399",
+     "disposition": {
+      "fails": [],
+      "kb_conflict": [],
+      "referred": []
+     },
+     "evidence": {
+      "c1": {
+       "evidence_id": "price-v3",
+       "msg_id": "m03",
+       "reason": "$12 per seat per month vs price-v3 $12 per seat per month",
+       "span": "Pro is $12 per seat per month before tax."
+      },
+      "c2": {
+       "reason": "no handoff required"
+      },
+      "c3": {
+       "reason": "no sensitive data requested or repeated"
+      },
+      "c4": {
+       "msg_id": "m03",
+       "reason": "Pro price given and passed its check."
+      },
+      "c5": {
+       "msg_id": "m03",
+       "reason": "notice present"
+      },
+      "c6": {
+       "msg_id": "m03",
+       "reason": "Neutral wording."
+      }
+     },
+     "extractor_record": {
+      "claims": [
+       {
+        "evidence_id": "price-v3",
+        "fields": {
+         "amount": 12,
+         "period": "month",
+         "unit": "seat"
+        },
+        "found_by": "both passes",
+        "message_id": "m03",
+        "part_type": "price",
+        "reason": "$12 per seat per month vs price-v3 $12 per seat per month",
+        "span": "Pro is $12 per seat per month before tax.",
+        "verdict": "pass"
+       }
+      ],
+      "cross_check": [
+       {
+        "covered_by_model": true,
+        "msg_id": "m03",
+        "sentence": "Pro is $12 per seat per month before tax."
+       }
+      ],
+      "disagreements": [],
+      "invalid_passes": [],
+      "matched": 1,
+      "model_pass_1": [
+       {
+        "fields": {
+         "amount": 12,
+         "period": "month",
+         "unit": "seat"
+        },
+        "message_id": "m03",
+        "part_type": "price",
+        "span": "Pro is $12 per seat per month before tax."
+       }
+      ],
+      "model_pass_2": [
+       {
+        "fields": {
+         "amount": 12,
+         "period": "month",
+         "unit": "seat"
+        },
+        "message_id": "m03",
+        "part_type": "price",
+        "span": "Pro is $12 per seat per month before tax."
+       }
+      ],
+      "pass_1_only": 0,
+      "pass_2_only": 0
+     },
+     "judge_record": {
+      "pass_1": {
+       "case_id": "RG-11",
+       "handoff_context": "not_applicable",
+       "resolution": {
+        "message_id": "m03",
+        "reason": "Pro price given and passed its check.",
+        "value": "yes"
+       },
+       "tone": {
+        "message_id": "m03",
+        "reason": "Neutral wording.",
+        "value": "ok"
+       }
+      },
+      "pass_2": {
+       "case_id": "RG-11",
+       "handoff_context": "not_applicable",
+       "resolution": {
+        "message_id": "m03",
+        "reason": "Directly answers the Pro price question with a verified figure.",
+        "value": "yes"
+       },
+       "tone": {
+        "message_id": "m03",
+        "reason": "Neutral, factual wording.",
+        "value": "ok"
+       }
+      }
+     },
+     "needs": {
+      "handoff_required": [
+       false,
+       false
+      ],
+      "pass_1": [
+       {
+        "message_id": "m02",
+        "need": "question"
+       }
+      ],
+      "pass_2": [
+       {
+        "message_id": "m02",
+        "need": "question"
+       }
+      ]
+     },
+     "pipeline_version": "desk-0.7.0",
+     "referral": [],
+     "route": "R-claim",
+     "routing_version": "routing-v7-statement",
+     "sensitive": {
+      "pass_1": [],
+      "pass_2": []
+     },
+     "verdicts": {
+      "c1": "pass",
+      "c2": "pass",
+      "c3": "pass",
+      "c4": "pass",
+      "c5": "pass",
+      "c6": "pass"
+     }
+    },
+    {
+     "audit_selected": false,
+     "claim_verdicts": [
+      {
+       "evidence_id": "billing-v3",
+       "fields": {
+        "negated": false,
+        "topic": "payment_methods_accepted",
+        "value": "Visa, Mastercard, American Express"
+       },
+       "found_by": "both passes, interpretations differ",
+       "message_id": "m03",
+       "part_type": "policy_term",
+       "reason": "accepted methods match billing-v3",
+       "span": "Secure checkout takes Visa, Mastercard, and American Express.",
+       "verdict": "pass"
+      },
+      {
+       "evidence_id": "billing-v3",
+       "fields": {
+        "negated": false,
+        "topic": "payment_methods_accepted",
+        "value": "Visa, Mastercard, and American Express"
+       },
+       "found_by": "both passes, interpretations differ",
+       "message_id": "m03",
+       "part_type": "policy_term",
+       "reason": "accepted methods match billing-v3",
+       "span": "Secure checkout takes Visa, Mastercard, and American Express.",
+       "verdict": "pass"
+      },
+      {
+       "evidence_id": "billing-v3",
+       "fields": {
+        "negated": true,
+        "topic": "payment_methods_not_accepted",
+        "value": "PayPal"
+       },
+       "found_by": "both passes",
+       "message_id": "m03",
+       "part_type": "policy_term",
+       "reason": "unavailable methods match billing-v3",
+       "span": "We don't take PayPal.",
+       "verdict": "pass"
+      }
+     ],
+     "closure_revision_id": "RG-12-r1",
+     "conversation_id": "RG-12",
+     "conversation_sha256": "99c2e1716fb0f46102431abc5adcacbbb2182c317c0b172078c5f1fd652cc6bc",
+     "disposition": {
+      "fails": [],
+      "kb_conflict": [],
+      "referred": []
+     },
+     "evidence": {
+      "c1": {
+       "evidence_id": "billing-v3",
+       "msg_id": "m03",
+       "reason": "accepted methods match billing-v3",
+       "span": "Secure checkout takes Visa, Mastercard, and American Express."
+      },
+      "c2": {
+       "reason": "no handoff required"
+      },
+      "c3": {
+       "reason": "no sensitive data requested or repeated"
+      },
+      "c4": {
+       "msg_id": "m03",
+       "reason": "Answers that PayPal is not accepted and lists accepted cards, all claims passed."
+      },
+      "c5": {
+       "msg_id": "m03",
+       "reason": "notice present"
+      },
+      "c6": {
+       "msg_id": "m03",
+       "reason": "Neutral factual wording."
+      }
+     },
+     "extractor_record": {
+      "claims": [
+       {
+        "evidence_id": "billing-v3",
+        "fields": {
+         "negated": false,
+         "topic": "payment_methods_accepted",
+         "value": "Visa, Mastercard, American Express"
+        },
+        "found_by": "both passes, interpretations differ",
+        "message_id": "m03",
+        "part_type": "policy_term",
+        "reason": "accepted methods match billing-v3",
+        "span": "Secure checkout takes Visa, Mastercard, and American Express.",
+        "verdict": "pass"
+       },
+       {
+        "evidence_id": "billing-v3",
+        "fields": {
+         "negated": false,
+         "topic": "payment_methods_accepted",
+         "value": "Visa, Mastercard, and American Express"
+        },
+        "found_by": "both passes, interpretations differ",
+        "message_id": "m03",
+        "part_type": "policy_term",
+        "reason": "accepted methods match billing-v3",
+        "span": "Secure checkout takes Visa, Mastercard, and American Express.",
+        "verdict": "pass"
+       },
+       {
+        "evidence_id": "billing-v3",
+        "fields": {
+         "negated": true,
+         "topic": "payment_methods_not_accepted",
+         "value": "PayPal"
+        },
+        "found_by": "both passes",
+        "message_id": "m03",
+        "part_type": "policy_term",
+        "reason": "unavailable methods match billing-v3",
+        "span": "We don't take PayPal.",
+        "verdict": "pass"
+       }
+      ],
+      "cross_check": [
+       {
+        "covered_by_model": true,
+        "msg_id": "m03",
+        "sentence": "We don't take PayPal."
+       },
+       {
+        "covered_by_model": true,
+        "msg_id": "m03",
+        "sentence": "Secure checkout takes Visa, Mastercard, and American Express."
+       }
+      ],
+      "disagreements": [
+       {
+        "found_by": "both passes, interpretations differ",
+        "msg_id": "m03",
+        "resolution": "verified: pass",
+        "sentence": "Secure checkout takes Visa, Mastercard, and American Express."
+       },
+       {
+        "found_by": "both passes, interpretations differ",
+        "msg_id": "m03",
+        "resolution": "verified: pass",
+        "sentence": "Secure checkout takes Visa, Mastercard, and American Express."
+       }
+      ],
+      "invalid_passes": [],
+      "matched": 2,
+      "model_pass_1": [
+       {
+        "fields": {
+         "negated": true,
+         "topic": "payment_methods_not_accepted",
+         "value": "PayPal"
+        },
+        "message_id": "m03",
+        "part_type": "policy_term",
+        "span": "We don't take PayPal."
+       },
+       {
+        "fields": {
+         "negated": false,
+         "topic": "payment_methods_accepted",
+         "value": "Visa, Mastercard, American Express"
+        },
+        "message_id": "m03",
+        "part_type": "policy_term",
+        "span": "Secure checkout takes Visa, Mastercard, and American Express."
+       }
+      ],
+      "model_pass_2": [
+       {
+        "fields": {
+         "negated": true,
+         "topic": "payment_methods_not_accepted",
+         "value": "PayPal"
+        },
+        "message_id": "m03",
+        "part_type": "policy_term",
+        "span": "We don't take PayPal."
+       },
+       {
+        "fields": {
+         "negated": false,
+         "topic": "payment_methods_accepted",
+         "value": "Visa, Mastercard, and American Express"
+        },
+        "message_id": "m03",
+        "part_type": "policy_term",
+        "span": "Secure checkout takes Visa, Mastercard, and American Express."
+       }
+      ],
+      "pass_1_only": 0,
+      "pass_2_only": 0
+     },
+     "judge_record": {
+      "pass_1": {
+       "case_id": "RG-12",
+       "handoff_context": "not_applicable",
+       "resolution": {
+        "message_id": "m03",
+        "reason": "Answers that PayPal is not accepted and lists accepted cards, all claims passed.",
+        "value": "yes"
+       },
+       "tone": {
+        "message_id": "m03",
+        "reason": "Neutral factual wording.",
+        "value": "ok"
+       }
+      },
+      "pass_2": {
+       "case_id": "RG-12",
+       "handoff_context": "not_applicable",
+       "resolution": {
+        "message_id": "m03",
+        "reason": "Says PayPal is not accepted and lists accepted cards, all passed.",
+        "value": "yes"
+       },
+       "tone": {
+        "message_id": "m03",
+        "reason": "Neutral, helpful wording.",
+        "value": "ok"
+       }
+      }
+     },
+     "needs": {
+      "handoff_required": [
+       false,
+       false
+      ],
+      "pass_1": [
+       {
+        "message_id": "m02",
+        "need": "question"
+       }
+      ],
+      "pass_2": [
+       {
+        "message_id": "m02",
+        "need": "question"
+       }
+      ]
+     },
+     "pipeline_version": "desk-0.7.0",
+     "referral": [],
+     "route": "R-claim",
+     "routing_version": "routing-v7-statement",
+     "sensitive": {
+      "pass_1": [],
+      "pass_2": []
+     },
+     "verdicts": {
+      "c1": "pass",
+      "c2": "pass",
+      "c3": "pass",
+      "c4": "pass",
+      "c5": "pass",
+      "c6": "pass"
+     }
+    },
+    {
+     "audit_selected": false,
+     "claim_verdicts": [
+      {
+       "evidence_id": "cancellation-v2",
+       "fields": {
+        "negated": true,
+        "topic": "cancellation_fee",
+        "value": "no early termination fee"
+       },
+       "found_by": "both passes",
+       "message_id": "m03",
+       "part_type": "policy_term",
+       "reason": "cancellation-v2: no early termination fee",
+       "span": "Nothing, there's no early termination fee.",
+       "verdict": "pass"
+      },
+      {
+       "evidence_id": "cancellation-v2",
+       "fields": {
+        "path": "Workspace settings > Billing > Manage plan",
+        "purpose": "turn off renewal"
+       },
+       "found_by": "both passes",
+       "message_id": "m03",
+       "part_type": "procedure",
+       "reason": "'Workspace settings > Billing > Manage plan' matches help content",
+       "span": "Turn off renewal in Workspace settings > Billing > Manage plan.",
+       "verdict": "pass"
+      }
+     ],
+     "closure_revision_id": "RG-13-r1",
+     "conversation_id": "RG-13",
+     "conversation_sha256": "2c673057f0a05e9dec2ff7c894e8be2cfa9553c763382268b91966283d715eb7",
+     "disposition": {
+      "fails": [],
+      "kb_conflict": [],
+      "referred": []
+     },
+     "evidence": {
+      "c1": {
+       "evidence_id": "cancellation-v2",
+       "msg_id": "m03",
+       "reason": "cancellation-v2: no early termination fee",
+       "span": "Nothing, there's no early termination fee."
+      },
+      "c2": {
+       "reason": "no handoff required"
+      },
+      "c3": {
+       "reason": "no sensitive data requested or repeated"
+      },
+      "c4": {
+       "msg_id": "m03",
+       "reason": "States there is no termination fee and gives the verified path to turn off renewal."
+      },
+      "c5": {
+       "msg_id": "m03",
+       "reason": "notice present"
+      },
+      "c6": {
+       "msg_id": "m03",
+       "reason": "Direct and helpful wording with no problematic tone."
+      }
+     },
+     "extractor_record": {
+      "claims": [
+       {
+        "evidence_id": "cancellation-v2",
+        "fields": {
+         "negated": true,
+         "topic": "cancellation_fee",
+         "value": "no early termination fee"
+        },
+        "found_by": "both passes",
+        "message_id": "m03",
+        "part_type": "policy_term",
+        "reason": "cancellation-v2: no early termination fee",
+        "span": "Nothing, there's no early termination fee.",
+        "verdict": "pass"
+       },
+       {
+        "evidence_id": "cancellation-v2",
+        "fields": {
+         "path": "Workspace settings > Billing > Manage plan",
+         "purpose": "turn off renewal"
+        },
+        "found_by": "both passes",
+        "message_id": "m03",
+        "part_type": "procedure",
+        "reason": "'Workspace settings > Billing > Manage plan' matches help content",
+        "span": "Turn off renewal in Workspace settings > Billing > Manage plan.",
+        "verdict": "pass"
+       }
+      ],
+      "cross_check": [
+       {
+        "covered_by_model": true,
+        "msg_id": "m03",
+        "sentence": "Nothing, there's no early termination fee."
+       },
+       {
+        "covered_by_model": true,
+        "msg_id": "m03",
+        "sentence": "Turn off renewal in Workspace settings > Billing > Manage plan."
+       }
+      ],
+      "disagreements": [],
+      "invalid_passes": [],
+      "matched": 2,
+      "model_pass_1": [
+       {
+        "fields": {
+         "negated": true,
+         "topic": "cancellation_fee",
+         "value": "no early termination fee"
+        },
+        "message_id": "m03",
+        "part_type": "policy_term",
+        "span": "Nothing, there's no early termination fee."
+       },
+       {
+        "fields": {
+         "path": "Workspace settings > Billing > Manage plan",
+         "purpose": "turn off renewal"
+        },
+        "message_id": "m03",
+        "part_type": "procedure",
+        "span": "Turn off renewal in Workspace settings > Billing > Manage plan."
+       }
+      ],
+      "model_pass_2": [
+       {
+        "fields": {
+         "negated": true,
+         "topic": "cancellation_fee",
+         "value": "no early termination fee"
+        },
+        "message_id": "m03",
+        "part_type": "policy_term",
+        "span": "Nothing, there's no early termination fee."
+       },
+       {
+        "fields": {
+         "path": "Workspace settings > Billing > Manage plan",
+         "purpose": "turn off renewal"
+        },
+        "message_id": "m03",
+        "part_type": "procedure",
+        "span": "Turn off renewal in Workspace settings > Billing > Manage plan."
+       }
+      ],
+      "pass_1_only": 0,
+      "pass_2_only": 0
+     },
+     "judge_record": {
+      "pass_1": {
+       "case_id": "RG-13",
+       "handoff_context": "not_applicable",
+       "resolution": {
+        "message_id": "m03",
+        "reason": "States there is no termination fee and gives the verified path to turn off renewal.",
+        "value": "yes"
+       },
+       "tone": {
+        "message_id": "m03",
+        "reason": "Direct and helpful wording with no problematic tone.",
+        "value": "ok"
+       }
+      },
+      "pass_2": {
+       "case_id": "RG-13",
+       "handoff_context": "not_applicable",
+       "resolution": {
+        "message_id": "m03",
+        "reason": "Answers the cancellation cost and gives a verified path to turn off renewal.",
+        "value": "yes"
+       },
+       "tone": {
+        "message_id": "m03",
+        "reason": "Direct and neutral wording.",
+        "value": "ok"
+       }
+      }
+     },
+     "needs": {
+      "handoff_required": [
+       false,
+       false
+      ],
+      "pass_1": [
+       {
+        "message_id": "m02",
+        "need": "question"
+       }
+      ],
+      "pass_2": [
+       {
+        "message_id": "m02",
+        "need": "question"
+       }
+      ]
+     },
+     "pipeline_version": "desk-0.7.0",
+     "referral": [],
+     "route": "R-claim",
+     "routing_version": "routing-v7-statement",
+     "sensitive": {
+      "pass_1": [],
+      "pass_2": []
+     },
+     "verdicts": {
+      "c1": "pass",
+      "c2": "pass",
+      "c3": "pass",
+      "c4": "pass",
+      "c5": "pass",
+      "c6": "pass"
+     }
+    },
+    {
+     "audit_selected": false,
+     "claim_verdicts": [
+      {
+       "evidence_id": null,
+       "fields": {
+        "description": "first year of Pro free for students"
+       },
+       "found_by": "both passes",
+       "message_id": "m03",
+       "part_type": "offer_or_eligibility",
+       "reason": "unsupported claim part: no source grants this offer or eligibility",
+       "span": "students get the first year free",
+       "verdict": "referred"
+      },
+      {
+       "evidence_id": "price-v3",
+       "fields": {
+        "amount": 12,
+        "period": "month",
+        "unit": "seat"
+       },
+       "found_by": "both passes",
+       "message_id": "m03",
+       "part_type": "price",
+       "reason": "$12 per seat per month vs price-v3 $12 per seat per month",
+       "span": "Pro is $12 per seat per month",
+       "verdict": "pass"
+      }
+     ],
+     "closure_revision_id": "RG-14-r1",
+     "conversation_id": "RG-14",
+     "conversation_sha256": "812c397bad9431fc3d5c0f5e8ace84af5fb87423ec9cb8b6de9c05862759f77b",
+     "disposition": {
+      "fails": [],
+      "kb_conflict": [],
+      "referred": [
+       "c1"
+      ]
+     },
+     "evidence": {
+      "c1": {
+       "evidence_id": null,
+       "msg_id": "m03",
+       "reason": "unsupported claim part: no source grants this offer or eligibility",
+       "span": "students get the first year free"
+      },
+      "c2": {
+       "reason": "no handoff required"
+      },
+      "c3": {
+       "reason": "no sensitive data requested or repeated"
+      },
+      "c4": {
+       "msg_id": "m03",
+       "reason": "The Pro price passed its check and answers the pricing question, the student offer is scored under facts."
+      },
+      "c5": {
+       "msg_id": "m03",
+       "reason": "notice present"
+      },
+      "c6": {
+       "msg_id": "m03",
+       "reason": "Neutral, informative wording."
+      }
+     },
+     "extractor_record": {
+      "claims": [
+       {
+        "evidence_id": null,
+        "fields": {
+         "description": "first year of Pro free for students"
+        },
+        "found_by": "both passes",
+        "message_id": "m03",
+        "part_type": "offer_or_eligibility",
+        "reason": "unsupported claim part: no source grants this offer or eligibility",
+        "span": "students get the first year free",
+        "verdict": "referred"
+       },
+       {
+        "evidence_id": "price-v3",
+        "fields": {
+         "amount": 12,
+         "period": "month",
+         "unit": "seat"
+        },
+        "found_by": "both passes",
+        "message_id": "m03",
+        "part_type": "price",
+        "reason": "$12 per seat per month vs price-v3 $12 per seat per month",
+        "span": "Pro is $12 per seat per month",
+        "verdict": "pass"
+       }
+      ],
+      "cross_check": [
+       {
+        "covered_by_model": true,
+        "msg_id": "m03",
+        "sentence": "Pro is $12 per seat per month, and students get the first year free."
+       }
+      ],
+      "disagreements": [],
+      "invalid_passes": [],
+      "matched": 2,
+      "model_pass_1": [
+       {
+        "fields": {
+         "amount": 12,
+         "period": "month",
+         "unit": "seat"
+        },
+        "message_id": "m03",
+        "part_type": "price",
+        "span": "Pro is $12 per seat per month"
+       },
+       {
+        "fields": {
+         "description": "first year of Pro free for students"
+        },
+        "message_id": "m03",
+        "part_type": "offer_or_eligibility",
+        "span": "students get the first year free"
+       }
+      ],
+      "model_pass_2": [
+       {
+        "fields": {
+         "amount": 12,
+         "period": "month",
+         "unit": "seat"
+        },
+        "message_id": "m03",
+        "part_type": "price",
+        "span": "Pro is $12 per seat per month"
+       },
+       {
+        "fields": {
+         "description": "first year of Pro free for students"
+        },
+        "message_id": "m03",
+        "part_type": "offer_or_eligibility",
+        "span": "students get the first year free"
+       }
+      ],
+      "pass_1_only": 0,
+      "pass_2_only": 0
+     },
+     "judge_record": {
+      "pass_1": {
+       "case_id": "RG-14",
+       "handoff_context": "not_applicable",
+       "resolution": {
+        "message_id": "m03",
+        "reason": "The Pro price passed its check and answers the pricing question, the student offer is scored under facts.",
+        "value": "yes"
+       },
+       "tone": {
+        "message_id": "m03",
+        "reason": "Neutral, informative wording.",
+        "value": "ok"
+       }
+      },
+      "pass_2": {
+       "case_id": "RG-14",
+       "handoff_context": "not_applicable",
+       "resolution": {
+        "message_id": "m03",
+        "reason": "Pro price passed its check, giving a usable answer despite the unsupported student offer.",
+        "value": "yes"
+       },
+       "tone": {
+        "message_id": "m03",
+        "reason": "Neutral wording.",
+        "value": "ok"
+       }
+      }
+     },
+     "needs": {
+      "handoff_required": [
+       false,
+       false
+      ],
+      "pass_1": [
+       {
+        "message_id": "m02",
+        "need": "question"
+       }
+      ],
+      "pass_2": [
+       {
+        "message_id": "m02",
+        "need": "question"
+       }
+      ]
+     },
+     "pipeline_version": "desk-0.7.0",
+     "referral": [
+      {
+       "check": "c1",
+       "reason": "unsupported claim part: no source grants this offer or eligibility"
+      }
+     ],
+     "route": "R-claim",
+     "routing_version": "routing-v7-statement",
+     "sensitive": {
+      "pass_1": [],
+      "pass_2": []
+     },
+     "verdicts": {
+      "c1": "referred",
+      "c2": "pass",
+      "c3": "pass",
+      "c4": "pass",
+      "c5": "pass",
+      "c6": "pass"
+     }
+    },
+    {
+     "audit_selected": false,
+     "claim_verdicts": [
+      {
+       "evidence_id": "RG-15-event-1",
+       "fields": {
+        "action": "refund_issued",
+        "amount": 24
+       },
+       "found_by": "both passes",
+       "message_id": "m03",
+       "part_type": "completed_action",
+       "reason": "matching refund issue event",
+       "span": "Your $24 refund was issued on 10 November",
+       "verdict": "pass"
+      },
+      {
+       "evidence_id": null,
+       "fields": {
+        "description": "10% credit next month for this customer"
+       },
+       "found_by": "both passes",
+       "message_id": "m03",
+       "part_type": "offer_or_eligibility",
+       "reason": "unsupported claim part: no source grants this offer or eligibility",
+       "span": "you also get a 10% credit next month",
+       "verdict": "referred"
+      }
+     ],
+     "closure_revision_id": "RG-15-r1",
+     "conversation_id": "RG-15",
+     "conversation_sha256": "80e097e263f83ee397627d4ec3591b999920bf8f07324aaca91ae46c3d447701",
+     "disposition": {
+      "fails": [],
+      "kb_conflict": [],
+      "referred": [
+       "c1"
+      ]
+     },
+     "evidence": {
+      "c1": {
+       "evidence_id": null,
+       "msg_id": "m03",
+       "reason": "unsupported claim part: no source grants this offer or eligibility",
+       "span": "you also get a 10% credit next month"
+      },
+      "c2": {
+       "reason": "no handoff required"
+      },
+      "c3": {
+       "reason": "no sensitive data requested or repeated"
+      },
+      "c4": {
+       "msg_id": "m03",
+       "reason": "Refund issue date passed its check and answers the customer's refund question, the unsupported credit claim is scored elsewhere."
+      },
+      "c5": {
+       "msg_id": "m03",
+       "reason": "notice present"
+      },
+      "c6": {
+       "msg_id": "m03",
+       "reason": "Neutral, informative wording with no sarcasm, blame or dismissal."
+      }
+     },
+     "extractor_record": {
+      "claims": [
+       {
+        "evidence_id": "RG-15-event-1",
+        "fields": {
+         "action": "refund_issued",
+         "amount": 24
+        },
+        "found_by": "both passes",
+        "message_id": "m03",
+        "part_type": "completed_action",
+        "reason": "matching refund issue event",
+        "span": "Your $24 refund was issued on 10 November",
+        "verdict": "pass"
+       },
+       {
+        "evidence_id": null,
+        "fields": {
+         "description": "10% credit next month for this customer"
+        },
+        "found_by": "both passes",
+        "message_id": "m03",
+        "part_type": "offer_or_eligibility",
+        "reason": "unsupported claim part: no source grants this offer or eligibility",
+        "span": "you also get a 10% credit next month",
+        "verdict": "referred"
+       }
+      ],
+      "cross_check": [
+       {
+        "covered_by_model": true,
+        "msg_id": "m03",
+        "sentence": "Your $24 refund was issued on 10 November, and you also get a 10% credit next month."
+       }
+      ],
+      "disagreements": [],
+      "invalid_passes": [],
+      "matched": 2,
+      "model_pass_1": [
+       {
+        "fields": {
+         "action": "refund_issued",
+         "amount": 24
+        },
+        "message_id": "m03",
+        "part_type": "completed_action",
+        "span": "Your $24 refund was issued on 10 November"
+       },
+       {
+        "fields": {
+         "description": "10% credit next month for this customer"
+        },
+        "message_id": "m03",
+        "part_type": "offer_or_eligibility",
+        "span": "you also get a 10% credit next month"
+       }
+      ],
+      "model_pass_2": [
+       {
+        "fields": {
+         "action": "refund_issued",
+         "amount": 24
+        },
+        "message_id": "m03",
+        "part_type": "completed_action",
+        "span": "Your $24 refund was issued on 10 November"
+       },
+       {
+        "fields": {
+         "description": "10% credit next month for this customer"
+        },
+        "message_id": "m03",
+        "part_type": "offer_or_eligibility",
+        "span": "you also get a 10% credit next month"
+       }
+      ],
+      "pass_1_only": 0,
+      "pass_2_only": 0
+     },
+     "judge_record": {
+      "pass_1": {
+       "case_id": "RG-15",
+       "handoff_context": "not_applicable",
+       "resolution": {
+        "message_id": "m03",
+        "reason": "Refund issue date passed its check and answers the customer's refund question, the unsupported credit claim is scored elsewhere.",
+        "value": "yes"
+       },
+       "tone": {
+        "message_id": "m03",
+        "reason": "Neutral, informative wording with no sarcasm, blame or dismissal.",
+        "value": "ok"
+       }
+      },
+      "pass_2": {
+       "case_id": "RG-15",
+       "handoff_context": "not_applicable",
+       "resolution": {
+        "message_id": "m03",
+        "reason": "Refund status was answered and passed its check, even though the extra credit claim is unsupported.",
+        "value": "yes"
+       },
+       "tone": {
+        "message_id": "m03",
+        "reason": "Neutral, informative wording.",
+        "value": "ok"
+       }
+      }
+     },
+     "needs": {
+      "handoff_required": [
+       false,
+       false
+      ],
+      "pass_1": [
+       {
+        "message_id": "m02",
+        "need": "question"
+       }
+      ],
+      "pass_2": [
+       {
+        "message_id": "m02",
+        "need": "question"
+       }
+      ]
+     },
+     "pipeline_version": "desk-0.7.0",
+     "referral": [
+      {
+       "check": "c1",
+       "reason": "unsupported claim part: no source grants this offer or eligibility"
+      }
+     ],
+     "route": "R-claim",
+     "routing_version": "routing-v7-statement",
+     "sensitive": {
+      "pass_1": [],
+      "pass_2": []
+     },
+     "verdicts": {
+      "c1": "referred",
+      "c2": "pass",
+      "c3": "pass",
+      "c4": "pass",
+      "c5": "pass",
+      "c6": "pass"
+     }
+    },
+    {
+     "audit_selected": false,
+     "claim_verdicts": [
+      {
+       "evidence_id": null,
+       "fields": {
+        "negated": false,
+        "topic": "other",
+        "value": "annual plans can be paused for free"
+       },
+       "found_by": "both passes",
+       "message_id": "m03",
+       "part_type": "policy_term",
+       "reason": "no authoritative source for this policy statement",
+       "span": "annual plans can be paused for free",
+       "verdict": "referred"
+      },
+      {
+       "evidence_id": "cancellation-v2",
+       "fields": {
+        "negated": true,
+        "topic": "cancellation_fee",
+        "value": "no early termination fee"
+       },
+       "found_by": "both passes",
+       "message_id": "m03",
+       "part_type": "policy_term",
+       "reason": "cancellation-v2: no early termination fee",
+       "span": "There's no early termination fee",
+       "verdict": "pass"
+      }
+     ],
+     "closure_revision_id": "RG-16-r1",
+     "conversation_id": "RG-16",
+     "conversation_sha256": "60d959d21363823b2654abe0f3b757a6a474485e0910ca0e5b65686f3fc203be",
+     "disposition": {
+      "fails": [],
+      "kb_conflict": [],
+      "referred": [
+       "c1"
+      ]
+     },
+     "evidence": {
+      "c1": {
+       "evidence_id": null,
+       "msg_id": "m03",
+       "reason": "no authoritative source for this policy statement",
+       "span": "annual plans can be paused for free"
+      },
+      "c2": {
+       "reason": "no handoff required"
+      },
+      "c3": {
+       "reason": "no sensitive data requested or repeated"
+      },
+      "c4": {
+       "msg_id": "m03",
+       "reason": "Answers the question with the verified no early termination fee, though the pause claim is unsupported."
+      },
+      "c5": {
+       "msg_id": "m03",
+       "reason": "notice present"
+      },
+      "c6": {
+       "msg_id": "m03",
+       "reason": "Neutral informational wording."
+      }
+     },
+     "extractor_record": {
+      "claims": [
+       {
+        "evidence_id": null,
+        "fields": {
+         "negated": false,
+         "topic": "other",
+         "value": "annual plans can be paused for free"
+        },
+        "found_by": "both passes",
+        "message_id": "m03",
+        "part_type": "policy_term",
+        "reason": "no authoritative source for this policy statement",
+        "span": "annual plans can be paused for free",
+        "verdict": "referred"
+       },
+       {
+        "evidence_id": "cancellation-v2",
+        "fields": {
+         "negated": true,
+         "topic": "cancellation_fee",
+         "value": "no early termination fee"
+        },
+        "found_by": "both passes",
+        "message_id": "m03",
+        "part_type": "policy_term",
+        "reason": "cancellation-v2: no early termination fee",
+        "span": "There's no early termination fee",
+        "verdict": "pass"
+       }
+      ],
+      "cross_check": [
+       {
+        "covered_by_model": true,
+        "msg_id": "m03",
+        "sentence": "There's no early termination fee, and annual plans can be paused for free."
+       }
+      ],
+      "disagreements": [],
+      "invalid_passes": [],
+      "matched": 2,
+      "model_pass_1": [
+       {
+        "fields": {
+         "negated": true,
+         "topic": "cancellation_fee",
+         "value": "no early termination fee"
+        },
+        "message_id": "m03",
+        "part_type": "policy_term",
+        "span": "There's no early termination fee"
+       },
+       {
+        "fields": {
+         "negated": false,
+         "topic": "other",
+         "value": "annual plans can be paused for free"
+        },
+        "message_id": "m03",
+        "part_type": "policy_term",
+        "span": "annual plans can be paused for free"
+       }
+      ],
+      "model_pass_2": [
+       {
+        "fields": {
+         "negated": true,
+         "topic": "cancellation_fee",
+         "value": "no early termination fee"
+        },
+        "message_id": "m03",
+        "part_type": "policy_term",
+        "span": "There's no early termination fee"
+       },
+       {
+        "fields": {
+         "negated": false,
+         "topic": "other",
+         "value": "annual plans can be paused for free"
+        },
+        "message_id": "m03",
+        "part_type": "policy_term",
+        "span": "annual plans can be paused for free"
+       }
+      ],
+      "pass_1_only": 0,
+      "pass_2_only": 0
+     },
+     "judge_record": {
+      "pass_1": {
+       "case_id": "RG-16",
+       "handoff_context": "not_applicable",
+       "resolution": {
+        "message_id": "m03",
+        "reason": "Answers the question with the verified no early termination fee, though the pause claim is unsupported.",
+        "value": "yes"
+       },
+       "tone": {
+        "message_id": "m03",
+        "reason": "Neutral informational wording.",
+        "value": "ok"
+       }
+      },
+      "pass_2": {
+       "case_id": "RG-16",
+       "handoff_context": "not_applicable",
+       "resolution": {
+        "message_id": "m03",
+        "reason": "Passed claim answers the question: no early termination fee.",
+        "value": "yes"
+       },
+       "tone": {
+        "message_id": null,
+        "reason": "Neutral factual wording.",
+        "value": "ok"
+       }
+      }
+     },
+     "needs": {
+      "handoff_required": [
+       false,
+       false
+      ],
+      "pass_1": [
+       {
+        "message_id": "m02",
+        "need": "question"
+       }
+      ],
+      "pass_2": [
+       {
+        "message_id": "m02",
+        "need": "question"
+       }
+      ]
+     },
+     "pipeline_version": "desk-0.7.0",
+     "referral": [
+      {
+       "check": "c1",
+       "reason": "no authoritative source for this policy statement"
+      }
+     ],
+     "route": "R-claim",
+     "routing_version": "routing-v7-statement",
+     "sensitive": {
+      "pass_1": [],
+      "pass_2": []
+     },
+     "verdicts": {
+      "c1": "referred",
+      "c2": "pass",
+      "c3": "pass",
+      "c4": "pass",
+      "c5": "pass",
+      "c6": "pass"
+     }
+    },
+    {
+     "audit_selected": false,
+     "claim_verdicts": [
+      {
+       "evidence_id": "billing-v3",
+       "fields": {
+        "negated": false,
+        "topic": "payment_methods_accepted",
+        "value": "Visa, Mastercard, and American Express"
+       },
+       "found_by": "both passes",
+       "message_id": "m03",
+       "part_type": "policy_term",
+       "reason": "accepted methods match billing-v3",
+       "span": "secure checkout takes Visa, Mastercard, and American Express",
+       "verdict": "pass"
+      },
+      {
+       "evidence_id": "price-v3",
+       "fields": {
+        "amount": 12,
+        "period": "month",
+        "unit": "seat"
+       },
+       "found_by": "both passes",
+       "message_id": "m03",
+       "part_type": "price",
+       "reason": "$12 per seat per month vs price-v3 $12 per seat per month",
+       "span": "Pro is $12 per seat per month",
+       "verdict": "pass"
+      }
+     ],
+     "closure_revision_id": "RG-17-r1",
+     "conversation_id": "RG-17",
+     "conversation_sha256": "161fdc81b3f236335f663cd02992c3aea479d4b40ea2b30ae832177020f46c87",
+     "disposition": {
+      "fails": [],
+      "kb_conflict": [],
+      "referred": []
+     },
+     "evidence": {
+      "c1": {
+       "evidence_id": "billing-v3",
+       "msg_id": "m03",
+       "reason": "accepted methods match billing-v3",
+       "span": "secure checkout takes Visa, Mastercard, and American Express"
+      },
+      "c2": {
+       "reason": "no handoff required"
+      },
+      "c3": {
+       "reason": "no sensitive data requested or repeated"
+      },
+      "c4": {
+       "msg_id": "m03",
+       "reason": "Answers both price and accepted cards, both passed checks."
+      },
+      "c5": {
+       "msg_id": "m03",
+       "reason": "notice present"
+      },
+      "c6": {
+       "msg_id": "m03",
+       "reason": "Neutral, helpful wording."
+      }
+     },
+     "extractor_record": {
+      "claims": [
+       {
+        "evidence_id": "billing-v3",
+        "fields": {
+         "negated": false,
+         "topic": "payment_methods_accepted",
+         "value": "Visa, Mastercard, and American Express"
+        },
+        "found_by": "both passes",
+        "message_id": "m03",
+        "part_type": "policy_term",
+        "reason": "accepted methods match billing-v3",
+        "span": "secure checkout takes Visa, Mastercard, and American Express",
+        "verdict": "pass"
+       },
+       {
+        "evidence_id": "price-v3",
+        "fields": {
+         "amount": 12,
+         "period": "month",
+         "unit": "seat"
+        },
+        "found_by": "both passes",
+        "message_id": "m03",
+        "part_type": "price",
+        "reason": "$12 per seat per month vs price-v3 $12 per seat per month",
+        "span": "Pro is $12 per seat per month",
+        "verdict": "pass"
+       }
+      ],
+      "cross_check": [
+       {
+        "covered_by_model": true,
+        "msg_id": "m03",
+        "sentence": "Pro is $12 per seat per month, and secure checkout takes Visa, Mastercard, and American Express."
+       }
+      ],
+      "disagreements": [],
+      "invalid_passes": [],
+      "matched": 2,
+      "model_pass_1": [
+       {
+        "fields": {
+         "amount": 12,
+         "period": "month",
+         "unit": "seat"
+        },
+        "message_id": "m03",
+        "part_type": "price",
+        "span": "Pro is $12 per seat per month"
+       },
+       {
+        "fields": {
+         "negated": false,
+         "topic": "payment_methods_accepted",
+         "value": "Visa, Mastercard, and American Express"
+        },
+        "message_id": "m03",
+        "part_type": "policy_term",
+        "span": "secure checkout takes Visa, Mastercard, and American Express"
+       }
+      ],
+      "model_pass_2": [
+       {
+        "fields": {
+         "amount": 12,
+         "period": "month",
+         "unit": "seat"
+        },
+        "message_id": "m03",
+        "part_type": "price",
+        "span": "Pro is $12 per seat per month"
+       },
+       {
+        "fields": {
+         "negated": false,
+         "topic": "payment_methods_accepted",
+         "value": "Visa, Mastercard, and American Express"
+        },
+        "message_id": "m03",
+        "part_type": "policy_term",
+        "span": "secure checkout takes Visa, Mastercard, and American Express."
+       }
+      ],
+      "pass_1_only": 0,
+      "pass_2_only": 0
+     },
+     "judge_record": {
+      "pass_1": {
+       "case_id": "RG-17",
+       "handoff_context": "not_applicable",
+       "resolution": {
+        "message_id": "m03",
+        "reason": "Answers both price and accepted cards, both passed checks.",
+        "value": "yes"
+       },
+       "tone": {
+        "message_id": "m03",
+        "reason": "Neutral, helpful wording.",
+        "value": "ok"
+       }
+      },
+      "pass_2": {
+       "case_id": "RG-17",
+       "handoff_context": "not_applicable",
+       "resolution": {
+        "message_id": "m03",
+        "reason": "Price and accepted cards both answered and both passed.",
+        "value": "yes"
+       },
+       "tone": {
+        "message_id": "m03",
+        "reason": "Neutral factual wording.",
+        "value": "ok"
+       }
+      }
+     },
+     "needs": {
+      "handoff_required": [
+       false,
+       false
+      ],
+      "pass_1": [
+       {
+        "message_id": "m02",
+        "need": "question"
+       }
+      ],
+      "pass_2": [
+       {
+        "message_id": "m02",
+        "need": "question"
+       }
+      ]
+     },
+     "pipeline_version": "desk-0.7.0",
+     "referral": [],
+     "route": "R-claim",
+     "routing_version": "routing-v7-statement",
+     "sensitive": {
+      "pass_1": [],
+      "pass_2": []
+     },
+     "verdicts": {
+      "c1": "pass",
+      "c2": "pass",
+      "c3": "pass",
+      "c4": "pass",
+      "c5": "pass",
+      "c6": "pass"
+     }
+    },
+    {
+     "audit_selected": false,
+     "claim_verdicts": [
+      {
+       "evidence_id": null,
+       "fields": {
+        "negated": false,
+        "topic": "other",
+        "value": "money comes back to the card on its own after a couple of months"
+       },
+       "found_by": "both passes, interpretations differ",
+       "message_id": "m03",
+       "part_type": "policy_term",
+       "reason": "no authoritative source for this policy statement",
+       "span": "most people just stop using it and the money comes back to their card on its own after a couple of months",
+       "verdict": "referred"
+      },
+      {
+       "evidence_id": null,
+       "fields": {
+        "negated": false,
+        "topic": "other",
+        "value": "money comes back to their card on its own after a couple of months"
+       },
+       "found_by": "both passes, interpretations differ",
+       "message_id": "m03",
+       "part_type": "policy_term",
+       "reason": "no authoritative source for this policy statement",
+       "span": "most people just stop using it and the money comes back to their card on its own after a couple of months",
+       "verdict": "referred"
+      }
+     ],
+     "closure_revision_id": "RG-18-r1",
+     "conversation_id": "RG-18",
+     "conversation_sha256": "6b14f5ae9cbb455129bfc5e79c00a3abb774b36ae1420ab0f5f5e7a5a1f76498",
+     "disposition": {
+      "fails": [
+       "c4"
+      ],
+      "kb_conflict": [],
+      "referred": [
+       "c1"
+      ]
+     },
+     "evidence": {
+      "c1": {
+       "evidence_id": null,
+       "msg_id": "m03",
+       "reason": "no authoritative source for this policy statement",
+       "span": "most people just stop using it and the money comes back to their card on its own after a couple of months"
+      },
+      "c2": {
+       "reason": "no handoff required"
+      },
+      "c3": {
+       "reason": "no sensitive data requested or repeated"
+      },
+      "c4": {
+       "msg_id": "m03",
+       "reason": "The only answer is an unsupported automatic-refund claim with no verified policy or next step on whether they keep paying."
+      },
+      "c5": {
+       "msg_id": "m03",
+       "reason": "notice present"
+      },
+      "c6": {
+       "msg_id": "m03",
+       "reason": "Wording is casual but not sarcastic, blaming or dismissive."
+      }
+     },
+     "extractor_record": {
+      "claims": [
+       {
+        "evidence_id": null,
+        "fields": {
+         "negated": false,
+         "topic": "other",
+         "value": "money comes back to the card on its own after a couple of months"
+        },
+        "found_by": "both passes, interpretations differ",
+        "message_id": "m03",
+        "part_type": "policy_term",
+        "reason": "no authoritative source for this policy statement",
+        "span": "most people just stop using it and the money comes back to their card on its own after a couple of months",
+        "verdict": "referred"
+       },
+       {
+        "evidence_id": null,
+        "fields": {
+         "negated": false,
+         "topic": "other",
+         "value": "money comes back to their card on its own after a couple of months"
+        },
+        "found_by": "both passes, interpretations differ",
+        "message_id": "m03",
+        "part_type": "policy_term",
+        "reason": "no authoritative source for this policy statement",
+        "span": "most people just stop using it and the money comes back to their card on its own after a couple of months",
+        "verdict": "referred"
+       }
+      ],
+      "cross_check": [
+       {
+        "covered_by_model": true,
+        "msg_id": "m03",
+        "sentence": "Honestly, most people just stop using it and the money comes back to their card on its own after a couple of months."
+       }
+      ],
+      "disagreements": [
+       {
+        "found_by": "both passes, interpretations differ",
+        "msg_id": "m03",
+        "resolution": "verified: referred",
+        "sentence": "most people just stop using it and the money comes back to their card on its own after a couple of months"
+       },
+       {
+        "found_by": "both passes, interpretations differ",
+        "msg_id": "m03",
+        "resolution": "verified: referred",
+        "sentence": "most people just stop using it and the money comes back to their card on its own after a couple of months"
+       }
+      ],
+      "invalid_passes": [],
+      "matched": 1,
+      "model_pass_1": [
+       {
+        "fields": {
+         "negated": false,
+         "topic": "other",
+         "value": "money comes back to the card on its own after a couple of months"
+        },
+        "message_id": "m03",
+        "part_type": "policy_term",
+        "span": "most people just stop using it and the money comes back to their card on its own after a couple of months"
+       }
+      ],
+      "model_pass_2": [
+       {
+        "fields": {
+         "negated": false,
+         "topic": "other",
+         "value": "money comes back to their card on its own after a couple of months"
+        },
+        "message_id": "m03",
+        "part_type": "policy_term",
+        "span": "most people just stop using it and the money comes back to their card on its own after a couple of months"
+       }
+      ],
+      "pass_1_only": 0,
+      "pass_2_only": 0
+     },
+     "judge_record": {
+      "pass_1": {
+       "case_id": "RG-18",
+       "handoff_context": "not_applicable",
+       "resolution": {
+        "message_id": "m03",
+        "reason": "The only answer is an unsupported automatic-refund claim with no verified policy or next step on whether they keep paying.",
+        "value": "no"
+       },
+       "tone": {
+        "message_id": "m03",
+        "reason": "Wording is casual but not sarcastic, blaming or dismissive.",
+        "value": "ok"
+       }
+      },
+      "pass_2": {
+       "case_id": "RG-18",
+       "handoff_context": "not_applicable",
+       "resolution": {
+        "message_id": "m03",
+        "reason": "Only answer is an unsupported and unsafe claim that money returns automatically, with no real cancellation step or path.",
+        "value": "no"
+       },
+       "tone": {
+        "message_id": null,
+        "reason": "Casual but not sarcastic, blaming or dismissive.",
+        "value": "ok"
+       }
+      }
+     },
+     "needs": {
+      "handoff_required": [
+       false,
+       false
+      ],
+      "pass_1": [
+       {
+        "message_id": "m02",
+        "need": "question"
+       }
+      ],
+      "pass_2": [
+       {
+        "message_id": "m02",
+        "need": "question"
+       }
+      ]
+     },
+     "pipeline_version": "desk-0.7.0",
+     "referral": [
+      {
+       "check": "c1",
+       "reason": "no authoritative source for this policy statement"
+      }
+     ],
+     "route": "R-claim",
+     "routing_version": "routing-v7-statement",
+     "sensitive": {
+      "pass_1": [],
+      "pass_2": []
+     },
+     "verdicts": {
+      "c1": "referred",
+      "c2": "pass",
+      "c3": "pass",
+      "c4": "fail",
+      "c5": "pass",
+      "c6": "pass"
+     }
+    },
+    {
+     "audit_selected": false,
+     "claim_verdicts": [
+      {
+       "evidence_id": null,
+       "fields": {
+        "description": "first year of Pro free for students"
+       },
+       "found_by": "both passes",
+       "message_id": "m03",
+       "part_type": "offer_or_eligibility",
+       "reason": "unsupported claim part: no source grants this offer or eligibility",
+       "span": "with the first year free for students",
+       "verdict": "referred"
+      },
+      {
+       "evidence_id": "price-v3",
+       "fields": {
+        "amount": 12,
+        "period": "month",
+        "unit": "seat"
+       },
+       "found_by": "both passes",
+       "message_id": "m03",
+       "part_type": "price",
+       "reason": "$12 per seat per month vs price-v3 $12 per seat per month",
+       "span": "Pro is $12 per seat per month",
+       "verdict": "pass"
+      }
+     ],
+     "closure_revision_id": "RG-19-r1",
+     "conversation_id": "RG-19",
+     "conversation_sha256": "52ad34fa5c968427d40aae8e7370859cc2556587fc16cdba28812736d658d5ca",
+     "disposition": {
+      "fails": [],
+      "kb_conflict": [],
+      "referred": [
+       "c1"
+      ]
+     },
+     "evidence": {
+      "c1": {
+       "evidence_id": null,
+       "msg_id": "m03",
+       "reason": "unsupported claim part: no source grants this offer or eligibility",
+       "span": "with the first year free for students"
+      },
+      "c2": {
+       "reason": "no handoff required"
+      },
+      "c3": {
+       "reason": "no sensitive data requested or repeated"
+      },
+      "c4": {
+       "msg_id": "m03",
+       "reason": "Gives the verified Pro price of $12 per seat per month, though the student offer is unsupported."
+      },
+      "c5": {
+       "msg_id": "m03",
+       "reason": "notice present"
+      },
+      "c6": {
+       "msg_id": "m03",
+       "reason": "Neutral informational wording."
+      }
+     },
+     "extractor_record": {
+      "claims": [
+       {
+        "evidence_id": null,
+        "fields": {
+         "description": "first year of Pro free for students"
+        },
+        "found_by": "both passes",
+        "message_id": "m03",
+        "part_type": "offer_or_eligibility",
+        "reason": "unsupported claim part: no source grants this offer or eligibility",
+        "span": "with the first year free for students",
+        "verdict": "referred"
+       },
+       {
+        "evidence_id": "price-v3",
+        "fields": {
+         "amount": 12,
+         "period": "month",
+         "unit": "seat"
+        },
+        "found_by": "both passes",
+        "message_id": "m03",
+        "part_type": "price",
+        "reason": "$12 per seat per month vs price-v3 $12 per seat per month",
+        "span": "Pro is $12 per seat per month",
+        "verdict": "pass"
+       }
+      ],
+      "cross_check": [
+       {
+        "covered_by_model": true,
+        "msg_id": "m03",
+        "sentence": "Pro is $12 per seat per month with the first year free for students."
+       }
+      ],
+      "disagreements": [],
+      "invalid_passes": [],
+      "matched": 2,
+      "model_pass_1": [
+       {
+        "fields": {
+         "amount": 12,
+         "period": "month",
+         "unit": "seat"
+        },
+        "message_id": "m03",
+        "part_type": "price",
+        "span": "Pro is $12 per seat per month"
+       },
+       {
+        "fields": {
+         "description": "first year of Pro free for students"
+        },
+        "message_id": "m03",
+        "part_type": "offer_or_eligibility",
+        "span": "with the first year free for students"
+       }
+      ],
+      "model_pass_2": [
+       {
+        "fields": {
+         "amount": 12,
+         "period": "month",
+         "unit": "seat"
+        },
+        "message_id": "m03",
+        "part_type": "price",
+        "span": "Pro is $12 per seat per month"
+       },
+       {
+        "fields": {
+         "description": "first year of Pro free for students"
+        },
+        "message_id": "m03",
+        "part_type": "offer_or_eligibility",
+        "span": "with the first year free for students"
+       }
+      ],
+      "pass_1_only": 0,
+      "pass_2_only": 0
+     },
+     "judge_record": {
+      "pass_1": {
+       "case_id": "RG-19",
+       "handoff_context": "not_applicable",
+       "resolution": {
+        "message_id": "m03",
+        "reason": "Gives the verified Pro price of $12 per seat per month, though the student offer is unsupported.",
+        "value": "yes"
+       },
+       "tone": {
+        "message_id": "m03",
+        "reason": "Neutral informational wording.",
+        "value": "ok"
+       }
+      },
+      "pass_2": {
+       "case_id": "RG-19",
+       "handoff_context": "not_applicable",
+       "resolution": {
+        "message_id": "m03",
+        "reason": "The Pro price passed and gives the customer usable pricing, the unsupported student offer is a fact issue scored elsewhere.",
+        "value": "yes"
+       },
+       "tone": {
+        "message_id": "m03",
+        "reason": "Neutral factual wording.",
+        "value": "ok"
+       }
+      }
+     },
+     "needs": {
+      "handoff_required": [
+       false,
+       false
+      ],
+      "pass_1": [
+       {
+        "message_id": "m02",
+        "need": "question"
+       }
+      ],
+      "pass_2": [
+       {
+        "message_id": "m02",
+        "need": "question"
+       }
+      ]
+     },
+     "pipeline_version": "desk-0.7.0",
+     "referral": [
+      {
+       "check": "c1",
+       "reason": "unsupported claim part: no source grants this offer or eligibility"
+      }
+     ],
+     "route": "R-claim",
+     "routing_version": "routing-v7-statement",
+     "sensitive": {
+      "pass_1": [],
+      "pass_2": []
+     },
+     "verdicts": {
+      "c1": "referred",
+      "c2": "pass",
+      "c3": "pass",
+      "c4": "pass",
+      "c5": "pass",
+      "c6": "pass"
+     }
+    },
+    {
+     "audit_selected": false,
+     "claim_verdicts": [
+      {
+       "evidence_id": "price-v3",
+       "fields": {
+        "amount": 12,
+        "period": "month",
+        "unit": "seat"
+       },
+       "found_by": "both passes",
+       "message_id": "m03",
+       "part_type": "price",
+       "reason": "$12 per seat per month vs price-v3 $12 per seat per month",
+       "span": "Pro is $12 per seat per month before taxes and discounts.",
+       "verdict": "pass"
+      }
+     ],
+     "closure_revision_id": "RG-20-r1",
+     "conversation_id": "RG-20",
+     "conversation_sha256": "c72c2f62881650b3413509da76a158e31fb0d5f277f3458e84a0f830855c388e",
+     "disposition": {
+      "fails": [],
+      "kb_conflict": [],
+      "referred": []
+     },
+     "evidence": {
+      "c1": {
+       "evidence_id": "price-v3",
+       "msg_id": "m03",
+       "reason": "$12 per seat per month vs price-v3 $12 per seat per month",
+       "span": "Pro is $12 per seat per month before taxes and discounts."
+      },
+      "c2": {
+       "reason": "no handoff required"
+      },
+      "c3": {
+       "reason": "no sensitive data requested or repeated"
+      },
+      "c4": {
+       "msg_id": "m03",
+       "reason": "Pro price given and passed its check."
+      },
+      "c5": {
+       "msg_id": "m03",
+       "reason": "notice present"
+      },
+      "c6": {
+       "msg_id": "m03",
+       "reason": "Neutral wording."
+      }
+     },
+     "extractor_record": {
+      "claims": [
+       {
+        "evidence_id": "price-v3",
+        "fields": {
+         "amount": 12,
+         "period": "month",
+         "unit": "seat"
+        },
+        "found_by": "both passes",
+        "message_id": "m03",
+        "part_type": "price",
+        "reason": "$12 per seat per month vs price-v3 $12 per seat per month",
+        "span": "Pro is $12 per seat per month before taxes and discounts.",
+        "verdict": "pass"
+       }
+      ],
+      "cross_check": [
+       {
+        "covered_by_model": true,
+        "msg_id": "m03",
+        "sentence": "Pro is $12 per seat per month before taxes and discounts."
+       }
+      ],
+      "disagreements": [],
+      "invalid_passes": [],
+      "matched": 1,
+      "model_pass_1": [
+       {
+        "fields": {
+         "amount": 12,
+         "period": "month",
+         "unit": "seat"
+        },
+        "message_id": "m03",
+        "part_type": "price",
+        "span": "Pro is $12 per seat per month before taxes and discounts."
+       }
+      ],
+      "model_pass_2": [
+       {
+        "fields": {
+         "amount": 12,
+         "period": "month",
+         "unit": "seat"
+        },
+        "message_id": "m03",
+        "part_type": "price",
+        "span": "Pro is $12 per seat per month before taxes and discounts."
+       }
+      ],
+      "pass_1_only": 0,
+      "pass_2_only": 0
+     },
+     "judge_record": {
+      "pass_1": {
+       "case_id": "RG-20",
+       "handoff_context": "not_applicable",
+       "resolution": {
+        "message_id": "m03",
+        "reason": "Pro price given and passed its check.",
+        "value": "yes"
+       },
+       "tone": {
+        "message_id": "m03",
+        "reason": "Neutral wording.",
+        "value": "ok"
+       }
+      },
+      "pass_2": {
+       "case_id": "RG-20",
+       "handoff_context": "not_applicable",
+       "resolution": {
+        "message_id": "m03",
+        "reason": "Gives the Pro price, which passed its check.",
+        "value": "yes"
+       },
+       "tone": {
+        "message_id": "m03",
+        "reason": "Neutral, factual wording.",
+        "value": "ok"
+       }
+      }
+     },
+     "needs": {
+      "handoff_required": [
+       false,
+       false
+      ],
+      "pass_1": [
+       {
+        "message_id": "m02",
+        "need": "question"
+       }
+      ],
+      "pass_2": [
+       {
+        "message_id": "m02",
+        "need": "question"
+       }
+      ]
+     },
+     "pipeline_version": "desk-0.7.0",
+     "referral": [],
+     "route": "R-claim",
+     "routing_version": "routing-v7-statement",
+     "sensitive": {
+      "pass_1": [],
+      "pass_2": []
+     },
+     "verdicts": {
+      "c1": "pass",
+      "c2": "pass",
+      "c3": "pass",
+      "c4": "pass",
+      "c5": "pass",
+      "c6": "pass"
+     }
+    },
+    {
+     "audit_selected": true,
+     "claim_verdicts": [
+      {
+       "evidence_id": "price-v3",
+       "fields": {
+        "amount": 6,
+        "period": "none",
+        "unit": "seat"
+       },
+       "found_by": "both passes, interpretations differ",
+       "message_id": "m03",
+       "part_type": "price",
+       "reason": "$6 per seat per month (no period stated) vs price-v3 $12 per seat per month",
+       "span": "$6 for registered nonprofits",
+       "verdict": "fail"
+      },
+      {
+       "evidence_id": "price-v3",
+       "fields": {
+        "amount": 6,
+        "period": "none",
+        "unit": "seat"
+       },
+       "found_by": "both passes, interpretations differ",
+       "message_id": "m03",
+       "part_type": "price",
+       "reason": "$6 per seat per month (no period stated) vs price-v3 $12 per seat per month",
+       "span": "or $6 for registered nonprofits",
+       "verdict": "fail"
+      },
+      {
+       "evidence_id": "price-v3",
+       "fields": {
+        "amount": 12,
+        "period": "none",
+        "unit": "seat"
+       },
+       "found_by": "both passes",
+       "message_id": "m03",
+       "part_type": "price",
+       "reason": "$12 per seat per month (no period stated) vs price-v3 $12 per seat per month",
+       "span": "Pro is $12 a seat",
+       "verdict": "pass"
+      }
+     ],
+     "closure_revision_id": "RG-21-r1",
+     "conversation_id": "RG-21",
+     "conversation_sha256": "ba59e7601677ebca21c398121b58b8a2fa2c826e5c5fa9981071e3fa4f6b7cb9",
+     "disposition": {
+      "fails": [
+       "c1"
+      ],
+      "kb_conflict": [],
+      "referred": [
+       "c4"
+      ]
+     },
+     "evidence": {
+      "c1": {
+       "evidence_id": "price-v3",
+       "msg_id": "m03",
+       "reason": "$6 per seat per month (no period stated) vs price-v3 $12 per seat per month",
+       "span": "$6 for registered nonprofits"
+      },
+      "c2": {
+       "reason": "no handoff required"
+      },
+      "c3": {
+       "reason": "no sensitive data requested or repeated"
+      },
+      "c4": {
+       "reason": "model disagreement on resolution"
+      },
+      "c5": {
+       "msg_id": "m03",
+       "reason": "notice present"
+      },
+      "c6": {
+       "msg_id": "m03",
+       "reason": "Neutral, informative wording."
+      }
+     },
+     "extractor_record": {
+      "claims": [
+       {
+        "evidence_id": "price-v3",
+        "fields": {
+         "amount": 6,
+         "period": "none",
+         "unit": "seat"
+        },
+        "found_by": "both passes, interpretations differ",
+        "message_id": "m03",
+        "part_type": "price",
+        "reason": "$6 per seat per month (no period stated) vs price-v3 $12 per seat per month",
+        "span": "$6 for registered nonprofits",
+        "verdict": "fail"
+       },
+       {
+        "evidence_id": "price-v3",
+        "fields": {
+         "amount": 6,
+         "period": "none",
+         "unit": "seat"
+        },
+        "found_by": "both passes, interpretations differ",
+        "message_id": "m03",
+        "part_type": "price",
+        "reason": "$6 per seat per month (no period stated) vs price-v3 $12 per seat per month",
+        "span": "or $6 for registered nonprofits",
+        "verdict": "fail"
+       },
+       {
+        "evidence_id": "price-v3",
+        "fields": {
+         "amount": 12,
+         "period": "none",
+         "unit": "seat"
+        },
+        "found_by": "both passes",
+        "message_id": "m03",
+        "part_type": "price",
+        "reason": "$12 per seat per month (no period stated) vs price-v3 $12 per seat per month",
+        "span": "Pro is $12 a seat",
+        "verdict": "pass"
+       }
+      ],
+      "cross_check": [
+       {
+        "covered_by_model": true,
+        "msg_id": "m03",
+        "sentence": "Pro is $12 a seat, or $6 for registered nonprofits."
+       }
+      ],
+      "disagreements": [
+       {
+        "found_by": "both passes, interpretations differ",
+        "msg_id": "m03",
+        "resolution": "verified: fail",
+        "sentence": "$6 for registered nonprofits"
+       },
+       {
+        "found_by": "both passes, interpretations differ",
+        "msg_id": "m03",
+        "resolution": "verified: fail",
+        "sentence": "or $6 for registered nonprofits"
+       }
+      ],
+      "invalid_passes": [],
+      "matched": 2,
+      "model_pass_1": [
+       {
+        "fields": {
+         "amount": 12,
+         "period": "none",
+         "unit": "seat"
+        },
+        "message_id": "m03",
+        "part_type": "price",
+        "span": "Pro is $12 a seat"
+       },
+       {
+        "fields": {
+         "amount": 6,
+         "period": "none",
+         "unit": "seat"
+        },
+        "message_id": "m03",
+        "part_type": "price",
+        "span": "or $6 for registered nonprofits"
+       }
+      ],
+      "model_pass_2": [
+       {
+        "fields": {
+         "amount": 12,
+         "period": "none",
+         "unit": "seat"
+        },
+        "message_id": "m03",
+        "part_type": "price",
+        "span": "Pro is $12 a seat"
+       },
+       {
+        "fields": {
+         "amount": 6,
+         "period": "none",
+         "unit": "seat"
+        },
+        "message_id": "m03",
+        "part_type": "price",
+        "span": "$6 for registered nonprofits"
+       }
+      ],
+      "pass_1_only": 0,
+      "pass_2_only": 0
+     },
+     "judge_record": {
+      "pass_1": {
+       "case_id": "RG-21",
+       "handoff_context": "not_applicable",
+       "resolution": {
+        "message_id": "m03",
+        "reason": "The $12 per seat Pro price passed its check and gives the customer the actual price, the nonprofit discount is scored under facts.",
+        "value": "yes"
+       },
+       "tone": {
+        "message_id": "m03",
+        "reason": "Neutral, informative wording.",
+        "value": "ok"
+       }
+      },
+      "pass_2": {
+       "case_id": "RG-21",
+       "handoff_context": "not_applicable",
+       "resolution": {
+        "message_id": "m03",
+        "reason": "The nonprofit price asked about failed its check, and the passing standard price does not answer the nonprofit question.",
+        "value": "no"
+       },
+       "tone": {
+        "message_id": null,
+        "reason": "Neutral factual wording.",
+        "value": "ok"
+       }
+      }
+     },
+     "needs": {
+      "handoff_required": [
+       false,
+       false
+      ],
+      "pass_1": [
+       {
+        "message_id": "m02",
+        "need": "question"
+       }
+      ],
+      "pass_2": [
+       {
+        "message_id": "m02",
+        "need": "question"
+       }
+      ]
+     },
+     "pipeline_version": "desk-0.7.0",
+     "referral": [
+      {
+       "check": "c4",
+       "reason": "model disagreement on resolution"
+      }
+     ],
+     "route": "R-claim",
+     "routing_version": "routing-v7-statement",
+     "sensitive": {
+      "pass_1": [],
+      "pass_2": []
+     },
+     "verdicts": {
+      "c1": "fail",
+      "c2": "pass",
+      "c3": "pass",
+      "c4": "referred",
+      "c5": "pass",
+      "c6": "pass"
+     }
+    },
+    {
+     "audit_selected": false,
+     "claim_verdicts": [
+      {
+       "evidence_id": "price-v3",
+       "fields": {
+        "amount": 12,
+        "period": "month",
+        "unit": "seat"
+       },
+       "found_by": "both passes",
+       "message_id": "m03",
+       "part_type": "price",
+       "reason": "$12 per seat per month vs price-v3 $12 per seat per month",
+       "span": "Pro is $12 per seat per month",
+       "verdict": "pass"
+      },
+      {
+       "evidence_id": "price-v3",
+       "fields": {
+        "amount": 60,
+        "period": "month",
+        "unit": "none"
+       },
+       "found_by": "both passes",
+       "message_id": "m03",
+       "part_type": "price",
+       "reason": "5 seats at $12 vs $60",
+       "span": "so 5 seats come to $60 before tax",
+       "verdict": "pass"
+      }
+     ],
+     "closure_revision_id": "RG-22-r1",
+     "conversation_id": "RG-22",
+     "conversation_sha256": "0fc854834d97abb62c6b1af86d78445febc700ba5bb41a4bda14ca8d16074a94",
+     "disposition": {
+      "fails": [],
+      "kb_conflict": [],
+      "referred": []
+     },
+     "evidence": {
+      "c1": {
+       "evidence_id": "price-v3",
+       "msg_id": "m03",
+       "reason": "$12 per seat per month vs price-v3 $12 per seat per month",
+       "span": "Pro is $12 per seat per month"
+      },
+      "c2": {
+       "reason": "no handoff required"
+      },
+      "c3": {
+       "reason": "no sensitive data requested or repeated"
+      },
+      "c4": {
+       "msg_id": "m03",
+       "reason": "Gives per-seat price and the 5-seat total, both passed checks."
+      },
+      "c5": {
+       "msg_id": "m03",
+       "reason": "notice present"
+      },
+      "c6": {
+       "msg_id": "m03",
+       "reason": "Neutral, direct wording."
+      }
+     },
+     "extractor_record": {
+      "claims": [
+       {
+        "evidence_id": "price-v3",
+        "fields": {
+         "amount": 12,
+         "period": "month",
+         "unit": "seat"
+        },
+        "found_by": "both passes",
+        "message_id": "m03",
+        "part_type": "price",
+        "reason": "$12 per seat per month vs price-v3 $12 per seat per month",
+        "span": "Pro is $12 per seat per month",
+        "verdict": "pass"
+       },
+       {
+        "evidence_id": "price-v3",
+        "fields": {
+         "amount": 60,
+         "period": "month",
+         "unit": "none"
+        },
+        "found_by": "both passes",
+        "message_id": "m03",
+        "part_type": "price",
+        "reason": "5 seats at $12 vs $60",
+        "span": "so 5 seats come to $60 before tax",
+        "verdict": "pass"
+       }
+      ],
+      "cross_check": [
+       {
+        "covered_by_model": true,
+        "msg_id": "m03",
+        "sentence": "Pro is $12 per seat per month, so 5 seats come to $60 before tax."
+       }
+      ],
+      "disagreements": [],
+      "invalid_passes": [],
+      "matched": 2,
+      "model_pass_1": [
+       {
+        "fields": {
+         "amount": 12,
+         "period": "month",
+         "unit": "seat"
+        },
+        "message_id": "m03",
+        "part_type": "price",
+        "span": "Pro is $12 per seat per month"
+       },
+       {
+        "fields": {
+         "amount": 60,
+         "period": "month",
+         "unit": "none"
+        },
+        "message_id": "m03",
+        "part_type": "price",
+        "span": "so 5 seats come to $60 before tax"
+       }
+      ],
+      "model_pass_2": [
+       {
+        "fields": {
+         "amount": 12,
+         "period": "month",
+         "unit": "seat"
+        },
+        "message_id": "m03",
+        "part_type": "price",
+        "span": "Pro is $12 per seat per month"
+       },
+       {
+        "fields": {
+         "amount": 60,
+         "period": "month",
+         "unit": "none"
+        },
+        "message_id": "m03",
+        "part_type": "price",
+        "span": "so 5 seats come to $60 before tax"
+       }
+      ],
+      "pass_1_only": 0,
+      "pass_2_only": 0
+     },
+     "judge_record": {
+      "pass_1": {
+       "case_id": "RG-22",
+       "handoff_context": "not_applicable",
+       "resolution": {
+        "message_id": "m03",
+        "reason": "Gives per-seat price and the 5-seat total, both passed checks.",
+        "value": "yes"
+       },
+       "tone": {
+        "message_id": "m03",
+        "reason": "Neutral, direct wording.",
+        "value": "ok"
+       }
+      },
+      "pass_2": {
+       "case_id": "RG-22",
+       "handoff_context": "not_applicable",
+       "resolution": {
+        "message_id": "m03",
+        "reason": "Gives the per-seat price and the 5-seat total, both verified.",
+        "value": "yes"
+       },
+       "tone": {
+        "message_id": "m03",
+        "reason": "Neutral, informative wording.",
+        "value": "ok"
+       }
+      }
+     },
+     "needs": {
+      "handoff_required": [
+       false,
+       false
+      ],
+      "pass_1": [
+       {
+        "message_id": "m02",
+        "need": "question"
+       }
+      ],
+      "pass_2": [
+       {
+        "message_id": "m02",
+        "need": "question"
+       }
+      ]
+     },
+     "pipeline_version": "desk-0.7.0",
+     "referral": [],
+     "route": "R-claim",
+     "routing_version": "routing-v7-statement",
+     "sensitive": {
+      "pass_1": [],
+      "pass_2": []
+     },
+     "verdicts": {
+      "c1": "pass",
+      "c2": "pass",
+      "c3": "pass",
+      "c4": "pass",
+      "c5": "pass",
+      "c6": "pass"
+     }
+    },
+    {
+     "audit_selected": false,
+     "claim_verdicts": [
+      {
+       "evidence_id": "price-v3",
+       "fields": {
+        "amount": 12,
+        "period": "year",
+        "unit": "seat"
+       },
+       "found_by": "both passes",
+       "message_id": "m03",
+       "part_type": "price",
+       "reason": "$12 per seat per year vs price-v3 $12 per seat per month",
+       "span": "Pro is $12 per seat per year",
+       "verdict": "fail"
+      }
+     ],
+     "closure_revision_id": "RG-23-r1",
+     "conversation_id": "RG-23",
+     "conversation_sha256": "5a4dfa52ab69c36537aa9b5f7fe3df687b709d6e7c4a95e84f3c2e4eb1547c24",
+     "disposition": {
+      "fails": [
+       "c1",
+       "c4"
+      ],
+      "kb_conflict": [],
+      "referred": []
+     },
+     "evidence": {
+      "c1": {
+       "evidence_id": "price-v3",
+       "msg_id": "m03",
+       "reason": "$12 per seat per year vs price-v3 $12 per seat per month",
+       "span": "Pro is $12 per seat per year"
+      },
+      "c2": {
+       "reason": "no handoff required"
+      },
+      "c3": {
+       "reason": "no sensitive data requested or repeated"
+      },
+      "c4": {
+       "msg_id": "m03",
+       "reason": "The only answer (Pro price per year) failed its check and no other step is offered."
+      },
+      "c5": {
+       "msg_id": "m03",
+       "reason": "notice present"
+      },
+      "c6": {
+       "msg_id": "m03",
+       "reason": "Neutral wording."
+      }
+     },
+     "extractor_record": {
+      "claims": [
+       {
+        "evidence_id": "price-v3",
+        "fields": {
+         "amount": 12,
+         "period": "year",
+         "unit": "seat"
+        },
+        "found_by": "both passes",
+        "message_id": "m03",
+        "part_type": "price",
+        "reason": "$12 per seat per year vs price-v3 $12 per seat per month",
+        "span": "Pro is $12 per seat per year",
+        "verdict": "fail"
+       }
+      ],
+      "cross_check": [
+       {
+        "covered_by_model": true,
+        "msg_id": "m03",
+        "sentence": "Pro is $12 per seat per year."
+       }
+      ],
+      "disagreements": [],
+      "invalid_passes": [],
+      "matched": 1,
+      "model_pass_1": [
+       {
+        "fields": {
+         "amount": 12,
+         "period": "year",
+         "unit": "seat"
+        },
+        "message_id": "m03",
+        "part_type": "price",
+        "span": "Pro is $12 per seat per year"
+       }
+      ],
+      "model_pass_2": [
+       {
+        "fields": {
+         "amount": 12,
+         "period": "year",
+         "unit": "seat"
+        },
+        "message_id": "m03",
+        "part_type": "price",
+        "span": "Pro is $12 per seat per year."
+       }
+      ],
+      "pass_1_only": 0,
+      "pass_2_only": 0
+     },
+     "judge_record": {
+      "pass_1": {
+       "case_id": "RG-23",
+       "handoff_context": "not_applicable",
+       "resolution": {
+        "message_id": "m03",
+        "reason": "The only answer (Pro price per year) failed its check and no other step is offered.",
+        "value": "no"
+       },
+       "tone": {
+        "message_id": "m03",
+        "reason": "Neutral wording.",
+        "value": "ok"
+       }
+      },
+      "pass_2": {
+       "case_id": "RG-23",
+       "handoff_context": "not_applicable",
+       "resolution": {
+        "message_id": "m03",
+        "reason": "The only answer given (the Pro price) failed its check, so the customer has no usable answer.",
+        "value": "no"
+       },
+       "tone": {
+        "message_id": "m03",
+        "reason": "Neutral factual wording.",
+        "value": "ok"
+       }
+      }
+     },
+     "needs": {
+      "handoff_required": [
+       false,
+       false
+      ],
+      "pass_1": [
+       {
+        "message_id": "m02",
+        "need": "question"
+       }
+      ],
+      "pass_2": [
+       {
+        "message_id": "m02",
+        "need": "question"
+       }
+      ]
+     },
+     "pipeline_version": "desk-0.7.0",
+     "referral": [],
+     "route": "R-claim",
+     "routing_version": "routing-v7-statement",
+     "sensitive": {
+      "pass_1": [],
+      "pass_2": []
+     },
+     "verdicts": {
+      "c1": "fail",
+      "c2": "pass",
+      "c3": "pass",
+      "c4": "fail",
+      "c5": "pass",
+      "c6": "pass"
+     }
+    },
+    {
+     "audit_selected": false,
+     "claim_verdicts": [
+      {
+       "evidence_id": "price-v3",
+       "fields": {
+        "amount": 144,
+        "period": "year",
+        "unit": "seat"
+       },
+       "found_by": "both passes, interpretations differ",
+       "message_id": "m03",
+       "part_type": "price",
+       "reason": "$144 per seat per year vs price-v3 $12 per seat per month",
+       "span": "$144 per seat per year",
+       "verdict": "pass"
+      },
+      {
+       "evidence_id": "price-v3",
+       "fields": {
+        "amount": 144,
+        "period": "year",
+        "unit": "seat"
+       },
+       "found_by": "both passes, interpretations differ",
+       "message_id": "m03",
+       "part_type": "price",
+       "reason": "$144 per seat per year vs price-v3 $12 per seat per month",
+       "span": "or $144 per seat per year",
+       "verdict": "pass"
+      },
+      {
+       "evidence_id": "price-v3",
+       "fields": {
+        "amount": 12,
+        "period": "month",
+        "unit": "seat"
+       },
+       "found_by": "both passes",
+       "message_id": "m03",
+       "part_type": "price",
+       "reason": "$12 per seat per month vs price-v3 $12 per seat per month",
+       "span": "Pro is $12 per seat per month",
+       "verdict": "pass"
+      }
+     ],
+     "closure_revision_id": "RG-24-r1",
+     "conversation_id": "RG-24",
+     "conversation_sha256": "dc3b6a3291a1cc0164239e8d081058dec7de0a4ce57beb285636495cd94c625d",
+     "disposition": {
+      "fails": [],
+      "kb_conflict": [],
+      "referred": []
+     },
+     "evidence": {
+      "c1": {
+       "evidence_id": "price-v3",
+       "msg_id": "m03",
+       "reason": "$144 per seat per year vs price-v3 $12 per seat per month",
+       "span": "$144 per seat per year"
+      },
+      "c2": {
+       "reason": "no handoff required"
+      },
+      "c3": {
+       "reason": "no sensitive data requested or repeated"
+      },
+      "c4": {
+       "msg_id": "m03",
+       "reason": "Gives both monthly and yearly Pro pricing, and all claims passed."
+      },
+      "c5": {
+       "msg_id": "m03",
+       "reason": "notice present"
+      },
+      "c6": {
+       "msg_id": "m03",
+       "reason": "Neutral factual wording."
+      }
+     },
+     "extractor_record": {
+      "claims": [
+       {
+        "evidence_id": "price-v3",
+        "fields": {
+         "amount": 144,
+         "period": "year",
+         "unit": "seat"
+        },
+        "found_by": "both passes, interpretations differ",
+        "message_id": "m03",
+        "part_type": "price",
+        "reason": "$144 per seat per year vs price-v3 $12 per seat per month",
+        "span": "$144 per seat per year",
+        "verdict": "pass"
+       },
+       {
+        "evidence_id": "price-v3",
+        "fields": {
+         "amount": 144,
+         "period": "year",
+         "unit": "seat"
+        },
+        "found_by": "both passes, interpretations differ",
+        "message_id": "m03",
+        "part_type": "price",
+        "reason": "$144 per seat per year vs price-v3 $12 per seat per month",
+        "span": "or $144 per seat per year",
+        "verdict": "pass"
+       },
+       {
+        "evidence_id": "price-v3",
+        "fields": {
+         "amount": 12,
+         "period": "month",
+         "unit": "seat"
+        },
+        "found_by": "both passes",
+        "message_id": "m03",
+        "part_type": "price",
+        "reason": "$12 per seat per month vs price-v3 $12 per seat per month",
+        "span": "Pro is $12 per seat per month",
+        "verdict": "pass"
+       }
+      ],
+      "cross_check": [
+       {
+        "covered_by_model": true,
+        "msg_id": "m03",
+        "sentence": "Pro is $12 per seat per month or $144 per seat per year."
+       }
+      ],
+      "disagreements": [
+       {
+        "found_by": "both passes, interpretations differ",
+        "msg_id": "m03",
+        "resolution": "verified: pass",
+        "sentence": "$144 per seat per year"
+       },
+       {
+        "found_by": "both passes, interpretations differ",
+        "msg_id": "m03",
+        "resolution": "verified: pass",
+        "sentence": "or $144 per seat per year"
+       }
+      ],
+      "invalid_passes": [],
+      "matched": 2,
+      "model_pass_1": [
+       {
+        "fields": {
+         "amount": 12,
+         "period": "month",
+         "unit": "seat"
+        },
+        "message_id": "m03",
+        "part_type": "price",
+        "span": "Pro is $12 per seat per month"
+       },
+       {
+        "fields": {
+         "amount": 144,
+         "period": "year",
+         "unit": "seat"
+        },
+        "message_id": "m03",
+        "part_type": "price",
+        "span": "or $144 per seat per year"
+       }
+      ],
+      "model_pass_2": [
+       {
+        "fields": {
+         "amount": 12,
+         "period": "month",
+         "unit": "seat"
+        },
+        "message_id": "m03",
+        "part_type": "price",
+        "span": "Pro is $12 per seat per month"
+       },
+       {
+        "fields": {
+         "amount": 144,
+         "period": "year",
+         "unit": "seat"
+        },
+        "message_id": "m03",
+        "part_type": "price",
+        "span": "$144 per seat per year"
+       }
+      ],
+      "pass_1_only": 0,
+      "pass_2_only": 0
+     },
+     "judge_record": {
+      "pass_1": {
+       "case_id": "RG-24",
+       "handoff_context": "not_applicable",
+       "resolution": {
+        "message_id": "m03",
+        "reason": "Gives both monthly and yearly Pro pricing, and all claims passed.",
+        "value": "yes"
+       },
+       "tone": {
+        "message_id": "m03",
+        "reason": "Neutral factual wording.",
+        "value": "ok"
+       }
+      },
+      "pass_2": {
+       "case_id": "RG-24",
+       "handoff_context": "not_applicable",
+       "resolution": {
+        "message_id": "m03",
+        "reason": "Gives both monthly and yearly Pro pricing, all claims passed.",
+        "value": "yes"
+       },
+       "tone": {
+        "message_id": "m03",
+        "reason": "Neutral, direct answer.",
+        "value": "ok"
+       }
+      }
+     },
+     "needs": {
+      "handoff_required": [
+       false,
+       false
+      ],
+      "pass_1": [
+       {
+        "message_id": "m02",
+        "need": "question"
+       }
+      ],
+      "pass_2": [
+       {
+        "message_id": "m02",
+        "need": "question"
+       }
+      ]
+     },
+     "pipeline_version": "desk-0.7.0",
+     "referral": [],
+     "route": "R-claim",
+     "routing_version": "routing-v7-statement",
+     "sensitive": {
+      "pass_1": [],
+      "pass_2": []
+     },
+     "verdicts": {
+      "c1": "pass",
+      "c2": "pass",
+      "c3": "pass",
+      "c4": "pass",
+      "c5": "pass",
+      "c6": "pass"
+     }
+    },
+    {
+     "audit_selected": false,
+     "claim_verdicts": [
+      {
+       "evidence_id": "price-v3",
+       "fields": {
+        "amount": 12.99,
+        "period": "month",
+        "unit": "seat"
+       },
+       "found_by": "both passes",
+       "message_id": "m03",
+       "part_type": "price",
+       "reason": "$12.99 per seat per month vs price-v3 $12 per seat per month",
+       "span": "Pro is $12.99 per seat per month.",
+       "verdict": "fail"
+      }
+     ],
+     "closure_revision_id": "RG-25-r1",
+     "conversation_id": "RG-25",
+     "conversation_sha256": "631fa39dc6d63cd7e6e64b7631bc8e19d4351cf2fe2e082ca7698de777a4d691",
+     "disposition": {
+      "fails": [
+       "c1",
+       "c4"
+      ],
+      "kb_conflict": [],
+      "referred": []
+     },
+     "evidence": {
+      "c1": {
+       "evidence_id": "price-v3",
+       "msg_id": "m03",
+       "reason": "$12.99 per seat per month vs price-v3 $12 per seat per month",
+       "span": "Pro is $12.99 per seat per month."
+      },
+      "c2": {
+       "reason": "no handoff required"
+      },
+      "c3": {
+       "reason": "no sensitive data requested or repeated"
+      },
+      "c4": {
+       "msg_id": "m03",
+       "reason": "The only answer given (the Pro price) failed its check and no other step is offered."
+      },
+      "c5": {
+       "msg_id": "m03",
+       "reason": "notice present"
+      },
+      "c6": {
+       "msg_id": "m03",
+       "reason": "Neutral wording."
+      }
+     },
+     "extractor_record": {
+      "claims": [
+       {
+        "evidence_id": "price-v3",
+        "fields": {
+         "amount": 12.99,
+         "period": "month",
+         "unit": "seat"
+        },
+        "found_by": "both passes",
+        "message_id": "m03",
+        "part_type": "price",
+        "reason": "$12.99 per seat per month vs price-v3 $12 per seat per month",
+        "span": "Pro is $12.99 per seat per month.",
+        "verdict": "fail"
+       }
+      ],
+      "cross_check": [
+       {
+        "covered_by_model": true,
+        "msg_id": "m03",
+        "sentence": "Pro is $12.99 per seat per month."
+       }
+      ],
+      "disagreements": [],
+      "invalid_passes": [],
+      "matched": 1,
+      "model_pass_1": [
+       {
+        "fields": {
+         "amount": 12.99,
+         "period": "month",
+         "unit": "seat"
+        },
+        "message_id": "m03",
+        "part_type": "price",
+        "span": "Pro is $12.99 per seat per month."
+       }
+      ],
+      "model_pass_2": [
+       {
+        "fields": {
+         "amount": 12.99,
+         "period": "month",
+         "unit": "seat"
+        },
+        "message_id": "m03",
+        "part_type": "price",
+        "span": "Pro is $12.99 per seat per month."
+       }
+      ],
+      "pass_1_only": 0,
+      "pass_2_only": 0
+     },
+     "judge_record": {
+      "pass_1": {
+       "case_id": "RG-25",
+       "handoff_context": "not_applicable",
+       "resolution": {
+        "message_id": "m03",
+        "reason": "The only answer given (the Pro price) failed its check and no other step is offered.",
+        "value": "no"
+       },
+       "tone": {
+        "message_id": "m03",
+        "reason": "Neutral wording.",
+        "value": "ok"
+       }
+      },
+      "pass_2": {
+       "case_id": "RG-25",
+       "handoff_context": "not_applicable",
+       "resolution": {
+        "message_id": "m03",
+        "reason": "The only answer, the Pro price, failed its check and no other path is given.",
+        "value": "no"
+       },
+       "tone": {
+        "message_id": null,
+        "reason": "Neutral factual wording.",
+        "value": "ok"
+       }
+      }
+     },
+     "needs": {
+      "handoff_required": [
+       false,
+       false
+      ],
+      "pass_1": [
+       {
+        "message_id": "m02",
+        "need": "question"
+       }
+      ],
+      "pass_2": [
+       {
+        "message_id": "m02",
+        "need": "question"
+       }
+      ]
+     },
+     "pipeline_version": "desk-0.7.0",
+     "referral": [],
+     "route": "R-claim",
+     "routing_version": "routing-v7-statement",
+     "sensitive": {
+      "pass_1": [],
+      "pass_2": []
+     },
+     "verdicts": {
+      "c1": "fail",
+      "c2": "pass",
+      "c3": "pass",
+      "c4": "fail",
+      "c5": "pass",
+      "c6": "pass"
+     }
+    },
+    {
+     "audit_selected": false,
+     "claim_verdicts": [
+      {
+       "evidence_id": "price-v3",
+       "fields": {
+        "amount": 12,
+        "period": "year",
+        "unit": "seat"
+       },
+       "found_by": "both passes, interpretations differ",
+       "message_id": "m03",
+       "part_type": "price",
+       "reason": "$12 per seat per year vs price-v3 $12 per seat per month",
+       "span": "annually at $12 per seat",
+       "verdict": "fail"
+      },
+      {
+       "evidence_id": "price-v3",
+       "fields": {
+        "amount": 12,
+        "period": "year",
+        "unit": "seat"
+       },
+       "found_by": "both passes, interpretations differ",
+       "message_id": "m03",
+       "part_type": "price",
+       "reason": "$12 per seat per year vs price-v3 $12 per seat per month",
+       "span": "or annually at $12 per seat",
+       "verdict": "fail"
+      },
+      {
+       "evidence_id": "price-v3",
+       "fields": {
+        "amount": 12,
+        "period": "month",
+        "unit": "seat"
+       },
+       "found_by": "both passes",
+       "message_id": "m03",
+       "part_type": "price",
+       "reason": "$12 per seat per month vs price-v3 $12 per seat per month",
+       "span": "Pro is $12 per seat monthly",
+       "verdict": "pass"
+      }
+     ],
+     "closure_revision_id": "RG-26-r1",
+     "conversation_id": "RG-26",
+     "conversation_sha256": "ac95ad2c24938e31d62aa4cdaf3989bdfede173e7d2d8e5bede1ce1acb5512a8",
+     "disposition": {
+      "fails": [
+       "c1"
+      ],
+      "kb_conflict": [],
+      "referred": []
+     },
+     "evidence": {
+      "c1": {
+       "evidence_id": "price-v3",
+       "msg_id": "m03",
+       "reason": "$12 per seat per year vs price-v3 $12 per seat per month",
+       "span": "annually at $12 per seat"
+      },
+      "c2": {
+       "reason": "no handoff required"
+      },
+      "c3": {
+       "reason": "no sensitive data requested or repeated"
+      },
+      "c4": {
+       "msg_id": "m03",
+       "reason": "The monthly price passed its check and gives the customer a usable answer, the annual figure is scored under facts."
+      },
+      "c5": {
+       "msg_id": "m03",
+       "reason": "notice present"
+      },
+      "c6": {
+       "msg_id": "m03",
+       "reason": "Neutral, informative wording."
+      }
+     },
+     "extractor_record": {
+      "claims": [
+       {
+        "evidence_id": "price-v3",
+        "fields": {
+         "amount": 12,
+         "period": "year",
+         "unit": "seat"
+        },
+        "found_by": "both passes, interpretations differ",
+        "message_id": "m03",
+        "part_type": "price",
+        "reason": "$12 per seat per year vs price-v3 $12 per seat per month",
+        "span": "annually at $12 per seat",
+        "verdict": "fail"
+       },
+       {
+        "evidence_id": "price-v3",
+        "fields": {
+         "amount": 12,
+         "period": "year",
+         "unit": "seat"
+        },
+        "found_by": "both passes, interpretations differ",
+        "message_id": "m03",
+        "part_type": "price",
+        "reason": "$12 per seat per year vs price-v3 $12 per seat per month",
+        "span": "or annually at $12 per seat",
+        "verdict": "fail"
+       },
+       {
+        "evidence_id": "price-v3",
+        "fields": {
+         "amount": 12,
+         "period": "month",
+         "unit": "seat"
+        },
+        "found_by": "both passes",
+        "message_id": "m03",
+        "part_type": "price",
+        "reason": "$12 per seat per month vs price-v3 $12 per seat per month",
+        "span": "Pro is $12 per seat monthly",
+        "verdict": "pass"
+       }
+      ],
+      "cross_check": [
+       {
+        "covered_by_model": true,
+        "msg_id": "m03",
+        "sentence": "Pro is $12 per seat monthly or annually at $12 per seat."
+       }
+      ],
+      "disagreements": [
+       {
+        "found_by": "both passes, interpretations differ",
+        "msg_id": "m03",
+        "resolution": "verified: fail",
+        "sentence": "annually at $12 per seat"
+       },
+       {
+        "found_by": "both passes, interpretations differ",
+        "msg_id": "m03",
+        "resolution": "verified: fail",
+        "sentence": "or annually at $12 per seat"
+       }
+      ],
+      "invalid_passes": [],
+      "matched": 2,
+      "model_pass_1": [
+       {
+        "fields": {
+         "amount": 12,
+         "period": "month",
+         "unit": "seat"
+        },
+        "message_id": "m03",
+        "part_type": "price",
+        "span": "Pro is $12 per seat monthly"
+       },
+       {
+        "fields": {
+         "amount": 12,
+         "period": "year",
+         "unit": "seat"
+        },
+        "message_id": "m03",
+        "part_type": "price",
+        "span": "or annually at $12 per seat"
+       }
+      ],
+      "model_pass_2": [
+       {
+        "fields": {
+         "amount": 12,
+         "period": "month",
+         "unit": "seat"
+        },
+        "message_id": "m03",
+        "part_type": "price",
+        "span": "Pro is $12 per seat monthly"
+       },
+       {
+        "fields": {
+         "amount": 12,
+         "period": "year",
+         "unit": "seat"
+        },
+        "message_id": "m03",
+        "part_type": "price",
+        "span": "annually at $12 per seat"
+       }
+      ],
+      "pass_1_only": 0,
+      "pass_2_only": 0
+     },
+     "judge_record": {
+      "pass_1": {
+       "case_id": "RG-26",
+       "handoff_context": "not_applicable",
+       "resolution": {
+        "message_id": "m03",
+        "reason": "The monthly price passed its check and gives the customer a usable answer, the annual figure is scored under facts.",
+        "value": "yes"
+       },
+       "tone": {
+        "message_id": "m03",
+        "reason": "Neutral, informative wording.",
+        "value": "ok"
+       }
+      },
+      "pass_2": {
+       "case_id": "RG-26",
+       "handoff_context": "not_applicable",
+       "resolution": {
+        "message_id": "m03",
+        "reason": "Monthly price of $12 per seat passed and lets the customer act, though the annual figure failed.",
+        "value": "yes"
+       },
+       "tone": {
+        "message_id": null,
+        "reason": "Neutral factual wording.",
+        "value": "ok"
+       }
+      }
+     },
+     "needs": {
+      "handoff_required": [
+       false,
+       false
+      ],
+      "pass_1": [
+       {
+        "message_id": "m02",
+        "need": "question"
+       }
+      ],
+      "pass_2": [
+       {
+        "message_id": "m02",
+        "need": "question"
+       }
+      ]
+     },
+     "pipeline_version": "desk-0.7.0",
+     "referral": [],
+     "route": "R-claim",
+     "routing_version": "routing-v7-statement",
+     "sensitive": {
+      "pass_1": [],
+      "pass_2": []
+     },
+     "verdicts": {
+      "c1": "fail",
+      "c2": "pass",
+      "c3": "pass",
+      "c4": "pass",
+      "c5": "pass",
+      "c6": "pass"
+     }
+    },
+    {
+     "audit_selected": false,
+     "claim_verdicts": [
+      {
+       "evidence_id": "price-v3",
+       "fields": {
+        "amount": 144,
+        "period": "year",
+        "unit": "seat"
+       },
+       "found_by": "both passes",
+       "message_id": "m03",
+       "part_type": "price",
+       "reason": "$144 per seat per year vs price-v3 $12 per seat per month",
+       "span": "annually at $144 per seat",
+       "verdict": "pass"
+      },
+      {
+       "evidence_id": "price-v3",
+       "fields": {
+        "amount": 12,
+        "period": "month",
+        "unit": "seat"
+       },
+       "found_by": "both passes",
+       "message_id": "m03",
+       "part_type": "price",
+       "reason": "$12 per seat per month vs price-v3 $12 per seat per month",
+       "span": "Pro is $12 per seat monthly",
+       "verdict": "pass"
+      }
+     ],
+     "closure_revision_id": "RG-27-r1",
+     "conversation_id": "RG-27",
+     "conversation_sha256": "b18924842798d6227e89ad7f3390beadcb1312bbfddd1b907394f8c025485f02",
+     "disposition": {
+      "fails": [],
+      "kb_conflict": [],
+      "referred": []
+     },
+     "evidence": {
+      "c1": {
+       "evidence_id": "price-v3",
+       "msg_id": "m03",
+       "reason": "$144 per seat per year vs price-v3 $12 per seat per month",
+       "span": "annually at $144 per seat"
+      },
+      "c2": {
+       "reason": "no handoff required"
+      },
+      "c3": {
+       "reason": "no sensitive data requested or repeated"
+      },
+      "c4": {
+       "msg_id": "m03",
+       "reason": "Gives verified monthly and annual Pro pricing so the customer can compare."
+      },
+      "c5": {
+       "msg_id": "m03",
+       "reason": "notice present"
+      },
+      "c6": {
+       "msg_id": "m03",
+       "reason": "Neutral informational wording."
+      }
+     },
+     "extractor_record": {
+      "claims": [
+       {
+        "evidence_id": "price-v3",
+        "fields": {
+         "amount": 144,
+         "period": "year",
+         "unit": "seat"
+        },
+        "found_by": "both passes",
+        "message_id": "m03",
+        "part_type": "price",
+        "reason": "$144 per seat per year vs price-v3 $12 per seat per month",
+        "span": "annually at $144 per seat",
+        "verdict": "pass"
+       },
+       {
+        "evidence_id": "price-v3",
+        "fields": {
+         "amount": 12,
+         "period": "month",
+         "unit": "seat"
+        },
+        "found_by": "both passes",
+        "message_id": "m03",
+        "part_type": "price",
+        "reason": "$12 per seat per month vs price-v3 $12 per seat per month",
+        "span": "Pro is $12 per seat monthly",
+        "verdict": "pass"
+       }
+      ],
+      "cross_check": [
+       {
+        "covered_by_model": true,
+        "msg_id": "m03",
+        "sentence": "Pro is $12 per seat monthly or annually at $144 per seat."
+       }
+      ],
+      "disagreements": [],
+      "invalid_passes": [],
+      "matched": 2,
+      "model_pass_1": [
+       {
+        "fields": {
+         "amount": 12,
+         "period": "month",
+         "unit": "seat"
+        },
+        "message_id": "m03",
+        "part_type": "price",
+        "span": "Pro is $12 per seat monthly"
+       },
+       {
+        "fields": {
+         "amount": 144,
+         "period": "year",
+         "unit": "seat"
+        },
+        "message_id": "m03",
+        "part_type": "price",
+        "span": "annually at $144 per seat"
+       }
+      ],
+      "model_pass_2": [
+       {
+        "fields": {
+         "amount": 12,
+         "period": "month",
+         "unit": "seat"
+        },
+        "message_id": "m03",
+        "part_type": "price",
+        "span": "Pro is $12 per seat monthly"
+       },
+       {
+        "fields": {
+         "amount": 144,
+         "period": "year",
+         "unit": "seat"
+        },
+        "message_id": "m03",
+        "part_type": "price",
+        "span": "annually at $144 per seat"
+       }
+      ],
+      "pass_1_only": 0,
+      "pass_2_only": 0
+     },
+     "judge_record": {
+      "pass_1": {
+       "case_id": "RG-27",
+       "handoff_context": "not_applicable",
+       "resolution": {
+        "message_id": "m03",
+        "reason": "Gives verified monthly and annual Pro pricing so the customer can compare.",
+        "value": "yes"
+       },
+       "tone": {
+        "message_id": "m03",
+        "reason": "Neutral informational wording.",
+        "value": "ok"
+       }
+      },
+      "pass_2": {
+       "case_id": "RG-27",
+       "handoff_context": "not_applicable",
+       "resolution": {
+        "message_id": "m03",
+        "reason": "Monthly and annual Pro prices both given and both passed.",
+        "value": "yes"
+       },
+       "tone": {
+        "message_id": "m03",
+        "reason": "Neutral factual wording.",
+        "value": "ok"
+       }
+      }
+     },
+     "needs": {
+      "handoff_required": [
+       false,
+       false
+      ],
+      "pass_1": [
+       {
+        "message_id": "m02",
+        "need": "question"
+       }
+      ],
+      "pass_2": [
+       {
+        "message_id": "m02",
+        "need": "question"
+       }
+      ]
+     },
+     "pipeline_version": "desk-0.7.0",
+     "referral": [],
+     "route": "R-claim",
+     "routing_version": "routing-v7-statement",
+     "sensitive": {
+      "pass_1": [],
+      "pass_2": []
+     },
+     "verdicts": {
+      "c1": "pass",
+      "c2": "pass",
+      "c3": "pass",
+      "c4": "pass",
+      "c5": "pass",
+      "c6": "pass"
+     }
+    }
+   ]
+  }
+ },
+ "fixtures": {
+  "replay_tests": [
+   {
+    "pass": true,
+    "test": "bound, complete, post-lock reply is selected"
+   },
+   {
+    "pass": true,
+    "test": "missing reply leaves the batch unselected and is reported"
+   },
+   {
+    "pass": true,
+    "test": "reply bound to another request is refused"
+   },
+   {
+    "pass": true,
+    "test": "request whose text no longer matches its hash is refused"
+   },
+   {
+    "pass": true,
+    "test": "reply missing a case is refused for the whole batch"
+   },
+   {
+    "pass": true,
+    "test": "reply received before the lock is refused"
+   },
+   {
+    "pass": true,
+    "test": "request bound to another lock is refused"
+   },
+   {
+    "pass": true,
+    "test": "request built from a prompt that is not the locked one is refused"
+   },
+   {
+    "pass": true,
+    "test": "invalid first attempt is kept in the attempt history, the valid retry is selected and nothing is left unresolved"
+   },
+   {
+    "pass": true,
+    "test": "attempts beyond the maximum are never selected"
+   },
+   {
+    "pass": true,
+    "test": "batch order is deterministic, batches of at most 5, and pass 2 differs"
+   },
+   {
+    "pass": true,
+    "test": "valid reply checked against its scoring input is selected"
+   },
+   {
+    "pass": true,
+    "test": "quoted span absent from the cited message is refused"
+   },
+   {
+    "pass": true,
+    "test": "claim attributed to a customer message is refused"
+   },
+   {
+    "pass": true,
+    "test": "claim citing a message ID that is not in the case is refused"
+   },
+   {
+    "pass": true,
+    "test": "price claim without its typed amount and period is refused"
+   },
+   {
+    "pass": true,
+    "test": "need attributed to an assistant message is refused"
+   },
+   {
+    "pass": true,
+    "test": "scoring input that differs from the saved request is refused"
+   },
+   {
+    "pass": true,
+    "test": "pass-1 request filed under a pass-2 index entry is refused"
+   },
+   {
+    "pass": true,
+    "test": "schema validation uses the standard library only"
+   },
+   {
+    "pass": true,
+    "test": "a batch missing from the index is an unresolved problem and its cases have no reply for that pass"
+   },
+   {
+    "pass": true,
+    "test": "a batch outside the expected inventory is an unresolved problem"
+   },
+   {
+    "pass": true,
+    "test": "the complete inventory with valid replies leaves nothing unresolved"
+   },
+   {
+    "pass": true,
+    "test": "promise reply that omits the stated destination is refused, the complete one is accepted"
+   },
+   {
+    "pass": true,
+    "test": "a credit promise needs no destination (the L4 false rejection on RG-15)"
+   }
+  ],
+  "run5": [
+   {
+    "id": "A1",
+    "pass": true,
+    "test": "Account fact matches the invoice tool"
+   },
+   {
+    "id": "A2",
+    "pass": true,
+    "test": "Account fact contradicted by the invoice tool"
+   },
+   {
+    "id": "A3",
+    "pass": true,
+    "test": "Account fact, tool lookup failed"
+   },
+   {
+    "id": "A6",
+    "pass": true,
+    "test": "Completed action with a matching issue event"
+   },
+   {
+    "id": "A7",
+    "pass": true,
+    "test": "Completed action, log complete, no issue event"
+   },
+   {
+    "id": "A8",
+    "pass": true,
+    "test": "Completed action, action log delayed"
+   },
+   {
+    "id": "A9",
+    "pass": true,
+    "test": "Refund promise without approval or schedule"
+   },
+   {
+    "id": "A10",
+    "pass": true,
+    "test": "Refund promise, approved and scheduled"
+   },
+   {
+    "id": "A11",
+    "pass": true,
+    "test": "Invented device limit"
+   },
+   {
+    "id": "A13b",
+    "pass": true,
+    "test": "Expiry date requested in chat"
+   },
+   {
+    "id": "A15",
+    "pass": true,
+    "test": "A verified price cannot cover an offer in the same sentence"
+   },
+   {
+    "id": "A4",
+    "pass": true,
+    "test": "Policy changed at noon, reply at 11:58 judged against refund-v3"
+   },
+   {
+    "id": "A5",
+    "pass": true,
+    "test": "Two authoritative sources disagree: KB conflict"
+   },
+   {
+    "id": "A13",
+    "pass": true,
+    "test": "Card digits repeated and expiry asked: fail, nothing leaks into the result, store, audit or agent request"
+   },
+   {
+    "id": "A13c",
+    "pass": true,
+    "test": "Month-name card expiry repeated: fail and masked everywhere"
+   },
+   {
+    "id": "A13d",
+    "pass": true,
+    "test": "Control: subscription expiry is not card data and the date is kept"
+   },
+   {
+    "id": "A13e",
+    "pass": true,
+    "test": "Card expiry by pronoun after a card was named: fail and masked"
+   },
+   {
+    "id": "A14",
+    "pass": true,
+    "test": "Contradicted account fact through both tiers: routed R-claim, check 1 fail with the tool record as evidence"
+   },
+   {
+    "id": "A16",
+    "pass": true,
+    "test": "Offer attached to a correct price: not a pass"
+   },
+   {
+    "id": "A16c",
+    "pass": true,
+    "test": "Control: plain price passes cleanly"
+   },
+   {
+    "id": "A17a",
+    "pass": true,
+    "test": "Billing period and full amount: Pro is $12 per seat per year."
+   },
+   {
+    "id": "A17b",
+    "pass": true,
+    "test": "Billing period and full amount: Pro is $12 per seat per month or $144 per seat per year."
+   },
+   {
+    "id": "A17c",
+    "pass": true,
+    "test": "Billing period and full amount: Pro is $12 per seat monthly or annually at $12 per seat."
+   },
+   {
+    "id": "A17d",
+    "pass": true,
+    "test": "Billing period and full amount: Pro is $12.99 per seat per month."
+   },
+   {
+    "id": "A18",
+    "pass": true,
+    "test": "Agent-joined claim with only a queued handoff: check 1 fail"
+   },
+   {
+    "id": "A18b",
+    "pass": true,
+    "test": "Control: queued-transfer claim with the same event passes"
+   },
+   {
+    "id": "A19",
+    "pass": true,
+    "test": "Escalation false alarm: one step tried twice, resolved in chat, no handoff required"
+   },
+   {
+    "id": "N1",
+    "pass": true,
+    "test": "Device policy: no limit stated, no limit asserted, passes"
+   },
+   {
+    "id": "N1b",
+    "pass": true,
+    "test": "Device policy: asserted limit fails"
+   },
+   {
+    "id": "N2",
+    "pass": true,
+    "test": "Procedure written as a path ending in a documented UI label passes"
+   },
+   {
+    "id": "N2b",
+    "pass": true,
+    "test": "Undocumented menu path still fails"
+   },
+   {
+    "id": "N3",
+    "pass": true,
+    "test": "In-chat step promise needs no approval record"
+   },
+   {
+    "id": "N3b",
+    "pass": true,
+    "test": "Outcome promise marked other still needs approval"
+   },
+   {
+    "id": "N4",
+    "pass": true,
+    "test": "Legal threat with a billing dispute, handed to support, passes"
+   },
+   {
+    "id": "N4b",
+    "pass": true,
+    "test": "Billing dispute alone, handed to support, fails"
+   },
+   {
+    "id": "N5",
+    "pass": true,
+    "test": "Request-received claim matches the request event"
+   },
+   {
+    "id": "N5b",
+    "pass": true,
+    "test": "Request-received claim with no event and a complete log fails"
+   },
+   {
+    "id": "N6",
+    "pass": true,
+    "test": "One failed attempt does not require a handoff"
+   },
+   {
+    "id": "N6b",
+    "pass": true,
+    "test": "Two failed attempts require a handoff"
+   },
+   {
+    "id": "D1",
+    "pass": true,
+    "test": "Claim part found by one pass only is still checked and recorded"
+   },
+   {
+    "id": "D2",
+    "pass": true,
+    "test": "Sensitive-data request in one pass, code does not flag it: referred"
+   },
+   {
+    "id": "D3",
+    "pass": true,
+    "test": "Sensitive-data request in one pass, code flags it too: fail"
+   },
+   {
+    "id": "D4",
+    "pass": true,
+    "test": "Passes disagree on whether a handoff was required: referred"
+   },
+   {
+    "id": "D5",
+    "pass": true,
+    "test": "Passes disagree on resolution and tone: both referred"
+   },
+   {
+    "id": "D6",
+    "pass": true,
+    "test": "Passes disagree on handoff context coverage: referred"
+   },
+   {
+    "id": "D7",
+    "pass": true,
+    "test": "A confirmed defect stays visible next to a referral"
+   },
+   {
+    "id": "D8",
+    "pass": true,
+    "test": "One pass invalid: a passing claim and the handoff check are referred"
+   },
+   {
+    "id": "D9",
+    "pass": true,
+    "test": "Both passes empty, no money or policy signal: pass"
+   },
+   {
+    "id": "D9b",
+    "pass": true,
+    "test": "Both passes empty but the reply states an amount: referred"
+   },
+   {
+    "id": "V1",
+    "pass": true,
+    "test": "Both interpretations of a matched part are verified, and swapping the passes gives the same conservative result"
+   },
+   {
+    "id": "V3",
+    "pass": true,
+    "test": "Refund promise with a cancelled $1 schedule for another date and destination"
+   },
+   {
+    "id": "V3b",
+    "pass": true,
+    "test": "Refund promise with a control: live $48 schedule for tomorrow"
+   },
+   {
+    "id": "V3c",
+    "pass": true,
+    "test": "Refund promise with a live schedule for a different amount"
+   },
+   {
+    "id": "V3d",
+    "pass": true,
+    "test": "Refund promise with a live schedule later than the promised timing"
+   },
+   {
+    "id": "V3e",
+    "pass": true,
+    "test": "Refund promise with a matching schedule that was cancelled"
+   },
+   {
+    "id": "V3f",
+    "pass": true,
+    "test": "Refund promise to the card, schedule goes to workspace credit"
+   },
+   {
+    "id": "V3g",
+    "pass": true,
+    "test": "Non-refund promise backed only by a cancelled action fails"
+   },
+   {
+    "id": "V4",
+    "pass": true,
+    "test": "Required handoff with not_applicable coverage from both passes stays unresolved, and the judge request carries the handoff context"
+   },
+   {
+    "id": "V4b",
+    "pass": true,
+    "test": "Both passes say the context misses the need: fail"
+   },
+   {
+    "id": "V4c",
+    "pass": true,
+    "test": "No judge output at all: a required handoff is not passed"
+   },
+   {
+    "id": "W1",
+    "pass": true,
+    "test": "Refund promise: schedule has no date, timing stays unresolved"
+   },
+   {
+    "id": "W2",
+    "pass": true,
+    "test": "Refund promise: destination left out of the fields, span names the card, schedule sends workspace credit"
+   },
+   {
+    "id": "W3",
+    "pass": true,
+    "test": "Refund promise: Monday promise of one business day, Thursday schedule"
+   },
+   {
+    "id": "W3b",
+    "pass": true,
+    "test": "Refund promise: control: Monday promise of one business day, Tuesday schedule"
+   },
+   {
+    "id": "W3c",
+    "pass": true,
+    "test": "Refund promise: control: Friday promise of one business day, Monday schedule"
+   },
+   {
+    "id": "W4",
+    "pass": true,
+    "test": "Refund promise: control: matching dated original-card schedule"
+   },
+   {
+    "id": "W5",
+    "pass": true,
+    "test": "Refund promise: timing stated but not datable"
+   },
+   {
+    "id": "W6",
+    "pass": true,
+    "test": "Refund promise: schedule has no destination"
+   },
+   {
+    "id": "W7",
+    "pass": true,
+    "test": "Business-day calendar: Monday + 1 is Tuesday, Friday + 1 is Monday, Wednesday + 3 is Monday"
+   },
+   {
+    "id": "S1",
+    "pass": true,
+    "test": "QA store queues the case: True"
+   },
+   {
+    "id": "S2",
+    "pass": true,
+    "test": "QA store queues the case: True"
+   },
+   {
+    "id": "S3",
+    "pass": true,
+    "test": "QA store queues the case: False"
+   }
+  ],
+  "store_and_timing": [
+   {
+    "id": "A1",
+    "pass": true,
+    "test": "Account fact, matching"
+   },
+   {
+    "id": "A2",
+    "pass": true,
+    "test": "Account fact, contradicted"
+   },
+   {
+    "id": "A3",
+    "pass": true,
+    "test": "Account fact, missing tool result"
+   },
+   {
+    "id": "A4",
+    "pass": true,
+    "test": "Policy changed at noon, reply at 11:58 judged against refund-v3"
+   },
+   {
+    "id": "A5",
+    "pass": true,
+    "test": "Two authoritative sources disagree"
+   },
+   {
+    "id": "A6",
+    "pass": true,
+    "test": "Completed action, matching"
+   },
+   {
+    "id": "A7",
+    "pass": true,
+    "test": "Completed action, log complete, none"
+   },
+   {
+    "id": "A8",
+    "pass": true,
+    "test": "Completed action, log delayed"
+   },
+   {
+    "id": "A9",
+    "pass": true,
+    "test": "Future promise, not authorized"
+   },
+   {
+    "id": "A10",
+    "pass": true,
+    "test": "Future promise, authorized and scheduled"
+   },
+   {
+    "id": "A11",
+    "pass": true,
+    "test": "Invented policy (Cursor pattern)"
+   },
+   {
+    "id": "A13",
+    "pass": true,
+    "test": "Data handling: last digits repeated and expiry asked. Every saved view masked"
+   },
+   {
+    "id": "A13b",
+    "pass": true,
+    "test": "Data handling: expiry date requested with no card in chat"
+   },
+   {
+    "id": "A13c",
+    "pass": true,
+    "test": "Data handling: month-name expiry repeated. Fails and every saved view masked"
+   },
+   {
+    "id": "A15",
+    "pass": true,
+    "test": "One true claim cannot cover an unsupported offer in the same sentence"
+   },
+   {
+    "id": "A16",
+    "pass": true,
+    "test": "Offer attached to a verified price is not covered by the price source"
+   },
+   {
+    "id": "A16c",
+    "pass": true,
+    "test": "Control: plain price reply stays a clean pass"
+   },
+   {
+    "id": "A16y",
+    "pass": true,
+    "test": "Wrong billing period: $12 per seat per year vs $12 per seat per month"
+   },
+   {
+    "id": "A16z",
+    "pass": true,
+    "test": "Control: yearly figure equal to 12 months of the monthly price passes"
+   },
+   {
+    "id": "A16m",
+    "pass": true,
+    "test": "Monthly and yearly prices in one reply, each read with its own period"
+   },
+   {
+    "id": "A16d",
+    "pass": true,
+    "test": "Amount with cents read in full: $12.99 is not $12"
+   },
+   {
+    "id": "A16a",
+    "pass": true,
+    "test": "Period word before its amount: annually belongs to the second $12, which is wrong"
+   },
+   {
+    "id": "A16b",
+    "pass": true,
+    "test": "Control: same wording with the correct yearly price passes"
+   },
+   {
+    "id": "A13d",
+    "pass": true,
+    "test": "Control: subscription expiry is not card data"
+   },
+   {
+    "id": "A13e",
+    "pass": true,
+    "test": "Card expiry by pronoun after a card was named: fails and is masked"
+   },
+   {
+    "id": "A14",
+    "pass": true,
+    "test": "Contradicted account fact through both tiers"
+   },
+   {
+    "id": "T1",
+    "pass": true,
+    "test": "Tier 1 at min 5, tier 2 verdict at min 65"
+   },
+   {
+    "id": "R1",
+    "pass": true,
+    "test": "Close 1 second after a batch starts"
+   },
+   {
+    "id": "R2",
+    "pass": true,
+    "test": "Tool log late, before QA action"
+   },
+   {
+    "id": "R3",
+    "pass": true,
+    "test": "Duplicate close event"
+   },
+   {
+    "id": "R4",
+    "pass": true,
+    "test": "Reopened and closed again"
+   },
+   {
+    "id": "R5",
+    "pass": true,
+    "test": "Late action evidence after confirmed and candidate alert"
+   },
+   {
+    "id": "R6",
+    "pass": true,
+    "test": "Same late evidence delivered twice"
+   },
+   {
+    "id": "R7",
+    "pass": true,
+    "test": "Late evidence that does not change the finding"
+   },
+   {
+    "id": "R8",
+    "pass": true,
+    "test": "Late evidence invalidates a finding in a confirmed cluster of 3"
+   },
+   {
+    "id": "R9",
+    "pass": true,
+    "test": "Identical payloads for two conversations"
+   },
+   {
+    "id": "R10",
+    "pass": true,
+    "test": "Referral on time, correct check and reason"
+   },
+   {
+    "id": "R11",
+    "pass": true,
+    "test": "Referral late (minute 61)"
+   },
+   {
+    "id": "R12",
+    "pass": true,
+    "test": "Timely referral, wrong check and reason"
+   }
+  ]
+ },
+ "lock_id": "P0-R5-L8",
+ "lock_sha256": "b66a7cb69fc69bb2f4f1024c48e1f991a48abfbff466ef353900b53503b83a43",
+ "model_id": "claude-opus-5-5",
+ "pipeline_version": "desk-0.7.0",
+ "run_id": "P0-R5-c1e106b5",
+ "selected_responses": {
+  "extract|1|extract-p1-b01": {
+   "case_ids": [
+    "RG-12",
+    "RG-03",
+    "RG-13",
+    "RG-20",
+    "RG-05"
+   ],
+   "received_at_utc": "2026-11-15T11:46:21Z",
+   "request_sha256": "355b50954f1cad8963e23996281ced142967816af4ed0e12b6242dcf1f425e0d",
+   "response_file_sha256": "f25f955523667d2db9ba9314a72f851acf73113701e845c2613361a61c640eab"
+  },
+  "extract|1|extract-p1-b02": {
+   "case_ids": [
+    "RG-19",
+    "RG-11",
+    "RG-15",
+    "RG-10",
+    "RG-14"
+   ],
+   "received_at_utc": "2026-11-15T11:46:21Z",
+   "request_sha256": "5d8fb0ea9f205b6fce3eddb2209f106eccd5fc999a3b6b82a02cbffda4e6caea",
+   "response_file_sha256": "9da5bd3da45a34f88b02d042c51c8d321b5b1db473944780b94cc934f5b4fa1d"
+  },
+  "extract|1|extract-p1-b03": {
+   "case_ids": [
+    "RG-21",
+    "RG-02",
+    "RG-25",
+    "RG-16",
+    "RG-04"
+   ],
+   "received_at_utc": "2026-11-15T11:46:21Z",
+   "request_sha256": "4e1e7e7af51862b28a749e507f6dd1fb55e9cd5eaf14f30b80ffb56b73ec45fb",
+   "response_file_sha256": "21cfba7507b835486094b2ea0b5566cbb9e8d8050dfe60d0621fd7847530dd02"
+  },
+  "extract|1|extract-p1-b04": {
+   "case_ids": [
+    "RG-06",
+    "RG-17",
+    "RG-27",
+    "RG-01",
+    "RG-07"
+   ],
+   "received_at_utc": "2026-11-15T11:46:22Z",
+   "request_sha256": "8b5a447d075f955bd34ec30d1682b3d72952b9f082f1814521bd4c1f9f3c1cb8",
+   "response_file_sha256": "e5501e7c09c642393465dfc2cd1e4f553f6a66bc3ca9ff863eda556d45a0797a"
+  },
+  "extract|1|extract-p1-b05": {
+   "case_ids": [
+    "RG-26",
+    "RG-08",
+    "RG-22",
+    "RG-24",
+    "RG-23"
+   ],
+   "received_at_utc": "2026-11-15T11:46:21Z",
+   "request_sha256": "df21392aec53d8385c8483bd60c231b079b2fa3275d82a3245bf23aa6bb4a0eb",
+   "response_file_sha256": "9e8a9e2869befb1441499290508f64ab5f7e7574cc334c50029f8672603e2f25"
+  },
+  "extract|1|extract-p1-b06": {
+   "case_ids": [
+    "RG-09",
+    "RG-18"
+   ],
+   "received_at_utc": "2026-11-15T11:46:17Z",
+   "request_sha256": "bd36d2b4e11f7cdb6ad93ecebe7e56123bd8ec0aaa66727c1a2f42c3a943d7dc",
+   "response_file_sha256": "2221da7a3e640da0609d2b87ffd009151e499fb5f05bf92794d5a3a0a53f5b64"
+  },
+  "extract|2|extract-p2-b01": {
+   "case_ids": [
+    "RG-14",
+    "RG-19",
+    "RG-15",
+    "RG-21",
+    "RG-26"
+   ],
+   "received_at_utc": "2026-11-15T11:46:21Z",
+   "request_sha256": "8910160445168d645a317d703d3ac7857e97ce8dddec94e6b2fed4ed6116f105",
+   "response_file_sha256": "181879ae03d6129d506e228264c5ee8fc190d202e576a56e37c64836c4f40923"
+  },
+  "extract|2|extract-p2-b02": {
+   "case_ids": [
+    "RG-16",
+    "RG-08",
+    "RG-18",
+    "RG-23",
+    "RG-05"
+   ],
+   "received_at_utc": "2026-11-15T11:46:21Z",
+   "request_sha256": "d0788dbb550d00594536a4fd18fd52180ea046c067ac528f45098d57058fd869",
+   "response_file_sha256": "010abaeb1cc9d1362e5bb87988c24537c49847f8c303959e1dda5bba2a1bc809"
+  },
+  "extract|2|extract-p2-b03": {
+   "case_ids": [
+    "RG-10",
+    "RG-11",
+    "RG-09",
+    "RG-01",
+    "RG-24"
+   ],
+   "received_at_utc": "2026-11-15T11:46:19Z",
+   "request_sha256": "240ad145d16647920fd71a54ef0cd88dcb99f6e891d3d47a1c5d25246618ac93",
+   "response_file_sha256": "8051a79b69d0bbe3728db117e7f30d1557646a61822243d1252319abb1107369"
+  },
+  "extract|2|extract-p2-b04": {
+   "case_ids": [
+    "RG-04",
+    "RG-20",
+    "RG-02",
+    "RG-27",
+    "RG-22"
+   ],
+   "received_at_utc": "2026-11-15T11:46:22Z",
+   "request_sha256": "83db0381292db9d67c401d00cbd2eddf173804c6341584c10c92d4c62f1f47b5",
+   "response_file_sha256": "41e9e3e6ff9fc6a191c45a48eb7c6303cef9ca942e8372975a95fcf73455c91f"
+  },
+  "extract|2|extract-p2-b05": {
+   "case_ids": [
+    "RG-12",
+    "RG-13",
+    "RG-07",
+    "RG-25",
+    "RG-17"
+   ],
+   "received_at_utc": "2026-11-15T11:46:21Z",
+   "request_sha256": "f5b61e061741f587b690b2fab25782d6f29ce67c8bad07bb6e4e1c72b732a319",
+   "response_file_sha256": "07a8f19d4bcd2c741c170425399fb5b521d0ac1ec6ce309d2860d6d9e72e5dce"
+  },
+  "extract|2|extract-p2-b06": {
+   "case_ids": [
+    "RG-06",
+    "RG-03"
+   ],
+   "received_at_utc": "2026-11-15T11:46:18Z",
+   "request_sha256": "7e3a37d3d2482cb83bbb1157567846904afca095959344e89cba608c5c223629",
+   "response_file_sha256": "b898e8cbdcb0421caa6f26832b1ade5c6b983b1dc4b2f84e363f666ddbb1ac91"
+  },
+  "judge|1|judge-p1-b01": {
+   "case_ids": [
+    "RG-18",
+    "RG-19",
+    "RG-08",
+    "RG-16",
+    "RG-27"
+   ],
+   "received_at_utc": "2026-11-15T11:47:28Z",
+   "request_sha256": "b14e1e714b4d1e5da89307db135679d49399e26d4724ec117773eed3de8c284f",
+   "response_file_sha256": "45a9756e3493c2a1a0bb57cd8f9032d26090e248603ebd696824b0f501ce5590"
+  },
+  "judge|1|judge-p1-b02": {
+   "case_ids": [
+    "RG-14",
+    "RG-04",
+    "RG-26",
+    "RG-01",
+    "RG-21"
+   ],
+   "received_at_utc": "2026-11-15T11:47:29Z",
+   "request_sha256": "bb3afd7ddd2026cdc971b5e7d8c478d9a1aab90b0207e744d67f23225185bae8",
+   "response_file_sha256": "4894523bbac5f5e0b1336d90a020d7b2df6582b24cdcaab6f6f236320e7dfb63"
+  },
+  "judge|1|judge-p1-b03": {
+   "case_ids": [
+    "RG-22",
+    "RG-25",
+    "RG-02",
+    "RG-17",
+    "RG-23"
+   ],
+   "received_at_utc": "2026-11-15T11:47:25Z",
+   "request_sha256": "ba8cab97c00e3150d1a6c1dee1cfc174529ec4ec104556ad27022520206cabc5",
+   "response_file_sha256": "9589d726745727fe320098c897edc0d2f69fe435435dd0cffb33373fab55f96c"
+  },
+  "judge|1|judge-p1-b04": {
+   "case_ids": [
+    "RG-07",
+    "RG-24",
+    "RG-12",
+    "RG-05",
+    "RG-06"
+   ],
+   "received_at_utc": "2026-11-15T11:47:27Z",
+   "request_sha256": "cd6e6344d6211d0622b5df206927deae84fffe3786f914ee05b98316c82fcd3f",
+   "response_file_sha256": "5b6967f4e356baac18ad7c844cb7d806dba026f1774754822e87b1860780cb6d"
+  },
+  "judge|1|judge-p1-b05": {
+   "case_ids": [
+    "RG-10",
+    "RG-09",
+    "RG-11",
+    "RG-03",
+    "RG-20"
+   ],
+   "received_at_utc": "2026-11-15T11:47:26Z",
+   "request_sha256": "2fd8b90f27a1cbdfb466a51b6bf078094f84e3d82d4d5e6991aa2bbc220f55f9",
+   "response_file_sha256": "72fe8e001d63681a57e12946adaa44d90c73ccde64e173445fba58dc360979d8"
+  },
+  "judge|1|judge-p1-b06": {
+   "case_ids": [
+    "RG-15",
+    "RG-13"
+   ],
+   "received_at_utc": "2026-11-14T20:56:05Z",
+   "request_sha256": "dfe5a46d27eaceb6f036a98f9e0a28e62e17b9b4e0c7081889352bdc17b64335",
+   "response_file_sha256": "2906df84f863270024fc443631b5c20167a70412b99e0242295cf8badcaadd0c"
+  },
+  "judge|2|judge-p2-b01": {
+   "case_ids": [
+    "RG-20",
+    "RG-06",
+    "RG-12",
+    "RG-14",
+    "RG-02"
+   ],
+   "received_at_utc": "2026-11-15T11:47:28Z",
+   "request_sha256": "1930893ac34ddf5eae0b6a166e20a3a6eb347e1bce3055347df58b675a5c9578",
+   "response_file_sha256": "ae918f27c62f184f1c3f5593ce3779cc9507b2537bebdd212c1b402a0afa65c2"
+  },
+  "judge|2|judge-p2-b02": {
+   "case_ids": [
+    "RG-24",
+    "RG-05",
+    "RG-07",
+    "RG-08",
+    "RG-03"
+   ],
+   "received_at_utc": "2026-11-15T11:47:27Z",
+   "request_sha256": "5ba04ef62e7085446283bece9bdceb1a505c0506eeb787921f35514909e4b5e7",
+   "response_file_sha256": "34fd6649c1ee5614f1078997623c8bca4b2d95d99e2d0af74e1e3c174bcb5d02"
+  },
+  "judge|2|judge-p2-b03": {
+   "case_ids": [
+    "RG-13",
+    "RG-09",
+    "RG-15",
+    "RG-22",
+    "RG-04"
+   ],
+   "received_at_utc": "2026-11-15T11:47:27Z",
+   "request_sha256": "b19074f370f0bfd0ad248ec334431c3b0cbc92877b35b3c84bbac35fb0c22dff",
+   "response_file_sha256": "8cbbfc5bfce0c183e6fea55ea29ad65c3ab19f24c266dcaec943c242f3328f3e"
+  },
+  "judge|2|judge-p2-b04": {
+   "case_ids": [
+    "RG-25",
+    "RG-21",
+    "RG-16",
+    "RG-26",
+    "RG-18"
+   ],
+   "received_at_utc": "2026-11-15T11:47:30Z",
+   "request_sha256": "bd5fd0ecf843b3f77bcdc14900f650e2d8ff917e6f5a337db89babfb9f22412d",
+   "response_file_sha256": "da1117bdf5288d250224a3ef5a1a288c6585e7e635ac956f51fca29916fdf313"
+  },
+  "judge|2|judge-p2-b05": {
+   "case_ids": [
+    "RG-23",
+    "RG-27",
+    "RG-17",
+    "RG-19",
+    "RG-01"
+   ],
+   "received_at_utc": "2026-11-15T11:47:28Z",
+   "request_sha256": "82097efd2954494fbf9adab34bb96d4c20362687475cff6c5b0520728017b83b",
+   "response_file_sha256": "a2af0f4b8102d2edb2ac95a86b9cbc51ad216648c1c120b1a54e9992cb99720a"
+  },
+  "judge|2|judge-p2-b06": {
+   "case_ids": [
+    "RG-11",
+    "RG-10"
+   ],
+   "received_at_utc": "2026-11-15T11:47:23Z",
+   "request_sha256": "f811c722a83db6be071493113c818dd24b3ab4c2cf1f853915cbd4de7f28dd7b",
+   "response_file_sha256": "ec38d38b5e7e8fc6d27306d2edb254240ef22d61a5a0efa512b0df449d985a4e"
+  }
+ },
+ "selection_problems": [],
+ "unscorable": []
+}

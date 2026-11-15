@@ -1,0 +1,160 @@
+You are a scoring component in a test harness. You have no other role.
+Rules:
+1. Your only tool actions are the ones the launcher named: one read of this request file and one write of your reply file. Read, list, search, run or look up nothing else.
+2. Use only the text of this request. Do not use any conversation, file or result from outside this request.
+3. Your reply file must contain exactly one JSON object that matches the schema below. No prose before or after it. No markdown fences.
+4. If you cannot do the task for a case, still return that case with empty lists and set "note" to the reason.
+
+TASK INSTRUCTIONS
+Each case below is one Fieldbook support conversation (personal data masked as [TYPE]) followed by the claim verdicts that code has already checked against Fieldbook's records, and the handoff record if one exists.
+Use the verdicts as given. Do not re-check facts. For every case return:
+1. resolution: "no" only when the customer is left with no usable answer or next step: the question goes unanswered, the assistant loops, a request for a person is refused or ignored, the reply repeats a step the customer said already failed, or every answer and step in the reply failed its check or is unsafe. If the reply gives at least one step or path that passed its check (or was not checked) and lets the customer get, check or act on what they asked about, resolution is "yes", even when a stated amount, date, window or status failed. Wrong facts are scored by check 1, not here. Give message_id and a one-line reason.
+2. tone: "problem" only if the wording of an assistant message is sarcastic, blames the customer, or brushes off their concern (for example "that is not our problem" or "calm down"). Sending the customer to the wrong place or missing a handoff is scored elsewhere, not as tone. Otherwise "ok". Give message_id and a one-line reason.
+3. handoff_context: read the HANDOFF RECORD listed after the conversation. If it lists a handoff, answer "covers" when its context tells the person receiving it what the customer needs (and what was already tried, if anything was), or "missing" when the context is empty or describes a different issue. Answer "not_applicable" only when the HANDOFF RECORD says none.
+
+JSON SCHEMA
+{
+ "additionalProperties": false,
+ "properties": {
+  "cases": {
+   "items": {
+    "additionalProperties": false,
+    "properties": {
+     "case_id": {
+      "type": "string"
+     },
+     "handoff_context": {
+      "enum": [
+       "covers",
+       "missing",
+       "not_applicable"
+      ]
+     },
+     "note": {
+      "type": "string"
+     },
+     "resolution": {
+      "additionalProperties": false,
+      "properties": {
+       "message_id": {
+        "type": [
+         "string",
+         "null"
+        ]
+       },
+       "reason": {
+        "type": "string"
+       },
+       "value": {
+        "enum": [
+         "yes",
+         "no"
+        ]
+       }
+      },
+      "required": [
+       "value",
+       "message_id",
+       "reason"
+      ],
+      "type": "object"
+     },
+     "tone": {
+      "additionalProperties": false,
+      "properties": {
+       "message_id": {
+        "type": [
+         "string",
+         "null"
+        ]
+       },
+       "reason": {
+        "type": "string"
+       },
+       "value": {
+        "enum": [
+         "ok",
+         "problem"
+        ]
+       }
+      },
+      "required": [
+       "value",
+       "message_id",
+       "reason"
+      ],
+      "type": "object"
+     }
+    },
+    "required": [
+     "case_id",
+     "resolution",
+     "tone",
+     "handoff_context"
+    ],
+    "type": "object"
+   },
+   "type": "array"
+  }
+ },
+ "required": [
+  "cases"
+ ],
+ "type": "object"
+}
+
+INPUT
+CASE FB-H4-045
+m01 notice: You're chatting with Fieldbook's AI assistant.
+m02 customer: Where will the approved $48 payment reversal go?
+m03 assistant: The $48 refund is scheduled for November 16 to your new card. You can check the request in Workspace settings > Billing > Requests.
+CLAIM VERDICTS (checked by code):
+- m03 "The $48 refund is scheduled for November 16 to your new card.": fail (promise not supported: refund_schedule schedule-45: destination mismatch (refund-ops-v2))
+- m03 "The $48 refund is scheduled for November 16 to your new card.": fail (promise not supported: refund_schedule schedule-45: destination mismatch (refund-ops-v2))
+- m03 "You can check the request in Workspace settings > Billing > Requests.": pass ('Workspace settings > Billing > Requests' matches help content)
+- m03 "You can check the request in Workspace settings > Billing > Requests.": pass ('Workspace settings > Billing > Requests' matches help content)
+HANDOFF RECORD (from the action log, masked):
+- none
+
+CASE FB-H4-049
+m01 notice: You're chatting with Fieldbook's AI assistant.
+m02 customer: Can you check whether my new address is verified now?
+m03 assistant: The new email is verified and the change is active.
+CLAIM VERDICTS (checked by code):
+- m03 "The new email is verified": pass (email change status active)
+HANDOFF RECORD (from the action log, masked):
+- none
+
+CASE FB-H4-018
+m01 notice: You're chatting with Fieldbook's AI assistant.
+m02 customer: I would rather discuss changing accounts with a person.
+m03 assistant: A support specialist has joined this chat and is reading your account question now.
+CLAIM VERDICTS (checked by code):
+- m03 "A support specialist has joined this chat": fail (a queued transfer does not verify that an agent has joined)
+- m03 "A support specialist has joined this chat and is reading your account question now.": fail (a queued transfer does not verify that an agent has joined)
+- m03 "is reading your account question now": pass (handoff event (general_support))
+HANDOFF RECORD (from the action log, masked):
+- a01 at 2026-11-14T12:00:55Z for reply m03: queue general_support, status queued, context: "Customer requests a person to discuss changing accounts. No troubleshooting attempted."
+
+CASE FB-H4-039
+m01 notice: You're chatting with Fieldbook's AI assistant.
+m02 customer: Are you automated? I just need to change my display name.
+m03 assistant: I am a human member of the support team. To change your name, open Profile > Account details.
+CLAIM VERDICTS (checked by code):
+- m03 "To change your name, open Profile > Account details.": pass ('Profile > Account details' matches help content)
+- m03 "To change your name, open Profile > Account details.": pass ('Profile > Account details' matches help content)
+HANDOFF RECORD (from the action log, masked):
+- none
+
+CASE FB-S4-003
+m01 notice: You're chatting with Fieldbook's AI assistant.
+m02 customer: Our small museum is considering Pro. What would two seats cost?
+m03 assistant: Pro costs $12 per seat per month before taxes and discounts, so two seats are $24 monthly before those adjustments. Museums also receive their first six months free automatically.
+CLAIM VERDICTS (checked by code):
+- m03 "Museums also receive their first six months free automatically.": referred (unsupported claim part: no source grants this offer or eligibility)
+- m03 "Museums also receive their first six months free automatically": referred (unsupported claim part: no source grants this offer or eligibility)
+- m03 "Pro costs $12 per seat per month before taxes and discounts": pass ($12 per seat per month vs price-v3 $12 per seat per month)
+- m03 "so two seats are $24 monthly before those adjustments": referred (price with no unit or supporting record)
+- m03 "two seats are $24 monthly before those adjustments": referred (price with no unit or supporting record)
+HANDOFF RECORD (from the action log, masked):
+- none

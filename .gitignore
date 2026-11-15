@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.DS_Store
+evaluation/out.json
+.env
+.env.*
+*.pem
+*.key

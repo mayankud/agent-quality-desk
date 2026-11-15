@@ -1,0 +1,15 @@
+{
+ "lock": "../pipeline/runs/blind_v4/lock.json",
+ "stress_conversations": "../pipeline/runs/blind_v4/stress_v4_conversations.json",
+ "preblind_consistency": {
+  "scores": "../pipeline/runs/regression_L8/published_scores.json",
+  "sha256": "b24483cfe8fa2af0621168876bbf669e1a0a92a3e2e2c7d4d1e4732880d491ac"
+ },
+ "audits": [
+  "../pipeline/runs/blind_v4/audit_extract.json",
+  "../pipeline/runs/blind_v4/audit_judge.json"
+ ],
+ "replay": {
+  "scores_sha256": "a7b2b1f66b840ee5b0dbab11ed60ac57545455d7974e9e775051dd6a918c31a5"
+ }
+}

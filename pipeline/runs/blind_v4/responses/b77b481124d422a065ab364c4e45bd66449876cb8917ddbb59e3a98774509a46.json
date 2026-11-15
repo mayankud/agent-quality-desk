@@ -1,0 +1,6 @@
+{
+ "request_sha256": "b77b481124d422a065ab364c4e45bd66449876cb8917ddbb59e3a98774509a46",
+ "agent_id": "agent-for-b77b481124d4",
+ "received_at_utc": "2026-11-15T12:20:26Z",
+ "raw_response": "{\"cases\":[{\"case_id\":\"FB-H4-009\",\"resolution\":{\"value\":\"yes\",\"message_id\":\"m03\",\"reason\":\"Gives ownership transfer step and a passing deletion path that lets the sole owner delete the account.\"},\"tone\":{\"value\":\"ok\",\"message_id\":\"m03\",\"reason\":\"Neutral, direct instructions with no blame or dismissiveness.\"},\"handoff_context\":\"not_applicable\"},{\"case_id\":\"FB-H4-043\",\"resolution\":{\"value\":\"yes\",\"message_id\":\"m03\",\"reason\":\"Refund date failed its check, but the passing Billing > Requests path lets the customer check the refund status.\"},\"tone\":{\"value\":\"ok\",\"message_id\":\"m03\",\"reason\":\"Polite, informative wording with no blame or brush-off.\"},\"handoff_context\":\"not_applicable\"}]}"
+}
