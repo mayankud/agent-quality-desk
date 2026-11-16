@@ -1,10 +1,10 @@
 # Agent Quality Desk
 
-A prototype that checks what an AI support bot told a customer against the evidence: policy, account records, action logs and tool results. It flags replies that invent policy, promise things nobody approved, skip a required handoff or leave the customer without a usable answer.
+A quality gate for AI support bots. It checks what the bot told a customer against the evidence: policy, account records, action logs and tool results. It catches replies that invent policy, promise things nobody approved, skip a required handoff or leave the customer without a usable answer, so a QA team can review exceptions instead of samples.
 
 **Mayank Udaywal** is the author and product owner of this portfolio project. Fieldbook is fictional. Holdout v2 includes adapted Bitext sample data. The [data notice](data/holdout_v2/NOTICE.md) covers attribution and the public copy.
 
-> **Status: Phase 0 FAILED (Run 5, 15 Nov 2026).** The blind test on holdout v4 and stress v4 met 11 of the 16 gated metric rules and all 5 evidence rules. Five metric rules failed, so the frozen pass rule says FAIL. The result is recorded as it came out. Nothing was retuned after the labels were seen. See [PHASE0_RUN5_REPORT.md](PHASE0_RUN5_REPORT.md).
+> **Status: Phase 0 FAILED (Run 5, 15 Nov 2026).** The blind test on holdout v4 and stress v4 met 11 of the 16 gated metric rules and all 5 evidence rules. Five metric rules failed, so the frozen pass rule says FAIL. The result is published as it came out. The pass rule was fixed in advance and nothing was retuned after the labels were seen, which is what makes the failure credible. See [PHASE0_RUN5_REPORT.md](PHASE0_RUN5_REPORT.md).
 
 ## Replay the result (one command)
 

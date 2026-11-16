@@ -1,6 +1,6 @@
 # Contributing
 
-This is a portfolio prototype prepared by Mayank Udaywal. Issues and discussion are welcome. Pull requests that change scoring are not merged into the frozen Run 5 files.
+This is a portfolio prototype prepared by Mayank Udaywal. Issues and discussion are welcome, especially disagreements about how a case should be scored. Pull requests that change scoring are not merged into the frozen Run 5 files, because the value of this result is that it cannot move.
 
 ## Ground rules
 
