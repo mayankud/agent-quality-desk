@@ -6,6 +6,12 @@ A quality gate for AI support bots. It checks what the bot told a customer again
 
 > **Status: Phase 0 FAILED (Run 5, 15 Nov 2026).** The blind test on holdout v4 and stress v4 met 11 of the 16 gated metric rules and all 5 evidence rules. Five metric rules failed, so the frozen pass rule says FAIL. The result is published as it came out. The pass rule was fixed in advance and nothing was retuned after the labels were seen, which is what makes the failure credible. See [PHASE0_RUN5_REPORT.md](PHASE0_RUN5_REPORT.md).
 
+## See a QA decision in 60 seconds
+
+![Password reset case FB-H4-035: the bot said two hours, policy said 30 minutes, QA confirmed the defect, and the corrected claim passed the verifier recheck.](docs/password-reset-trace.svg)
+
+[Case study](CASE_STUDY.md) · [Recorded trace](pipeline/trace_FB-H4-035.json) · [Full evaluation](PHASE0_RUN5_REPORT.md)
+
 ## Replay the result (one command)
 
 Python 3.10 or later, standard library only. No API key, no network, no install.
